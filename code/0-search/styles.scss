@@ -1,9 +1,11 @@
 
 $backgroundcolor: white;
-$textcolor: rgb(60, 135, 221);
 $foregroundcolor: black;
+$titlecolor: #3c87dd;
 $buttoncolor: #ededed;
 $hovercolor: #bfbfbf;
+$advbuttoncolor: #4d90fe;
+$advhovercolor: #2d76ec;
 
 %banner {
     flex-shrink: 0;
@@ -49,10 +51,11 @@ html, body {
     outline: none;
     box-sizing: border-box;
     box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+    border: 1px solid #dfe1e5;
     background-color: $backgroundcolor;
     color: $foregroundcolor;
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     min-width: 300px;
 }
 
@@ -93,9 +96,9 @@ html, body {
 }
 
 .advancedsearchbox {
-    font-size: 12pt;
+    font-size: 10pt;
     padding: 6px 8px;
-    border: 2px solid $hovercolor;
+    border: 1px solid $hovercolor;
     border-radius: 2px;
     box-sizing: border-box;
     background-color: $backgroundcolor;
@@ -109,25 +112,21 @@ html, body {
 }
 
 .advancedsearchbutton {
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 600;
     cursor: pointer;
     transition: background-color 0.35s;
-    border: 1px solid black;
+    border: 1px solid #3079ed;
     border-radius: 2px;
-    background-color: lightblue;
-    color: $foregroundcolor;
+    background-color: $advbuttoncolor;
+    color: $backgroundcolor;
     padding: 6px 30px;
-    margin: 8px 8px;
+    margin: 8px 0px;
 }
 .advancedsearchbutton:hover {
-    background-color: rgb(89, 187, 219);
+    background-color: $advhovercolor;
     border-radius: 4px;
 }
-
-
-
-
-
 
 .button {
     font-size: 16px;
@@ -146,13 +145,18 @@ html, body {
     border: 2px solid black;
     border-radius: 4px;
 }
+.button-right {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .banner {
     @extend %banner;
 }
 .bannerbottom {
     @extend %banner;
-    border-top: 1px solid $buttoncolor;
+    border-top: 1px solid $hovercolor;
+    background-color: $buttoncolor;
 }
 .banneritem {
     flex-shrink: 0;
@@ -167,7 +171,7 @@ html, body {
     margin: 8px;
     font-size: 24px;
     font-weight: 400;
-    color: $textcolor;
+    color: $titlecolor;
     border-bottom: 1px solid $hovercolor;
 }
 #title {
@@ -179,7 +183,7 @@ html, body {
     padding: 16px;
     font-size: 72px;
     font-weight: 600;
-    color: $textcolor;
+    color: $titlecolor;
 }
 #search {
     flex-shrink: 0;
@@ -192,7 +196,7 @@ html, body {
 #advancedsearch {
     flex-shrink: 0;
     gap: 10px;
-    height: 300px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     padding: 16px;

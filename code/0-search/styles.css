@@ -46,10 +46,11 @@ html, body {
   outline: none;
   box-sizing: border-box;
   box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+  border: 1px solid #dfe1e5;
   background-color: white;
   color: black;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   min-width: 300px;
 }
 
@@ -90,9 +91,9 @@ html, body {
 }
 
 .advancedsearchbox {
-  font-size: 12pt;
+  font-size: 10pt;
   padding: 6px 8px;
-  border: 2px solid #bfbfbf;
+  border: 1px solid #bfbfbf;
   border-radius: 2px;
   box-sizing: border-box;
   background-color: white;
@@ -106,19 +107,20 @@ html, body {
 }
 
 .advancedsearchbutton {
-  font-size: 16px;
+  font-size: 12px;
+  font-weight: 600;
   cursor: pointer;
   transition: background-color 0.35s;
-  border: 1px solid black;
+  border: 1px solid #3079ed;
   border-radius: 2px;
-  background-color: lightblue;
-  color: black;
+  background-color: #4d90fe;
+  color: white;
   padding: 6px 30px;
-  margin: 8px 8px;
+  margin: 8px 0px;
 }
 
 .advancedsearchbutton:hover {
-  background-color: rgb(89, 187, 219);
+  background-color: #2d76ec;
   border-radius: 4px;
 }
 
@@ -141,8 +143,14 @@ html, body {
   border-radius: 4px;
 }
 
+.button-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .bannerbottom {
-  border-top: 1px solid #ededed;
+  border-top: 1px solid #bfbfbf;
+  background-color: #ededed;
 }
 
 .banneritem {
@@ -159,7 +167,7 @@ html, body {
   margin: 8px;
   font-size: 24px;
   font-weight: 400;
-  color: rgb(60, 135, 221);
+  color: #3c87dd;
   border-bottom: 1px solid #bfbfbf;
 }
 
@@ -172,7 +180,7 @@ html, body {
   padding: 16px;
   font-size: 72px;
   font-weight: 600;
-  color: rgb(60, 135, 221);
+  color: #3c87dd;
 }
 
 #search {
@@ -187,7 +195,7 @@ html, body {
 #advancedsearch {
   flex-shrink: 0;
   gap: 10px;
-  height: 300px;
+  height: 400px;
   justify-content: center;
   align-items: center;
   padding: 16px;
