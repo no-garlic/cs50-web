@@ -1,0 +1,145 @@
+
+$backgroundcolor: white;
+$textcolor: rgb(60, 135, 221);
+$foregroundcolor: black;
+$buttoncolor: #ededed;
+$hovercolor: #bfbfbf;
+
+%banner {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 12px;
+    font-size: 16px; 
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $backgroundcolor;
+    color: $foregroundcolor;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.searchitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 40px);
+    padding: 5px 20px;
+}
+.searchbox {
+    font-size: 16pt;
+    padding: 12px 14px;
+    border: 2px solid $buttoncolor;
+    border-radius: 24px;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+    background-color: $backgroundcolor;
+    color: $foregroundcolor;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+
+.searchboxadv {
+    font-size: 12pt;
+    padding: 2px 4px;
+    border: 2px solid $buttoncolor;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.25);
+    background-color: $backgroundcolor;
+    color: $foregroundcolor;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.button {
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.35s;
+    border: 2px solid $buttoncolor;
+    box-shadow: 0px 1px 4px 0px rgba(60, 64, 67, 0.25);
+    border-radius: 4px;
+    background-color: $buttoncolor;
+    color: $foregroundcolor;
+    padding: 6px 30px;
+    margin: 8px 8px;
+}
+.button:hover {
+    background-color: $hovercolor;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.banner {
+    @extend %banner;
+}
+.bannerbottom {
+    @extend %banner;
+    border-top: 1px solid $buttoncolor;
+}
+.banneritem {
+    flex-shrink: 0;
+    padding: 5px 20px;
+}
+#smalltitle {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    padding: 16px 32px;
+    margin: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    color: $textcolor;
+    border-bottom: 1px solid $hovercolor;
+}
+#title {
+    flex-shrink: 0;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 16px;
+    font-size: 72px;
+    font-weight: 600;
+    color: $textcolor;
+}
+#search {
+    flex-shrink: 0;
+    gap: 10px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+#advancedsearch {
+    flex-shrink: 0;
+    gap: 10px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+#padding {
+    flex-grow: 1;
+}
