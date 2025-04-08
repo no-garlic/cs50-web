@@ -78,18 +78,30 @@ html, body {
   max-width: 600px;
 }
 
-.advancedsearchitemnotes {
-  width: 300px;
-  height: 30px;
-  flex-shrink: 0;
-  margin: 4px 8px;
-  margin-right: 30px;
-  padding: 4px 4px;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
+@media (min-width: 800px) {
+  .advancedsearchitemnotes {
+    width: 250px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 4px 8px;
+    margin-right: 30px;
+    padding: 4px 4px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
 }
-
+@media (max-width: 799px) {
+  .advancedsearchitemnotes {
+    visibility: hidden;
+    width: 0px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 4px 8px;
+    margin-right: 30px;
+    padding: 4px 4px;
+  }
+}
 .advancedsearchbox {
   font-size: 10pt;
   padding: 6px 8px;
@@ -195,7 +207,7 @@ html, body {
 #advancedsearch {
   flex-shrink: 0;
   gap: 10px;
-  height: 400px;
+  height: auto;
   justify-content: center;
   align-items: center;
   padding: 16px;
