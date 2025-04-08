@@ -16,12 +16,94 @@
         <div id="smalltitle">Advanced Search</div>
         <div id="advancedsearch">
             <form action="https://google.com/search">
-                <div class="searchbar">
-                    <div class="searchitemadv">
+                <input type="hidden" name="lr" value="">
+                <input type="hidden" name="cr" value="">
+                <input type="hidden" name="as_qdr" value="all">
+                <input type="hidden" name="as_sitesearch" value="">
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="as_filetype" value="">
+                <input type="hidden" name="tbs" value="">
+                <div class="advancedsearchrow">
+                    <div class="advancedsearchitemdesc">   
+                        <b>Find pages with...</b>
                     </div>
-                    <div class="searchitemadv">
+                    <div class="advancedsearchitem">                        
+                    </div>
+                    <div class="advancedsearchitemnotes">                        
+                        <b>To do this in the search box</b>
                     </div>
                 </div>
+                <div class="advancedsearchrow">
+                    <div class="advancedsearchitemdesc">   
+                        all these words:
+                    </div>
+                    <div class="advancedsearchitem">                        
+                        <input class="advancedsearchbox" type="text" name="as_q">
+                    </div>
+                    <div class="advancedsearchitemnotes">                        
+                        Type the important words: tri-colour rat terrier
+                    </div>
+                </div>
+                <div class="advancedsearchrow">
+                    <div class="advancedsearchitemdesc">   
+                        this exact word or phrase:
+                    </div>
+                    <div class="advancedsearchitem">                        
+                        <input class="advancedsearchbox" type="text" name="as_epq">
+                    </div>
+                    <div class="advancedsearchitemnotes">                        
+                        Put exact words in quotes: "rat terrier"
+                    </div>
+                </div>
+                <div class="advancedsearchrow">
+                    <div class="advancedsearchitemdesc">   
+                        any of these words:
+                    </div>
+                    <div class="advancedsearchitem">                        
+                        <input class="advancedsearchbox" type="text" name="as_oq">
+                    </div>
+                    <div class="advancedsearchitemnotes">                        
+                        Type OR between all the words you want: miniature OR standard
+                    </div>
+                </div>
+                <div class="advancedsearchrow">
+                    <div class="advancedsearchitemdesc">   
+                        none of these words:
+                    </div>
+                    <div class="advancedsearchitem">                        
+                        <input class="advancedsearchbox" type="text" name="as_eq">
+                    </div>
+                    <div class="advancedsearchitemnotes">                        
+                        Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                    </div>
+                </div>
+                <div class="advancedsearchrow">
+                    <div class="advancedsearchitemdesc">   
+                        numbers ranging from:
+                    </div>
+                    <div class="advancedsearchitem">
+                        <div class="advancedsearchrow">                        
+                            <input class="advancedsearchbox" type="text" name="as_nlo">
+                            <div class="advancedsearchboxlabel">to</div>
+                            <input class="advancedsearchbox" type="text" name="as_nhi">
+                        </div>
+                    </div>
+                    <div class="advancedsearchitemnotes">                        
+                        Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011
+                    </div>
+                </div>
+
+                <div class="advancedsearchrow">
+                    <div class="advancedsearchitemdesc">   
+                    </div>
+                    <div class="advancedsearchitem">
+                        <input class="advancedsearchbutton" type="submit" value="Advanced Search">
+                    </div>
+                    <div class="advancedsearchitemnotes">                        
+                    </div>
+                </div>
+
+
             </form>
         </div>
         <div id="padding">
@@ -35,7 +117,6 @@
 
 <!--
 
-                        <input class="button" type="submit" value="Google Search">
 
 
                         <input class="searchboxadv" type="text" name="as_q">
@@ -46,13 +127,6 @@
                         <input class="searchboxadv" type="text" name="as_nhi">
 
 
-                <input type="hidden" name="lr" value="">
-                <input type="hidden" name="cr" value="">
-                <input type="hidden" name="as_qdr" value="all">
-                <input type="hidden" name="as_sitesearch" value="">
-                <input type="hidden" name="as_occt" value="any">
-                <input type="hidden" name="as_filetype" value="">
-                <input type="hidden" name="tbs" value="">
 
 
 https://www.google.com.au/search
