@@ -10,7 +10,7 @@
     <h1>Add Entry</h1>
     <form action="{% url 'add' %}" method="post">
         {% csrf_token %}
-        {{ form }}
+        {{ add_form }}
         <input type="submit">
     </form>
 

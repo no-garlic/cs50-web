@@ -1,1 +1,2 @@
-A cool language
+# C++
+Such a cool language

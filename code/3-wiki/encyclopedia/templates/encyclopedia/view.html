@@ -7,6 +7,7 @@
 {% block body %}
     {% if content %}
         {{ content|safe }}
+        <a class="btn btn-primary" href="{% url 'edit' title=title %}">Edit Page</a>
     {% else %}
         <h1>Error: Page ({{ title }}) not found.</h1>
     {% endif %}

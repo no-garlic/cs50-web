@@ -1,22 +1,35 @@
+import random
 from django import forms
-from django.http import HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
+from django.contrib import messages
 from django.urls import reverse
 from markdown2 import Markdown
-import random
-
 from . import util
 
 
-class NewEntryForm(forms.Form):
-    name = forms.CharField(label="Name")
-    content = forms.CharField(label="Content")
+class AddForm(forms.Form):
+    title = forms.CharField(
+        label='', 
+        widget=forms.TextInput(
+            attrs={"placeholder": "Page Title"}))
+    content = forms.CharField(
+        label='', 
+        widget=forms.Textarea(
+            attrs={"placeholder": "Page Content"}))
+
+
+class EditForm(forms.Form):
+    content = forms.CharField(
+        label='', 
+        widget=forms.Textarea(
+            attrs={"placeholder": "Page Content"}))
 
 
 class SearchForm(forms.Form):
-    title = forms.CharField(label='', widget=forms.TextInput(attrs={
-      "class": "search",
-      "placeholder": "Enter Search"}))
+    title = forms.CharField(
+        label='', 
+        widget=forms.TextInput(attrs={"class": "search", "placeholder": "Enter Search"}))
 
 
 def index(request):
@@ -28,49 +41,19 @@ def index(request):
 
 def view(request, title):
     markdown = util.get_entry(title)
-
     if markdown is None:
-        html = None
-    else:
-        converter = Markdown()
-        html = converter.convert(markdown)
+        return render(request, "encyclopedia/error.html", {
+            "title": title,
+            "search_form": SearchForm()
+        })
 
+    converter = Markdown()
+    html = converter.convert(markdown)
     return render(request, "encyclopedia/view.html", {
         "title": title,
         "content": html,
         "search_form": SearchForm()
     })
-
-
-def add(request):
-    if request.method == "POST":
-        form = NewEntryForm(request.POST)
-        if form.is_valid():
-            name = form.cleaned_data["name"]
-            content = form.cleaned_data["content"]
-            util.save_entry(name, content)
-            return HttpResponseRedirect(reverse("index"))
-        else:
-            return render(request, "encyclopedia/add.html", {
-                "form": form,
-                "search_form": SearchForm(),
-            })
-    else:
-        return render(request, "encyclopedia/add.html", {
-            "form": NewEntryForm(),
-            "search_form": SearchForm(),
-        })
-
-
-def edit(request, title):
-    pass
-
-
-def random_page(request):
-    entries = util.list_entries()
-    if len(entries) > 0:
-        page = random.choice(entries)
-        return redirect("view", title=page)
 
 
 def search_results(request):
@@ -91,7 +74,72 @@ def search_results(request):
                     "search_results": search_results,
                     "search_form": SearchForm(),
                 })
+    # if the form is not valid or the method is not POST then return to the index page
+    return redirect(reverse('index'))
 
 
+def add(request):
+    if request.method == "GET":
+        return render(request, "encyclopedia/add.html", {
+            "add_form": AddForm(),
+            "search_form": SearchForm(),
+        })
+
+    elif request.method == "POST":
+        form = AddForm(request.POST)
+
+        if form.is_valid():
+            title = form.cleaned_data["title"]
+            content = form.cleaned_data["content"]
+        else:
+            messages.error(request, 'Failed validation adding entry "{title}"')
+            return render(request, "encyclopedia/add.html", {
+                "add_form": form,
+                "search_form": SearchForm(),
+            })
+
+        util.save_entry(title, content)
+        messages.success(request, '"Sucessfully created the new entry "{title}"')
+        return redirect(reverse("view", args=[title]))
+
+
+def edit(request, title):
+    if request.method == "GET":
+        content = util.get_entry(title)
+        if not content:
+            messages.error(request, f'The page "{title}" does not exist.')
+
+        return render(request, "encyclopedia/edit.html", {
+            "title": title,
+            "edit_form": EditForm(initial={"content": content}),
+            "search_form": SearchForm()
+        })
+
+    elif request.method == "POST":
+        form = EditForm(request.POST)
+
+        if form.is_valid():
+            content = form.cleaned_data["content"]
+            util.save_entry(title, content)
+            messages.success(request, f'Saved the entry "{title}" sucessfully.')
+            return redirect(reverse("view", args=[title]))
+
+        else:
+            messages.error(request, f'Failed to save the entry "{title}".')
+            return render(request, "encyclopedia/edit.html", {
+                "title": title,
+                "edit_form": form,
+                "search_form": SearchForm()
+            })
+
+
+def random_page(request):
+    entries = util.list_entries()
+    if len(entries) > 0:
+        title = random.choice(entries)
+        return redirect(reverse("view", args=[title]))
+
+    # if there are no entries then go to the index page
+    return redirect(reverse('index'))
 
 

@@ -44,7 +44,7 @@ def partial_search(title):
     partial_match = []
 
     for item in list_entries():
-            if title.lower() in item.lower() or item.lower() in title.lower():
+            if title.lower() in item.lower():
                 partial_match.append(item)
 
     return partial_match
