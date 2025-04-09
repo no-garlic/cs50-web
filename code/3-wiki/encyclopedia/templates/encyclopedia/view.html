@@ -5,5 +5,9 @@
 {% endblock %}
 
 {% block body %}
-    {{ content|safe }}
+    {% if content %}
+        {{ content|safe }}
+    {% else %}
+        <h1>Error: Page ({{ title }}) not found.</h1>
+    {% endif %}
 {% endblock %}

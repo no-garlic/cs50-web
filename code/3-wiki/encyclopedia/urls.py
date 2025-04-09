@@ -2,7 +2,13 @@ from django.urls import path
 
 from . import views
 
+#app_name = "encyclopedia"
+
 urlpatterns = [
     path("", views.index, name="index"),
-    path("<str:name>", views.view, name="view")
+    path("wiki/<str:title>", views.view, name="view"),
+    path("add", views.add, name="add"),
+    path("edit/<str:title>", views.edit, name="edit"),
+    path("random", views.random_page, name="random"),
+    path("search", views.search_results, name="search"),
 ]

@@ -35,3 +35,16 @@ def get_entry(title):
         return f.read().decode("utf-8")
     except FileNotFoundError:
         return None
+
+
+def partial_search(title):
+    """
+    Finds any partial matches to the search term and returns them as a list.
+    """
+    partial_match = []
+
+    for item in list_entries():
+            if title.lower() in item.lower() or item.lower() in title.lower():
+                partial_match.append(item)
+
+    return partial_match
