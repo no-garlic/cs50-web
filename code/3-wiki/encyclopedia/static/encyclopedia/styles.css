@@ -13,12 +13,22 @@ h1 {
 }
 
 textarea {
-    height: 90vh;
+    margin: 10px 0 10px 0;
+    height: 60vh;
     width: 80%;
+    display: block;
+}
+
+input[type="submit"] {
+  display: block;
 }
 
 .main {
     padding: 10px;
+}
+
+.title-entry {
+    width: 80%;
 }
 
 .search {

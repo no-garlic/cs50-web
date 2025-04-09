@@ -12,11 +12,11 @@ class AddForm(forms.Form):
     title = forms.CharField(
         label='', 
         widget=forms.TextInput(
-            attrs={"placeholder": "Page Title"}))
+            attrs={"placeholder": "Enter the title of the new page", "class": "title-entry"}))
     content = forms.CharField(
         label='', 
         widget=forms.Textarea(
-            attrs={"placeholder": "Page Content"}))
+            attrs={"placeholder": "Enter the content for the page, in markdown format."}))
 
 
 class EditForm(forms.Form):

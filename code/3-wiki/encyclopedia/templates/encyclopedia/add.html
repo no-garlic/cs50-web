@@ -4,15 +4,22 @@
     Encyclopedia
 {% endblock %}
 
+{% block nav %}
+<div>
+    <hr>
+</div>
+<div>
+    <a href="https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax" target="_blank" rel="noopener noreferrer">
+        Markdown guide
+    </a>
+</div>
+{% endblock %}
+
 {% block body %}
-
-
     <h1>Add Entry</h1>
     <form action="{% url 'add' %}" method="post">
         {% csrf_token %}
         {{ add_form }}
-        <input type="submit">
+        <input class="btn btn-primary" type="submit" value="Submit">
     </form>
-
-
 {% endblock %}
