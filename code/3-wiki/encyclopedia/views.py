@@ -47,6 +47,7 @@ def view(request, title):
             "search_form": SearchForm()
         })
 
+
     converter = Markdown()
     html = converter.convert(markdown)
     return render(request, "encyclopedia/view.html", {
@@ -84,7 +85,6 @@ def add(request):
             "add_form": AddForm(),
             "search_form": SearchForm(),
         })
-
     elif request.method == "POST":
         form = AddForm(request.POST)
 
@@ -141,5 +141,3 @@ def random_page(request):
 
     # if there are no entries then go to the index page
     return redirect(reverse('index'))
-
-
