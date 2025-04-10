@@ -23,7 +23,6 @@ C provides a rich set of features for building complex software:
 *   **Memory Management:**  C requires manual memory management (using `malloc` and `free`).
 
 
-
 ## Compatibility
 
 C enjoys exceptionally broad compatibility across a vast range of platforms and operating systems.
