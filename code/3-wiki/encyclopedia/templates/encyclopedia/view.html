@@ -4,6 +4,10 @@
     Encyclopedia - {{ title }}
 {% endblock %}
 
+{% block heading %}
+    {{ title }}
+{% endblock %}
+
 {% block body %}
     {% if content %}
         {{ content|safe }}

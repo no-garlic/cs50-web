@@ -15,8 +15,11 @@
     </div>
 {% endblock %}
 
+{% block heading %}
+    Create New Page
+{% endblock %}
+
 {% block body %}
-    <h1>Add Entry</h1>
     <form action="{% url 'add' %}" method="post">
         {% csrf_token %}
         {{ add_form }}

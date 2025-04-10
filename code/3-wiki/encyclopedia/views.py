@@ -12,24 +12,28 @@ class AddForm(forms.Form):
     title = forms.CharField(
         label='', 
         widget=forms.TextInput(
-            attrs={"placeholder": "Enter the title of the new page", "class": "title-entry"}))
+            attrs={"placeholder": "Enter the title for the new page in plain text.", 
+                   "class": "title-entry"}))
     content = forms.CharField(
         label='', 
         widget=forms.Textarea(
-            attrs={"placeholder": "Enter the content for the page, in markdown format."}))
+            attrs={"placeholder": "Enter the content for the new page in markdown format."}))
 
 
 class EditForm(forms.Form):
     content = forms.CharField(
         label='', 
         widget=forms.Textarea(
-            attrs={"placeholder": "Page Content"}))
+            attrs={"placeholder": "Enter the content for the new page in markdown format.",
+                   "class": "edit-content"}))
 
 
 class SearchForm(forms.Form):
     title = forms.CharField(
         label='', 
-        widget=forms.TextInput(attrs={"class": "search", "placeholder": "Enter Search"}))
+        widget=forms.TextInput(
+            attrs={"class": "search", 
+                   "placeholder": "Enter Search"}))
 
 
 def index(request):
@@ -46,7 +50,6 @@ def view(request, title):
             "title": title,
             "search_form": SearchForm()
         })
-
 
     converter = Markdown()
     html = converter.convert(markdown)
@@ -76,6 +79,7 @@ def search_results(request):
                     "search_form": SearchForm(),
                 })
     # if the form is not valid or the method is not POST then return to the index page
+    messages.info(request, "Invalid search request.")
     return redirect(reverse('index'))
 
 
@@ -92,15 +96,17 @@ def add(request):
             title = form.cleaned_data["title"]
             content = form.cleaned_data["content"]
         else:
-            messages.error(request, 'Failed validation adding entry "{title}"')
+            messages.error(request, f'Failed validation adding entry "{form.cleaned_data.get("title", "")}"')
             return render(request, "encyclopedia/add.html", {
                 "add_form": form,
                 "search_form": SearchForm(),
             })
 
         util.save_entry(title, content)
-        messages.success(request, '"Sucessfully created the new entry "{title}"')
+        messages.success(request, f'Successfully created the new entry "{title}"')
         return redirect(reverse("view", args=[title]))
+    else:
+        return HttpResponse("Method not allowed", status=405)
 
 
 def edit(request, title):
@@ -108,6 +114,7 @@ def edit(request, title):
         content = util.get_entry(title)
         if not content:
             messages.error(request, f'The page "{title}" does not exist.')
+            return redirect(reverse('index'))
 
         return render(request, "encyclopedia/edit.html", {
             "title": title,
@@ -121,7 +128,7 @@ def edit(request, title):
         if form.is_valid():
             content = form.cleaned_data["content"]
             util.save_entry(title, content)
-            messages.success(request, f'Saved the entry "{title}" sucessfully.')
+            messages.success(request, f'Saved the entry "{title}" successfully.')
             return redirect(reverse("view", args=[title]))
 
         else:
@@ -131,6 +138,8 @@ def edit(request, title):
                 "edit_form": form,
                 "search_form": SearchForm()
             })
+    else:
+        return HttpResponse("Method not allowed", status=405)
 
 
 def random_page(request):
@@ -140,4 +149,5 @@ def random_page(request):
         return redirect(reverse("view", args=[title]))
 
     # if there are no entries then go to the index page
+    messages.info(request, "No entries available.")
     return redirect(reverse('index'))

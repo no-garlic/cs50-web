@@ -31,14 +31,23 @@
                 <div>
                     <a href="{% url 'random' %}">Random Page</a>
                 </div>
-                {% block nav %}
-                {% endblock %}
+                {% block nav %}{% endblock %}
             </div>
             <div class="main col-lg-10 col-md-9">
-                {% block body %}
-                {% endblock %}
+                <div class="body">
+                    <h2>
+                        {% block heading %}{% endblock %}
+                    </h2>
+                </div>
+                <hr>
+                <div class="body">
+                    {% block body %}{% endblock %}
+                </div>
             </div>
         </div>
 
+        <div class="banner">
+            <p class="footer">&copy Michael Petrou</p>
+        </div>
     </body>
 </html>

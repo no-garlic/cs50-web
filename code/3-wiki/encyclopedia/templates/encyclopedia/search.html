@@ -4,10 +4,13 @@
     Encyclopedia - Search
 {%endblock %}
 
+{% block heading %}
+    Search Results    
+{% endblock %}
+
 {% block body %}
     {% if search_results %}
-        <h1>Search Results</h1>
-        <p>Search Term: {{ search_term }}</p>
+        <p>Pages matching the search term "{{ search_term }}":</p>
         <ul>
             {% for entry in search_results %}
                 <li>
@@ -16,7 +19,6 @@
             {% endfor %}
         </ul>
     {% else %}
-        <h1>Search Results</h1>
-        <p>Search Term: {{ search_term }} returned no results.</p>
+        <p>No pages matching the search term "{{ search_term }}" were found.</p>
     {% endif %}
 {% endblock %}

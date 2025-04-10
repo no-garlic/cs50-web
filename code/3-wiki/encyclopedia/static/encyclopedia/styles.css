@@ -14,8 +14,8 @@ h1 {
 
 textarea {
     margin: 10px 0 10px 0;
-    height: 60vh;
-    width: 80%;
+    height: calc(100vh - 250px);
+    width: calc(100% - 8px);
     display: block;
 }
 
@@ -25,10 +25,18 @@ input[type="submit"] {
 
 .main {
     padding: 10px;
+    padding-top: 25px;
 }
 
 .title-entry {
-    width: 80%;
+    width: calc(100% - 8px);
+}
+
+.edit-content {
+    margin: 10px 0 10px 0;
+    height: calc(100vh - 210px);
+    width: calc(100% - 8px);
+    display: block;
 }
 
 .search {
@@ -41,8 +49,30 @@ input[type="submit"] {
     background-color: #f0f0f0;
     height: 100vh;
     padding: 20px;
+    padding-left: 40px;
 }
 
 .sidebar h2 {
     margin-top: 5px;
+}
+
+.banner {
+    height: 50px;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer{
+    text-align: right;
+    margin: 0;
+    padding-right: 20px;
+    line-height: 50px;
+}
+
+.body {
+    padding-right: 20px;
+    padding-left: 10px;
 }
