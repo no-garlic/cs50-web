@@ -9,5 +9,7 @@
 {% endblock %}
 
 {% block body %}
-    <h1>The page for "{{ title }}" was not found.</h1>
+    <p>The page "{{ title }}" does not exist, 
+        would you like to <a href="{% url 'add' %}?title={{ title|urlencode }}">create the page</a>?
+    </p>
 {% endblock %}

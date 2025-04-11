@@ -14,7 +14,7 @@ h1 {
 
 textarea {
     margin: 10px 0 10px 0;
-    height: calc(100vh - 250px);
+    height: calc(100vh - 350px);
     width: calc(100% - 8px);
     display: block;
 }
@@ -32,12 +32,6 @@ input[type="submit"] {
     width: calc(100% - 8px);
 }
 
-.edit-content {
-    margin: 10px 0 10px 0;
-    height: calc(100vh - 210px);
-    width: calc(100% - 8px);
-    display: block;
-}
 
 .search {
     width: 100%;

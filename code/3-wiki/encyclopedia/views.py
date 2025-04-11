@@ -26,8 +26,7 @@ class EditForm(forms.Form):
     content = forms.CharField(
         label='', 
         widget=forms.Textarea(
-            attrs={"placeholder": "Enter the content for the new page in markdown format.",
-                   "class": "edit-content"}))
+            attrs={"placeholder": "Enter the content for the new page in markdown format."}))
 
 
 class SearchForm(forms.Form):
@@ -105,8 +104,16 @@ def add(request):
     """Handle adding a new encyclopedia entry."""
     # send the form temlates to the client
     if request.method == "GET":
+        # if the request contains the title parameter, then initialise the form with that title
+        title = request.GET.get("title")
+        if title:
+            form = AddForm(initial={"title": title})
+        else:
+            form = AddForm()
+        
+        # render the add page with the form
         return render(request, "encyclopedia/add.html", {
-            "add_form": AddForm(),
+            "add_form": form,
             "search_form": SearchForm(),
         })
     # if the method is POST then process the form
@@ -124,8 +131,18 @@ def add(request):
                 "add_form": form,
                 "search_form": SearchForm(),
             })
+        
+        # check if an entry already exists with the same title
+        if util.get_entry(title):
+            # if the entry already exists, return to the add page
+            messages.error(request, f'The entry "{title}" already exists.')
+            return render(request, "encyclopedia/add.html", {
+                "add_form": form,
+                "search_form": SearchForm(),
+                "error": f'The entry "{title}" already exists.'
+            })
 
-        # save (and overwrite) the entry
+        # save the entry
         util.save_entry(title, content)
         messages.success(request, f'Successfully created the new entry "{title}"')
 

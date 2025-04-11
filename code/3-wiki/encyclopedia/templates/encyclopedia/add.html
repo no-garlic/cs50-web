@@ -20,6 +20,11 @@
 {% endblock %}
 
 {% block body %}
+    {% if error %}
+    <div style="background-color: #ff9c9c; border: 1px solid black; border-radius: 2px; margin: 10px 8px 10px 0px; padding: 15px 4px; font-weight: 600;">
+        Error: {{ error }}
+    </div>        
+    {% endif %}
     <form action="{% url 'add' %}" method="post">
         {% csrf_token %}
         {{ add_form }}
