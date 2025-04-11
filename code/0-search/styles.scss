@@ -6,6 +6,7 @@ $buttoncolor: #ededed;
 $hovercolor: #bfbfbf;
 $advbuttoncolor: #4d90fe;
 $advhovercolor: #2d76ec;
+$advtitlecolor: #e11414;
 
 %banner {
     flex-shrink: 0;
@@ -174,7 +175,7 @@ html, body {
     margin: 8px;
     font-size: 24px;
     font-weight: 400;
-    color: $titlecolor;
+    color: $advtitlecolor;
     border-bottom: 1px solid $hovercolor;
 }
 #title {
