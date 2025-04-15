@@ -1,18 +1,53 @@
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 from django.db import IntegrityError
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.urls import reverse
-
-from .models import User
-
-
-def create_auction(request):
-    pass
+from django import forms
+from .models import *
 
 
-def view_auction(request, auction_id: int):
-    pass
+class AddAuctionForm(forms.ModelForm):
+    class Meta:
+        model = Auction
+        fields = ['title', 'description', 'image_url', 'category', 'start_bid', 'is_active']
+
+
+def index(request):
+    all_auctions = Auction.objects.all();
+    
+    return render(request, "auctions/index.html", {
+        "auctions": all_auctions
+    })
+
+
+def view(request, auction_id: int):
+    auction = Auction.objects.get(id=auction_id)
+    return render(request, "auctions/auction.html", {
+        "auction": auction
+    })
+
+
+@login_required
+def create(request):
+    if request.method == "GET":
+        form = AddAuctionForm()    
+        return render(request, "auctions/create.html", {
+            "auction_form": form
+        })
+    
+    elif request.method == "POST":
+        form = AddAuctionForm(request.POST)
+        if form.is_valid():
+            auction = form.save(commit=False)
+            auction.owner = request.user
+            auction.save()
+            return redirect(reverse("index"))
+        else:
+            return render(request, "auctions/create.html", {
+                "auction_form": form
+            })
 
 
 def place_bid(request, auction_id: int):
@@ -31,9 +66,9 @@ def close_auction(request, auction_id: int):
     pass
 
 
-def edit_auction(request, auction_id: int):
-    pass
+#def edit(request, auction_id: int):
+#    pass
 
 
-def delete_auction(request, auction_id: int):
-    pass
+#def delete(request, auction_id: int):
+#    pass

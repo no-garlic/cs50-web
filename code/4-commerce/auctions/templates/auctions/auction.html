@@ -1,0 +1,13 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <h2>Auction</h2>
+
+    <ul>
+        <li>Title: {{ auction.title }}</li>
+        <li>Desc: {{ auction.description }}</li>
+        <li>Start Bid: {{ auction.start_bid }}</li>
+        <li>Active: {{ auction.is_active }}</li>
+        <li>Owner: {{ auction.owner.username }}</li>
+    </ul>    
+{% endblock %}
