@@ -13,9 +13,9 @@
                 <ul class="nav">
                     <li class="nav-item">
                         {% if user.is_authenticated %}
-                            <div class="nav-link">Signed in as <strong>{{ user.username }}</strong>.</div>  
+                            <div class="nav-link">(Signed in as <strong>{{ user.username }}</strong>.)</div>  
                         {% else %}
-                            <div class="nav-link">Not signed in</div>
+                            <div class="nav-link">(Not signed in)</div>
                         {% endif %}
                     </li>
                     {% if user.is_authenticated %}
