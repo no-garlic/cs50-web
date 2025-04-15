@@ -11,7 +11,14 @@ from .models import *
 class AddAuctionForm(forms.ModelForm):
     class Meta:
         model = Auction
-        fields = ['title', 'description', 'image_url', 'category', 'start_bid', 'is_active']
+        fields = ['title', 'description', 'image_url', 'category', 'start_bid']
+        widgets = {
+            'title': forms.TextInput(attrs={'class': 'form-control mb-3'}),
+            'description': forms.Textarea(attrs={'class': 'form-control mb-3'}),
+            'image_url': forms.URLInput(attrs={'class': 'form-control mb-3'}),
+            'category': forms.Select(attrs={'class': 'form-control mb-3'}),
+            'start_bid': forms.NumberInput(attrs={'class': 'form-control mb-3'}),
+        }
 
 
 def index(request):
@@ -42,6 +49,7 @@ def create(request):
         if form.is_valid():
             auction = form.save(commit=False)
             auction.owner = request.user
+            auction.is_active = True
             auction.save()
             return redirect(reverse("index"))
         else:

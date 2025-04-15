@@ -3,13 +3,26 @@
 {% block body %}
     <h2>Active Listings</h2>
 
-    <ul>
-        {% for auction in auctions %}
-        <li>
-            <a href="{% url 'view' auction.id %}">
-                {{ auction.title }}
-            </a>
-        </li>
-        {% endfor %}
+        <div class="container">
+            {% for auction in auctions %}
+                <div class="item">
+                    <img src="{{ auction.image_url }}" alt="Item image">
+                  <div class="item-content">
+                    <div class="item-title">
+                        <a href="{% url 'view' auction.id %}">
+                            {{ auction.title }}
+                        </a>
+                    </div>
+                  <div class="item-description">{{ auction.description }}</div>
+                  <div class="item-footer">
+                    <div class="item-price">${{ auction.start_bid }}</div>
+                    <div class="item-bidder">Winner Bidder</div>
+                    <div class="item-watch">Watch</div>
+                    </div>
+                  </div>
+                </div>
+            {% endfor %}
+        </div>
+        
     </ul>    
 {% endblock %}
