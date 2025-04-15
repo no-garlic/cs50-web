@@ -72,11 +72,3 @@ def toggle_watchlist(request, auction_id: int):
 
 def close_auction(request, auction_id: int):
     pass
-
-
-#def edit(request, auction_id: int):
-#    pass
-
-
-#def delete(request, auction_id: int):
-#    pass

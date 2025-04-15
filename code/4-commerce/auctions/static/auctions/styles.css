@@ -12,6 +12,16 @@ body {
     max-width: 960px;
 }
 
+.container > a {
+    text-decoration: none;
+    display: block; 
+}
+
+.container > a:hover {
+    text-decoration: none; 
+    background-color: #f8f8f8;
+}
+
 .item {
     display: flex;
     width: 100%;
@@ -24,7 +34,7 @@ body {
 .item img {
     width: 192px;
     height: 192px;
-    object-fit: cover;
+    object-fit: contain;
     margin-right: 1rem;
     flex-shrink: 0;
 }
@@ -45,6 +55,13 @@ body {
     flex-grow: 1;
     color: #555;
     margin-bottom: 1rem;
+    max-height: 6.0em;
+    overflow: hidden;
+    line-height: 1.2em;
+    line-clamp: 5;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 
 .item-footer {
