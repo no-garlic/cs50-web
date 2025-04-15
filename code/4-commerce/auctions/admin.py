@@ -9,8 +9,11 @@ class UserAdmin(admin.ModelAdmin):
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ("name",)
 
+class AuctionAdmin(admin.ModelAdmin):
+    list_display = ("title", "owner", "category", "start_bid")
+
 admin.site.register(User, UserAdmin)
-admin.site.register(Auction)
+admin.site.register(Auction, AuctionAdmin)
 admin.site.register(Bid)
 admin.site.register(Comment)
 admin.site.register(Watchlist)

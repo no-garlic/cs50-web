@@ -1,9 +1,19 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-
 class User(AbstractUser):
-    pass
+    def __str__(self):
+        return self.username
+
+
+class Category(models.Model):
+    """
+    Category model representing a category for auctions.
+    """
+    name = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.name
 
 
 class Auction(models.Model):
@@ -12,7 +22,8 @@ class Auction(models.Model):
     """
     title = models.CharField(max_length=255)
     description = models.TextField()
-    image_url = models.URLField()
+    image_url = models.URLField(blank=True, null=True)
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL, blank=True, null=True, related_name='auctions')
     start_bid = models.DecimalField(max_digits=10, decimal_places=2)
     is_active = models.BooleanField(default=True)
     owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name='auctions')
@@ -44,10 +55,3 @@ class Watchlist(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='watchlists')
     auction = models.ForeignKey(Auction, on_delete=models.CASCADE, related_name='watchlists')
 
-
-class Category(models.Model):
-    """
-    Category model representing a category for auctions.
-    """
-    name = models.CharField(max_length=255)
-    auctions = models.ManyToManyField(Auction, related_name='categories')
