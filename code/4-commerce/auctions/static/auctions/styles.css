@@ -81,3 +81,70 @@ body {
     font-size: 0.95rem;
     color: #333;
 }
+
+.page-container {
+    display: flex;
+    width: 100%;    
+    max-width: 1170px;
+    align-items: stretch; 
+    margin-top: 1rem; 
+}
+
+.sidebar {
+    width: 260px;
+    flex-shrink: 0;
+    background-color: #f8f8f8;
+    padding: 15px; 
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px; 
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    display: block; 
+}
+
+.sidebar a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.content {
+    flex-grow: 1; 
+    margin-left: 10px; 
+    box-sizing: border-box;
+    min-width: 0; 
+}
+
+.content .container {
+    max-width: 100%;
+    padding: 0;
+}
+
+.content .item {
+    min-width: initial;
+}
+
+.header {
+    width: 100%; /* Ensure it takes full width before max-width */
+    max-width: 1170px; /* Match the page-container width */
+    /* Centering is handled by the body's align-items: center */
+    padding: 0 15px; /* Add padding to align with sidebar/content padding if needed */
+    box-sizing: border-box; /* Include padding in the element's total width */
+    background-color: #f8f8f8;
+}
+
+.header .nav {
+    justify-content: flex-end; /* Align nav items to the right */
+    width: 100%; /* Ensure the nav itself spans the header width */
+}
