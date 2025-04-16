@@ -29,7 +29,7 @@ def index(request):
         auctions = Auction.objects.filter(is_active=False);
     elif param_category:
         category = Category.objects.get(id=param_category)
-        auctions = Auction.objects.filter(category=category)
+        auctions = Auction.objects.filter(category=category, is_active=True)
     else:
         auctions = Auction.objects.filter(is_active=True);
     

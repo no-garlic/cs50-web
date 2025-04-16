@@ -1,7 +1,6 @@
 {% extends "auctions/layout.html" %}
 
 {% block body %}
-    <!--h2>Active Listings</h2-->
         <div class="container">
             {% for auction in auctions %}
             <a href="{% url 'view' auction.id %}">
@@ -13,15 +12,15 @@
                     </div>
                   <div class="item-description">{{ auction.description }}</div>
                   <div class="item-footer">
-                    <div class="item-price">${{ auction.start_bid }}</div>
-                    <!--div class="item-bidder">Winner Bidder</div-->
-                    <!--div class="item-watch">Watch</div-->
+                    {% if auction.is_active %}
+                        <div class="item-price">${{ auction.start_bid }}</div>
+                    {% else %}
+                        <div class="item-price-closed">${{ auction.start_bid }}</div>
+                    {% endif %}
                     </div>
                   </div>
                 </div>
             </a>
             {% endfor %}
         </div>
-        
-    </ul>    
 {% endblock %}
