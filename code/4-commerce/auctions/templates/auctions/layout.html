@@ -41,9 +41,9 @@
                     {% endif %}
 
                     {% if user.is_authenticated %}
-                    <li><a href="{% url 'watchlist' %}">My Auctions</a></li>
-                    <li><a href="{% url 'watchlist' %}">My Bids</a></li>
-                    <li><a href="{% url 'watchlist' %}">My Watch List</a></li>
+                    <li><a href="{% url 'index' %}">My Auctions</a></li>
+                    <li><a href="{% url 'index' %}">My Bids</a></li>
+                    <li><a href="{% url 'index' %}">My Watch List</a></li>
                     <li><a href="{% url 'logout' %}">Log Out</a></li>
                     {% else %}
                         <li><a href="{% url 'login' %}">Log In</a></li>

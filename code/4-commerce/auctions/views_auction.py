@@ -58,8 +58,25 @@ def index(request):
 
 def view(request, auction_id: int):
     auction = Auction.objects.get(id=auction_id)
+    bids = Bid.objects.filter(auction=auction).order_by('amount')
+    comments = Comment.objects.filter(auction=auction)
+
+    if request.user and request.user.is_authenticated:
+        is_watching = Watchlist.objects.filter(auction=auction, user=request.user)
+        is_highest_bidder = auction.is_highest_bidder(request.user)
+        is_outbid = auction.is_outbid(request.user)
+    else:
+        is_watching = False
+        is_highest_bidder = False
+        is_outbid = False
+
     return render(request, "auctions/auction.html", {
         "auction": auction,
+        "is_watching": is_watching,
+        "is_highest_bidder": is_highest_bidder,
+        "is_outbid": is_outbid,
+        "bids": bids,
+        "comments": comments,
         "categories": Category.objects.all()
     })
 

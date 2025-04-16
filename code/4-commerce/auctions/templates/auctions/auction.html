@@ -1,7 +1,6 @@
 {% extends "auctions/layout.html" %}
 
 {% block body %}
-    <h2>Auction</h2>
 
     <ul>
         <li>Title: {{ auction.title }}</li>
@@ -9,5 +8,53 @@
         <li>Start Bid: {{ auction.start_bid }}</li>
         <li>Active: {{ auction.is_active }}</li>
         <li>Owner: {{ auction.owner.username }}</li>
-    </ul>    
+    </ul>  
+
+    <p></p>
+
+    {% if user.is_authenticated %}
+
+    <ul>
+        {% if watching %}
+            <li>Watching: True</li>
+        {% else %}
+            <li>Watching: False</li>
+        {% endif %}
+        {% if is_highest_bidder %}
+            <li>Highest Bidder: True</li>
+        {% else %}
+            <li>Highest Bidder: False</li>
+        {% endif %}
+        {% if is_outbid %}
+            <li>Outbid: True</li>
+        {% else %}
+            <li>Outbid: False</li>
+        {% endif %}
+    </ul>
+
+    <p></p>
+    
+    {% endif %}
+
+    <ul>
+        {% for bid in bids %}
+            <li>Bid: {{ bid }}</li>
+        {% empty %}
+            <li>No Bids.</li>
+        {% endfor %}
+    </ul>
+
+    <p></p>
+    
+    <ul>
+        {% for comment in comments %}
+            <li>Comment: {{ comment.content }}</li>
+        {% empty %}
+            <li>No Comments.</li>
+        {% endfor %}
+    </ul>
+
+    
+
+
 {% endblock %}

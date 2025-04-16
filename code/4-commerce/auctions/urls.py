@@ -1,9 +1,7 @@
 from django.urls import path
 
 from . import views_auction
-from . import views_category
 from . import views_user
-from . import views_watchlist
 
 
 urlpatterns = [
@@ -20,9 +18,4 @@ urlpatterns = [
     path("auctions/<int:auction_id>/comment", views_auction.add_comment, name="add_comment"),               # add a comment to an auction
     path("auctions/<int:auction_id>/watch", views_auction.toggle_watchlist, name="watch"),                  # add or remove an auction from the watchlist
     path("auctions/<int:auction_id>/close", views_auction.close_auction, name="close_auction"),             # close an auction
-
-    path("watchlist", views_watchlist.watchlist, name="watchlist"),                                         # show all auctions in the users watchlist              
-    
-    path("categories", views_category.categories, name="categories"),                                       # show all categories
-    path("categories/<str:category_name>", views_category.category_auctions, name="category_auctions"),     # show all auctions for a specific category
 ]
