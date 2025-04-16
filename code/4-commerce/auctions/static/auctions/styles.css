@@ -43,10 +43,52 @@ body {
     flex: 1;
 }
 
+.item-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .item-title {
-    font-size: 1.5rem;
+    flex-grow: 1;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    font-size: 1.5em; 
     font-weight: bold;
-    margin-bottom: 0.5rem;
+}
+
+.item-badges {
+    display: flex; 
+    flex-shrink: 0; 
+}
+
+.item-badge {
+    height: 27px;
+    padding: 7px;
+    margin-left: 11px; 
+    margin-bottom: 15px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 0.8em;
+    font-weight: 500;
+    border-radius: 4px; 
+    background-color: #f0f0f0; 
+    white-space: nowrap; 
+    color:#ffffff;
+}
+
+.item-badge.watching {
+    background-color: #405cfb;
+}
+
+.item-badge.bidder {
+    background-color: #61b76c;
+}
+
+.item-badge.outbid {
+    background-color: #b66a6a;
 }
 
 .item-description {
