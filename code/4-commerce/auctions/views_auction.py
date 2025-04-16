@@ -36,15 +36,19 @@ def index(request):
     else:
         auctions_query = Auction.objects.filter(is_active=True)
 
-    auctions_list = list(auctions_query)
+    auctions_list = list(auctions_query.prefetch_related('bids')) 
 
     if request.user.is_authenticated:
         user_watchlist_ids = set(Watchlist.objects.filter(user=request.user).values_list('auction_id', flat=True))
         for auction in auctions_list:
             auction.is_watched_by_user = auction.id in user_watchlist_ids
+            auction.user_is_highest_bidder = auction.is_highest_bidder(request.user)
+            auction.user_is_outbid = auction.is_outbid(request.user)
     else:
         for auction in auctions_list:
             auction.is_watched_by_user = False
+            auction.user_is_highest_bidder = False
+            auction.user_is_outbid = False
 
     return render(request, "auctions/index.html", {
         "auctions": auctions_list,

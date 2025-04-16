@@ -10,10 +10,16 @@
                     <div class="item-title-container">
                         <div class="item-title">{{ auction.title }}</div>
                         <div class="item-badges">
-                          <div class="item-badge bidder">Highest Bidder</div> <!-- Placeholder: Logic needed -->
-                          <div class="item-badge outbid">Outbid</div> <!-- Placeholder: Logic needed -->
-                          {% if auction.is_watched_by_user %}
-                          <div class="item-badge watching">Watching</div>
+                          {% if user.is_authenticated %}
+                            {% if auction.user_is_highest_bidder %}
+                            <div class="item-badge bidder">Highest Bidder</div>
+                            {% endif %}
+                            {% if auction.user_is_outbid %}
+                            <div class="item-badge outbid">Outbid</div>
+                            {% endif %}
+                            {% if auction.is_watched_by_user %}
+                            <div class="item-badge watching">Watching</div>
+                            {% endif %}
                           {% endif %}
                         </div>
                     </div>

@@ -28,6 +28,28 @@ class Auction(models.Model):
     is_active = models.BooleanField(default=True)
     owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name='auctions')
 
+    def __str__(self):
+        return f"{self.title} @ {self.owner.username}"
+
+    def highest_bid(self):
+        bid = Bid.objects.filter(auction=self).order_by('amount').first()
+        return bid
+
+    def highest_bid_for_user(self, user):
+        bid = Bid.objects.filter(auction=self, user=user).order_by('amount').first()
+        return bid
+
+    def is_highest_bidder(self, user):
+        bid = self.highest_bid()
+        return bid and bid.user == user
+
+    def is_outbid(self, user):
+        user_bid = self.highest_bid_for_user(user)
+        if user_bid:
+            highest_bid = self.highest_bid()
+            return highest_bid != user_bid
+        return False
+
 
 class Bid(models.Model):
     """
@@ -37,6 +59,9 @@ class Bid(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='bids')
     amount = models.DecimalField(max_digits=10, decimal_places=2)
     winning_bid = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f"{self.auction} - bid: {self.amount} @ {self.user.username}"
 
 
 class Comment(models.Model):
