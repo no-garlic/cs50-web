@@ -18,7 +18,7 @@ urlpatterns = [
     path("auctions/<int:auction_id>", views_auction.view, name="view"),                                     # show a specific auction
     path("auctions/<int:auction_id>/bid", views_auction.place_bid, name="place_bid"),                       # place a bid on an auction
     path("auctions/<int:auction_id>/comment", views_auction.add_comment, name="add_comment"),               # add a comment to an auction
-    path("auctions/<int:auction_id>/watchlist", views_auction.toggle_watchlist, name="toggle_watchlist"),   # add or remove an auction from the watchlist
+    path("auctions/<int:auction_id>/watch", views_auction.toggle_watchlist, name="watch"),                  # add or remove an auction from the watchlist
     path("auctions/<int:auction_id>/close", views_auction.close_auction, name="close_auction"),             # close an auction
 
     path("watchlist", views_watchlist.watchlist, name="watchlist"),                                         # show all auctions in the users watchlist              

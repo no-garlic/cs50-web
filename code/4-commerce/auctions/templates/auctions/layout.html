@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="header">
-            <div class="header-content">
+            <!--div class="header-content">
                 <ul class="nav">
                     <li class="nav-item">
                         {% if user.is_authenticated %}
@@ -31,7 +31,7 @@
                         </li>
                     {% endif %}
                 </ul>
-            </div>
+            </div-->
         </div>
         <div class="page-container">
             <aside class="sidebar">
@@ -56,6 +56,23 @@
                             <li><a href="{% url 'index' %}?category={{ category.id }}">{{ category.name }}</a></li>
                         {% endfor %}
                     {% endif %}
+
+                    {% if user.is_authenticated %}
+                        <li class="sidebar-heading">Account ({{ user.username }})</li>  
+                    {% else %}
+                        <li class="sidebar-heading">Account (not signed in)</li>
+                    {% endif %}
+
+                    {% if user.is_authenticated %}
+                    <li><a href="{% url 'watchlist' %}">My Auctions</a></li>
+                    <li><a href="{% url 'watchlist' %}">My Bids</a></li>
+                    <li><a href="{% url 'watchlist' %}">My Watch List</a></li>
+                    <li><a href="{% url 'logout' %}">Log Out</a></li>
+                    {% else %}
+                        <li><a href="{% url 'login' %}">Log In</a></li>
+                        <li><a href="{% url 'register' %}">Register</a></li>
+                    {% endif %}
+
                 </ul>
             </aside>
             <main class="content">
