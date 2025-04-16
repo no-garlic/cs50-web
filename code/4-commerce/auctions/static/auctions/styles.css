@@ -142,6 +142,11 @@ body {
     padding: 15px; 
     margin-right: 10px;
     box-sizing: border-box;
+    position: sticky;
+    top: 90px; /* Adjust this value based on the actual height of your header */
+    align-self: flex-start;
+    height: calc(100vh - 90px); /* Adjust height calculation based on the new top value */
+    overflow-y: auto;
 }
 
 .sidebar ul {
@@ -201,9 +206,12 @@ body {
 .header {
     width: 100%; 
     background-color: #dedede; 
-    padding: 16px; 
+    padding: 36px;  /* sets the height of the header */
     box-sizing: border-box;
     border-bottom: 1px solid #555;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .header-content {

@@ -22,7 +22,7 @@
                         <p></p>
                     {% endif %}
 
-                    <li class="sidebar-heading">Filter Listing</li>
+                    <li class="sidebar-heading">All Listings</li>
                     <li><a href="{% url 'index' %}?listing=active" class="{% if active_filter == 'active' %}active-link{% endif %}">Active</a></li>
                     <li><a href="{% url 'index' %}?listing=closed" class="{% if active_filter == 'closed' %}active-link{% endif %}">Sold</a></li>
                     <p></p>
