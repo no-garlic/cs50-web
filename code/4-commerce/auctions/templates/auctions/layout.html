@@ -23,27 +23,28 @@
                     {% endif %}
 
                     <li class="sidebar-heading">Filter Listing</li>
-                    <li><a href="{% url 'index' %}">Active</a></li>
-                    <li><a href="{% url 'index' %}?closed=true">Closed</a></li>
+                    <li><a href="{% url 'index' %}?listing=active" class="{% if active_filter == 'active' %}active-link{% endif %}">Active</a></li>
+                    <li><a href="{% url 'index' %}?listing=closed" class="{% if active_filter == 'closed' %}active-link{% endif %}">Sold</a></li>
                     <p></p>
 
                     {% if categories %}
                         <li class="sidebar-heading">Filter By Category</li>
                         {% for category in categories %}
-                            <li><a href="{% url 'index' %}?category={{ category.id }}">{{ category.name }}</a></li>
+                            <li><a href="{% url 'index' %}?category={{ category.id }}" class="{% if active_filter == category.id %}active-link{% endif %}">{{ category.name }}</a></li>
                         {% endfor %}
                     {% endif %}
 
                     {% if user.is_authenticated %}
-                        <li class="sidebar-heading">Account ({{ user.username }})</li>  
+                        <li class="sidebar-heading">Account ({{ user.username }})</li>
                     {% else %}
                         <li class="sidebar-heading">Account (not signed in)</li>
                     {% endif %}
 
                     {% if user.is_authenticated %}
-                    <li><a href="{% url 'index' %}">My Auctions</a></li>
-                    <li><a href="{% url 'index' %}">My Bids</a></li>
-                    <li><a href="{% url 'index' %}">My Watch List</a></li>
+                    <li><a href="{% url 'index' %}?listing=my" class="{% if active_filter == 'my' %}active-link{% endif %}">My Listings</a></li>
+                    <li><a href="{% url 'index' %}?listing=bids" class="{% if active_filter == 'bids' %}active-link{% endif %}">My Bids</a></li>
+                    <li><a href="{% url 'index' %}?listing=watch" class="{% if active_filter == 'watch' %}active-link{% endif %}">My Watch List</a></li>
+                    <hr>
                     <li><a href="{% url 'logout' %}">Log Out</a></li>
                     {% else %}
                         <li><a href="{% url 'login' %}">Log In</a></li>

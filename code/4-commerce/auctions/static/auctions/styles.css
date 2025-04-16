@@ -162,10 +162,16 @@ body {
 }
 
 .sidebar a:hover {
-    background-color: #4d90fe;
+    background-color: #4d90fe77;
     color: #ffffff;
     font-weight: 700;
     transition: background-color 0.2s;
+}
+
+.sidebar a.active-link {
+    background-color: #4d90fe;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .sidebar-heading {

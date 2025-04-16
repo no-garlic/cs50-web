@@ -22,21 +22,37 @@ class AddAuctionForm(forms.ModelForm):
 
 
 def index(request):
-    param_closed = request.GET.get("closed")
+    param_listing = request.GET.get("listing")
     param_category = request.GET.get("category")
+    active_filter = "active"
 
-    if param_closed and param_closed.lower() == "true":
+    if param_listing and param_listing.lower() == "closed":
         auctions_query = Auction.objects.filter(is_active=False)
+        active_filter = "closed"
+    elif param_listing and param_listing.lower() == "my":
+        auctions_query = Auction.objects.filter(is_active=True, owner=request.user)
+        active_filter = "my"
+    elif param_listing and param_listing.lower() == "bids":
+        bidded_auctions = Bid.objects.filter(user=request.user).values_list("auction_id", flat=True)
+        auctions_query = Auction.objects.filter(is_active=True, id__in=bidded_auctions)
+        active_filter = "bids"
+    elif param_listing and param_listing.lower() == "watch":
+        watched_auctions = Watchlist.objects.filter(user=request.user).values_list("auction_id", flat=True)
+        auctions_query = Auction.objects.filter(is_active=True, id__in=watched_auctions)
+        active_filter = "watch"
     elif param_category:
         try:
             category = Category.objects.get(id=param_category)
             auctions_query = Auction.objects.filter(category=category, is_active=True)
+            active_filter = category.id
         except Category.DoesNotExist:
-             auctions_query = Auction.objects.none()
+            auctions_query = Auction.objects.none()            
+        except ValueError:  
+            auctions_query = Auction.objects.filter(is_active=True)           
     else:
-        auctions_query = Auction.objects.filter(is_active=True)
+        auctions_query = Auction.objects.filter(is_active=True)        
 
-    auctions_list = list(auctions_query.prefetch_related('bids')) 
+    auctions_list = list(auctions_query.prefetch_related("bids"))
 
     if request.user.is_authenticated:
         user_watchlist_ids = set(Watchlist.objects.filter(user=request.user).values_list('auction_id', flat=True))
@@ -52,7 +68,8 @@ def index(request):
 
     return render(request, "auctions/index.html", {
         "auctions": auctions_list,
-        "categories": Category.objects.all()
+        "categories": Category.objects.all(),
+        "active_filter": active_filter
     })
 
 
