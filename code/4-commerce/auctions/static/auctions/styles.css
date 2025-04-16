@@ -92,6 +92,7 @@ body {
     width: 260px;
     flex-shrink: 0;
     padding: 15px; 
+    margin-right: 10px;
     box-sizing: border-box;
 }
 
@@ -116,6 +117,13 @@ body {
     background-color: #f8f8f8;
     color: #3549fe;
     font-weight: 700;
+}
+
+.sidebar-heading {
+    font-weight: 600;
+    background-color: #dedede;
+    display: block; 
+    padding: 5px;
 }
 
 .content {

@@ -22,17 +22,28 @@ class AddAuctionForm(forms.ModelForm):
 
 
 def index(request):
-    all_auctions = Auction.objects.all();
+    param_closed = request.GET.get("closed")
+    param_category = request.GET.get("category")
+
+    if param_closed and param_closed.lower() == "true":
+        auctions = Auction.objects.filter(is_active=False);
+    elif param_category:
+        category = Category.objects.get(id=param_category)
+        auctions = Auction.objects.filter(category=category)
+    else:
+        auctions = Auction.objects.filter(is_active=True);
     
     return render(request, "auctions/index.html", {
-        "auctions": all_auctions
+        "auctions": auctions,
+        "categories": Category.objects.all()
     })
 
 
 def view(request, auction_id: int):
     auction = Auction.objects.get(id=auction_id)
     return render(request, "auctions/auction.html", {
-        "auction": auction
+        "auction": auction,
+        "categories": Category.objects.all()
     })
 
 
@@ -41,7 +52,8 @@ def create(request):
     if request.method == "GET":
         form = AddAuctionForm()    
         return render(request, "auctions/create.html", {
-            "auction_form": form
+            "auction_form": form,
+            "categories": Category.objects.all()
         })
     
     elif request.method == "POST":
@@ -54,7 +66,8 @@ def create(request):
             return redirect(reverse("index"))
         else:
             return render(request, "auctions/create.html", {
-                "auction_form": form
+                "auction_form": form,
+                "categories": Category.objects.all()
             })
 
 

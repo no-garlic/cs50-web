@@ -36,10 +36,26 @@
         <div class="page-container">
             <aside class="sidebar">
                 <ul>
-                    <li><h2><b>Buy & Sell</b></h2></li>
+                    <li><h2><b>Auctions</b></h2></li>
                     <p></p>
-                    <li><a href="{% url 'index' %}">Active Listings</a></li>
-                    <li><a class="nav-link" href="{% url 'create' %}">Create Auction</a></li>
+
+                    {% if user.is_authenticated %}
+                        <li class="sidebar-heading">Create Listing</li>
+                        <li><a class="nav-link" href="{% url 'create' %}">Add New</a></li>
+                        <p></p>
+                    {% endif %}
+
+                    <li class="sidebar-heading">Filter Listing</li>
+                    <li><a href="{% url 'index' %}">Active</a></li>
+                    <li><a href="{% url 'index' %}?closed=true">Closed</a></li>
+                    <p></p>
+
+                    {% if categories %}
+                        <li class="sidebar-heading">Filter By Category</li>
+                        {% for category in categories %}
+                            <li><a href="{% url 'index' %}?category={{ category.id }}">{{ category.name }}</a></li>
+                        {% endfor %}
+                    {% endif %}
                 </ul>
             </aside>
             <main class="content">
