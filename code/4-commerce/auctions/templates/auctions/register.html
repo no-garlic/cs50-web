@@ -2,11 +2,15 @@
 
 {% block body %}
 
-    <h2>Register</h2>
+<div class="page-title">
+    <h5><strong>Register a new account</strong></h5>
+</div>
 
     {% if message %}
         <div>{{ message }}</div>
     {% endif %}
+
+    <p></p>
 
     <form action="{% url 'register' %}" method="post">
         {% csrf_token %}
@@ -24,7 +28,7 @@
         </div>
         <input class="btn btn-primary" type="submit" value="Register">
     </form>
-
+    <p></p>
     Already have an account? <a href="{% url 'login' %}">Log In here.</a>
 
 {% endblock %}
