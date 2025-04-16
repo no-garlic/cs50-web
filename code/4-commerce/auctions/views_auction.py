@@ -26,15 +26,28 @@ def index(request):
     param_category = request.GET.get("category")
 
     if param_closed and param_closed.lower() == "true":
-        auctions = Auction.objects.filter(is_active=False);
+        auctions_query = Auction.objects.filter(is_active=False)
     elif param_category:
-        category = Category.objects.get(id=param_category)
-        auctions = Auction.objects.filter(category=category, is_active=True)
+        try:
+            category = Category.objects.get(id=param_category)
+            auctions_query = Auction.objects.filter(category=category, is_active=True)
+        except Category.DoesNotExist:
+             auctions_query = Auction.objects.none()
     else:
-        auctions = Auction.objects.filter(is_active=True);
-    
+        auctions_query = Auction.objects.filter(is_active=True)
+
+    auctions_list = list(auctions_query)
+
+    if request.user.is_authenticated:
+        user_watchlist_ids = set(Watchlist.objects.filter(user=request.user).values_list('auction_id', flat=True))
+        for auction in auctions_list:
+            auction.is_watched_by_user = auction.id in user_watchlist_ids
+    else:
+        for auction in auctions_list:
+            auction.is_watched_by_user = False
+
     return render(request, "auctions/index.html", {
-        "auctions": auctions,
+        "auctions": auctions_list,
         "categories": Category.objects.all()
     })
 

@@ -7,12 +7,14 @@
                 <div class="item">
                     <img src="{{ auction.image_url }}" alt="Item image">
                   <div class="item-content">
-                    <div class="item-title-container"> 
+                    <div class="item-title-container">
                         <div class="item-title">{{ auction.title }}</div>
-                        <div class="item-badges"> 
-                          <div class="item-badge bidder">Highest Bidder</div> 
-                          <div class="item-badge outbid">Outbid</div> 
-                          <div class="item-badge watching">Watching</div> 
+                        <div class="item-badges">
+                          <div class="item-badge bidder">Highest Bidder</div> <!-- Placeholder: Logic needed -->
+                          <div class="item-badge outbid">Outbid</div> <!-- Placeholder: Logic needed -->
+                          {% if auction.is_watched_by_user %}
+                          <div class="item-badge watching">Watching</div>
+                          {% endif %}
                         </div>
                     </div>
                   <div class="item-description">{{ auction.description }}</div>
@@ -26,6 +28,8 @@
                   </div>
                 </div>
             </a>
+            {% empty %}
+            <p>No active auctions found.</p> <!-- Optional: Message when no auctions match -->
             {% endfor %}
         </div>
 {% endblock %}
