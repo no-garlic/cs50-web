@@ -13,8 +13,11 @@
         <div class="page-container">
             <aside class="sidebar">
                 <ul>
-                    <li><h2><b>Auctions</b></h2></li>
-                    <p></p>
+                    <li class="sidebar-logo">
+                        <a href="{% url 'index' %}?listing=active">
+                            <img src="{% static 'auctions/bidly_wide.jpeg' %}" alt="Bidly Logo" style="width: 100%;">
+                        </a>                        
+                    </li>
 
                     {% if user.is_authenticated %}
                         <li class="sidebar-heading">Create Listing</li>

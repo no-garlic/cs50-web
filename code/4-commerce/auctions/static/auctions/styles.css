@@ -174,11 +174,30 @@ body {
     transition: background-color 0.2s;
 }
 
+.sidebar-logo a:hover {
+    background-color: transparent;
+    border-radius: 0;
+    color: inherit;
+    font-weight: normal;
+}
+
 .sidebar a.active-link {
     background-color: #4d90fe;
     border-radius: 5px;
     color: #ffffff;
     font-weight: bold;
+}
+
+.sidebar-logo {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: none;
+}
+
+.sidebar-logo:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: none;
 }
 
 .sidebar-heading {
@@ -231,7 +250,7 @@ body {
     border-radius: 5px;
     background-color: #4d90fe;
     color: white;
-    padding-left: 6px;
-    padding-top: 6px;
-    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-top: 26px;
+    padding-bottom: 22px;
 }
