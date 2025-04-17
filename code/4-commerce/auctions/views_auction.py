@@ -20,6 +20,15 @@ class AddAuctionForm(forms.ModelForm):
             'start_bid': forms.NumberInput(attrs={'class': 'form-control mb-3'}),
         }
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        for field_name, field in self.fields.items():
+            # Use field's label or capitalize the field name for placeholder
+            placeholder_text = field.label if field.label else field_name.replace('_', ' ').capitalize()
+            field.widget.attrs['placeholder'] = placeholder_text
+            # Remove the label
+            field.label = ""
+
 
 def index(request):
     param_listing = request.GET.get("listing")
@@ -104,7 +113,8 @@ def create(request):
         form = AddAuctionForm()    
         return render(request, "auctions/create.html", {
             "auction_form": form,
-            "categories": Category.objects.all()
+            "categories": Category.objects.all(),
+            "active_filter": "new"
         })
     
     elif request.method == "POST":
@@ -118,7 +128,8 @@ def create(request):
         else:
             return render(request, "auctions/create.html", {
                 "auction_form": form,
-                "categories": Category.objects.all()
+                "categories": Category.objects.all(),
+                "active_filter": "new"
             })
 
 

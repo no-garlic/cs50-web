@@ -22,11 +22,13 @@ def login_view(request):
         else:
             return render(request, "auctions/login.html", {
                 "message": "Invalid username and/or password.",
-                "categories": Category.objects.all()
+                "categories": Category.objects.all(),
+                "active_filter": "login"
             })
     else:
         return render(request, "auctions/login.html", {
             "categories": Category.objects.all(),
+            "active_filter": "login"
         })
 
 
@@ -46,7 +48,8 @@ def register(request):
         if password != confirmation:
             return render(request, "auctions/register.html", {
                 "message": "Passwords must match.",
-                "categories": Category.objects.all()
+                "categories": Category.objects.all(),
+                "active_filter": "register"
             })
 
         # Attempt to create new user
@@ -56,11 +59,13 @@ def register(request):
         except IntegrityError:
             return render(request, "auctions/register.html", {
                 "message": "Username already taken.",
-                "categories": Category.objects.all()
+                "categories": Category.objects.all(),
+                "active_filter": "register"
             })
         login(request, user)
         return HttpResponseRedirect(reverse("index"))
     else:
         return render(request, "auctions/register.html", {
-            "categories": Category.objects.all()
+            "categories": Category.objects.all(),
+            "active_filter": "register"
         })

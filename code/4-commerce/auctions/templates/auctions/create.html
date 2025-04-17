@@ -3,12 +3,17 @@
 {% block body %}
 
     <div class="page-title">
-        <h5><strong>Create a new listing</strong></h5>
     </div>
+
+    <p></p>
+
+    Add a new listing:
+
+    <p></p>
 
     <form action="{% url 'create' %}" method="post">
         {% csrf_token %}
         {{ auction_form }}
-        <input type="submit" value="Submit">
+        <input type="submit" class="btn btn-primary" value="Submit">
     </form>
 {% endblock %}

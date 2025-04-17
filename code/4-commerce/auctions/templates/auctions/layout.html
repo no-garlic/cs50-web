@@ -19,12 +19,6 @@
                         </a>                        
                     </li>
 
-                    {% if user.is_authenticated %}
-                        <li class="sidebar-heading">Create Listing</li>
-                        <li><a class="nav-link" href="{% url 'create' %}">Add New</a></li>
-                        <p></p>
-                    {% endif %}
-
                     <li class="sidebar-heading">All Listings</li>
                     <li><a href="{% url 'index' %}?listing=active" class="{% if active_filter == 'active' %}active-link{% endif %}">Active</a></li>
                     <li><a href="{% url 'index' %}?listing=closed" class="{% if active_filter == 'closed' %}active-link{% endif %}">Sold</a></li>
@@ -44,14 +38,15 @@
                     {% endif %}
 
                     {% if user.is_authenticated %}
+                    <li><a href="{% url 'create' %}" class="{% if active_filter == 'new' %}active-link{% endif %}">Create New</a></li>
                     <li><a href="{% url 'index' %}?listing=my" class="{% if active_filter == 'my' %}active-link{% endif %}">My Listings</a></li>
                     <li><a href="{% url 'index' %}?listing=bids" class="{% if active_filter == 'bids' %}active-link{% endif %}">My Bids</a></li>
                     <li><a href="{% url 'index' %}?listing=watch" class="{% if active_filter == 'watch' %}active-link{% endif %}">My Watch List</a></li>
                     <hr>
                     <li><a href="{% url 'logout' %}">Log Out</a></li>
                     {% else %}
-                        <li><a href="{% url 'login' %}">Log In</a></li>
-                        <li><a href="{% url 'register' %}">Register</a></li>
+                        <li><a href="{% url 'login' %}" class="{% if active_filter == 'login' %}active-link{% endif %}">Log In</a></li>
+                        <li><a href="{% url 'register' %}" class="{% if active_filter == 'register' %}active-link{% endif %}">Register</a></li>
                     {% endif %}
 
                 </ul>
