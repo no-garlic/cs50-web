@@ -6,8 +6,7 @@ body {
 }
 
 .listing {
-    background-color: aquamarine;
-    padding: 10px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -15,24 +14,20 @@ body {
 .listing-section {
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    background-color: bisque;
-    border: 1px solid orange;
+    padding-bottom: 16px;
 }
 
 .listing-subsection {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color: rgb(212, 123, 212);
-    border: 1px solid rgb(205, 24, 196);
     align-items: center;
 }
 
 .listing-content {
     width: 100%;
     min-width: 400px;
-    padding: 1rem;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -158,6 +153,10 @@ body {
     font-weight: bold;
 }
 
+.item-title-large {
+    font-size: 2.5em;
+}
+
 .item-badges {
     display: flex; 
     flex-shrink: 0; 
@@ -177,6 +176,12 @@ body {
     background-color: #f0f0f0; 
     white-space: nowrap; 
     color:#ffffff;
+}
+
+.item-badge.notwatching {
+    color: black;
+    background-color: #f0f2ff;
+    border: 2px solid #405cfb;
 }
 
 .item-badge.watching {

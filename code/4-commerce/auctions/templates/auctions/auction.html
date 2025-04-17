@@ -5,7 +5,7 @@
     <div class="listing">
         <div class="listing-section">
             <div class="item-title-container">
-                <div class="item-title">{{ auction.title }}</div>
+                <div class="item-title item-title-large">{{ auction.title }}</div>
                 <div class="item-badges">
                   {% if user.is_authenticated %}
                     {% if is_highest_bidder %}
@@ -16,6 +16,10 @@
                     {% endif %}
                     {% if is_watching %}
                     <div class="item-badge watching">Watching</div>
+                    {% else %}
+                    <a href="{% url 'watch' %}">
+                        <div class="item-badge notwatching">Watch this item</div>
+                    </a>
                     {% endif %}
                   {% endif %}
                 </div>
@@ -50,11 +54,13 @@
                 {% else %}
                     Enter your bid:
                 {% endif %}
+                {% if not is_highest_bidder %}
                 <form class="bid-form" action="{% url 'place_bid' %}" method="post">
                     {% csrf_token %}
                         <input autofocus class="form-control bid-input" type="number" name="bid" placeholder="Amount" autocomplete="off">
                         <input class="form-control btn btn-primary bid-submit" type="submit" value="Bid">
                 </form>
+                {% endif %}
             </div>
         </div>
         <div class="listing-section">            
@@ -73,65 +79,9 @@
                 <hr>
             </div>
         {% empty %}
-            <div class="comment-section">
+            <!--div class="comment-section">
                 No Comments.
-            </div>            
+            </div-->            
         {% endfor %}
     </div>
-    <hr>
-    <ul>
-        <li>Title: {{ auction.title }}</li>
-        <li>Desc: {{ auction.description }}</li>
-        <li>Start Bid: {{ auction.start_bid }}</li>
-        <li>Active: {{ auction.is_active }}</li>
-        <li>Owner: {{ auction.owner.username }}</li>
-    </ul>  
-
-    <p></p>
-
-    {% if user.is_authenticated %}
-
-    <ul>
-        {% if is_watching %}
-            <li>Watching: True</li>
-        {% else %}
-            <li>Watching: False</li>
-        {% endif %}
-        {% if is_highest_bidder %}
-            <li>Highest Bidder: True</li>
-        {% else %}
-            <li>Highest Bidder: False</li>
-        {% endif %}
-        {% if is_outbid %}
-            <li>Outbid: True</li>
-        {% else %}
-            <li>Outbid: False</li>
-        {% endif %}
-    </ul>
-
-    <p></p>
-    
-    {% endif %}
-
-    <ul>
-        {% for bid in bids %}
-            <li>Bid: {{ bid }}</li>
-        {% empty %}
-            <li>No Bids.</li>
-        {% endfor %}
-    </ul>
-
-    <p></p>
-    
-    <ul>
-        {% for comment in comments %}
-            <li>Comment: {{ comment.content }}</li>
-        {% empty %}
-            <li>No Comments.</li>
-        {% endfor %}
-    </ul>
-
-    
-
-
 {% endblock %}
