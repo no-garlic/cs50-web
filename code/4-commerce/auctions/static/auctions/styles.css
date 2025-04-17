@@ -40,57 +40,54 @@ body {
 }
 
 .bid-form-container {
-    width: 452px; /* Set the width of the container div */
-    align-items: center; /* Center the content vertically if needed */
-    text-align: center; /* Center the text above the form */
+    width: 452px;
+    align-items: center;
+    text-align: center;
 }
 
 .bid-form {
-    display: flex; /* Arrange form elements horizontally */
-    justify-content: center; /* Center the form elements as a group */
-    align-items: center; /* Align items vertically */
-    gap: 5px; /* Add a small gap between the input and button */
-    margin-top: 5px; /* Add some space below the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
 }
 
 .bid-form .bid-input {
-    width: 135px; /* Set specific width for the number input */
-    flex-grow: 0; /* Prevent input from growing */
+    width: 135px;
+    flex-grow: 0; 
 }
 
 .bid-form .bid-submit {
-    width: 80px; /* Set specific width for the submit button */
-    flex-grow: 0; /* Prevent button from growing */
+    width: 80px;
+    flex-grow: 0;
 }
 
 .bid-form .form-control {
-    display: inline-block; /* Allow setting specific width */
-    width: auto; /* Reset width set by Bootstrap if needed */
+    display: inline-block; 
+    width: auto;
 }
 
 .comment-form {
     display: flex;
-    align-items: flex-end; /* Align items to the bottom */
-    gap: 10px; /* Space between textarea and button */
-    width: 100%; /* Make form take full width of its container */
+    align-items: flex-end;
+    gap: 10px;
+    width: 100%; 
     margin-top: 5px;
 }
 
 .comment-form .comment-input {
-    flex-grow: 1; /* Allow textarea to take up available space */
-    resize: vertical; /* Allow vertical resizing only */
-    /* Override potential Bootstrap width: 100% */
+    flex-grow: 1;
+    resize: vertical;
     width: auto;
-    min-width: 50px; /* Prevent it from becoming too narrow */
+    min-width: 50px;
 }
 
 .comment-form .comment-submit {
-    flex-shrink: 0; /* Prevent button from shrinking */
-    /* Override potential Bootstrap width: 100% and allow natural width */
+    flex-shrink: 0;
     width: auto;
-    /* Ensure consistent height alignment with textarea */
     height: auto;
-    line-height: normal; /* Adjust line-height if needed for alignment */
+    line-height: normal;
 }
 
 .comment-section {
