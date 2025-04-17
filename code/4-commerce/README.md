@@ -20,6 +20,7 @@ Create the model classes
 
 ### Make the migrations
 `python manage.py makemigrations`
+`python manage.py makemigrations your_app_name --empty --name migration_name`
 
 ### Apply the migrations
 `python manage.py migrate`
