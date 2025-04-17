@@ -133,17 +133,17 @@ def create(request):
             })
 
 
-def place_bid(request, auction_id: int):
+def place_bid(request):
     pass
 
 
-def add_comment(request, auction_id: int):
+def add_comment(request):
     pass
 
 
-def toggle_watchlist(request, auction_id: int):
+def toggle_watchlist(request):
     pass
 
 
-def close_auction(request, auction_id: int):
+def close_auction(request):
     pass

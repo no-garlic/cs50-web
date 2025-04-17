@@ -5,6 +5,105 @@ body {
     align-items: center;
 }
 
+.listing {
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-section {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: bisque;
+    border: 1px solid orange;
+}
+
+.listing-subsection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(212, 123, 212);
+    border: 1px solid rgb(205, 24, 196);
+    align-items: center;
+}
+
+.listing-content {
+    width: 100%;
+    min-width: 400px;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.listing-content img {
+    width: 392px;
+    height: 392px;
+    object-fit: contain;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.bid-form-container {
+    width: 452px; /* Set the width of the container div */
+    align-items: center; /* Center the content vertically if needed */
+    text-align: center; /* Center the text above the form */
+}
+
+.bid-form {
+    display: flex; /* Arrange form elements horizontally */
+    justify-content: center; /* Center the form elements as a group */
+    align-items: center; /* Align items vertically */
+    gap: 5px; /* Add a small gap between the input and button */
+    margin-top: 5px; /* Add some space below the text */
+}
+
+.bid-form .bid-input {
+    width: 135px; /* Set specific width for the number input */
+    flex-grow: 0; /* Prevent input from growing */
+}
+
+.bid-form .bid-submit {
+    width: 80px; /* Set specific width for the submit button */
+    flex-grow: 0; /* Prevent button from growing */
+}
+
+.bid-form .form-control {
+    display: inline-block; /* Allow setting specific width */
+    width: auto; /* Reset width set by Bootstrap if needed */
+}
+
+.comment-form {
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom */
+    gap: 10px; /* Space between textarea and button */
+    width: 100%; /* Make form take full width of its container */
+    margin-top: 5px;
+}
+
+.comment-form .comment-input {
+    flex-grow: 1; /* Allow textarea to take up available space */
+    resize: vertical; /* Allow vertical resizing only */
+    /* Override potential Bootstrap width: 100% */
+    width: auto;
+    min-width: 50px; /* Prevent it from becoming too narrow */
+}
+
+.comment-form .comment-submit {
+    flex-shrink: 0; /* Prevent button from shrinking */
+    /* Override potential Bootstrap width: 100% and allow natural width */
+    width: auto;
+    /* Ensure consistent height alignment with textarea */
+    height: auto;
+    line-height: normal; /* Adjust line-height if needed for alignment */
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .container {
     width: 100%;
     max-width: 960px;
@@ -48,6 +147,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    color: #007bff;
 }
 
 .item-title {
@@ -112,6 +212,12 @@ body {
 
 .item-price {
     font-size: 1.2rem;
+    font-weight: bold;
+    color: #2a7;
+}
+
+.item-price-large {
+    font-size: 1.8rem;
     font-weight: bold;
     color: #2a7;
 }
@@ -253,3 +359,4 @@ body {
 .btn-margin {
     margin-top: 20px;
 }
+

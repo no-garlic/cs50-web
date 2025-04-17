@@ -2,6 +2,83 @@
 
 {% block body %}
 
+    <div class="listing">
+        <div class="listing-section">
+            <div class="item-title-container">
+                <div class="item-title">{{ auction.title }}</div>
+                <div class="item-badges">
+                  {% if user.is_authenticated %}
+                    {% if is_highest_bidder %}
+                    <div class="item-badge bidder">Highest Bidder</div>
+                    {% endif %}
+                    {% if is_outbid %}
+                    <div class="item-badge outbid">Outbid</div>
+                    {% endif %}
+                    {% if is_watching %}
+                    <div class="item-badge watching">Watching</div>
+                    {% endif %}
+                  {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="listing-section">
+            <div class="listing-content">
+                <img src="{{ auction.image_url }}" alt="Item image">
+            </div>
+            <div class="listing-content">
+                {{ auction.description }}
+            </div>
+        </div>
+        <div class="listing-section">
+            <div class="listing-subsection">
+                <div>
+                    {% if auction.is_active %}
+                        Highest bid:
+                    {% else %}
+                        Sold for:
+                    {% endif %}
+                </div>
+                <div class="item-price-large">
+                    $299
+                </div>                
+            </div>
+            <div class="listing-subsection bid-form-container">
+                {% if is_highest_bidder %}
+                    You are the highest bidder.
+                {% elif is_outbid %}
+                    You have been outbid, enter your new bid:
+                {% else %}
+                    Enter your bid:
+                {% endif %}
+                <form class="bid-form" action="{% url 'place_bid' %}" method="post">
+                    {% csrf_token %}
+                        <input autofocus class="form-control bid-input" type="number" name="bid" placeholder="Amount" autocomplete="off">
+                        <input class="form-control btn btn-primary bid-submit" type="submit" value="Bid">
+                </form>
+            </div>
+        </div>
+        <div class="listing-section">            
+            <form class="comment-form" action="{% url 'add_comment' %}" method="post">
+                {% csrf_token %}
+                    <textarea class="form-control comment-input" name="comment" placeholder="Enter comment..." autocomplete="off" rows="3"></textarea>
+                    <input class="form-control btn btn-primary comment-submit" type="submit" value="Comment">
+            </form>
+        </div>
+    </div>
+    <div class="listing-section comment-section">
+        {% for comment in comments %}
+            <div>
+                <div><b>{{ comment.user.first_name }}:</b></div>
+                <div>{{ comment.content }}</div>
+                <hr>
+            </div>
+        {% empty %}
+            <div class="comment-section">
+                No Comments.
+            </div>            
+        {% endfor %}
+    </div>
+    <hr>
     <ul>
         <li>Title: {{ auction.title }}</li>
         <li>Desc: {{ auction.description }}</li>
@@ -15,7 +92,7 @@
     {% if user.is_authenticated %}
 
     <ul>
-        {% if watching %}
+        {% if is_watching %}
             <li>Watching: True</li>
         {% else %}
             <li>Watching: False</li>

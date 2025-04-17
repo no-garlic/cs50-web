@@ -1,41 +1,41 @@
 {% extends "auctions/layout.html" %}
 
 {% block body %}
-        <div class="container">
-            {% for auction in auctions %}
-            <a href="{% url 'view' auction.id %}">
-                <div class="item">
-                    <img src="{{ auction.image_url }}" alt="Item image">
-                  <div class="item-content">
+    <div class="container">
+        {% for auction in auctions %}
+        <a href="{% url 'view' auction.id %}">
+            <div class="item">
+                <img src="{{ auction.image_url }}" alt="Item image">
+                <div class="item-content">
                     <div class="item-title-container">
                         <div class="item-title">{{ auction.title }}</div>
                         <div class="item-badges">
-                          {% if user.is_authenticated %}
-                            {% if auction.user_is_highest_bidder %}
-                            <div class="item-badge bidder">Highest Bidder</div>
+                            {% if user.is_authenticated %}
+                                {% if auction.user_is_highest_bidder %}
+                                    <div class="item-badge bidder">Highest Bidder</div>
+                                {% endif %}
+                                {% if auction.user_is_outbid %}
+                                    <div class="item-badge outbid">Outbid</div>
+                                {% endif %}
+                                {% if auction.is_watched_by_user %}
+                                    <div class="item-badge watching">Watching</div>
+                                {% endif %}
                             {% endif %}
-                            {% if auction.user_is_outbid %}
-                            <div class="item-badge outbid">Outbid</div>
-                            {% endif %}
-                            {% if auction.is_watched_by_user %}
-                            <div class="item-badge watching">Watching</div>
-                            {% endif %}
-                          {% endif %}
                         </div>
                     </div>
-                  <div class="item-description">{{ auction.description }}</div>
-                  <div class="item-footer">
+                <div class="item-description">{{ auction.description }}</div>
+                <div class="item-footer">
                     {% if auction.is_active %}
                         <div class="item-price">${{ auction.start_bid }}</div>
                     {% else %}
                         <div class="item-price-closed">${{ auction.start_bid }}</div>
                     {% endif %}
-                    </div>
-                  </div>
                 </div>
-            </a>
-            {% empty %}
-            <p>No active auctions found.</p> <!-- Optional: Message when no auctions match -->
-            {% endfor %}
+            </div>
         </div>
+        </a>
+        {% empty %}
+        <p>No active auctions found.</p> <!-- Optional: Message when no auctions match -->
+        {% endfor %}
+    </div>
 {% endblock %}
