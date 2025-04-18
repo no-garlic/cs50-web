@@ -47,7 +47,6 @@ def add_data(apps, schema_editor):
     categories = apps.get_model('auctions', 'Category')
     users = apps.get_model('auctions', 'User')
     auctions = apps.get_model('auctions', 'Auction')
-    auctions.objects.create(title='Playstation 5', description='desc', start_bid='100', is_active=True, owner=users.objects.get(username='mike'), category=categories.objects.get(name='Electronics'))
     auctions.objects.create(
         title='Playstation 5',
         description='This is a lightly used Playstation 5 that’s in fantastic condition. It has been carefully maintained in a clean, smoke-free home. I’ve had it for about eight months, but due to a busy schedule, it hasn’t seen much use. The console includes one original DualSense controller, power cable, HDMI cable, and the original box. The system has been factory reset and is ready for a new user. I’m also including a couple of popular digital titles already installed like Spider-Man: Miles Morales and God of War: Ragnarok, which are perfect for showcasing the PS5’s graphics and speed. Everything works flawlessly—the fan is quiet, no overheating, and the controller is in great shape. This is an excellent chance to get a high-demand console at a good price without having to wait for a restock. I’ll make sure it’s shipped securely and safely. Reach out with any questions!',
