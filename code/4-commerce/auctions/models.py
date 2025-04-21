@@ -34,6 +34,10 @@ class Auction(models.Model):
     def highest_bid(self):
         bid = Bid.objects.filter(auction=self).order_by('amount').first()
         return bid
+    
+    def current_value(self):
+        bid = Bid.objects.filter(auction=self).order_by('amount').first()
+        return bid.amount if bid else self.start_bid
 
     def highest_bid_for_user(self, user):
         bid = Bid.objects.filter(auction=self, user=user).order_by('amount').first()

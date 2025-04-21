@@ -26,7 +26,7 @@
                 <div class="item-description">{{ auction.description }}</div>
                 <div class="item-footer">
                     {% if auction.is_active %}
-                        <div class="item-price">${{ auction.start_bid }}</div>
+                        <div class="item-price">${{ auction.current_value }}</div>
                     {% else %}
                         <div class="item-price-closed">${{ auction.start_bid }}</div>
                     {% endif %}
