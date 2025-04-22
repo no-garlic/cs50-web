@@ -32,15 +32,21 @@ class Auction(models.Model):
         return f"{self.title} @ {self.owner.username}"
 
     def highest_bid(self):
-        bid = Bid.objects.filter(auction=self).order_by('amount').first()
+        bid = Bid.objects.filter(auction=self).order_by('-amount').first()
         return bid
     
+    def has_bids(self):
+        return self.highest_bid() != None
+    
     def current_value(self):
-        bid = Bid.objects.filter(auction=self).order_by('amount').first()
+        bid = Bid.objects.filter(auction=self).order_by('-amount').first()
         return bid.amount if bid else self.start_bid
+    
+    def minimum_bid(self):
+        return self.current_value() + 10
 
     def highest_bid_for_user(self, user):
-        bid = Bid.objects.filter(auction=self, user=user).order_by('amount').first()
+        bid = Bid.objects.filter(auction=self, user=user).order_by('-amount').first()
         return bid
 
     def is_highest_bidder(self, user):
@@ -53,6 +59,13 @@ class Auction(models.Model):
             highest_bid = self.highest_bid()
             return highest_bid != user_bid
         return False
+    
+    def close(self):
+        bid = self.highest_bid()
+        bid.winning_bid = True
+        bid.save()
+        self.is_active = False
+        self.save()
     
 
 class Bid(models.Model):
@@ -87,3 +100,5 @@ class Watchlist(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='watchlists')
     auction = models.ForeignKey(Auction, on_delete=models.CASCADE, related_name='watchlists')
 
+    def __str__(self):
+        return f"{self.auction.title} ({self.user.username})"

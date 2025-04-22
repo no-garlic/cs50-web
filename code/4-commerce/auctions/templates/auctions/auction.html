@@ -8,7 +8,12 @@
                 <div class="item-title item-title-large">{{ auction.title }}</div>
                 <div class="item-badges">
                 {% if user.is_authenticated %}
-                    <a href="{% url 'watch' %}">
+                    <form id="watch-form" action="{% url 'watch' %}" method="post">
+                        {% csrf_token %}
+                        <input type="hidden" name="auction_id" value="{{ auction.id }}">
+                    </form>
+                    <!--a href="{% url 'watch' %}"-->
+                    <a href="#" onclick="document.getElementById('watch-form').submit(); return false;">
                         {% if is_watching %}
                             <div class="item-badge watching">Watching</div>
                         {% else %}
@@ -41,16 +46,32 @@
             <div class="listing-subsection">
                 <div>
                     {% if auction.is_active %}
-                        Highest bid:
+                        {% if auction.has_bids %}
+                            Highest bid:
+                        {% else %}
+                            Starting price:
+                        {% endif %}
+                        </div>
+                        <div class="item-price-large">
                     {% else %}
                         Sold for:
+                        </div>
+                        <div class="item-price-large-closed">
                     {% endif %}
-                </div>
-                <div class="item-price-large">
                     {{ auction.current_value }}
                 </div>                
             </div>
-            <div class="listing-subsection bid-form-container">
+            {% if auction.owner == user and auction.is_active %}
+                {% if auction.has_bids %}
+                    <div class="listing-subsection close-form-container">
+                        <form class="close-form" action="{% url 'close_auction' %}" method="post">
+                            {% csrf_token %}
+                            <input type="hidden" name="auction_id" value="{{ auction.id }}">
+                            <input class="form-control btn btn-primary bid-submit" type="submit" value="Close Auction">
+                        </form>
+                    </div>
+                {% endif %}
+            {% elif auction.is_active %}
                 {% if is_highest_bidder %}
                     You are the highest bidder.
                 {% elif is_outbid %}
@@ -59,13 +80,16 @@
                     Enter your bid:
                 {% endif %}
                 {% if not is_highest_bidder %}
-                <form class="bid-form" action="{% url 'place_bid' %}" method="post">
-                    {% csrf_token %}
-                        <input autofocus class="form-control bid-input" type="number" name="bid" placeholder="Amount" autocomplete="off">
-                        <input class="form-control btn btn-primary bid-submit" type="submit" value="Bid">
-                </form>
+                    <div class="listing-subsection bid-form-container">
+                        <form class="bid-form" action="{% url 'place_bid' %}" method="post">
+                            {% csrf_token %}
+                            <input autofocus class="form-control bid-input" type="number" name="amount" required="true" placeholder="Amount" autocomplete="off" min="{{ auction.minimum_bid }}">
+                            <input type="hidden" name="auction_id" value="{{ auction.id }}">
+                            <input class="form-control btn btn-primary bid-submit" type="submit" value="Bid">
+                        </form>
+                    </div>
                 {% endif %}
-            </div>
+            {% endif %}
         </div>
         <div class="listing-section">            
             <form class="comment-form" action="{% url 'add_comment' %}" method="post">
@@ -83,10 +107,6 @@
                 <div>{{ comment.content }}</div>
                 <hr>
             </div>
-        {% empty %}
-            <!--div class="comment-section">
-                No Comments.
-            </div-->            
         {% endfor %}
     </div>
 {% endblock %}

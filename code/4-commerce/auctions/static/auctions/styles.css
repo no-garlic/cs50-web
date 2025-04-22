@@ -68,6 +68,20 @@ body {
     width: auto;
 }
 
+.close-form-container {
+    width: 212px;
+    align-items: center;
+    text-align: center;
+}
+
+.close-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
 .comment-form {
     display: flex;
     align-items: flex-end;
@@ -218,14 +232,20 @@ body {
     color: #2a7;
 }
 
+.item-price-closed {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(170, 34, 34);
+}
+
 .item-price-large {
     font-size: 1.8rem;
     font-weight: bold;
     color: #2a7;
 }
 
-.item-price-closed {
-    font-size: 1.2rem;
+.item-price-large-closed {
+    font-size: 1.8rem;
     font-weight: bold;
     color: rgb(170, 34, 34);
 }

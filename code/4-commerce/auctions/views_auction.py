@@ -135,15 +135,24 @@ def create(request):
 
 # TODO:
 #
-#   Watch Item Toggle
-#   Add Comment
-#   Place Bid
+#   x Watch Item Toggle
+#   x Add Comment
+#   x Place Bid
 #   Close Auction
-#   Admin View
+#   x Admin View
 
 
 def place_bid(request):
-    pass
+    if request.method == "POST":
+        auction_id = request.POST.get("auction_id")
+        amount = request.POST.get("amount")
+        auction = Auction.objects.get(id=auction_id)
+        user=request.user
+        Bid.objects.create(auction=auction, user=user, amount=amount)
+        return view(request=request, auction_id=auction_id)
+    else:
+        #error
+        pass
 
 
 def add_comment(request):
@@ -158,9 +167,29 @@ def add_comment(request):
         #error
         pass
 
+
 def toggle_watchlist(request):
-    pass
+    if request.method == "POST":
+        auction_id = request.POST.get("auction_id")
+        auction = Auction.objects.get(id=auction_id)
+        user=request.user
+        watched = Watchlist.objects.filter(user=user, auction=auction)
+        if watched:
+            Watchlist.objects.get(user=user, auction=auction).delete()
+        else:
+            Watchlist.objects.create(user=user, auction=auction)
+        return view(request=request, auction_id=auction_id)
+    else:
+        #error
+        pass
 
 
 def close_auction(request):
-    pass
+    if request.method == "POST":
+        auction_id = request.POST.get("auction_id")
+        auction = Auction.objects.get(id=auction_id)
+        auction.close()
+        return view(request=request, auction_id=auction_id)
+    else:
+        #error
+        pass
