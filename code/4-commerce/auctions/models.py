@@ -32,28 +32,53 @@ class Auction(models.Model):
         return f"{self.title} @ {self.owner.username}"
 
     def highest_bid(self):
+        """
+        Returns the highest bid for this auction.
+        If no bids exist, returns None.
+        """
         bid = Bid.objects.filter(auction=self).order_by('-amount').first()
         return bid
     
     def has_bids(self):
+        """
+        Returns True if the auction has at least one bid, False otherwise.
+        """
         return self.highest_bid() != None
     
     def current_value(self):
+        """
+        Returns the current value of the auction (the highest bid's value).
+        If no bids exist, returns the starting bid.
+        """
         bid = Bid.objects.filter(auction=self).order_by('-amount').first()
         return bid.amount if bid else self.start_bid
     
     def minimum_bid(self):
+        """
+        Returns the minimum bid allowed for this auction.
+        This is the current value plus 10.
+        """
         return self.current_value() + 10
 
     def highest_bid_for_user(self, user):
+        """
+        Returns the highest bid for a specific user on this auction.
+        If no bids exist for the user, returns None.
+        """
         bid = Bid.objects.filter(auction=self, user=user).order_by('-amount').first()
         return bid
 
     def is_highest_bidder(self, user):
+        """
+        Returns True if the user is the highest bidder for this auction, False otherwise.
+        """
         bid = self.highest_bid()
         return bid and bid.user == user
 
     def is_outbid(self, user):
+        """
+        Returns True if the user has been outbid on this auction, False otherwise.
+        """
         user_bid = self.highest_bid_for_user(user)
         if user_bid:
             highest_bid = self.highest_bid()
@@ -61,6 +86,9 @@ class Auction(models.Model):
         return False
     
     def close(self):
+        """
+        Closes the auction and marks the highest bid as the winning bid.
+        """
         bid = self.highest_bid()
         bid.winning_bid = True
         bid.save()

@@ -19,25 +19,21 @@
                             <img src="{% static 'auctions/bidly_wide.jpeg' %}" alt="Bidly Logo" style="width: 100%;">
                         </a>                        
                     </li>
-
                     <li class="sidebar-heading">All Listings</li>
                     <li><a href="{% url 'index' %}?listing=active" class="{% if active_filter == 'active' %}active-link{% endif %}">Active</a></li>
                     <li><a href="{% url 'index' %}?listing=closed" class="{% if active_filter == 'closed' %}active-link{% endif %}">Sold</a></li>
                     <p></p>
-
                     {% if categories %}
                         <li class="sidebar-heading">Filter By Category</li>
                         {% for category in categories %}
                             <li><a href="{% url 'index' %}?category={{ category.id }}" class="{% if active_filter == category.id %}active-link{% endif %}">{{ category.name }}</a></li>
                         {% endfor %}
                     {% endif %}
-
                     {% if user.is_authenticated %}
                         <li class="sidebar-heading">Account ({{ user.username }})</li>
                     {% else %}
                         <li class="sidebar-heading">Account (not signed in)</li>
                     {% endif %}
-
                     {% if user.is_authenticated %}
                     <li><a href="{% url 'create' %}" class="{% if active_filter == 'new' %}active-link{% endif %}">Create New</a></li>
                     <li><a href="{% url 'index' %}?listing=my" class="{% if active_filter == 'my' %}active-link{% endif %}">My Listings</a></li>
@@ -49,14 +45,17 @@
                         <li><a href="{% url 'login' %}" class="{% if active_filter == 'login' %}active-link{% endif %}">Log In</a></li>
                         <li><a href="{% url 'register' %}" class="{% if active_filter == 'register' %}active-link{% endif %}">Register</a></li>
                     {% endif %}
-
                 </ul>
             </aside>
             <main class="content">
+                {% if error_message %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error_message }}
+                    </div>                    
+                {% endif %}
                 {% block body %}
                 {% endblock %}
             </main>
         </div>
-
     </body>
 </html>

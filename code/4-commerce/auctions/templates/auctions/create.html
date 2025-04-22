@@ -1,16 +1,9 @@
 {% extends "auctions/layout.html" %}
 
 {% block body %}
-
     <div class="page-title">
     </div>
-
-    <p></p>
-
-    Add a new listing:
-
-    <p></p>
-
+    <p></p>Add a new listing:<p></p>
     <form action="{% url 'create' %}" method="post">
         {% csrf_token %}
         {{ auction_form }}
