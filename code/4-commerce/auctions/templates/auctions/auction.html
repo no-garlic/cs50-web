@@ -8,13 +8,13 @@
                 <div class="item-title item-title-large">{{ auction.title }}</div>
                 <div class="item-badges">
                 {% if user.is_authenticated %}
-                    {% if is_watching %}
-                        <div class="item-badge watching">Watching</div>
-                    {% else %}
-                        <a href="{% url 'watch' %}">
+                    <a href="{% url 'watch' %}">
+                        {% if is_watching %}
+                            <div class="item-badge watching">Watching</div>
+                        {% else %}
                             <div class="item-badge notwatching">Watch this item</div>
-                        </a>
-                    {% endif %}
+                        {% endif %}
+                    </a>
                     {% if auction.is_active %}
                         {% if is_highest_bidder %}
                             <div class="item-badge bidder">Highest Bidder</div>

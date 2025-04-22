@@ -133,6 +133,15 @@ def create(request):
             })
 
 
+# TODO:
+#
+#   Watch Item Toggle
+#   Add Comment
+#   Place Bid
+#   Close Auction
+#   Admin View
+
+
 def place_bid(request):
     pass
 
