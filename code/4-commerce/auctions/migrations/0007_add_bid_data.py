@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
 
         for auction in Auction.objects.all():
 
-            if random.randint(0, 1) == 1:
+            if random.randint(0, 2) == 0:
                 continue
 
             amount = auction.start_bid
@@ -29,6 +29,19 @@ class Migration(migrations.Migration):
 
                 amount += (10 * random.randint(1, 5))
                 Bid.objects.create(auction=auction, user=user, amount=amount)
+
+        last_category = -1
+        for auction in Auction.objects.all()[::-1]:
+            if auction.category.id == last_category:
+                continue
+
+            highest_bid = Bid.objects.filter(auction=auction).order_by('-amount').first()
+            if highest_bid:
+                amount = highest_bid.amount + (10 * random.randint(1, 5))
+                Bid.objects.create(auction=auction, user=highest_bid.user, amount=amount, winning_bid=True)
+                auction.is_active = False
+                auction.save()
+                last_category = auction.category.id
 
 
     def remove_data(apps, schema_editor):

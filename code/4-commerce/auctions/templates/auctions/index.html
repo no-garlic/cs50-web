@@ -10,16 +10,25 @@
                     <div class="item-title-container">
                         <div class="item-title">{{ auction.title }}</div>
                         <div class="item-badges">
-                            {% if user.is_authenticated %}
-                                {% if auction.user_is_highest_bidder %}
-                                    <div class="item-badge bidder">Highest Bidder</div>
+                            {% if auction.is_active %}
+                                {% if user.is_authenticated %}
+                                    {% if auction.is_watched_by_user %}
+                                        <div class="item-badge watching">Watching</div>
+                                    {% endif %}
+                                    {% if auction.user_is_highest_bidder %}
+                                        <div class="item-badge bidder">Highest Bidder</div>
+                                    {% endif %}
+                                    {% if auction.user_is_outbid %}
+                                        <div class="item-badge outbid">Outbid</div>
+                                    {% endif %}
                                 {% endif %}
-                                {% if auction.user_is_outbid %}
-                                    <div class="item-badge outbid">Outbid</div>
+                            {% else %}
+                                {% if user.is_authenticated %}
+                                    {% if auction.is_watched_by_user %}
+                                        <div class="item-badge watching">Watching</div>
+                                    {% endif %}
                                 {% endif %}
-                                {% if auction.is_watched_by_user %}
-                                    <div class="item-badge watching">Watching</div>
-                                {% endif %}
+                                <div class="item-badge outbid">Sold</div>
                             {% endif %}
                         </div>
                     </div>
@@ -28,7 +37,7 @@
                     {% if auction.is_active %}
                         <div class="item-price">${{ auction.current_value }}</div>
                     {% else %}
-                        <div class="item-price-closed">${{ auction.start_bid }}</div>
+                    <div class="item-price-closed">${{ auction.current_value }}</div>
                     {% endif %}
                 </div>
             </div>

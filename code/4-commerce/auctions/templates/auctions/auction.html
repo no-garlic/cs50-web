@@ -7,21 +7,25 @@
             <div class="item-title-container">
                 <div class="item-title item-title-large">{{ auction.title }}</div>
                 <div class="item-badges">
-                  {% if user.is_authenticated %}
-                    {% if is_highest_bidder %}
-                    <div class="item-badge bidder">Highest Bidder</div>
-                    {% endif %}
-                    {% if is_outbid %}
-                    <div class="item-badge outbid">Outbid</div>
-                    {% endif %}
+                {% if user.is_authenticated %}
                     {% if is_watching %}
-                    <div class="item-badge watching">Watching</div>
+                        <div class="item-badge watching">Watching</div>
                     {% else %}
-                    <a href="{% url 'watch' %}">
-                        <div class="item-badge notwatching">Watch this item</div>
-                    </a>
+                        <a href="{% url 'watch' %}">
+                            <div class="item-badge notwatching">Watch this item</div>
+                        </a>
                     {% endif %}
-                  {% endif %}
+                    {% if auction.is_active %}
+                        {% if is_highest_bidder %}
+                            <div class="item-badge bidder">Highest Bidder</div>
+                        {% endif %}
+                        {% if is_outbid %}
+                            <div class="item-badge outbid">Outbid</div>
+                        {% endif %}
+                    {% else %}
+                        <div class="item-badge outbid">Sold</div>
+                    {% endif %}
+                {% endif %}
                 </div>
             </div>
         </div>

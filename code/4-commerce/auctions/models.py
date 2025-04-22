@@ -53,7 +53,7 @@ class Auction(models.Model):
             highest_bid = self.highest_bid()
             return highest_bid != user_bid
         return False
-
+    
 
 class Bid(models.Model):
     """
