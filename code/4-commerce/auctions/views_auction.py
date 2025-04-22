@@ -85,7 +85,7 @@ def index(request):
 def view(request, auction_id: int):
     auction = Auction.objects.get(id=auction_id)
     bids = Bid.objects.filter(auction=auction).order_by('amount')
-    comments = Comment.objects.filter(auction=auction)
+    comments = Comment.objects.filter(auction=auction).order_by("-id")
 
     if request.user and request.user.is_authenticated:
         is_watching = Watchlist.objects.filter(auction=auction, user=request.user)
@@ -147,8 +147,16 @@ def place_bid(request):
 
 
 def add_comment(request):
-    pass
-
+    if request.method == "POST":
+        auction_id = request.POST.get("auction_id")
+        content = request.POST.get("content")
+        auction = Auction.objects.get(id=auction_id)
+        user=request.user
+        Comment.objects.create(auction=auction, user=user, content=content)
+        return view(request=request, auction_id=auction_id)
+    else:
+        #error
+        pass
 
 def toggle_watchlist(request):
     pass

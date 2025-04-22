@@ -70,8 +70,9 @@
         <div class="listing-section">            
             <form class="comment-form" action="{% url 'add_comment' %}" method="post">
                 {% csrf_token %}
-                    <textarea class="form-control comment-input" name="comment" placeholder="Enter comment..." autocomplete="off" rows="3"></textarea>
+                    <textarea class="form-control comment-input" name="content" placeholder="Enter comment..." autocomplete="off" rows="3"></textarea>
                     <input class="form-control btn btn-primary comment-submit" type="submit" value="Comment">
+                    <input type="hidden" name="auction_id" value="{{ auction.id }}">
             </form>
         </div>
     </div>
