@@ -190,7 +190,7 @@ def place_bid(request):
     """
     if request.method == "POST":
         auction_id = request.POST.get("auction_id")
-        amount = request.POST.get("amount")
+        amount = int(request.POST.get("amount"))
         auction = Auction.objects.get(id=auction_id)
 
         if auction != None and amount > auction.current_value() and auction.is_active:

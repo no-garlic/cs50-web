@@ -51,6 +51,10 @@
                         {% endif %}
                         </div>
                         <div class="item-price-large">
+                    {% elif auction.owner == user %}
+                        You purchased this item.
+                        </div>
+                        <div class="item-price-large-closed">
                     {% else %}
                         Sold for:
                         </div>
@@ -69,7 +73,7 @@
                         </form>
                     </div>
                 {% endif %}
-            {% elif auction.is_active %}
+            {% elif auction.is_active and user.is_authenticated %}
                 <div class="listing-subsection bid-form-container">
                     {% if is_highest_bidder %}
                         You are the highest bidder.
@@ -89,14 +93,16 @@
                 </div>
             {% endif %}
         </div>
-        <div class="listing-section">            
-            <form class="comment-form" action="{% url 'add_comment' %}" method="post">
-                {% csrf_token %}
-                    <textarea class="form-control comment-input" name="content" placeholder="Enter comment..." autocomplete="off" rows="3"></textarea>
-                    <input class="form-control btn btn-primary comment-submit" type="submit" value="Comment">
-                    <input type="hidden" name="auction_id" value="{{ auction.id }}">
-            </form>
-        </div>
+        {% if user.is_authenticated %}
+            <div class="listing-section">            
+                <form class="comment-form" action="{% url 'add_comment' %}" method="post">
+                    {% csrf_token %}
+                        <textarea class="form-control comment-input" name="content" placeholder="Enter comment..." autocomplete="off" rows="3"></textarea>
+                        <input class="form-control btn btn-primary comment-submit" type="submit" value="Comment">
+                        <input type="hidden" name="auction_id" value="{{ auction.id }}">
+                </form>
+            </div>
+        {% endif %}
     </div>
     <div class="listing-section comment-section">
         {% for comment in comments %}
