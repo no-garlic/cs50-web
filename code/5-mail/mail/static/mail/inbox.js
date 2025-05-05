@@ -1,9 +1,10 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     // Use buttons to toggle between views
     document.querySelector('#inbox').addEventListener('click', () => load_mailbox('inbox'));
     document.querySelector('#sent').addEventListener('click', () => load_mailbox('sent'));
     document.querySelector('#archived').addEventListener('click', () => load_mailbox('archive'));
-    document.querySelector('#compose').addEventListener('click', compose_email);
+    document.querySelector('#compose').addEventListener('click', () => compose_email(null));
 
     // Submit the email
     document.querySelector('form').onsubmit = submit_email;
@@ -12,19 +13,40 @@ document.addEventListener('DOMContentLoaded', function() {
     load_mailbox('inbox');
 });
 
-function compose_email() {
+function compose_email(email = null) { 
     // Show compose view and hide other views
     document.querySelector('#mailbox-view').style.display = 'none';
     document.querySelector('#email-view').style.display = 'none';
     document.querySelector('#compose-view').style.display = 'block';
 
-    // Clear out composition fields
-    document.querySelector('#compose-recipients').value = '';
-    document.querySelector('#compose-subject').value = '';
-    document.querySelector('#compose-body').value = '';
+    // Check if we are replying to an email
+    if (email) {
+        // Pre-fill composition fields for reply
+        document.querySelector('#compose-recipients').value = email.sender;
+        
+        // Check if subject already starts with "Re: ", if not then prepend it
+        let subject = email.subject;
+        if (!subject.startsWith('Re: ')) {
+            subject = `Re: ${subject}`;
+        }
+        document.querySelector('#compose-subject').value = subject;
+
+        // Pre-fill body with quoted original email
+        document.querySelector('#compose-body').value = `\n\nOn ${email.timestamp} ${email.sender} wrote:\n${email.body}`;
+
+        // Place cursor at the beginning of the body
+        document.querySelector('#compose-body').focus();
+        document.querySelector('#compose-body').setSelectionRange(0, 0);
+    } else {
+        // Clear out composition fields for new email
+        document.querySelector('#compose-recipients').value = '';
+        document.querySelector('#compose-subject').value = '';
+        document.querySelector('#compose-body').value = '';
+    }
 }
 
 function submit_email() {
+    // Get the email content
     fetch('/emails', {
         method: 'POST',
         body: JSON.stringify({
@@ -35,9 +57,17 @@ function submit_email() {
       })
       .then(response => response.json())
       .then(result => {
-          console.log(result);
+          // Load the sent mailbox after sending the email
           load_mailbox('sent')
+      })
+      .catch(error => {
+          // Show the error message in the email view
+          console.error('Error sending email:', error);
+          const emailView = document.querySelector('#email-view');
+          emailView.innerHTML = '<p>Error sending email.</p>';
       });
+
+      // Prevent the form from submitting
     return false;
 }
 
@@ -54,12 +84,18 @@ function load_mailbox(mailbox) {
     fetch('/emails/' + mailbox)
     .then(response => response.json())
     .then(emails => {
-        console.log(emails);
+        // Iterate over the emails and create an item for each
         emails.forEach(contents => show_mailbox_item(contents, mailbox)); 
+    })
+    .catch(error => {
+        // Show the error message in the mailbox view
+        console.error('Error loading mailbox:', error);
+        document.querySelector('#mailbox-view').innerHTML = '<p>Error loading mailbox.</p>';
     });
 }
 
 function show_mailbox_item(contents, mailbox) { 
+    // Create a div for the email item
     const email = document.createElement('div');
     email.classList.add('email-item');
     
@@ -112,8 +148,8 @@ function show_email(id, mailbox) { // Accept mailbox here
     fetch('/emails/' + id)
     .then(response => response.json())
     .then(email => {
+        // Mark the email as read
         mark_email_read(id);
-        console.log(email);
 
         // Get the email view and clear it
         emailView = document.querySelector('#email-view')
@@ -133,7 +169,7 @@ function show_email(id, mailbox) { // Accept mailbox here
         const replyButton = document.createElement('button');
         replyButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'email-button');
         replyButton.textContent = 'Reply';
-        replyButton.addEventListener('click', () => reply_to_email(email.id));
+        replyButton.addEventListener('click', () => reply_to_email(email));
         emailView.append(replyButton);
 
         // Add Archive/Unarchive button only if not in 'sent' mailbox
@@ -164,6 +200,7 @@ function show_email(id, mailbox) { // Accept mailbox here
         emailView.append(bodyDiv);
     })
     .catch(error => {
+        // Show the error message in the email view
         console.error('Error fetching email:', error);
         emailView.innerHTML = '<p>Error loading email.</p>';
     });
@@ -177,6 +214,10 @@ function mark_email_read(id) {
             read: true
         })
     })
+    .catch(error => {
+        // Show the error message in the email view
+        console.error('Error marking email as read:', error);
+    });
 }
 
 function archive_email(id) {
@@ -188,8 +229,13 @@ function archive_email(id) {
         })
     })
     .then(email => {
+        // Load the inbox after archiving
         load_mailbox('inbox');
     })    
+    .catch(error => {
+        // Show the error message in the email view
+        console.error('Error archiving email:', error);
+    });
 }
 
 function unarchive_email(id) {
@@ -201,10 +247,16 @@ function unarchive_email(id) {
         })
     })
     .then(email => {
+        // Load the inbox after unarchiving
         load_mailbox('inbox');
     })
+    .catch(error => {
+        // Show the error message in the email view
+        console.error('Error unarchiving email:', error);
+    });
 }
 
-function reply_to_email(email) {
-    console.log('reply to email [' + email.id + ']');
+function reply_to_email(email) { 
+    // Compose a new email using the original email's details
+    compose_email(email);
 }
