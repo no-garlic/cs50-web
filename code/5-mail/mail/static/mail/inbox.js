@@ -131,10 +131,25 @@ function show_email(id) {
 
         // Add Reply button
         const replyButton = document.createElement('button');
-        replyButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'reply-button');
+        replyButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'email-button');
         replyButton.textContent = 'Reply';
-        replyButton.addEventListener('click', () => reply_to_email(email));
+        replyButton.addEventListener('click', () => reply_to_email(email.id));
         emailView.append(replyButton);
+
+        // Add Archive button
+        if (email.archived === false) {
+            const archiveButton = document.createElement('button');
+            archiveButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'email-button');
+            archiveButton.textContent = 'Archive';
+            archiveButton.addEventListener('click', () => archive_email(email.id));
+            emailView.append(archiveButton);
+        } else {
+            const archiveButton = document.createElement('button');
+            archiveButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'email-button');
+            archiveButton.textContent = 'Unarchive';
+            archiveButton.addEventListener('click', () => unarchive_email(email.id));
+            emailView.append(archiveButton);
+        }
 
         // Add horizontal line
         const hr = document.createElement('hr');
@@ -167,9 +182,12 @@ function archive_email(id) {
     fetch('/emails/' + id, {
         method: 'PUT',
         body: JSON.stringify({
-            archive: true
+            archived: true
         })
     })
+    .then(email => {
+        load_mailbox('inbox');
+    })    
 }
 
 function unarchive_email(id) {
@@ -177,8 +195,11 @@ function unarchive_email(id) {
     fetch('/emails/' + id, {
         method: 'PUT',
         body: JSON.stringify({
-            archive: false
+            archived: false
         })
+    })
+    .then(email => {
+        load_mailbox('inbox');
     })
 }
 

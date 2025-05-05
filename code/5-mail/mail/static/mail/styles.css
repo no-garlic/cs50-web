@@ -8,7 +8,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: pointer; /* Add pointer cursor on hover */
+    cursor: pointer;
 }
 
 .email-item-unread {
@@ -22,40 +22,41 @@ textarea {
 
 .email-sender {
     font-weight: bold;
-    width: 220px; /* Consider if this fixed width is always desired */
-    white-space: nowrap; /* Prevent sender from wrapping */
-    overflow: hidden; /* Hide overflow if name is too long */
-    text-overflow: ellipsis; /* Add ellipsis if name is too long */
+    width: 220px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
 }
 
 .email-subject {
     margin-left: 10px;
-    white-space: nowrap; /* Prevent subject from wrapping */
-    overflow: hidden; /* Hide overflow if subject is too long */
-    text-overflow: ellipsis; /* Add ellipsis if subject is too long */
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
 }
 
 .email-timestamp {
     color: gray;
     font-size: 0.9em;
-    white-space: nowrap; /* Prevent timestamp from wrapping */
+    white-space: nowrap; 
 }
 
 .email-header-line {
-    margin-bottom: 5px; /* Add some space between header lines */
+    margin-bottom: 5px; 
 }
 
 .email-header-label {
     font-weight: bold;
-    margin-right: 5px; /* Add space after the bold label */
+    margin-right: 5px; 
 }
 
-.reply-button {
-    margin-top: 10px; /* Add space above the reply button */
-    margin-bottom: 10px; /* Add space below the reply button */
+.email-button {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    margin-right: 4px;
 }
 
 .email-body-content {
-    white-space: pre-wrap; /* Preserve whitespace and line breaks from the body */
-    margin-top: 15px; /* Add space above the body content */
+    white-space: pre-wrap; 
+    margin-top: 15px; 
 }
