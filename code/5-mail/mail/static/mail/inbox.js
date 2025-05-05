@@ -55,11 +55,11 @@ function load_mailbox(mailbox) {
     .then(response => response.json())
     .then(emails => {
         console.log(emails);
-        emails.forEach(show_mailbox_item);
+        emails.forEach(contents => show_mailbox_item(contents, mailbox)); 
     });
 }
 
-function show_mailbox_item(contents) {
+function show_mailbox_item(contents, mailbox) { 
     const email = document.createElement('div');
     email.classList.add('email-item');
     
@@ -69,7 +69,7 @@ function show_mailbox_item(contents) {
     }
 
     // Add click event listener to the email div
-    email.addEventListener('click', () => show_email(contents.id));
+    email.addEventListener('click', () => show_email(contents.id, mailbox)); 
 
     // Create container for sender and subject
     const leftContainer = document.createElement('div');
@@ -102,7 +102,7 @@ function show_mailbox_item(contents) {
     document.querySelector('#mailbox-view').append(email);
 }
 
-function show_email(id) {
+function show_email(id, mailbox) { // Accept mailbox here
     // Show the email view and hide other views
     document.querySelector('#mailbox-view').style.display = 'none';
     document.querySelector('#email-view').style.display = 'block';
@@ -136,19 +136,21 @@ function show_email(id) {
         replyButton.addEventListener('click', () => reply_to_email(email.id));
         emailView.append(replyButton);
 
-        // Add Archive button
-        if (email.archived === false) {
-            const archiveButton = document.createElement('button');
-            archiveButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'email-button');
-            archiveButton.textContent = 'Archive';
-            archiveButton.addEventListener('click', () => archive_email(email.id));
-            emailView.append(archiveButton);
-        } else {
-            const archiveButton = document.createElement('button');
-            archiveButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'email-button');
-            archiveButton.textContent = 'Unarchive';
-            archiveButton.addEventListener('click', () => unarchive_email(email.id));
-            emailView.append(archiveButton);
+        // Add Archive/Unarchive button only if not in 'sent' mailbox
+        if (mailbox !== 'sent') {
+            if (email.archived === false) {
+                const archiveButton = document.createElement('button');
+                archiveButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'email-button');
+                archiveButton.textContent = 'Archive';
+                archiveButton.addEventListener('click', () => archive_email(email.id));
+                emailView.append(archiveButton);
+            } else {
+                const archiveButton = document.createElement('button');
+                archiveButton.classList.add('btn', 'btn-sm', 'btn-outline-primary', 'email-button');
+                archiveButton.textContent = 'Unarchive';
+                archiveButton.addEventListener('click', () => unarchive_email(email.id));
+                emailView.append(archiveButton);
+            }
         }
 
         // Add horizontal line
