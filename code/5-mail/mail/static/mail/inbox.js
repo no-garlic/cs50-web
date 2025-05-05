@@ -62,8 +62,44 @@ function load_mailbox(mailbox) {
 
 function show_email(contents) {
     const email = document.createElement('div');
+
+    // Add styles for border, padding, and flex display for columns
     email.style.border = '1px solid black';
     email.style.padding = '10px 5px';
-    email.innerHTML = contents.sender + contents.subject + contents.timestamp;
-    document.querySelector('#emails-view').append(email)
+    email.style.display = 'flex';
+    email.style.justifyContent = 'space-between';
+    email.style.alignItems = 'center';
+
+    // Create container for sender and subject
+    const leftContainer = document.createElement('div');
+    leftContainer.style.display = 'flex';
+    leftContainer.style.alignItems = 'center';
+
+    // Create sender element (bold)
+    const senderSpan = document.createElement('span');
+    senderSpan.style.fontWeight = 'bold';
+    senderSpan.textContent = contents.sender;
+    senderSpan.style.width = '220px'; 
+
+    // Create subject element
+    const subjectSpan = document.createElement('span');
+    subjectSpan.style.marginLeft = '10px';
+    subjectSpan.textContent = contents.subject;
+
+    // Append sender and subject to the left container
+    leftContainer.append(senderSpan);
+    leftContainer.append(subjectSpan);
+
+    // Create timestamp element
+    const timestampSpan = document.createElement('span');
+    timestampSpan.style.color = 'gray';
+    timestampSpan.style.fontSize = '0.9em';
+    timestampSpan.textContent = contents.timestamp;
+
+    // Add the content to the div
+    email.append(leftContainer);
+    email.append(timestampSpan);
+
+    // Add the div to the view
+    document.querySelector('#emails-view').append(email);
 }
