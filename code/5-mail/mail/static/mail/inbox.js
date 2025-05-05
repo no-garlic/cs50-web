@@ -62,9 +62,8 @@ function load_mailbox(mailbox) {
 
 function show_email(contents) {
     const email = document.createElement('div');
-    email.className = 'email';
-    email.innerHTML = contents.subject;
-
+    email.style.border = '1px solid black';
+    email.style.padding = '10px 5px';
+    email.innerHTML = contents.sender + contents.subject + contents.timestamp;
     document.querySelector('#emails-view').append(email)
-
 }
