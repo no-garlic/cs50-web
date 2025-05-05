@@ -79,7 +79,7 @@ def add_data(apps, schema_editor):
                 sender_id=sender_id,
                 subject=subject,
                 body=body,
-                read=False,
+                read=random.choice([True, False]),
                 archived=False
             ).recipients.set(recipients)
 
