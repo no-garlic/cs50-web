@@ -4,7 +4,7 @@ from django.db import migrations
 import random
 
 
-def add_likes(apps, schema_editor):
+def add_data(apps, schema_editor):
     User = apps.get_model('network', 'User')
     Post = apps.get_model('network', 'Post')
     Like = apps.get_model('network', 'Like')
@@ -13,22 +13,13 @@ def add_likes(apps, schema_editor):
     all_posts = list(Post.objects.all())
     
     for post in all_posts:
-        post_creator = post.user
-        
-        # Filter out the post creator from potential likers
-        potential_likers = [user for user in all_users if user != post_creator]
-        
-        # Randomly choose how many users will like this post (1-3)
+        potential_likers = [user for user in all_users if user != post.user]
         num_likers = min(random.randint(1, 3), len(potential_likers))
-        
-        # Randomly select unique users who will like this post
         chosen_likers = random.sample(potential_likers, num_likers)
-        
-        # Create like objects
         for liker in chosen_likers:
             Like.objects.create(user=liker, post=post)
 
-def remove_likes(apps, schema_editor):
+def remove_data(apps, schema_editor):
     Like = apps.get_model('network', 'Like')
     Like.objects.all().delete()
 
@@ -40,5 +31,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunPython(add_likes, reverse_code=remove_likes)
+        migrations.RunPython(add_data, reverse_code=remove_data)
     ]
