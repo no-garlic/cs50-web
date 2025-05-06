@@ -30,8 +30,11 @@ class CreatePostForm(forms.ModelForm):
 
 
 def index(request):
+    posts = Post.objects.all().order_by("-created_at")
+
     return render(request, "network/index.html", {
-        "active_filter": "all"
+        "active_filter": "all",
+        "posts": posts,
     })
 
 

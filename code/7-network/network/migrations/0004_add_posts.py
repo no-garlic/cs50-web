@@ -2,6 +2,7 @@
 
 from django.db import migrations
 import random
+from datetime import datetime, timedelta
 
 def add_data(apps, schema_editor):
     User = apps.get_model('network', 'User')
@@ -163,10 +164,19 @@ def add_data(apps, schema_editor):
         "Explored a new coastal trail, collecting seashells and breathing salty air. The ocean heals!",
     ]
 
+    current_date = datetime(2024, 1, 1)
     for sample_post in sample_posts:
         random_user = random.choice(users)
-        Post.objects.create(user=random_user, content=sample_post)
-    
+        random_hour = random.randint(0, 23)
+        random_minute = random.randint(0, 59)
+        random_second = random.randint(0, 59)
+        post_date = current_date.replace(hour=random_hour, minute=random_minute, second=random_second)
+        
+        Post.objects.create(user=random_user, content=sample_post, created_at=post_date)
+       
+        days_increment = random.randint(2, 4)
+        current_date += timedelta(days=days_increment)
+
 
 def remove_data(apps, schema_editor):
     Post = apps.get_model('network', 'Post')

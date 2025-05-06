@@ -250,3 +250,38 @@ form {
 .btn-margin {
     margin-top: 20px;
 }
+
+.post-container {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    padding: 5px 15px;
+}
+
+.post-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.post-edit {
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-bottom: 10px;
+}
+
+.post-date {
+    color: gray;
+}
+
+.post-likes {
+    color: gray;
+}
+
+.post-likes::before {
+    content: "❤️";
+    padding-right: 5px;
+}
