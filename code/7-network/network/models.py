@@ -9,6 +9,9 @@ class User(AbstractUser):
     def display_name(self):
         return f"{self.first_name} {self.last_name}" if self.first_name and self.last_name else self.username
     
+    def is_following(self, user):
+        return self.following.filter(followed=user).exists()
+    
         
 class Post(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="posts")

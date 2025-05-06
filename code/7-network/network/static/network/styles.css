@@ -285,3 +285,29 @@ form {
     content: "❤️";
     padding-right: 5px;
 }
+
+.profile-container {
+    border: none;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    padding: 5px 15px;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-stats {
+    text-align: right;
+}
+
+.profile-stats button {
+    margin-top: 5px;
+}

@@ -12,7 +12,7 @@ def add_data(apps, schema_editor):
     
     for user in all_users:
         potential_followed_users = [other_user for other_user in all_users if other_user != user]
-        num_to_follow = min(random.randint(1, 4), len(potential_followed_users))
+        num_to_follow = min(random.randint(3, 7), len(potential_followed_users))
         users_to_follow = random.sample(potential_followed_users, num_to_follow)
         for followed_user in users_to_follow:
             Follow.objects.create(follower=user, followed=followed_user)

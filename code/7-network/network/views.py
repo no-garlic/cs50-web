@@ -38,6 +38,28 @@ def index(request):
     })
 
 
+def profile(request, user_id):
+    owner = User.objects.get(id=user_id)
+    posts = Post.objects.filter(user=owner).order_by("-created_at")
+    followers = Follow.objects.filter(followed=owner).count()
+    following = Follow.objects.filter(follower=owner).count()
+    is_following = request.user.is_following(owner) if request.user.is_authenticated else False
+
+    if request.user.id == user_id:
+        active_filter = "profile"
+    else:
+        active_filter = "other"
+
+    return render(request, "network/profile.html", {
+        "owner": owner,
+        "posts": posts,
+        "followers": followers,
+        "following": following,
+        "is_following": is_following,
+        "active_filter": active_filter
+    })
+
+
 @login_required
 def create(request, error_message=None):
     if request.method == "GET":
