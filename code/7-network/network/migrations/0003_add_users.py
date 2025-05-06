@@ -6,12 +6,18 @@ from django.contrib.auth.hashers import make_password
 
 def add_data(apps, schema_editor):
     users = apps.get_model('network', 'User')
-    users.objects.create(username='admin@example.com', password=make_password('admin'), email='admin@example.com', first_name='admin', last_name='admin', is_superuser=True, is_staff=True)
-    users.objects.create(username='mike@example.com', password=make_password('mike'), email='mike@example.com', first_name='mike', last_name='jones', is_superuser=True, is_staff=True)
-    users.objects.create(username='bob@example.com', password=make_password('bob'), email='bob@example.com', first_name='bob', last_name='carter', is_superuser=False)
-    users.objects.create(username='emma@example.com', password=make_password('emma'), email='emma@example.com', first_name='emma', last_name='wilson', is_superuser=False)
-    users.objects.create(username='james@example.com', password=make_password('james'), email='james@example.com', first_name='james', last_name='harris', is_superuser=False)
-    users.objects.create(username='sally@example.com', password=make_password('sally'), email='sally@example.com', first_name='sally', last_name='mitchell', is_superuser=False)
+    users.objects.create(username='admin', password=make_password('admin'), email='admin@example.com', first_name='admin', last_name='admin', is_superuser=True, is_staff=True)
+    users.objects.create(username='mike', password=make_password('mike'), email='mike@example.com', first_name='mike', last_name='jones', is_superuser=True, is_staff=True)
+    users.objects.create(username='bob', password=make_password('bob'), email='bob@example.com', first_name='bob', last_name='carter', is_superuser=False)
+    users.objects.create(username='emma', password=make_password('emma'), email='emma@example.com', first_name='emma', last_name='wilson', is_superuser=False)
+    users.objects.create(username='james', password=make_password('james'), email='james@example.com', first_name='james', last_name='harris', is_superuser=False)
+    users.objects.create(username='sally', password=make_password('sally'), email='sally@example.com', first_name='sally', last_name='mitchell', is_superuser=False)
+    users.objects.create(username='alex', password=make_password('alex'), email='alex@example.com', first_name='alex', last_name='thompson', is_superuser=False)
+    users.objects.create(username='lisa', password=make_password('lisa'), email='lisa@example.com', first_name='lisa', last_name='brown', is_superuser=False)
+    users.objects.create(username='chris', password=make_password('chris'), email='chris@example.com', first_name='chris', last_name='davis', is_superuser=False)
+    users.objects.create(username='olivia', password=make_password('olivia'), email='olivia@example.com', first_name='olivia', last_name='martinez', is_superuser=False)
+    users.objects.create(username='david', password=make_password('david'), email='david@example.com', first_name='david', last_name='garcia', is_superuser=False)
+    users.objects.create(username='sarah', password=make_password('sarah'), email='sarah@example.com', first_name='sarah', last_name='rodriguez', is_superuser=False)
 
 def remove_data(apps, schema_editor):
     users = apps.get_model('network', 'User')
@@ -21,6 +27,12 @@ def remove_data(apps, schema_editor):
     users.objects.filter(username='emma').delete()
     users.objects.filter(username='james').delete()
     users.objects.filter(username='sally').delete()
+    users.objects.filter(username='alex').delete()
+    users.objects.filter(username='lisa').delete()
+    users.objects.filter(username='chris').delete()
+    users.objects.filter(username='olivia').delete()
+    users.objects.filter(username='david').delete()
+    users.objects.filter(username='sarah').delete()
 
 
 class Migration(migrations.Migration):
