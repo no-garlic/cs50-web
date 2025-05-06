@@ -24,7 +24,7 @@
                     <li><a href="{% url 'create' %}" class="{% if active_filter == 'new' %}active-link{% endif %}">New Post</a></li>
                     <li><a href="{% url 'index' %}" class="{% if active_filter == 'all' %}active-link{% endif %}">All Posts</a></li>
                     {% if user.is_authenticated %}
-                        <li><a href="#" class="{% if active_filter == 'following' %}active-link{% endif %}">Following</a></li>
+                        <li><a href="{% url 'following' %}" class="{% if active_filter == 'following' %}active-link{% endif %}">Following</a></li>
                     {% endif %}
                     
                     {% if user.is_authenticated %}

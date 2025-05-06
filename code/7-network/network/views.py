@@ -39,6 +39,20 @@ def index(request):
     })
 
 
+@login_required
+def following(request):
+    if request.user.is_authenticated:
+        following_users = Follow.objects.filter(follower=request.user).values_list('followed', flat=True)
+        posts = Post.objects.filter(user__in=following_users).order_by("-created_at")
+    else:
+        posts = []
+
+    return render(request, "network/index.html", {
+        "active_filter": "following",
+        "posts": posts,
+    })
+
+
 def profile(request, user_id):
     owner = User.objects.get(id=user_id)
     posts = Post.objects.filter(user=owner).order_by("-created_at")
