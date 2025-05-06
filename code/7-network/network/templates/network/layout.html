@@ -6,44 +6,47 @@
         <title>{% block title %}Social Network{% endblock %}</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="{% static 'network/styles.css' %}" rel="stylesheet">
+        {% block head %}{% endblock %}
     </head>
     <body>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Network</a>
-          
-            <div>
-              <ul class="navbar-nav mr-auto">
-                {% if user.is_authenticated %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><strong>{{ user.username }}</strong></a>
+        <div class="header">
+        </div>
+        <div class="page-container">
+            <aside class="sidebar">
+                <ul>
+                    <li class="sidebar-logo">
+                        <a href="{% url 'index' %}">
+                            <img src="{% static 'network/network.jpeg' %}" alt="Network Logo" style="width: 100%;">
+                        </a>                        
                     </li>
+                    <li class="sidebar-heading">Navigation</li>
+                    <li><a href="{% url 'create' %}">New Posts</a></li>
+                    <li><a href="{% url 'index' %}">All Posts</a></li>
+                    {% if user.is_authenticated %}
+                        <li><a href="#">Following</a></li>
+                    {% endif %}
+                    
+                    {% if user.is_authenticated %}
+                        <li class="sidebar-heading">Account ({{ user.username }})</li>
+                        <li><a href="#">My Profile</a></li>
+                        <hr>
+                        <li><a href="{% url 'logout' %}">Log Out</a></li>
+                    {% else %}
+                        <li class="sidebar-heading">Account (not signed in)</li>
+                        <li><a href="{% url 'login' %}">Log In</a></li>
+                        <li><a href="{% url 'register' %}">Register</a></li>
+                    {% endif %}
+                </ul>
+            </aside>
+            <main class="content">
+                {% if error_message %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error_message }}
+                    </div>                    
                 {% endif %}
-                <li class="nav-item">
-                  <a class="nav-link" href="{% url 'index' %}">All Posts</a>
-                </li>
-                {% if user.is_authenticated %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Following</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
-                    </li>
-                {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'login' %}">Log In</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'register' %}">Register</a>
-                    </li>
-                {% endif %}
-              </ul>
-            </div>
-          </nav>
-        
-        <div class="body">
-            {% block body %}
-            {% endblock %}
+                {% block body %}
+                {% endblock %}
+            </main>
         </div>
     </body>
 </html>

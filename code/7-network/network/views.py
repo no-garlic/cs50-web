@@ -1,14 +1,60 @@
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.db import IntegrityError
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.urls import reverse
+from django import forms
+from .models import *
 
-from .models import User
+
+class CreatePostForm(forms.ModelForm):
+    """
+    Form for creating a new post
+    """
+    class Meta:
+        model = Post
+        fields = ['content']
+        widgets = {
+            'content': forms.Textarea(attrs={'class': 'form-control mb-3'}),
+        }
+
+    def __init__(self, *args, **kwargs):
+        """
+        Initialize the form and set placeholders for each field.
+        """
+        super().__init__(*args, **kwargs)
+        for _, field in self.fields.items():
+            field.widget.attrs['placeholder'] = ""
+            field.label = ""
 
 
 def index(request):
     return render(request, "network/index.html")
+
+
+@login_required
+def create(request, error_message=None):
+    if request.method == "GET":
+        form = CreatePostForm()    
+        return render(request, "network/create.html", {
+            "post_form": form,
+            "active_filter": "new"
+        })
+    
+    elif request.method == "POST":
+        form = CreatePostForm(request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.user = request.user
+            post.save()
+            return redirect(reverse("index"))
+        else:
+            return render(request, "network/create.html", {
+                "post_form": form,
+                "active_filter": "new",
+                "error_message": error_message
+            })
 
 
 def login_view(request):
