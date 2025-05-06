@@ -6,6 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render, redirect
 from django.urls import reverse
 from django import forms
+from django.core.paginator import Paginator
 from .models import *
 
 
@@ -31,11 +32,16 @@ class CreatePostForm(forms.ModelForm):
 
 
 def index(request):
-    posts = Post.objects.all().order_by("-created_at")
-
+    posts_list = Post.objects.all().order_by("-created_at")
+    
+    paginator = Paginator(posts_list, 10)
+    page_number = request.GET.get('page', 1)
+    page_obj = paginator.get_page(page_number)
+    
     return render(request, "network/index.html", {
         "active_filter": "all",
-        "posts": posts,
+        "posts": page_obj,
+        "page_obj": page_obj,
     })
 
 
@@ -43,22 +49,31 @@ def index(request):
 def following(request):
     if request.user.is_authenticated:
         following_users = Follow.objects.filter(follower=request.user).values_list('followed', flat=True)
-        posts = Post.objects.filter(user__in=following_users).order_by("-created_at")
+        posts_list = Post.objects.filter(user__in=following_users).order_by("-created_at")
     else:
-        posts = []
-
+        posts_list = []
+    
+    paginator = Paginator(posts_list, 10)
+    page_number = request.GET.get('page', 1)
+    page_obj = paginator.get_page(page_number)
+    
     return render(request, "network/index.html", {
         "active_filter": "following",
-        "posts": posts,
+        "posts": page_obj,
+        "page_obj": page_obj,
     })
 
 
 def profile(request, user_id):
     owner = User.objects.get(id=user_id)
-    posts = Post.objects.filter(user=owner).order_by("-created_at")
+    posts_list = Post.objects.filter(user=owner).order_by("-created_at")
     followers = Follow.objects.filter(followed=owner).count()
     following = Follow.objects.filter(follower=owner).count()
     is_following = request.user.is_following(owner) if request.user.is_authenticated else False
+
+    paginator = Paginator(posts_list, 10)
+    page_number = request.GET.get('page', 1)
+    page_obj = paginator.get_page(page_number)
 
     if request.user.id == user_id:
         active_filter = "profile"
@@ -67,7 +82,8 @@ def profile(request, user_id):
 
     return render(request, "network/profile.html", {
         "owner": owner,
-        "posts": posts,
+        "posts": page_obj,
+        "page_obj": page_obj,
         "followers": followers,
         "following": following,
         "is_following": is_following,
