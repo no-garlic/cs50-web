@@ -30,7 +30,9 @@ class CreatePostForm(forms.ModelForm):
 
 
 def index(request):
-    return render(request, "network/index.html")
+    return render(request, "network/index.html", {
+        "active_filter": "all"
+    })
 
 
 @login_required
