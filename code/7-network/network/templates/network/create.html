@@ -1,4 +1,9 @@
 {% extends "network/layout.html" %}
+{% load static %}
+
+{% block head %}
+    <script src="{% static 'network/create.js' %}"></script>
+{% endblock %}
 
 {% block body %}
     <div class="page-title">
@@ -9,3 +14,4 @@
         <input type="submit" class="btn btn-primary" value="Submit">
     </form>
 {% endblock %}
+

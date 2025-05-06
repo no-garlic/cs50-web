@@ -5,6 +5,10 @@ body {
     align-items: center;
 }
 
+form {
+    margin-right: 20px;
+}
+
 .container {
     width: 100%;
     max-width: 960px;
