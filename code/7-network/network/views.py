@@ -1,7 +1,8 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.db import IntegrityError
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render, redirect
 from django.urls import reverse
 from django import forms
@@ -82,6 +83,22 @@ def create(request, error_message=None):
                 "active_filter": "new",
                 "error_message": error_message
             })
+
+
+@csrf_exempt
+@login_required
+def follow(request, user_id):
+    if request.method == "PUT":
+        user_to_follow = User.objects.get(id=user_id)
+
+        if request.user.is_following(user_to_follow):
+            Follow.objects.filter(follower=request.user, followed=user_to_follow).delete()
+            label = "Follow"
+        else:
+            Follow.objects.create(follower=request.user, followed=user_to_follow)
+            label = "Unfollow"
+
+        return JsonResponse({"message": "User followed successfully.", "label": label}, status=201)
 
 
 def login_view(request):
