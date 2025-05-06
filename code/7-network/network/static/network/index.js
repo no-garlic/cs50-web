@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const follow_button = document.querySelector('#follow-button');
 
-    if (follow_button !== undefined) {
-        document.querySelector('#follow-button').onclick = () => {        
+    if (follow_button != undefined && follow_button != null) {
+        follow_button.onclick = () => {        
             
             const id = follow_button.dataset.user;
 
@@ -24,4 +24,52 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
+
+    const post_edit_buttons = document.querySelectorAll('[id^="post-edit-button-"');
+
+    post_edit_buttons.forEach(button => {
+        button.onclick = () => {
+            const post_id = button.dataset.id;
+
+            const post_view = document.querySelector('#post-view-' + post_id)
+            const post_edit = document.querySelector('#post-edit-' + post_id)
+            const post_edit_button = document.querySelector('#post-edit-button-' + post_id)
+            const post_save_button = document.querySelector('#post-save-button-' + post_id)
+            const post_cancel_button = document.querySelector('#post-cancel-button-' + post_id)
+            const post_edit_textarea = post_edit.children[0];
+
+            post_view.style.display = 'none';
+            post_edit.style.display = 'block';
+            post_edit_button.style.display = 'none';
+            post_save_button.style.display = 'inline-block';
+            post_cancel_button.style.display = 'inline-block';
+            post_edit_textarea.value = post_view.innerHTML;
+
+            post_cancel_button.onclick = () => {
+                post_view.style.display = 'block';
+                post_edit.style.display = 'none';
+                post_edit_button.style.display = 'inline-block';
+                post_save_button.style.display = 'none';
+                post_cancel_button.style.display = 'none';
+                post_edit_textarea.value = '';
+            }
+
+            post_save_button.onclick = () => {
+
+                // need to do a PUT request to update the value on the backend
+
+                // need to refactor this to separate functions before it gets out of hand
+
+                post_view.style.display = 'block';
+                post_edit.style.display = 'none';
+                post_edit_button.style.display = 'inline-block';
+                post_save_button.style.display = 'none';
+                post_cancel_button.style.display = 'none';
+                post_view.innerHTML = post_edit_textarea.value;
+                
+            }
+        }
+    })
+
+
 });

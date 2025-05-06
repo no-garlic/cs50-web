@@ -271,11 +271,13 @@ form {
 }
 
 .post-content {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .post-date {
     color: gray;
+    margin-top: 10px;
 }
 
 .post-likes {

@@ -34,8 +34,17 @@
             {% for post in posts %}
                 <div class="post-container">
                     <div class="post-name"><a href="{% url 'profile' post.user.id %}">{{ post.user.username }}</a></div>
-                    <div class="post-edit">Edit</div>
-                    <div class="post-content">{{ post.content }}</div>
+
+                    <div class="post-content" id="post-view-{{ post.id }}">{{ post.content }}</div>
+
+                    <div class="post-content" id="post-edit-{{ post.id }}" style="display: none;">
+                        <textarea class="form-control mb-3" cols="40" rows="10" required></textarea>
+                    </div>                                    
+                    
+                    <button class="btn btn-primary btn-sm" id="post-edit-button-{{ post.id }}" data-id="{{ post.id }}">Edit</button>
+                    <button class="btn btn-primary btn-sm" id="post-save-button-{{ post.id }}" style="display: none;" data-id="{{ post.id }}">Save</button>
+                    <button class="btn btn-primary btn-sm" id="post-cancel-button-{{ post.id }}" style="display: none;" data-id="{{ post.id }}">Cancel</button>
+
                     <div class="post-date">{{ post.created_at }}</div>
                     <div class="post-likes">{{ post.get_likes_count }}</div>
                 </div>
