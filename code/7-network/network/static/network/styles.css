@@ -331,4 +331,14 @@ form {
     overflow-y: auto;
     flex: 1;
     padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pagination-wrapper {
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    padding-top: 10px;
+    z-index: 5;
+    margin-top: auto;
 }

@@ -38,10 +38,12 @@ def index(request):
     page_number = request.GET.get('page', 1)
     page_obj = paginator.get_page(page_number)
     
-    return render(request, "network/index.html", {
+    return render(request, "network/profile.html", {
         "active_filter": "all",
+        "show_profile": False,
         "posts": page_obj,
         "page_obj": page_obj,
+        "owner": None,
     })
 
 
@@ -57,10 +59,12 @@ def following(request):
     page_number = request.GET.get('page', 1)
     page_obj = paginator.get_page(page_number)
     
-    return render(request, "network/index.html", {
+    return render(request, "network/profile.html", {
         "active_filter": "following",
+        "show_profile": False,
         "posts": page_obj,
         "page_obj": page_obj,
+        "owner": None,
     })
 
 
@@ -81,13 +85,14 @@ def profile(request, user_id):
         active_filter = "other"
 
     return render(request, "network/profile.html", {
-        "owner": owner,
+        "active_filter": active_filter,
+        "show_profile": True,
         "posts": page_obj,
         "page_obj": page_obj,
+        "owner": owner,
         "followers": followers,
         "following": following,
-        "is_following": is_following,
-        "active_filter": active_filter
+        "is_following": is_following
     })
 
 
