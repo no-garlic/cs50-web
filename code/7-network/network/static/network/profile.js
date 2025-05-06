@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(response => response.json())
             .then(json_data => {
                 follow_button.innerHTML = json_data.label;
+                document.querySelector('#followers-count').innerHTML = `Followers: ${json_data.followers_count}`;
             })
             .catch(error => {
                 console.error('Error updating the following status:', error);

@@ -14,7 +14,7 @@
                         <div class="profile-name">{{ owner.display_name }} ({{ owner.username }})</div>
                     </div>
                     <div class="profile-stats">
-                        <div>Followers: {{ followers }}</div>
+                        <div id="followers-count">Followers: {{ followers }}</div>
                         <div>Following: {{ following }}</div>
                         {% if active_filter == 'other' and user.is_authenticated %}
                             {% if is_following %}

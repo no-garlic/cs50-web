@@ -133,7 +133,16 @@ def follow(request, user_id):
             Follow.objects.create(follower=request.user, followed=user_to_follow)
             label = "Unfollow"
 
-        return JsonResponse({"message": "User followed successfully.", "label": label}, status=201)
+        followers_count = Follow.objects.filter(followed=user_to_follow).count()
+
+        return JsonResponse(
+            {
+                "message": "User followed successfully.",
+                "label": label,
+                "followers_count": followers_count
+            }, 
+            status=201
+        )
 
 
 def login_view(request):
