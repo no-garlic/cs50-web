@@ -21,7 +21,9 @@
                         </a>                        
                     </li>
                     <li class="sidebar-heading">Navigation</li>
-                    <li><a href="{% url 'create' %}" class="{% if active_filter == 'new' %}active-link{% endif %}">New Post</a></li>
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'create' %}" class="{% if active_filter == 'new' %}active-link{% endif %}">New Post</a></li>
+                    {% endif %}
                     <li><a href="{% url 'index' %}" class="{% if active_filter == 'all' %}active-link{% endif %}">All Posts</a></li>
                     {% if user.is_authenticated %}
                         <li><a href="{% url 'following' %}" class="{% if active_filter == 'following' %}active-link{% endif %}">Following</a></li>
