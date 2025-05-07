@@ -41,9 +41,11 @@
                         <textarea class="form-control mb-3" cols="40" rows="10" required></textarea>
                     </div>                                    
                     
-                    <button class="btn btn-primary btn-sm" id="post-edit-button-{{ post.id }}" data-id="{{ post.id }}">Edit</button>
-                    <button class="btn btn-primary btn-sm" id="post-save-button-{{ post.id }}" style="display: none;" data-id="{{ post.id }}">Save</button>
-                    <button class="btn btn-primary btn-sm" id="post-cancel-button-{{ post.id }}" style="display: none;" data-id="{{ post.id }}">Cancel</button>
+                    {% if user.id == post.user.id and user.is_authenticated  %}  
+                        <button class="btn btn-primary btn-sm btn-low" id="post-edit-button-{{ post.id }}" data-id="{{ post.id }}">Edit</button>
+                        <button class="btn btn-primary btn-sm" id="post-save-button-{{ post.id }}" style="display: none;" data-id="{{ post.id }}">Save</button>
+                        <button class="btn btn-primary btn-sm" id="post-cancel-button-{{ post.id }}" style="display: none;" data-id="{{ post.id }}">Cancel</button>
+                    {% endif %}
 
                     <div class="post-date">{{ post.created_at }}</div>
                     <div class="post-likes">{{ post.get_likes_count }}</div>

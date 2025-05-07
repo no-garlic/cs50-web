@@ -1,6 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', load);
 
+
 function load() {
     document.querySelector('#follow-button')?.addEventListener('click', follow);
 
@@ -76,10 +77,6 @@ function edit_post(button) {
         .catch(error => {
             console.error('Error saving the post:', error);
         });
-
-
-
-
     }
 }
 

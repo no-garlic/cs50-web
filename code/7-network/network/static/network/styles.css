@@ -345,3 +345,8 @@ form {
     z-index: 5;
     margin-top: auto;
 }
+
+.btn-low {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
