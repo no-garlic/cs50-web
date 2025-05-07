@@ -7,6 +7,9 @@ function load() {
 
     document.querySelectorAll('[id^="post-edit-button-"]')
         .forEach(button => button.onclick = () => edit_post(button));
+
+    document.querySelectorAll('[id^="post-likes-"]')
+        .forEach(div => div.onclick = () => like(div))
 }
 
 
@@ -31,14 +34,37 @@ function follow() {
 }
 
 
+function like(div) {
+    const post_id = div.dataset.id;
+    const post_heart = div.querySelector('.heart');
+    const post_count = div.querySelector('.like-count')
+
+    fetch('/like', {
+        method: 'PUT',
+        body: JSON.stringify({
+            post_id: post_id
+        })
+    })
+    .then(response => response.json())
+    .then(json_data => {
+        console.log(json_data.does_like)
+        post_count.innerHTML = json_data.likes_count;
+        div.classList.toggle('liked', json_data.does_like)
+    })
+    .catch(error => {
+        console.error('Error updating the like status:', error);
+    });
+}
+
+
 function edit_post(button) {
     const post_id = button.dataset.id;
 
-    const post_view = document.querySelector('#post-view-' + post_id)
-    const post_edit = document.querySelector('#post-edit-' + post_id)
-    const post_edit_button = document.querySelector('#post-edit-button-' + post_id)
-    const post_save_button = document.querySelector('#post-save-button-' + post_id)
-    const post_cancel_button = document.querySelector('#post-cancel-button-' + post_id)
+    const post_view = document.querySelector('#post-view-' + post_id);
+    const post_edit = document.querySelector('#post-edit-' + post_id);
+    const post_edit_button = document.querySelector('#post-edit-button-' + post_id);
+    const post_save_button = document.querySelector('#post-save-button-' + post_id);
+    const post_cancel_button = document.querySelector('#post-cancel-button-' + post_id);
     const post_edit_textarea = post_edit.children[0];
 
     post_view.style.display = 'none';

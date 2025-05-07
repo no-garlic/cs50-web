@@ -281,12 +281,19 @@ form {
 }
 
 .post-likes {
+    cursor: pointer;
+    user-select: none;
     color: gray;
+    width: fit-content;
 }
 
-.post-likes::before {
-    content: "❤️";
+.heart::before {
+    content: "🤍";
     padding-right: 5px;
+}
+
+.liked .heart::before {
+    content: "❤️";
 }
 
 .profile-container {

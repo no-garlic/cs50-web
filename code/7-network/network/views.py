@@ -156,7 +156,6 @@ def follow(request):
     Handles AJAX requests to follow or unfollow a user.
     """
     if request.method == "PUT":
-
         # Get the user ID from the request body
         data = json.loads(request.body)
         user_id = data.get("user_id")
@@ -182,6 +181,49 @@ def follow(request):
                 "message": "User followed successfully.",
                 "label": label,
                 "followers_count": followers_count
+            }, 
+            status=201
+        )
+    
+    return JsonResponse({"error": "Invalid request method."}, status=400)
+
+
+@csrf_exempt
+@login_required
+def like_post(request):
+    """
+    View function for liking or unliking a post.
+    Handles AJAX requests to like or unlike a post.
+    """
+    if request.method == "PUT":
+        # Get the post ID from the request body
+        data = json.loads(request.body)
+        post_id = data.get("post_id")
+
+        # Get the post to like/unlike
+        post = Post.objects.get(id=post_id)
+
+        # Check if the user has already liked this post
+        like_exists = Like.objects.filter(user=request.user, post=post).exists()
+
+        if like_exists:
+            # If already liked, unlike the post
+            Like.objects.filter(user=request.user, post=post).delete()
+            does_like = False
+        else:
+            # If not liked, like the post
+            Like.objects.create(user=request.user, post=post)
+            does_like = True
+
+        # Get the updated likes count
+        likes_count = post.get_likes_count()
+
+        # return the new label and likes count to display on the page
+        return JsonResponse(
+            {
+                "message": "Post liked successfully.",
+                "likes_count": likes_count,
+                "does_like": does_like
             }, 
             status=201
         )

@@ -48,7 +48,10 @@
                     {% endif %}
 
                     <div class="post-date">{{ post.created_at }}</div>
-                    <div class="post-likes">{{ post.get_likes_count }}</div>
+                    <div class="post-likes" id="post-likes-{{ post.id }}" data-id="{{ post.id }}">
+                        <span class="heart"></span>
+                        <span class="like-count">{{ post.get_likes_count }}</span>
+                    </div>
                 </div>
             {% endfor %}
         </div>
