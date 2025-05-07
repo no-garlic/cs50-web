@@ -1,5 +1,10 @@
 
-document.addEventListener('DOMContentLoaded', load);
+document.addEventListener('DOMContentLoaded', function() {
+    const isAuthenticated = document.body.dataset.authenticated === 'true';
+    if (isAuthenticated) {
+        load();
+    }
+});
 
 
 function load() {

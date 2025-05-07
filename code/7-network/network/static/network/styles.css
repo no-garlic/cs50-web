@@ -287,6 +287,13 @@ form {
     width: fit-content;
 }
 
+.post-likes-nouser {
+    cursor: default;
+    user-select: none;
+    color: gray;
+    width: fit-content;
+}
+
 .heart::before {
     content: "🤍";
     padding-right: 5px;

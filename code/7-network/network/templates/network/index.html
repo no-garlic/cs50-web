@@ -1,5 +1,6 @@
 {% extends "network/layout.html" %}
 {% load static %}
+{% load post_filters %}
 
 {% block head %}
     <script src="{% static 'network/index.js' %}"></script>
@@ -48,7 +49,8 @@
                     {% endif %}
 
                     <div class="post-date">{{ post.created_at }}</div>
-                    <div class="post-likes" id="post-likes-{{ post.id }}" data-id="{{ post.id }}">
+                    <div class="post-likes{% if not user.is_authenticated %}-nouser{% endif %} {% if user.is_authenticated and post|is_liked_by:user %} liked {% endif %}"
+                         id="post-likes-{{ post.id }}" data-id="{{ post.id }}">
                         <span class="heart"></span>
                         <span class="like-count">{{ post.get_likes_count }}</span>
                     </div>
