@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %}Quizly{% endblock %}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="{% static 'quizly/styles.css' %}" rel="stylesheet">
+        {% block head %}
+        {% endblock %}
+    </head>
+    <body data-authenticated="{% if user.is_authenticated %}true{% else %}false{% endif %}">
+        <div class="header">
+        </div>
+        <div class="page-container">
+            <aside class="sidebar">
+                <ul>
+                    <li class="sidebar-logo">
+                        <a href="{% url 'index' %}">
+                            <img src="{% static 'quizly/quizly.jpeg' %}" alt="quizly Logo" style="width: 100%;">
+                        </a>                        
+                    </li>
+                    <li class="sidebar-heading">Navigation</li>
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'create' %}" class="{% if active_filter == 'new' %}active-link{% endif %}">New Post</a></li>
+                    {% endif %}
+                    <li><a href="{% url 'index' %}" class="{% if active_filter == 'all' %}active-link{% endif %}">All Posts</a></li>
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'following' %}" class="{% if active_filter == 'following' %}active-link{% endif %}">Following</a></li>
+                    {% endif %}
+                    
+                    {% if user.is_authenticated %}
+                        <li class="sidebar-heading">Account ({{ user.display_name }})</li>
+                        <li><a href="{% url 'profile' user.id %}" class="{% if active_filter == 'profile' %}active-link{% endif %}">My Profile</a></li>
+                        <hr>
+                        <li><a href="{% url 'logout' %}">Log Out</a></li>
+                    {% else %}
+                        <li class="sidebar-heading">Account (not signed in)</li>
+                        <li><a href="{% url 'login' %}">Log In</a></li>
+                        <li><a href="{% url 'register' %}">Register</a></li>
+                    {% endif %}
+                </ul>
+            </aside>
+            <main class="content">
+                {% if error_message %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error_message }}
+                    </div>                    
+                {% endif %}
+                {% block body %}
+                {% endblock %}
+            </main>
+        </div>
+    </body>
+</html>
