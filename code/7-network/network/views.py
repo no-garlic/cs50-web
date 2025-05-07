@@ -16,25 +16,31 @@ class CreatePostForm(forms.ModelForm):
     Form for creating a new post
     """
     class Meta:
+        # Define the model and fields to be used in the form
         model = Post
         fields = ['content']
-        widgets = {
-            'content': forms.Textarea(attrs={'class': 'form-control mb-3'}),
-        }
+        widgets = {'content': forms.Textarea(attrs={'class': 'form-control mb-3'})}
 
     def __init__(self, *args, **kwargs):
         """
         Initialize the form and set placeholders for each field.
         """
         super().__init__(*args, **kwargs)
+        # Set the placeholder and label for each field
         for _, field in self.fields.items():
             field.widget.attrs['placeholder'] = ""
             field.label = ""
 
 
 def index(request):
+    """
+    View function for the index page.
+    Displays all posts in reverse chronological order.
+    """
+    # Get all posts ordered by creation date
     posts_list = Post.objects.all().order_by("-created_at")
     
+    # Get the posts for the index page
     paginator = Paginator(posts_list, 10)
     page_number = request.GET.get('page', 1)
     page_obj = paginator.get_page(page_number)
@@ -50,12 +56,18 @@ def index(request):
 
 @login_required
 def following(request):
+    """
+    View function for the following page.
+    Displays posts from users that the current user is following.
+    """
+    # Get the list of users that the current user is following
     if request.user.is_authenticated:
         following_users = Follow.objects.filter(follower=request.user).values_list('followed', flat=True)
         posts_list = Post.objects.filter(user__in=following_users).order_by("-created_at")
     else:
         posts_list = []
     
+    # Get the posts for the following users
     paginator = Paginator(posts_list, 10)
     page_number = request.GET.get('page', 1)
     page_obj = paginator.get_page(page_number)
@@ -70,16 +82,23 @@ def following(request):
 
 
 def profile(request, user_id):
+    """
+    View function for the user profile page.
+    Displays the user's posts and profile information.
+    """
+    # Get the user object for the profile
     owner = User.objects.get(id=user_id)
     posts_list = Post.objects.filter(user=owner).order_by("-created_at")
     followers = Follow.objects.filter(followed=owner).count()
     following = Follow.objects.filter(follower=owner).count()
     is_following = request.user.is_following(owner) if request.user.is_authenticated else False
 
+    # Get the posts for the profile
     paginator = Paginator(posts_list, 10)
     page_number = request.GET.get('page', 1)
     page_obj = paginator.get_page(page_number)
 
+    # Determine the active filter based on the user ID
     if request.user.id == user_id:
         active_filter = "profile"
     else:
@@ -99,13 +118,19 @@ def profile(request, user_id):
 
 @login_required
 def create(request, error_message=None):
+    """
+    View function for creating a new post.
+    Displays a form for creating a new post.
+    """
+    # If the request is a GET request, display the form
     if request.method == "GET":
         form = CreatePostForm()    
         return render(request, "network/create.html", {
             "post_form": form,
             "active_filter": "new"
         })
-    
+
+    # If the request is a POST request, process the form    
     elif request.method == "POST":
         form = CreatePostForm(request.POST)
         if form.is_valid():
@@ -126,21 +151,32 @@ def create(request, error_message=None):
 @csrf_exempt
 @login_required
 def follow(request):
+    """
+    View function for following or unfollowing a user.
+    Handles AJAX requests to follow or unfollow a user.
+    """
     if request.method == "PUT":
+
+        # Get the user ID from the request body
         data = json.loads(request.body)
         user_id = data.get("user_id")
 
+        # Get the user to follow
         user_to_follow = User.objects.get(id=user_id)
 
         if request.user.is_following(user_to_follow):
+            # If already following, unfollow the user
             Follow.objects.filter(follower=request.user, followed=user_to_follow).delete()
             label = "Follow"
         else:
+            # If not following, follow the user
             Follow.objects.create(follower=request.user, followed=user_to_follow)
             label = "Unfollow"
 
+        # Get the updated followers count
         followers_count = Follow.objects.filter(followed=user_to_follow).count()
 
+        # return the new label and followers count to display on the page
         return JsonResponse(
             {
                 "message": "User followed successfully.",
@@ -156,16 +192,24 @@ def follow(request):
 @csrf_exempt
 @login_required
 def update_post(request):
+    """
+    View function for updating a post.
+    Handles AJAX requests to update a post's content.
+    """
     if request.method == "PUT":
+
+        # Get the post ID and new content from the request body
         data = json.loads(request.body)
         post_id = data.get("post_id")
         content = data.get("content")
 
         try:
+            # Check that the post belongs to the currently logged in user
             post = Post.objects.get(id=post_id, user=request.user)
             post.content = content
             post.save()
             return JsonResponse({"message": "Post updated successfully."}, status=200)
+        
         except Post.DoesNotExist:
             return JsonResponse({"error": "Post not found."}, status=404)
 
@@ -173,6 +217,9 @@ def update_post(request):
 
 
 def login_view(request):
+    """
+    Handle login request
+    """
     if request.method == "POST":
 
         # Attempt to sign user in
@@ -193,11 +240,17 @@ def login_view(request):
 
 
 def logout_view(request):
+    """
+    Handle logout request
+    """
     logout(request)
     return HttpResponseRedirect(reverse("index"))
 
 
 def register(request):
+    """
+    Handle registration request
+    """
     if request.method == "POST":
         username = request.POST["username"]
         email = request.POST["email"]
