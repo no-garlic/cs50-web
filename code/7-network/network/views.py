@@ -1,3 +1,4 @@
+import json
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.db import IntegrityError
@@ -119,6 +120,8 @@ def create(request, error_message=None):
                 "error_message": error_message
             })
 
+    return JsonResponse({"error": "Invalid request method."}, status=400)
+
 
 @csrf_exempt
 @login_required
@@ -143,6 +146,27 @@ def follow(request, user_id):
             }, 
             status=201
         )
+    
+    return JsonResponse({"error": "Invalid request method."}, status=400)
+
+
+@csrf_exempt
+@login_required
+def update_post(request):
+    if request.method == "PUT":
+        data = json.loads(request.body)
+        post_id = data.get("post_id")
+        content = data.get("content")
+
+        try:
+            post = Post.objects.get(id=post_id, user=request.user)
+            post.content = content
+            post.save()
+            return JsonResponse({"message": "Post updated successfully."}, status=200)
+        except Post.DoesNotExist:
+            return JsonResponse({"error": "Post not found."}, status=404)
+
+    return JsonResponse({"error": "Invalid request method."}, status=400)
 
 
 def login_view(request):
