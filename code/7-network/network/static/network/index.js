@@ -11,12 +11,12 @@ function load() {
 
 function follow() {
     const follow_button = document.querySelector('#follow-button');
-    const id = follow_button.dataset.user;
+    const user_id = follow_button.dataset.user;
 
-    fetch('/follow/' + id, {
+    fetch('/follow', {
         method: 'PUT',
         body: JSON.stringify({
-            read: true      // update this, should pass the id here
+            user_id: user_id
         })
     })
     .then(response => response.json())

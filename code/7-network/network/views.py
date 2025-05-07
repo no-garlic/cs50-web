@@ -125,8 +125,11 @@ def create(request, error_message=None):
 
 @csrf_exempt
 @login_required
-def follow(request, user_id):
+def follow(request):
     if request.method == "PUT":
+        data = json.loads(request.body)
+        user_id = data.get("user_id")
+
         user_to_follow = User.objects.get(id=user_id)
 
         if request.user.is_following(user_to_follow):
