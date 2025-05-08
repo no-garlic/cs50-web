@@ -5,23 +5,20 @@ from django.contrib.auth.hashers import make_password
 
 
 def add_data(apps, schema_editor):
-    categories = apps.get_model('quizly', 'Category')
-    categories.objects.create(name='Python')
-    categories.objects.create(name='JavaScript')
-    categories.objects.create(name='Java')
-    categories.objects.create(name='C')
-    categories.objects.create(name='C++')
-    categories.objects.create(name='C#')
-    categories.objects.create(name='TypeScript')
-    categories.objects.create(name='Go')
-    categories.objects.create(name='Rust')
-    categories.objects.create(name='HTML')
-    categories.objects.create(name='CSS')
-    categories.objects.create(name='Lua')
-    categories.objects.create(name='Objective-C')
-    categories.objects.create(name='SQL')
-    categories.objects.create(name='Bash')
+    import json
+    from pathlib import Path
     
+    migration_folder = Path(__file__).parent
+    json_file_path = migration_folder / 'quizzes.json'
+    
+    with open(json_file_path, 'r') as file:
+        quiz_data = json.load(file)
+    
+    category_model = apps.get_model('quizly', 'Category')
+    
+    for category_name in quiz_data.keys():
+        category_model.objects.create(name=category_name)
+
 
 def remove_data(apps, schema_editor):
     categories = apps.get_model('quizly', 'Category')

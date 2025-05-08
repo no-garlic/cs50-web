@@ -15,13 +15,12 @@ def add_data(apps, schema_editor):
     users = list(user_model.objects.exclude(username='admin'))
     
     migration_folder = Path(__file__).parent
-    json_file_path = migration_folder / '0005_add_quizzes.json'
+    json_file_path = migration_folder / 'quizzes.json'
     
     with open(json_file_path, 'r') as file:
         quiz_data = json.load(file)
     
     for category_name, quizzes_list in quiz_data.items():
-        print(category_name)
         category = category_model.objects.get(name=category_name)
         
         for quiz_info in quizzes_list:

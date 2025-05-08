@@ -12,6 +12,7 @@ def add_data(apps, schema_editor):
     users.objects.create(username='emma', password=make_password('emma'), email='emma@example.com', first_name='emma', last_name='wilson', is_superuser=False)
     users.objects.create(username='james', password=make_password('james'), email='james@example.com', first_name='james', last_name='harris', is_superuser=False)
     users.objects.create(username='sally', password=make_password('sally'), email='sally@example.com', first_name='sally', last_name='mitchell', is_superuser=False)
+                         
 
 def remove_data(apps, schema_editor):
     users = apps.get_model('quizly', 'User')
