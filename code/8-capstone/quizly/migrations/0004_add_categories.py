@@ -15,12 +15,12 @@ def add_data(apps, schema_editor):
     categories.objects.create(name='TypeScript')
     categories.objects.create(name='Go')
     categories.objects.create(name='Rust')
-    categories.objects.create(name='PHP')
-    categories.objects.create(name='Swift')
-    categories.objects.create(name='Kotlin')
-    categories.objects.create(name='Ruby')
+    categories.objects.create(name='HTML')
+    categories.objects.create(name='CSS')
+    categories.objects.create(name='Lua')
+    categories.objects.create(name='Objective-C')
     categories.objects.create(name='SQL')
-    categories.objects.create(name='Shell')
+    categories.objects.create(name='Bash')
     
 
 def remove_data(apps, schema_editor):
