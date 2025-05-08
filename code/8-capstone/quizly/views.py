@@ -12,14 +12,31 @@ from .models import *
 
 
 def index(request):
-    """
-    View function for the index page.
-    Displays all posts in reverse chronological order.
-    """
     return render(request, "quizly/index.html", {
-        "active_filter": "all",
-        "show_profile": False,
-        "owner": None,
+        "active_filter": "index",
+    })
+
+
+def quiz(request):
+    return render(request, "quizly/index.html", {
+        "active_filter": "create",
+    })
+
+
+def browse(request):
+    return render(request, "quizly/index.html", {
+        "active_filter": "browse",
+    })
+
+
+def search(request):
+    return render(request, "quizly/index.html", {
+        "active_filter": "search",
+    })
+
+def profile(request):
+    return render(request, "quizly/index.html", {
+        "active_filter": "profile",
     })
 
 

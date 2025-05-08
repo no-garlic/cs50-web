@@ -150,8 +150,9 @@ form {
     }
 
     .sidebar a {
-        font-size: 12px; 
+        font-size: 32px; 
         padding: 5px;
+        text-align: center;
     }
 
     .sidebar-logo-large {
@@ -162,25 +163,39 @@ form {
     .sidebar-logo-small {
         display: block;
         width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .menu-text {
+        display: none;
     }
 
     .sidebar-heading {
         font-size: 12px;
         font-weight: 600;
+        text-align: center;
+        border-radius: 6px;
         background-color: #dedede;
         display: block; 
-        padding: 5px;
-        margin-top: 25px;
+        padding: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 15px;
     }
 
     .sidebar a.active-link {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     
     .sidebar a.inactive-link {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .sidebar hr {
+        display: none;
     }
     
 }
