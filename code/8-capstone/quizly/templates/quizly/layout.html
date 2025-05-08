@@ -24,16 +24,16 @@
                     </li>
                     <li class="sidebar-heading">Navigation</li>
                     {% if user.is_authenticated %}
-                        <li><a href="{% url 'create' %}" class="{% if active_filter != 'new' %}in{% endif %}active-link">New Post</a></li>
+                        <li><a href="{% url 'index' %}" class="{% if active_filter != 'new' %}in{% endif %}active-link">New Post</a></li>
                     {% endif %}
                     <li><a href="{% url 'index' %}" class="{% if active_filter != 'all' %}in{% endif %}active-link">All Posts</a></li>
                     {% if user.is_authenticated %}
-                        <li><a href="{% url 'following' %}" class="{% if active_filter != 'following' %}in{% endif %}active-link">Following</a></li>
+                        <li><a href="{% url 'index' %}" class="{% if active_filter != 'following' %}in{% endif %}active-link">Following</a></li>
                     {% endif %}
                     
                     {% if user.is_authenticated %}
                         <li class="sidebar-heading">Account ({{ user.display_name }})</li>
-                        <li><a href="{% url 'profile' user.id %}" class="{% if active_filter != 'profile' %}in{% endif %}active-link">My Profile</a></li>
+                        <li><a href="{% url 'index' %}" class="{% if active_filter != 'profile' %}in{% endif %}active-link">My Profile</a></li>
                         <hr>
                         <li><a href="{% url 'logout' %}">Log Out</a></li>
                     {% else %}
