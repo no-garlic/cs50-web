@@ -33,7 +33,7 @@
                     <li>
                         <a href="{% url 'create' %}" class="{% if active_filter != 'create' %}in{% endif %}active-link">
                             <i class="bi-plus-square"></i>
-                            <span class="menu-text">Create New</span>
+                            <span class="sidebar-menu-text">Create New</span>
                         </a>
                     </li>
 
@@ -43,7 +43,7 @@
                     <li>
                         <a href="{% url 'search' %}" class="{% if active_filter != 'search' %}in{% endif %}active-link">
                             <i class="bi-search"></i>
-                            <span class="menu-text">Search</span>
+                            <span class="sidebar-menu-text">Search</span>
                         </a>
                     </li>
                     
@@ -51,7 +51,7 @@
                     <li>
                         <a href="{% url 'browse' %}" class="{% if active_filter != 'browse' %}in{% endif %}active-link">
                             <i class="bi-globe"></i>
-                            <span class="menu-text">Browse</span>
+                            <span class="sidebar-menu-text">Browse</span>
                         </a>
                     </li>
                     
@@ -63,7 +63,7 @@
                     <li>
                         <a href="{% url 'profile' %}" class="{% if active_filter != 'profile' %}in{% endif %}active-link">
                             <i class="bi-person"></i>
-                            <span class="menu-text">My Profile</span>
+                            <span class="sidebar-menu-text">My Profile</span>
                         </a>
                     </li>                   
                     <hr>
@@ -72,7 +72,7 @@
                     <li>
                         <a href="{% url 'logout' %}" class="inactive-link">
                             <i class="bi-box-arrow-left"></i>
-                            <span class="menu-text">Logout</span>
+                            <span class="sidebar-menu-text">Logout</span>
                         </a>
                     </li>
 
@@ -82,7 +82,7 @@
                     <li>
                         <a href="{% url 'login' %}" class="{% if active_filter != 'login' %}in{% endif %}active-link">
                             <i class="bi-box-arrow-in-right"></i>
-                            <span class="menu-text">Login</span>
+                            <span class="sidebar-menu-text">Login</span>
                         </a>
                     </li>                   
 
@@ -90,7 +90,7 @@
                     <li>
                         <a href="{% url 'register' %}" class="{% if active_filter != 'register' %}in{% endif %}active-link">
                             <i class="bi-person-add"></i>
-                            <span class="menu-text">Register</span>
+                            <span class="sidebar-menu-text">Register</span>
                         </a>
                     </li>                   
                     {% endif %}
