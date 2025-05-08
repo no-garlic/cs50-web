@@ -83,6 +83,10 @@ form {
     font-weight: bold;
 }
 
+.sidebar a.inactive-link {
+    font-weight: normal;
+}
+
 .sidebar-logo {
     background-color: #ffffff;
     color: #ffffff;
@@ -93,6 +97,16 @@ form {
     background-color: #ffffff;
     color: #ffffff;
     border: none;
+}
+
+.sidebar-logo-large {
+    display: block;
+    width: 100%;
+}
+
+.sidebar-logo-small {
+    display: none;
+    width: 100%;
 }
 
 .sidebar-heading {
@@ -124,4 +138,49 @@ form {
     position: sticky;
     top: 0;
     z-index: 10;
+}
+
+@media (max-width: 800px) {
+    .sidebar {
+        width: 100px;
+    }
+
+    .sidebar ul {
+        padding: 0;
+    }
+
+    .sidebar a {
+        font-size: 12px; 
+        padding: 5px;
+    }
+
+    .sidebar-logo-large {
+        display: none;
+        width: 100%;
+    }
+
+    .sidebar-logo-small {
+        display: block;
+        width: 100%;
+    }
+
+    .sidebar-heading {
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #dedede;
+        display: block; 
+        padding: 5px;
+        margin-top: 25px;
+    }
+
+    .sidebar a.active-link {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .sidebar a.inactive-link {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
 }
