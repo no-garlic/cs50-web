@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 18px;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,6 @@ form {
 }
 
 .page-content {
-    background-color: #15a29f;
     height: 100%;
 }
 
