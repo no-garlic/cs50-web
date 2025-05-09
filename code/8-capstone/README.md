@@ -1,12 +1,11 @@
 
 Todo:
-
-- register needs first name & last name
+- move views into separate files
 - move css, images, and js into subdirs
+- create admin classes and register them
 
 
 Why more complex:
-
 - javascript for creating a quiz
 - bootstrap icons, google fonts
 - multiple stylesheets
@@ -19,7 +18,6 @@ Why more complex:
 
 
 Put into readme:
-
 - generate a project description from gpt
 - schema from miro
 - ui design from miro
