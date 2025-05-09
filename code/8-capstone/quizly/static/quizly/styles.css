@@ -12,7 +12,7 @@ form {
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1060px;
 }
 
 .content {
@@ -30,14 +30,14 @@ form {
 .page-container {
     display: flex;
     width: 100%;    
-    max-width: 1170px;
+    max-width: 1270px;
     align-items: stretch; 
     margin-top: 1rem; 
 }
 
 .page-content {
     height: 100%;
-    /*background-color: #15a29f;*/
+    /*background-color: #15a29f33;*/
     width: calc(100% - 16px);
 }
 

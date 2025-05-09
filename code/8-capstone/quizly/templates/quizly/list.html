@@ -2,11 +2,22 @@
 {% load static %}
 
 {% block head %}
+    <link rel="stylesheet" href="{% static 'quizly/list.css' %}">
     <script src="{% static 'quizly/list.js' %}"></script>
 {% endblock %}
 
 {% block body %}
-    <div>
+    <div class="category-heading">
+        <h2>Browse Categories</h2>
+        <p>Explore our quiz categories and find something that interests you</p>
+    </div>
+    <div class="category-container">
+        {% for category in categories %}
+        <div class="category-card">
+            <h3 class="category-name">{{ category.name }}</h3>
+            <p class="category-description">{{ category.description }}</p>
+        </div>            
+        {% endfor %}
     </div>
 {% endblock %}
 
