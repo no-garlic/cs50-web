@@ -5,7 +5,7 @@ Todo:
 - create admin classes and register them
 - when narrowing the page the category boxes change from 3 -> 2 -> 1 -> 2 -> 1, fix that (prob media query)
 - requirements.txt
-
+- try to refactor CSS so it looks less like it was done with gpt
 
 Why more complex:
 - javascript for creating a quiz
