@@ -1,20 +1,3 @@
-.category-heading {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.category-heading h2 {
-    font-size: 32px;
-    font-weight: 600;
-    color: #15a29f;
-    margin-bottom: 8px;
-}
-
-.category-heading p {
-    color: #666;
-    font-size: 16px;
-}
-
 .category-container {
     display: flex;
     flex-wrap: wrap;
