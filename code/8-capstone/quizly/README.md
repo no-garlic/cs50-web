@@ -2,7 +2,6 @@
 Todo:
 
 - register needs first name & last name
-- delete the header
 - move css, images, and js into subdirs
 
 

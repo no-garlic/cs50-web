@@ -17,8 +17,6 @@
         {% endblock %}
     </head>
     <body data-authenticated="{% if user.is_authenticated %}true{% else %}false{% endif %}">
-        <div class="header">
-        </div>
         <div class="page-container">
             {% block sidebar %}
             <aside class="sidebar">

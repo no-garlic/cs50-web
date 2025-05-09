@@ -37,17 +37,8 @@ form {
 
 .page-content {
     height: 100%;
-}
-
-.header {
-    width: 100%; 
-    background-color: #dedede; 
-    padding: 6px;
-    box-sizing: border-box;
-    border-bottom: 1px solid #555;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    /*background-color: #15a29f;*/
+    width: calc(100% - 16px);
 }
 
 .sidebar-menu-text {
@@ -59,12 +50,12 @@ form {
     flex-shrink: 0;
     padding: 15px; 
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 18px;
     box-sizing: border-box;
     position: sticky;
     top: 50px;
     align-self: flex-start;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 34px);
     overflow-y: auto;
     border: 1px solid #15a29f44;
     border-radius: 8px;
