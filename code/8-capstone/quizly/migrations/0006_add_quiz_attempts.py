@@ -2,6 +2,8 @@
 
 import random
 from django.db import migrations
+from django.utils import timezone
+import datetime
 
 
 def add_data(apps, schema_editor):
@@ -12,14 +14,24 @@ def add_data(apps, schema_editor):
     users = list(user_model.objects.exclude(username='admin'))
     quizzes = list(quiz_model.objects.all())
     
+    now = timezone.now()
+    
     for quiz in quizzes:
         for user in users:
             if random.randint(0, 1) == 1:
+                correct = random.randint(quiz.questions.count() // 2, quiz.questions.count())
+                
+                # Generate random date between quiz creation and now
+                time_diff = (now - quiz.created_at).total_seconds()
+                random_seconds = random.randint(0, int(time_diff))
+                random_date = quiz.created_at + datetime.timedelta(seconds=random_seconds)
+                
                 quiz_attempt_model.objects.create(
                     user=user,
                     quiz=quiz,
-                    score=random.randint(quiz.questions.count() // 2, quiz.questions.count()),
-                    max_score=quiz.questions.count()
+                    correct=correct,
+                    score=correct / quiz.questions.count() * 100,
+                    date_taken=random_date,
                 )
 
     

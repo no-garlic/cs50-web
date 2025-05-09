@@ -1,5 +1,6 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
+from django.utils import timezone
 
 
 class User(AbstractUser):
@@ -15,6 +16,7 @@ class Category(models.Model):
     Category model representing a category for auctions.
     """
     name = models.CharField(max_length=255)
+    description = models.TextField()
 
     def __str__(self):
         return self.name
@@ -48,11 +50,31 @@ class Quiz(models.Model):
     """
     name = models.CharField(max_length=255)
     description = models.TextField()
+    created_at = models.DateTimeField(default=timezone.now)
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, related_name='quizzes')
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='quizzes')
 
     def __str__(self):
         return self.name
+    
+
+class QuizRating(models.Model):
+    """
+    QuizRating model representing a user's rating for a quiz.
+    """
+    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='ratings')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='ratings')
+    rating = models.IntegerField(choices=[
+        (1, '1 Star'),
+        (2, '2 Stars'),
+        (3, '3 Stars'),
+        (4, '4 Stars'),
+        (5, '5 Stars'),
+    ])
+
+    def __str__(self):
+        return f"{self.user.username} - {self.quiz.name} - {self.rating}"
+
 
 class QuizAttempt(models.Model):
     """
@@ -60,8 +82,8 @@ class QuizAttempt(models.Model):
     """
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='attempts')
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='attempts')
-    score = models.IntegerField()
-    max_score = models.IntegerField()
+    correct = models.IntegerField()
+    score = models.FloatField()
     date_taken = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

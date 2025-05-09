@@ -8,15 +8,16 @@ from pathlib import Path
 def add_data(apps, schema_editor):
     
     migration_folder = Path(__file__).parent
-    json_file_path = migration_folder / 'quizzes.json'
+    json_file_path = migration_folder / 'categories.json'
     
     with open(json_file_path, 'r') as file:
-        quiz_data = json.load(file)
+        category_data = json.load(file)
     
     category_model = apps.get_model('quizly', 'Category')
     
-    for category_name in quiz_data.keys():
-        category_model.objects.create(name=category_name)
+    # Create category objects from the JSON data
+    for name, description in category_data.items():
+        category_model.objects.create(name=name, description=description)
 
 
 def remove_data(apps, schema_editor):
