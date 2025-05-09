@@ -2,6 +2,7 @@
 from django.urls import path
 
 from .views.account import *
+from .views.search import *
 from .views.browse import *
 from .views.other import *
 

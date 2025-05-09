@@ -53,6 +53,115 @@
     height: 260px;
 }
 
+.search-form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    background: linear-gradient(135deg, #ffffff, #15a29f11);
+    border: 1px solid #15a29f44;
+    border-radius: 8px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.search-form .form-group {
+    margin-bottom: 15px;
+}
+
+.search-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #444;
+    font-size: 16px;
+}
+
+.search-form .form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-form .form-control:focus {
+    border-color: #15a29f;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 162, 159, 0.15);
+}
+
+.search-form .search-submit {
+    padding: 12px 20px;
+    background-color: #15a29f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    float: right;
+}
+
+.search-form .search-submit:hover {
+    background-color: #128a89;
+}
+
+.search-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.search-type {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.radio-label {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    color: #444;
+}
+
+.radio-label input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .search-form {
+        padding: 15px;
+    }
+    
+    .search-form .search-submit {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .search-options {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .search-type {
+        margin-bottom: 15px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .radio-label {
+        margin-right: 10px;
+    }
+}
+
 
 
 

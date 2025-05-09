@@ -23,11 +23,6 @@ def create(request):
     })
 
 
-def search(request):
-    return render(request, "quizly/list.html", {
-        "active_filter": "search",
-    })
-
 
 def profile(request, username):
     return render(request, "quizly/profile.html", {
