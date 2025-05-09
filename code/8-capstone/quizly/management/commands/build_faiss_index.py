@@ -12,17 +12,22 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         model = SentenceTransformer('all-MiniLM-L6-v2')
 
+        # Load all quizzes from the database
         quizzes = Quiz.objects.all()
+
+        # Extract the name and description of each quiz
         texts = [f"{q.name} {q.description}" for q in quizzes]
-        embeddings = model.encode(texts, convert_to_numpy=True)
 
-        for quiz, emb in zip(quizzes, embeddings):
-            quiz.embedding = pickle.dumps(emb.astype(np.float32))
-            quiz.save()
+        # Encode the texts into embeddings
+        embeddings = model.encode(texts, convert_to_numpy=True).astype(np.float32)
 
-        dim = embeddings.shape[1]
-        index = faiss.IndexFlatL2(dim)
-        index.add(embeddings.astype(np.float32))
+        # Normalize the embeddings for cosine similarity
+        faiss.normalize_L2(embeddings)
 
+        # Create a FAISS index for the embeddings
+        index = faiss.IndexFlatIP(embeddings.shape[1])
+        index.add(embeddings)
+
+        # Save the index to disk
         faiss.write_index(index, "faiss_index.idx")
         print("FAISS index built and saved to disk.")

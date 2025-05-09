@@ -19,8 +19,8 @@ def search(request):
 
     search_results = []
     
-    if search_type == "similarity":
-        search_results = similarity_search(query)
+    if search_type == "semantic":
+        search_results = semantic_search(query)
     else:
         search_results = keyword_search(query)
 
@@ -38,10 +38,10 @@ def keyword_search(query):
     return quizzes
 
 
-def similarity_search(query):
+def semantic_search(query):
     """
-    Perform a similarity search on quizzes and categories.
+    Perform a semantic search on quizzes and categories.
     """
     quizzes = list(Quiz.objects.all())
-    results = QuizSemanticSearchService.search(query, quizzes)
+    results = QuizSemanticSearchService.search(query, quizzes, top_k=10)
     return results

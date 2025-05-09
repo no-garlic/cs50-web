@@ -32,8 +32,8 @@
                 <div class="search-options">
                     <div class="search-type">
                         <label class="radio-label">
-                            <input type="radio" name="type" value="similarity" {% if not request.GET.type or request.GET.type == 'similarity' %}checked{% endif %}> 
-                            Similarity search
+                            <input type="radio" name="type" value="semantic" {% if not request.GET.type or request.GET.type == 'semantic' %}checked{% endif %}> 
+                            Semantic search
                         </label>
                         <label class="radio-label">
                             <input type="radio" name="type" value="keyword" {% if request.GET.type == 'keyword' %}checked{% endif %}> 
