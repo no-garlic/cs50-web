@@ -93,6 +93,8 @@ def register(request):
     if request.method == "POST":
         username = request.POST["username"]
         email = request.POST["email"]
+        firstname = request.POST["firstname"]
+        lastname = request.POST["lastname"]
 
         # Ensure password matches confirmation
         password = request.POST["password"]
@@ -105,7 +107,12 @@ def register(request):
 
         # Attempt to create new user
         try:
-            user = User.objects.create_user(username, email, password)
+            user = User.objects.create_user(
+                username=username, 
+                email=email, 
+                password=password,
+                first_name=firstname, 
+                last_name=lastname)
             user.save()
         except IntegrityError:
             return render(request, "quizly/register.html", {
