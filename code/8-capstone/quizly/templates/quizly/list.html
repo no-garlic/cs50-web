@@ -27,16 +27,16 @@
             <form action="{% url 'search' %}" method="get" class="search-form">
                 <div class="form-group">
                     <label for="q">Search</label>
-                    <input class="form-control" type="text" name="q" id="search" autocomplete="off" autofocus required>
+                    <input class="form-control" type="text" name="q" id="search" value="{{ request.GET.q }}" autocomplete="off" autofocus required>
                 </div>
                 <div class="search-options">
                     <div class="search-type">
                         <label class="radio-label">
-                            <input type="radio" name="type" value="similarity" checked> 
+                            <input type="radio" name="type" value="similarity" {% if not request.GET.type or request.GET.type == 'similarity' %}checked{% endif %}> 
                             Similarity search
                         </label>
                         <label class="radio-label">
-                            <input type="radio" name="type" value="keyword"> 
+                            <input type="radio" name="type" value="keyword" {% if request.GET.type == 'keyword' %}checked{% endif %}> 
                             Keyword search
                         </label>
                     </div>
