@@ -4,6 +4,7 @@ Todo:
 - move css, images, and js into subdirs
 - create admin classes and register them
 - when narrowing the page the category boxes change from 3 -> 2 -> 1 -> 2 -> 1, fix that (prob media query)
+- requirements.txt
 
 
 Why more complex:
@@ -25,3 +26,6 @@ Put into readme:
 
 
 
+faiss-cpu
+sentence-transformers
+numpy
