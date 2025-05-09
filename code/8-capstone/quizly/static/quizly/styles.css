@@ -166,7 +166,6 @@ form {
 @media (max-width: 800px) {
     .sidebar {
         width: 110px;
-        /* keep other properties */
     }
 
     .sidebar ul {

@@ -8,19 +8,42 @@
 
 {% block body %}
     <div class="page-heading">
-        <h2>Browse Categories</h2>
-        <p>Explore our quiz categories and find something that interests you</p>
+        {% if active_filter == 'browse' %}
+            {% if selected_category %}
+                <h2>Category '{{ selected_category.name }}'</h2>
+                <p>{{ selected_category.description }}</p>
+            {% else %}
+                <h2>Browse Categories</h2>
+                <p>Explore our quiz categories and find something that interests you</p>
+            {% endif %}
+        {% elif active_filter == 'search' %}
+            <h2>Quiz Search</h2>
+            <p>Search for a quiz and find something that interests you</p>
+        {% endif %}
     </div>
 
-    <div class="category-container">
-        {% for category in categories %}
-        <div class="category-card">
-            <a href="#">
-                <h3 class="category-name">{{ category.name }}</h3>
-                <p class="category-description">{{ category.description }}</p>
+    <div class="item-container">
+        {% for category in all_categories %}
+        <div class="item-card">
+            <a href="{% url 'browse' %}?category={{category.id}}">
+                <h3 class="item-name">{{ category.name }}</h3>
+                <p class="item-description">{{ category.description }}</p>
             </a>
         </div>            
         {% endfor %}
     </div>
+
+    <div class="item-container">
+        {% for quiz in filtered_quizzes %}
+        <div class="item-card quiz-card">
+            <a href="{% url 'quiz' quiz.id %}">
+                <h3 class="item-name">{{ quiz.name }}</h3>
+                <p class="item-description">{{ quiz.description }}</p>
+            </a>
+        </div>            
+        {% endfor %}
+    </div>
+
+
 {% endblock %}
 
