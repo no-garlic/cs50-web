@@ -11,20 +11,19 @@ from django.core.paginator import Paginator
 from ..models import *
 
 
-def index(request):
-    return render(request, "quizly/index.html", {
-        "active_filter": "index",
+def quiz(request, quiz_id):
+    quiz = Quiz.objects.get(id=quiz_id)
+
+    # TODO: Handle the error
+    if quiz is None:
+        return render(request, "quizly/index.html")
+    
+    return render(request, "quizly/quiz.html", {
+        "quiz": quiz,
     })
 
 
-def create(request):
-    return render(request, "quizly/create.html", {
-        "active_filter": "create",
-    })
-
-
-
-def profile(request, username):
-    return render(request, "quizly/profile.html", {
-        "active_filter": "profile",
+def attempt(request, quiz_id):
+    return render(request, "quizly/attempt.html", {
+        "active_filter": "attempt",
     })

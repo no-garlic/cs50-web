@@ -5,6 +5,8 @@ Todo:
 - create admin classes and register them
 - requirements.txt
 - try to refactor CSS so it looks less like it was done with gpt
+- update scemantic search when adding a quiz
+
 
 Why more complex:
 - javascript for creating a quiz
@@ -24,7 +26,7 @@ Put into readme:
 - ui design from miro
 
 
-
-faiss-cpu
-sentence-transformers
-numpy
+Requirements:
+- faiss-cpu
+- sentence-transformers
+- numpy

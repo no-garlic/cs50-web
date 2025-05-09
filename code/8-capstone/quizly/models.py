@@ -58,6 +58,25 @@ class Quiz(models.Model):
     def __str__(self):
         return self.name
     
+    def get_rating(self):
+        """
+        Calculate the average rating for the quiz.
+        """
+        ratings = self.ratings.all()
+        if ratings.exists():
+            return sum(rating.rating for rating in ratings) / ratings.count()
+        return 0.0
+    
+    def get_is_saved_for_later(self, user):
+        """
+        Check if the quiz is saved for later by the user.
+        """
+        return self.saved_for_later.filter(user=user).exists()
+    
+    def get_questions(self):
+        questions = Question.objects.filter(quiz=self)
+        return questions
+
 
 class QuizRating(models.Model):
     """

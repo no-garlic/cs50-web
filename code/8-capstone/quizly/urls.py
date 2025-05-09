@@ -5,6 +5,8 @@ from .views.account import *
 from .views.search import *
 from .views.browse import *
 from .views.other import *
+from .views.quiz import *
+
 
 urlpatterns = [
     path("", index, name="index"),
