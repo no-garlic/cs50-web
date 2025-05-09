@@ -1,7 +1,11 @@
 {% extends "quizly/layout.html" %}
+{% load static %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'quizly/account.css' %}">
+{% endblock %}
 
 {% block body %}
-
     <h2>Register</h2>
 
     {% if message %}
