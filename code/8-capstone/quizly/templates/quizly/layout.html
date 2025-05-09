@@ -61,7 +61,7 @@
 
                     <!-- My Profile -->
                     <li>
-                        <a href="{% url 'profile' %}" class="{% if active_filter != 'profile' %}in{% endif %}active-link">
+                        <a href="{% url 'profile' user.username %}" class="{% if active_filter != 'profile' %}in{% endif %}active-link">
                             <i class="bi-person"></i>
                             <span class="sidebar-menu-text">My Profile</span>
                         </a>

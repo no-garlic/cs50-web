@@ -17,26 +17,39 @@ def index(request):
     })
 
 
-def quiz(request):
-    return render(request, "quizly/index.html", {
+def create(request):
+    return render(request, "quizly/create.html", {
         "active_filter": "create",
     })
 
 
 def browse(request):
-    return render(request, "quizly/index.html", {
+    return render(request, "quizly/list.html", {
         "active_filter": "browse",
     })
 
 
 def search(request):
-    return render(request, "quizly/index.html", {
+    return render(request, "quizly/list.html", {
         "active_filter": "search",
     })
 
-def profile(request):
-    return render(request, "quizly/index.html", {
+
+def profile(request, username):
+    return render(request, "quizly/profile.html", {
         "active_filter": "profile",
+    })
+
+
+def quiz(request, quiz_id):
+    return render(request, "quizly/quiz.html", {
+        "active_filter": "quiz",
+    })
+
+
+def attempt(request, quiz_id):
+    return render(request, "quizly/attempt.html", {
+        "active_filter": "attempt",
     })
 
 
