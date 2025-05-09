@@ -19,6 +19,7 @@
         <div class="header">
         </div>
         <div class="page-container">
+            {% block sidebar %}
             <aside class="sidebar">
                 <ul>
                     <!-- Logo / default route -->
@@ -100,6 +101,7 @@
                     {% endif %}
                 </ul>
             </aside>
+            {% endblock %}
 
             <main class="content">
                 <!-- Show any error message -->

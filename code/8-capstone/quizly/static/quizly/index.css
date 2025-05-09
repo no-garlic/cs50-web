@@ -1,14 +1,25 @@
+.page-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    background: white;
+    margin-top: 30px;
+}
+
 .logo-large {
     display: block;
-    width: 70%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
 }
 
 .homepage-hero {
-    width: 100%;
-    margin: 2rem auto;
+    width: calc(100% - 20px);
+    margin: 2rem 10px;
     padding: 2rem;
     text-align: center;
     background: linear-gradient(135deg, #15a29f33, #ffffff);
@@ -77,3 +88,4 @@
     font-size: 1rem;
     color: #333;
 }
+
