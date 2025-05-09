@@ -89,3 +89,19 @@
     color: #333;
 }
 
+body .content {
+    margin-left: 0;
+    width: 100%;
+}
+
+.page-content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .logo-large {
+        width: 80%;
+    }
+}
+

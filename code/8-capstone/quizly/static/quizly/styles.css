@@ -163,7 +163,7 @@ form {
     font-size: 16px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .sidebar {
         width: 110px;
     }
