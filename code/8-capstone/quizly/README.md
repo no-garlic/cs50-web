@@ -1,9 +1,9 @@
 
-- Search
-- Categories
-- Create New
-- Attempt Quiz
-- My Profile (leaderboard)
+Todo:
+
+- register needs first name & last name
+- delete the header
+- move css, images, and js into subdirs
 
 
 Why more complex:
@@ -19,7 +19,11 @@ Why more complex:
 - similarity search with vector database
 
 
+Put into readme:
 
+- generate a project description from gpt
+- schema from miro
+- ui design from miro
 
 
 
