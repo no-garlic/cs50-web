@@ -88,3 +88,14 @@ class QuizAttempt(models.Model):
 
     def __str__(self):
         return f"{self.user.username} - {self.quiz.title} - {self.score}"
+    
+
+class SavedForLater(models.Model):
+    """
+    SavedForLater model representing a quiz saved for later by a user.
+    """
+    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='saved_for_later')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='saved_for_later')
+
+    def __str__(self):
+        return f"{self.user.username} - {self.quiz.name}"

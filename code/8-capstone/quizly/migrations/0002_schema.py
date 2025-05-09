@@ -66,4 +66,12 @@ class Migration(migrations.Migration):
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='ratings', to=settings.AUTH_USER_MODEL)),
             ],
         ),
+        migrations.CreateModel(
+            name='SavedForLater',
+            fields=[
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('quiz', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='saved_for_later', to='quizly.quiz')),
+                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='saved_for_later', to=settings.AUTH_USER_MODEL)),
+            ],
+        ),    
     ]
