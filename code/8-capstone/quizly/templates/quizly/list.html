@@ -15,8 +15,10 @@
     <div class="category-container">
         {% for category in categories %}
         <div class="category-card">
-            <h3 class="category-name">{{ category.name }}</h3>
-            <p class="category-description">{{ category.description }}</p>
+            <a href="#">
+                <h3 class="category-name">{{ category.name }}</h3>
+                <p class="category-description">{{ category.description }}</p>
+            </a>
         </div>            
         {% endfor %}
     </div>

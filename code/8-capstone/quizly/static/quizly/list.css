@@ -24,6 +24,15 @@
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
 }
 
+.category-card a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .category-name {
     color: #15a29f;
     font-weight: 600;
@@ -37,9 +46,6 @@
     font-size: 14px;
     flex-grow: 1;
     overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
 }
 
 @media (max-width: 768px) {
