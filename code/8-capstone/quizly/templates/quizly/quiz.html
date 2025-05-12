@@ -28,7 +28,10 @@
 
     {% if user.is_authenticated %}
         <div class="quiz-actions">
-            <button class="btn btn-primary quiz-btn" data-user-rating="{{ user_rating|default:0 }}"><i class="bi bi-star"></i>Rate</button>
+            <button class="btn btn-primary quiz-btn" data-user-rating="{{ user_rating|default:0 }}">
+                <i class="bi bi-star{% if user_rating %}-fill{% endif %}"></i>
+                Rate
+            </button>
             <button class="btn btn-primary quiz-btn" id="save-for-later" data-saved="{{ is_saved_for_later|yesno:'true,false' }}">
                 <i class="bi bi-bookmark{% if is_saved_for_later %}-fill{% endif %}"></i>
                 {% if is_saved_for_later %}Saved For Later{% else %}Save For Later{% endif %}

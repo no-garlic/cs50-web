@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initRatingSystem() {
-    const rateButton = document.querySelector('.quiz-btn:has(i.bi-star)');
+    const rateButton = document.querySelector('.quiz-btn:has(i.bi-star), .quiz-btn:has(i.bi-star-fill)');
     if (!rateButton)
         return;
     
@@ -190,6 +190,17 @@ function submitRating(rating) {
     .then(response => response.json())
     .then(data => {
         if (data.status === 'success') {
+            // Update the rate button icon
+            const rateButton = document.querySelector('.quiz-btn:has(i.bi-star), .quiz-btn:has(i.bi-star-fill)');
+            const starIcon = rateButton.querySelector('i');
+            
+            // Change to solid star since the user has now rated
+            starIcon.classList.remove('bi-star');
+            starIcon.classList.add('bi-star-fill');
+            
+            // Update the button's data attribute
+            rateButton.dataset.userRating = rating;
+            
             // Could add a success notification here
             console.log('Rating submitted successfully');
             
