@@ -1,18 +1,81 @@
+/* ==========================================================================
+   CUSTOM PROPERTIES (CSS VARIABLES)
+   ========================================================================== */
+:root {
+    /* Color Theme */
+    --color-primary: #15a29f;
+    --color-primary-light: #15a29f33;
+    --color-primary-lighter: #15a29f11;
+    --color-primary-medium: #15a29f44;
+    --color-primary-dark: #128a89;
+    --color-primary-darker: #0e706f;
+    --color-primary-hover: #15a29f77;
+    
+    /* Neutral Colors */
+    --color-white: #ffffff;
+    --color-light-gray: #f9f9f9;
+    --color-gray: #dedede;
+    --color-medium-gray: #ddd;
+    --color-dark-gray: #666;
+    --color-text: #333;
+    --color-text-secondary: #444;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 15px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 15px rgba(0, 0, 0, 0.1);
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--color-white), var(--color-primary-lighter));
+    --gradient-hero: linear-gradient(135deg, var(--color-primary-light), var(--color-white));
+    
+    /* Border Radius */
+    --border-radius-sm: 5px;
+    --border-radius-md: 6px;
+    --border-radius-lg: 8px;
+    --border-radius-xl: 12px;
+    
+    /* Typography */
+    --font-family-base: 'Poppins', Arial, sans-serif;
+    --font-family-accent: 'Lilita One', cursive;
+    
+    /* Layout */
+    --sidebar-width: 260px;
+    --sidebar-width-mobile: 110px;
+    --content-max-width: 1060px;
+    --page-max-width: 1270px;
+    
+    /* Transitions */
+    --transition-speed: 0.2s;
+}
+
+/* ==========================================================================
+   BASE STYLES
+   ========================================================================== */
 body {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: var(--font-family-base);
     font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-form {
-    margin-right: 20px;
-}
-
+/* ==========================================================================
+   LAYOUT
+   ========================================================================== */
 .container {
     width: 100%;
-    max-width: 1060px;
+    max-width: var(--content-max-width);
+}
+
+.page-container {
+    display: flex;
+    width: 100%;    
+    max-width: var(--page-max-width);
+    align-items: stretch; 
+    margin-top: 1rem; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content {
@@ -27,28 +90,21 @@ form {
     padding: 0;
 }
 
-.page-container {
-    display: flex;
-    width: 100%;    
-    max-width: 1270px;
-    align-items: stretch; 
-    margin-top: 1rem; 
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .page-content {
     height: 100%;
-    /*background-color: #15a29f33;*/
     width: calc(100% - 16px);
 }
 
-.sidebar-menu-text {
-    padding-left: 5px;
+/* Form Layout */
+form {
+    margin-right: 20px;
 }
 
+/* ==========================================================================
+   COMPONENTS: SIDEBAR
+   ========================================================================== */
 .sidebar {
-    width: 260px;
+    width: var(--sidebar-width);
     flex-shrink: 0;
     padding: 15px;
     margin-right: 10px;
@@ -58,28 +114,10 @@ form {
     top: 1rem;
     height: calc(100vh - 2rem);
     overflow-y: auto;
-    border: 1px solid #15a29f44;
-    border-radius: 8px;
-    background: linear-gradient(135deg, #ffffff, #15a29f11);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.sidebar---old {
-    width: 260px;
-    flex-shrink: 0;
-    padding: 15px; 
-    margin-right: 10px;
-    margin-left: 0px;
-    box-sizing: border-box;
-    position: fixed;
-    top: 1rem;
-    left: 18px;
-    height: calc(100vh - 2rem);
-    overflow-y: auto;
-    border: 1px solid #15a29f44;
-    border-radius: 8px;
-    background: linear-gradient(135deg, #ffffff, #15a29f11);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border: 1px solid var(--color-primary-medium);
+    border-radius: var(--border-radius-lg);
+    background: var(--gradient-primary);
+    box-shadow: var(--shadow-sm);
 }
 
 .sidebar ul {
@@ -94,34 +132,23 @@ form {
 
 .sidebar a {
     text-decoration: none;
-    color: #333;
+    color: var(--color-text);
     display: block; 
     padding: 5px;
 }
 
 .sidebar a:hover {
-    background-color: #15a29f77;
-    border-radius: 5px;
-    color: #ffffff;
+    background-color: var(--color-primary-hover);
+    border-radius: var(--border-radius-sm);
+    color: var(--color-white);
     font-weight: 700;
-    transition: background-color 0.2s;
-}
-
-.sidebar-logo a:hover {
-    background-color: transparent;
-    border-radius: 0;
-    color: inherit;
-    font-weight: normal;
-}
-
-.sidebar-logo a {
-    padding: 0px;
+    transition: background-color var(--transition-speed);
 }
 
 .sidebar a.active-link {
-    background-color: #15a29f;
-    border-radius: 5px;
-    color: #ffffff;
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-sm);
+    color: var(--color-white);
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
@@ -132,16 +159,32 @@ form {
     padding-right: 10px;
 }
 
+.sidebar-menu-text {
+    padding-left: 5px;
+}
+
+/* Sidebar Logo */
 .sidebar-logo {
-    background-color: #ffffff;
-    color: #ffffff;
+    background-color: var(--color-white);
+    color: var(--color-white);
     border: none;
 }
 
 .sidebar-logo:hover {
-    background-color: #ffffff;
-    color: #ffffff;
+    background-color: var(--color-white);
+    color: var(--color-white);
     border: none;
+}
+
+.sidebar-logo a {
+    padding: 0px;
+}
+
+.sidebar-logo a:hover {
+    background-color: transparent;
+    border-radius: 0;
+    color: inherit;
+    font-weight: normal;
 }
 
 .sidebar-logo-large {
@@ -156,12 +199,15 @@ form {
 
 .sidebar-heading {
     font-weight: 600;
-    background-color: #dedede;
+    background-color: var(--color-gray);
     display: block; 
     padding: 5px;
     margin-top: 25px;
 }
 
+/* ==========================================================================
+   COMPONENTS: PAGE HEADING
+   ========================================================================== */
 .page-heading {
     text-align: center;
     margin-bottom: 35px;
@@ -171,18 +217,33 @@ form {
 .page-heading h2 {
     font-size: 32px;
     font-weight: 600;
-    color: #15a29f;
+    color: var(--color-primary);
     margin-bottom: 8px;
 }
 
 .page-heading p {
-    color: #666;
+    color: var(--color-dark-gray);
     font-size: 16px;
 }
 
+/* ==========================================================================
+   COMPONENTS: CARDS
+   ========================================================================== */
+.card-container {
+    background: var(--gradient-primary);
+    border: 1px solid var(--color-primary-medium);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    padding: 20px 25px;
+    margin-bottom: 30px;
+}
+
+/* ==========================================================================
+   RESPONSIVE STYLES
+   ========================================================================== */
 @media (max-width: 900px) {
     .sidebar {
-        width: 110px;
+        width: var(--sidebar-width-mobile);
     }
 
     .sidebar ul {
@@ -196,12 +257,10 @@ form {
 
     .sidebar-logo-large {
         display: none;
-        width: 100%;
     }
 
     .sidebar-logo-small {
         display: block;
-        width: 100%;
         margin-bottom: 20px;
     }
     
@@ -213,8 +272,8 @@ form {
         font-size: 12px;
         font-weight: 600;
         text-align: center;
-        border-radius: 6px;
-        background-color: #dedede;
+        border-radius: var(--border-radius-md);
+        background-color: var(--color-gray);
         display: block; 
         padding: 1px;
         padding-left: 5px;
@@ -223,11 +282,7 @@ form {
         margin-bottom: 15px;
     }
 
-    .sidebar a.active-link {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    
+    .sidebar a.active-link,
     .sidebar a.inactive-link {
         padding-top: 15px;
         padding-bottom: 15px;

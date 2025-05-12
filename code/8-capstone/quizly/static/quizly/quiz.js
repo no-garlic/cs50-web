@@ -101,10 +101,10 @@ function showRatingPopup(userRating = 0) {
     // Create popup content
     popup.innerHTML = `
         <div class="rating-popup-content">
-            <h3>Rate</h3>
+            <h3>Rate This Quiz</h3>
             <div class="stars-container">
                 ${Array(5).fill().map((_, i) => 
-                    `<i class="bi bi-star star-rating" data-rating="${i+1}"></i>`
+                    `<i class="bi ${i < userRating ? 'bi-star-fill' : 'bi-star'} star-rating" data-rating="${i+1}"></i>`
                 ).join('')}
             </div>
         </div>
@@ -115,11 +115,6 @@ function showRatingPopup(userRating = 0) {
     
     // Add event listeners to stars
     const stars = popup.querySelectorAll('.star-rating');
-    
-    // Initialize with user's previous rating if available
-    if (userRating > 0) {
-        updateStars(stars, userRating);
-    }
     
     stars.forEach(star => {
         // Hover effect
@@ -134,7 +129,10 @@ function showRatingPopup(userRating = 0) {
             submitRating(rating);
             
             // Update the button's data attribute with the new rating
-            document.querySelector('.quiz-btn:has(i.bi-star)').dataset.userRating = rating;
+            const rateButton = document.querySelector('.quiz-btn:has(i.bi-star), .quiz-btn:has(i.bi-star-fill)');
+            if (rateButton) {
+                rateButton.dataset.userRating = rating;
+            }
             
             // Close popup after delay
             setTimeout(() => {
@@ -159,7 +157,10 @@ function showRatingPopup(userRating = 0) {
     // Close popup when clicking outside
     popup.addEventListener('click', function(e) {
         if (e.target === popup) {
-            popup.remove();
+            popup.classList.add('fade-out');
+            setTimeout(() => {
+                popup.remove();
+            }, 300);
         }
     });
     
