@@ -45,22 +45,32 @@
     line-height: 1.6;
 }
 
-.cta-button {
+.hero-btn {
     background-color: #15a29f;
     color: #fff;
     font-size: 1.1rem;
-    padding: 0.75rem 1.5rem;
+    padding: 12px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
+    border: none;
     transition: background-color 0.2s;
     display: inline-flex;
     align-items: center;
     gap: 6px;
 }
 
-.cta-button:hover {
+.hero-btn:hover {
     background-color: #128a89;
+    color: #fff;
+}
+
+.hero-btn:active,
+.hero-btn:focus {
+    background-color: #0e706f !important;
+    border-color: #0e706f !important;
+    box-shadow: 0 0 0 0.25rem rgba(21, 162, 159, 0.5) !important;
+    color: #fff;
 }
 
 .features-section {
