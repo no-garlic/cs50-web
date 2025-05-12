@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize save for later functionality
     initSaveForLater();
+    
+    // Initialize attempt now functionality
+    initAttemptNow();
 });
 
 function initRatingSystem() {
@@ -64,11 +67,29 @@ function initSaveForLater() {
                     saveButton.appendChild(document.createTextNode('Save For Later'));
                     saveButton.dataset.saved = 'false';
                 }
+                
+                // Remove focus from the button
+                saveButton.blur();
             }
         })
         .catch(error => {
             console.error('Error saving quiz for later:', error);
         });
+    });
+}
+
+function initAttemptNow() {
+    const attemptButton = document.getElementById('attempt-now');
+    if (!attemptButton)
+        return;
+    
+    attemptButton.addEventListener('click', function() {
+        // Get the quiz ID from the URL
+        const path = window.location.pathname;
+        const quizId = path.split('/').pop();
+        
+        // Navigate to the attempt page
+        window.location.href = `/attempt/${quizId}`;
     });
 }
 

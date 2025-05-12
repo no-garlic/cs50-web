@@ -11,14 +11,15 @@ from django.core.paginator import Paginator
 from ..models import *
 
 
-def index(request):
-    return render(request, "quizly/index.html", {
-        "active_filter": "index",
+def profile(request, username):
+    profile = User.objects.filter(username=username).first()
+
+    active_filter = ""
+
+    if request.user.is_authenticated and request.user.username == username:
+        active_filter = "profile"
+
+    return render(request, "quizly/profile.html", {
+        "active_filter": active_filter,
+        "profile": profile,
     })
-
-
-def create(request):
-    return render(request, "quizly/create.html", {
-        "active_filter": "create",
-    })
-
