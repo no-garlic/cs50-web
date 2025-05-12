@@ -14,13 +14,15 @@ class User(AbstractUser):
         """
         Get the quizzes saved for later by the user.
         """
-        return SavedForLater.objects.filter(user=self).values_list('quiz', flat=True).distinct()
+        saved_quiz_ids = SavedForLater.objects.filter(user=self).values_list('quiz', flat=True)
+        return Quiz.objects.filter(id__in=saved_quiz_ids)
 
     def get_completed_quizzes(self):
         """
         Get the quizzes completed by the user.
         """
-        return QuizAttempt.objects.filter(user=self).values_list('quiz', flat=True).distinct()
+        completed_quiz_ids = QuizAttempt.objects.filter(user=self).values_list('quiz', flat=True).distinct()
+        return Quiz.objects.filter(id__in=completed_quiz_ids)
         
 
 class Category(models.Model):

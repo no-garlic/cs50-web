@@ -38,24 +38,54 @@
     <div class="details-container">
         <h3 class="details-heading">Saved For Later</h3>
         <div class="table-container">
-            {% for quiz in saved_for_later %}
-                <p>{{quiz.name}}</p>
-            {% endfor %}
+            {% if saved_for_later|length > 0 %}
+                <table class="profile-table">
+                    <thead>
+                        <tr>
+                            <th>Quiz Name</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for quiz in saved_for_later %}
+                            <tr>
+                                <td><a href="{% url 'quiz' quiz.id %}">{{ quiz.name }}</a></td>
+                                <td>{{ quiz.category.name }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p class="no-items">No quizzes saved for later.</p>
+            {% endif %}
         </div>
     </div>
 
     <div class="details-container">
         <h3 class="details-heading">Completed</h3>
         <div class="table-container">
-            {% for quiz in completed_quizzes %}
-                <p>{{quiz.name}}</p>
-            {% endfor %}
+            {% if completed_quizzes|length > 0 %}
+                <table class="profile-table">
+                    <thead>
+                        <tr>
+                            <th>Quiz Name</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for quiz in completed_quizzes %}
+                            <tr>
+                                <td><a href="{% url 'quiz' quiz.id %}">{{ quiz.name }}</a></td>
+                                <td>{{ quiz.category.name }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p class="no-items">No completed quizzes.</p>
+            {% endif %}
         </div>
     </div>
-
-
-
-
 
 {% endblock %}
 
