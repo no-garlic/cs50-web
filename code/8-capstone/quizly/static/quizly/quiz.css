@@ -1,6 +1,3 @@
-/* ==========================================================================
-   QUIZ DETAILS
-   ========================================================================== */
 .details-container {
     display: flex;
     flex-wrap: wrap;
@@ -9,11 +6,11 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto 30px;
-    background: var(--gradient-primary);
-    border: 1px solid var(--color-primary-medium);
-    border-radius: var(--border-radius-lg);
+    background: linear-gradient(135deg, #ffffff, #15a29f11);
+    border: 1px solid #15a29f44;
+    border-radius: 8px;
     padding: 20px 25px;
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     position: relative;
 }
 
@@ -30,7 +27,7 @@
     align-items: center;
     margin-top: 0px;
     padding-top: 12px;
-    border-top: 1px solid var(--color-primary-medium);
+    border-top: 1px solid #15a29f44;
     position: relative;
 }
 
@@ -41,47 +38,56 @@
     left: 0;
     right: 0;
     height: 1px;
+    background: linear-gradient(to right, transparent, #15a29f88 30%, #15a29f88 70%, transparent);
 }
 
 .details-value {
-    font-weight: 600;
-    color: var(--color-primary);
-    padding-left: 5px;
-    display: inline-flex;
-    align-items: center;
+    margin: 0;
+    background: linear-gradient(135deg, #ffffff, #15a29f11);
+    border: 1px solid #15a29f44;
+    border-radius: 8px;
+    padding: 2px 7px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
 }
 
 .quiz-actions {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 10px;
-    justify-content: center;
-    margin-bottom: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 30px;
 }
 
 .quiz-btn {
     padding: 12px 20px;
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-weight: 600;
-    transition: all var(--transition-speed);
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn-outline-primary {
+    color: #15a29f;
+    border-color: #15a29f;
+}
+
+.btn-outline-primary:hover {
+    background-color: #15a29f;
+    border-color: #15a29f;
+    color: white;
 }
 
 .details-heading {
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: var(--color-primary);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
-    border-bottom: 1px solid var(--color-primary-medium);
-    padding-bottom: 10px;
+    color: #15a29f;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
-/* ==========================================================================
-   ATTEMPTS TABLE
-   ========================================================================== */
 .table-container {
     width: 100%;
     overflow-x: auto;
@@ -90,24 +96,24 @@
 .attempts-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 16px;
-    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .attempts-table thead {
-    background-color: var(--color-primary-lighter);
-}
-
-.attempts-table th,
-.attempts-table td {
-    text-align: left;
-    padding: 12px 15px;
-    border-bottom: 1px solid var(--color-primary-medium);
+    background-color: rgba(21, 162, 159, 0.1);
 }
 
 .attempts-table th {
-    color: var(--color-text-secondary);
+    text-align: left;
+    padding: 10px;
     font-weight: 600;
+    color: #15a29f;
+    border-bottom: 2px solid #15a29f44;
+}
+
+.attempts-table td {
+    padding: 10px;
+    border-bottom: 1px solid #15a29f22;
 }
 
 .attempts-table tr:last-child td {
@@ -115,44 +121,55 @@
 }
 
 .attempts-table tr:hover {
-    background-color: var(--color-primary-lighter);
+    background-color: rgba(21, 162, 159, 0.05);
 }
 
 .no-attempts {
-    text-align: center;
-    color: var(--color-text-secondary);
-    padding: 20px;
+    color: #666;
     font-style: italic;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
 }
 
 .attempts-table th:nth-child(1),
 .attempts-table td:nth-child(1) {
     width: 40%;
+    max-width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .attempts-table th:nth-child(2),
 .attempts-table td:nth-child(2) {
-    width: 30%;
-    text-align: center;
+    width: 40%;
+    max-width: 40%;
 }
 
 .attempts-table th:nth-child(3),
 .attempts-table td:nth-child(3) {
-    width: 30%;
-    text-align: right;
+    width: 20%;
+    max-width: 20%;
 }
 
-/* Responsive adjustments */
 @media (max-width: 576px) {
     .quiz-actions {
-        flex-direction: column;
-        align-items: stretch;
+        flex-wrap: wrap;
+    }
+    
+    .quiz-btn {
+        flex: 1 1 auto;
+        justify-content: center;
+    }
+
+    .attempts-table th,
+    .attempts-table td {
+        padding: 8px;
     }
 }
 
-/* ==========================================================================
-   RATING POPUP
-   ========================================================================== */
+/* Rating Popup Styles */
 .rating-popup {
     position: fixed;
     top: 0;
@@ -165,32 +182,29 @@
     align-items: center;
     z-index: 1000;
     opacity: 0;
-    visibility: hidden;
-    transition: opacity var(--transition-speed), visibility var(--transition-speed);
+    transition: opacity 0.3s ease;
 }
 
 .rating-popup.active {
     opacity: 1;
-    visibility: visible;
 }
 
 .rating-popup.fade-out {
     opacity: 0;
-    visibility: hidden;
 }
 
 .rating-popup-content {
-    background-color: var(--color-white);
-    padding: 30px;
-    border-radius: var(--border-radius-lg);
-    width: 90%;
-    max-width: 400px;
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     text-align: center;
-    box-shadow: var(--shadow-lg);
 }
 
 .rating-popup-content h3 {
-    color: var(--color-primary);
+    color: #15a29f;
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: 600;
@@ -199,49 +213,37 @@
 .stars-container {
     display: flex;
     justify-content: center;
+    font-size: 2rem;
     gap: 10px;
-    margin-bottom: 20px;
 }
 
-/* Important: This targets the actual star elements generated by JavaScript */
 .star-rating {
-    font-size: 24px;
     cursor: pointer;
-    padding: 5px;
-    transition: transform var(--transition-speed);
+    color: #15a29f;
+    transition: transform 0.2s ease;
 }
 
 .star-rating:hover {
     transform: scale(1.2);
 }
 
-/* Update unfilled stars to use primary color instead of medium gray */
-.star-rating.bi-star {
-    color: var(--color-primary);
-    opacity: 0.4;
+.bi-star {
+    color: #15a29f;
 }
 
-.star-rating.bi-star-fill {
-    color: var(--color-primary);
+.bi-star-half {
+    color: #15a29f;
 }
 
-/* Fix for animated hover effect */
-.stars-container:hover .star-rating.bi-star {
-    color: var(--color-primary);
-    opacity: 0.4;
+.bi-star-fill {
+    color: #15a29f;
 }
 
-.stars-container:hover .star-rating.bi-star-fill {
-    color: var(--color-primary);
-    opacity: 1;
+button .bi-star {
+    color: white;
 }
 
-/* Add hover state for better interactivity */
-.star-rating:hover.bi-star,
-.star-rating:hover.bi-star-fill,
-.star-rating:hover ~ .star-rating.bi-star,
-.star-rating:hover ~ .star-rating.bi-star-fill {
-    color: var(--color-primary);
-    opacity: 1;
+button .bi-star-fill {
+    color: white;
 }
 
