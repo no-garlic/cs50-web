@@ -10,7 +10,6 @@
     {% csrf_token %}
     <div class="page-heading">
         <h2>{{ profile_user.display_name }}</h2>
-        <p>{{ profile_user.username }}</p>
     </div>
 
     <div class="details-container">
@@ -21,6 +20,10 @@
                     <tr>
                         <td>Username</td>
                         <td>{{ profile_user.username }}</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>{{ profile_user.email }}</td>
                     </tr>
                     <tr>
                         <td>First Name</td>
@@ -50,7 +53,7 @@
                         {% for quiz in saved_for_later %}
                             <tr>
                                 <td><a href="{% url 'quiz' quiz.id %}">{{ quiz.name }}</a></td>
-                                <td>{{ quiz.category.name }}</td>
+                                <td style="width:30% !important;"><a href="{% url 'browse' %}?category={{quiz.category.id}}">{{ quiz.category.name }}</a></td>
                             </tr>
                         {% endfor %}
                     </tbody>
@@ -64,19 +67,21 @@
     <div class="details-container">
         <h3 class="details-heading">Completed</h3>
         <div class="table-container">
-            {% if completed_quizzes|length > 0 %}
+            {% if quiz_attempts|length > 0 %}
                 <table class="profile-table">
                     <thead>
                         <tr>
                             <th>Quiz Name</th>
-                            <th>Category</th>
+                            <th>Date</th>
+                            <th>Score</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {% for quiz in completed_quizzes %}
+                        {% for attempt in quiz_attempts %}
                             <tr>
-                                <td><a href="{% url 'quiz' quiz.id %}">{{ quiz.name }}</a></td>
-                                <td>{{ quiz.category.name }}</td>
+                                <td><a href="{% url 'quiz' attempt.quiz.id %}">{{ attempt.quiz.name }}</a></td>
+                                <td>{{ attempt.date_taken|date:"M d, Y" }}</td>
+                                <td>{{ attempt.correct }}/{{ attempt.quiz.get_question_count }}</td>
                             </tr>
                         {% endfor %}
                     </tbody>

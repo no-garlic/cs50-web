@@ -91,6 +91,10 @@
 
 .user-details-table td:last-child {
     width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 0; /* Required for text-overflow to work */
 }
 
 /* Profile Table Styles */
@@ -115,6 +119,10 @@
 .profile-table td {
     padding: 10px;
     border-bottom: 1px solid #15a29f22;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 0; /* Required for text-overflow to work */
 }
 
 .profile-table tr:last-child td {
@@ -127,14 +135,25 @@
 
 .profile-table th:nth-child(1),
 .profile-table td:nth-child(1) {
-    width: 80%;
-    max-width: 80%;
+    width: 70%;
 }
 
 .profile-table th:nth-child(2),
 .profile-table td:nth-child(2) {
     width: 20%;
-    max-width: 20%;
+}
+
+.profile-table th:nth-child(3),
+.profile-table td:nth-child(3) {
+    width: 10%;
+}
+
+/* Make sure links don't overflow */
+.profile-table td a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .no-items {
@@ -166,7 +185,6 @@
     .profile-table th:nth-child(1),
     .profile-table td:nth-child(1) {
         width: 100%;
-        max-width: 100%;
     }
 
     .profile-table th:nth-child(2),

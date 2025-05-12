@@ -17,12 +17,11 @@ class User(AbstractUser):
         saved_quiz_ids = SavedForLater.objects.filter(user=self).values_list('quiz', flat=True)
         return Quiz.objects.filter(id__in=saved_quiz_ids)
 
-    def get_completed_quizzes(self):
+    def get_quiz_attempts(self):
         """
         Get the quizzes completed by the user.
         """
-        completed_quiz_ids = QuizAttempt.objects.filter(user=self).values_list('quiz', flat=True).distinct()
-        return Quiz.objects.filter(id__in=completed_quiz_ids)
+        return QuizAttempt.objects.filter(user=self)
         
 
 class Category(models.Model):
@@ -110,7 +109,6 @@ class Quiz(models.Model):
             if average_score.is_integer():
                 return int(average_score)
             return average_score
-
         return 0
 
     def get_is_saved_for_later(self, user):
@@ -187,7 +185,7 @@ class QuizAttempt(models.Model):
 
     def __str__(self):
         return f"{self.user.username} - {self.quiz.name} - {self.score}"
-    
+
 
 class SavedForLater(models.Model):
     """
