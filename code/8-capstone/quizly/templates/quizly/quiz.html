@@ -7,42 +7,81 @@
 {% endblock %}
 
 {% block body %}
-    <div>
+    <div class="page-heading">
+        <h2>{{ quiz.name }}</h2>
+        <p>{{ quiz.description }}</p>
+    </div>
+
+    <div class="details-container">
         <ul>
-            <li>Name: {{ quiz.name }}</li>
-            <li>Description: {{ quiz.description }}</li>
-            <li>Created: {{ quiz.created_at }}</li>
-            <li>Author: {{ quiz.created_by }}</li>
-            <li>Category: {{ quiz.category }}</li>
-            <li>Average Score: {{ quiz.get_average_score }} / {{ quiz.get_question_count }}</li>
-            <li>Average Rating: {{ quiz.get_average_rating }}</li>
-            <hr>
-            <li>My Rating:</li>
-            <li>Is Saved For Later:</li>
-            <hr>
-            <li>Number of Questions: {{ quiz.get_question_count }}</li>
-            <li>Questions:
-                <ul>
-                {% for question in quiz.get_questions %}
-                    <li>{{ question }}</li>
-                {% endfor %}
-                </ul>
-            </li>
-            <hr>
-            <li>My Attempts:
-                <ul>
-                </ul>
-            </li>            
-            <hr>
-            <li>Leaderboard:
-                <ul>
-                {% for attempt in quiz.get_leaderboard %}
-                    <li>{{ attempt }}</li>
-                {% endfor %}
-                </ul>
-            </li>            
+            <li><strong>Author:</strong> {{ quiz.created_by.display_name }}</li>
+            <li><strong>Created:</strong> {{ quiz.get_created_at_pretty }}</li>
         </ul>
-        
+        <div class="details-banner">
+            Average Score<div class="details-value">{{ quiz.get_average_score }}/{{ quiz.get_question_count }}</div>
+            &nbsp;&nbsp;
+            Average Rating<div class="details-value">{{ quiz.get_average_rating_html|safe }}</div>
+        </div>
+    </div>
+
+    <div class="quiz-actions">
+        <button class="btn btn-outline-primary quiz-btn"><i class="bi bi-star"></i> Rate</button>
+        <button class="btn btn-outline-primary quiz-btn"><i class="bi bi-bookmark"></i> Save For Later</button>
+        <button class="btn btn-primary quiz-btn"><i class="bi bi-play-fill"></i> Attempt Now</button>
+    </div>
+
+    <div class="details-container">
+        <h3 class="details-heading">My Attempts</h3>
+        <div class="table-container">
+            {% if user.is_authenticated and quiz.get_attempts_for_user|length > 0 %}
+                <table class="attempts-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for attempt in quiz.get_attempts_for_user|dictsort:"date_taken" %}
+                            <tr>
+                                <td>{{ attempt.date_taken|date:"M d, Y" }}</td>
+                                <td>{{ attempt.score }}/{{ quiz.get_question_count }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p class="no-attempts">You haven't attempted this quiz yet.</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="details-container">
+        <h3 class="details-heading">Leaderboard</h3>
+        <div class="table-container">
+            {% if quiz.get_leaderboard|length > 0 %}
+                <table class="attempts-table">
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Date</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for attempt in quiz.get_leaderboard %}
+                            <tr>
+                                <td>{{ attempt.user.display_name }}</td>
+                                <td>{{ attempt.date_taken|date:"M d, Y" }}</td>
+                                <td>{{ attempt.score }}/{{ quiz.get_question_count }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p class="no-attempts">No one has attempted this quiz yet.</p>
+            {% endif %}
+        </div>
     </div>
 {% endblock %}
 

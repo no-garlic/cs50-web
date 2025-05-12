@@ -54,6 +54,9 @@
     text-decoration: none;
     font-weight: 600;
     transition: background-color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .cta-button:hover {

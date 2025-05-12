@@ -58,6 +58,12 @@ class Quiz(models.Model):
     def __str__(self):
         return self.name
     
+    def get_created_at_pretty(self):
+        """
+        Get the created_at field in a human-readable format.
+        """
+        return self.created_at.strftime("%B %d, %Y")
+
     def get_average_rating(self):
         """
         Calculate the average rating for the quiz.
@@ -67,6 +73,16 @@ class Quiz(models.Model):
             return sum(rating.rating for rating in ratings) / ratings.count()
         return 0.0
     
+    def get_average_rating_html(self):
+        """
+        Get the average rating as HTML.
+        """
+        average_rating = self.get_average_rating()
+        stars = int(average_rating)
+        half_star = 1 if average_rating - stars >= 0.5 else 0
+        empty_stars = 5 - stars - half_star
+        return f"{'<i class="bi bi-star-fill"></i>' * stars}{'<i class="bi bi-star-half"></i>' * half_star}{'<i class="bi bi-star"></i>' * empty_stars}"
+
     def get_rating_for_user(self, user):
         """
         Get the rating given by a specific user for the quiz.
@@ -81,8 +97,13 @@ class Quiz(models.Model):
         attempts = self.attempts.all()
         if attempts.exists():
             score_value = sum(attempt.score for attempt in attempts) / attempts.count()
-            return (int(score_value / 10) / 10) * self.get_question_count()
-        return 0.0
+            average_score = (int(score_value / 10) / 10) * self.get_question_count()
+            
+            if average_score.is_integer():
+                return int(average_score)
+            return average_score
+
+        return 0
 
     def get_is_saved_for_later(self, user):
         """
