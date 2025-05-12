@@ -32,3 +32,24 @@ def attempt(request, quiz_id):
     return render(request, "quizly/attempt.html", {
         "active_filter": "attempt",
     })
+
+
+def rate_quiz(request):
+    if request.method == "POST":
+        quiz_id = request.POST.get("quiz_id")
+        rating = request.POST.get("rating")
+        quiz = Quiz.objects.get(id=quiz_id)
+        user = request.user
+
+        # Check if the user has already rated the quiz
+        existing_rating = QuizRating.objects.filter(quiz=quiz, user=user).first()
+        if existing_rating:
+            existing_rating.rating = rating
+            existing_rating.save()
+        else:
+            new_rating = QuizRating(quiz=quiz, user=user, rating=rating)
+            new_rating.save()
+
+        return JsonResponse({"status": "success", "message": "Rating submitted successfully."})
+    else:
+        return JsonResponse({"status": "error", "message": "Invalid request method."})

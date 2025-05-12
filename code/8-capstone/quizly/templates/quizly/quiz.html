@@ -7,6 +7,7 @@
 {% endblock %}
 
 {% block body %}
+    {% csrf_token %}
     <div class="page-heading">
         <h2>{{ quiz.name }}</h2>
         <p>{{ quiz.description }}</p>
