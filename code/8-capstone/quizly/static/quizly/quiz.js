@@ -8,12 +8,15 @@ function initRatingSystem() {
     if (!rateButton) return;
     
     rateButton.addEventListener('click', function() {
+        // Get user's previous rating if it exists
+        const userRating = parseInt(this.dataset.userRating) || 0;
+        
         // Create and show the rating popup
-        showRatingPopup();
+        showRatingPopup(userRating);
     });
 }
 
-function showRatingPopup() {
+function showRatingPopup(userRating = 0) {
     // Create the popup container
     const popup = document.createElement('div');
     popup.classList.add('rating-popup');
@@ -35,6 +38,12 @@ function showRatingPopup() {
     
     // Add event listeners to stars
     const stars = popup.querySelectorAll('.star-rating');
+    
+    // Initialize with user's previous rating if available
+    if (userRating > 0) {
+        updateStars(stars, userRating);
+    }
+    
     stars.forEach(star => {
         // Hover effect
         star.addEventListener('mouseenter', function() {
@@ -47,6 +56,9 @@ function showRatingPopup() {
             const rating = parseInt(this.dataset.rating);
             submitRating(rating);
             
+            // Update the button's data attribute with the new rating
+            document.querySelector('.quiz-btn:has(i.bi-star)').dataset.userRating = rating;
+            
             // Close popup after delay
             setTimeout(() => {
                 popup.classList.add('fade-out');
@@ -57,10 +69,14 @@ function showRatingPopup() {
         });
     });
     
-    // Reset stars when mouse leaves the container
+    // Reset stars when mouse leaves the container, but only if no rating was previously selected
     const starsContainer = popup.querySelector('.stars-container');
     starsContainer.addEventListener('mouseleave', function() {
-        resetStars(stars);
+        if (userRating > 0) {
+            updateStars(stars, userRating);
+        } else {
+            resetStars(stars);
+        }
     });
     
     // Close popup when clicking outside
@@ -122,7 +138,7 @@ function submitRating(rating) {
             console.log('Rating submitted successfully');
             
             // Optionally refresh the page to show updated average rating
-            // window.location.reload();
+            window.location.reload();
         }
     })
     .catch(error => {

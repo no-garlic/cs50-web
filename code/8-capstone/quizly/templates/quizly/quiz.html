@@ -27,7 +27,7 @@
     </div>
 
     <div class="quiz-actions">
-        <button class="btn btn-primary quiz-btn"><i class="bi bi-star"></i> Rate</button>
+        <button class="btn btn-primary quiz-btn" data-user-rating="{{ user_rating|default:0 }}"><i class="bi bi-star"></i> Rate</button>
         <button class="btn btn-primary quiz-btn"><i class="bi bi-bookmark"></i> Save For Later</button>
         <button class="btn btn-primary quiz-btn"><i class="bi bi-play-fill"></i> Attempt Now</button>
     </div>

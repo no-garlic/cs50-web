@@ -19,12 +19,15 @@ def quiz(request, quiz_id):
         return render(request, "quizly/index.html")
     
     user_attempts = []
+    user_rating = None
     if request.user.is_authenticated:
         user_attempts = quiz.get_attempts_for_user(request.user)
+        user_rating = quiz.get_rating_for_user(request.user)
     
     return render(request, "quizly/quiz.html", {
         "quiz": quiz,
-        "user_attempts": user_attempts
+        "user_attempts": user_attempts,
+        "user_rating": user_rating
     })
 
 
