@@ -10,6 +10,18 @@ class User(AbstractUser):
     def display_name(self):
         return f"{self.first_name} {self.last_name}" if self.first_name and self.last_name else self.username
     
+    def get_saved_for_later(self):
+        """
+        Get the quizzes saved for later by the user.
+        """
+        return SavedForLater.objects.filter(user=self).values_list('quiz', flat=True).distinct()
+
+    def get_completed_quizzes(self):
+        """
+        Get the quizzes completed by the user.
+        """
+        return QuizAttempt.objects.filter(user=self).values_list('quiz', flat=True).distinct()
+        
 
 class Category(models.Model):
     """

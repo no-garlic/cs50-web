@@ -2,12 +2,60 @@
 {% load static %}
 
 {% block head %}
+    <link rel="stylesheet" href="{% static 'quizly/profile.css' %}">
     <script src="{% static 'quizly/profile.js' %}"></script>
 {% endblock %}
 
 {% block body %}
-    <div>
-        Profile: {{ profile }}
+    {% csrf_token %}
+    <div class="page-heading">
+        <h2>{{ profile_user.display_name }}</h2>
+        <p>{{ profile_user.username }}</p>
     </div>
+
+    <div class="details-container">
+        <h3 class="details-heading">My Details</h3>
+        <div class="table-container">
+            <table class="user-details-table">
+                <tbody>
+                    <tr>
+                        <td>Username</td>
+                        <td>{{ profile_user.username }}</td>
+                    </tr>
+                    <tr>
+                        <td>First Name</td>
+                        <td>{{ profile_user.first_name }}</td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>{{ profile_user.last_name }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="details-container">
+        <h3 class="details-heading">Saved For Later</h3>
+        <div class="table-container">
+            {% for quiz in saved_for_later %}
+                <p>{{quiz.name}}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="details-container">
+        <h3 class="details-heading">Completed</h3>
+        <div class="table-container">
+            {% for quiz in completed_quizzes %}
+                <p>{{quiz.name}}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+
+
+
+
 {% endblock %}
 

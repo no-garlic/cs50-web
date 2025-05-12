@@ -10,6 +10,7 @@ Todo:
 - refactor javascript to look more hand written, and use snake case
 - update scemantic search when adding a quiz
 - update the migration to add multiple scores for each user
+- left margin for sidebar is broken
 
 
 Why more complex:
