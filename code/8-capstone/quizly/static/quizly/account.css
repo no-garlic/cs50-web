@@ -52,20 +52,25 @@
 }
 
 .auth-form {
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+    width: 100%;
+    padding: 0;
 }
 
 .form-group {
     margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
 }
 
 .form-control {
     width: 100%;
-    padding: 12px 15px;
+    padding: 12px;
     border: 1px solid #ddd;
     border-radius: 6px;
     font-size: 16px;
     transition: border-color 0.2s ease;
+    box-sizing: border-box;
 }
 
 .form-control:focus {
