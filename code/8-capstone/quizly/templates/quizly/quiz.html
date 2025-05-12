@@ -9,19 +9,38 @@
 {% block body %}
     <div>
         <ul>
-            <li>{{ quiz.name }}</li>
-            <li>{{ quiz.description }}</li>
-            <li>{{ quiz.created_at }}</li>
-            <li>{{ quiz.created_by }}</li>
-            <li>{{ quiz.category }}</li>
-            <li>{{ quiz.get_rating }}</li>
-            <li>Questions
+            <li>Name: {{ quiz.name }}</li>
+            <li>Description: {{ quiz.description }}</li>
+            <li>Created: {{ quiz.created_at }}</li>
+            <li>Author: {{ quiz.created_by }}</li>
+            <li>Category: {{ quiz.category }}</li>
+            <li>Average Score: {{ quiz.get_average_score }} / {{ quiz.get_question_count }}</li>
+            <li>Average Rating: {{ quiz.get_average_rating }}</li>
+            <hr>
+            <li>My Rating:</li>
+            <li>Is Saved For Later:</li>
+            <hr>
+            <li>Number of Questions: {{ quiz.get_question_count }}</li>
+            <li>Questions:
                 <ul>
                 {% for question in quiz.get_questions %}
                     <li>{{ question }}</li>
                 {% endfor %}
                 </ul>
             </li>
+            <hr>
+            <li>My Attempts:
+                <ul>
+                </ul>
+            </li>            
+            <hr>
+            <li>Leaderboard:
+                <ul>
+                {% for attempt in quiz.get_leaderboard %}
+                    <li>{{ attempt }}</li>
+                {% endfor %}
+                </ul>
+            </li>            
         </ul>
         
     </div>

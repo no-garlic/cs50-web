@@ -6,6 +6,8 @@ Todo:
 - requirements.txt
 - try to refactor CSS so it looks less like it was done with gpt
 - update scemantic search when adding a quiz
+- update the migration to add multiple scores for each user
+- login and register forms have too large right padding
 
 
 Why more complex:

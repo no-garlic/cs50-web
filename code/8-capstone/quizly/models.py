@@ -58,7 +58,7 @@ class Quiz(models.Model):
     def __str__(self):
         return self.name
     
-    def get_rating(self):
+    def get_average_rating(self):
         """
         Calculate the average rating for the quiz.
         """
@@ -67,6 +67,23 @@ class Quiz(models.Model):
             return sum(rating.rating for rating in ratings) / ratings.count()
         return 0.0
     
+    def get_rating_for_user(self, user):
+        """
+        Get the rating given by a specific user for the quiz.
+        """
+        rating = self.ratings.filter(user=user).first()
+        return rating.rating if rating else None
+    
+    def get_average_score(self):
+        """
+        Calculate the average score for the quiz.
+        """
+        attempts = self.attempts.all()
+        if attempts.exists():
+            score_value = sum(attempt.score for attempt in attempts) / attempts.count()
+            return (int(score_value / 10) / 10) * self.get_question_count()
+        return 0.0
+
     def get_is_saved_for_later(self, user):
         """
         Check if the quiz is saved for later by the user.
@@ -76,6 +93,39 @@ class Quiz(models.Model):
     def get_questions(self):
         questions = Question.objects.filter(quiz=self)
         return questions
+    
+    def get_question_count(self):
+        """
+        Get the number of questions in the quiz.
+        """
+        return self.get_questions().count()
+    
+    def get_number_of_attempts(self):
+        """
+        Get the number of attempts for the quiz.
+        """
+        return self.attempts.count()
+    
+    def get_attempts_for_user(self, user):
+        """
+        Get the attempts for the quiz by a specific user.
+        """
+        return self.attempts.filter(user=user)
+    
+    def get_leaderboard(self, number_of_users=10):
+        """
+        Get the leaderboard for the quiz, showing only the highest score for each user.
+        """
+        all_attempts = self.attempts.all()
+        best_attempts = {}
+        
+        for attempt in all_attempts:
+            user_id = attempt.user_id
+            if user_id not in best_attempts or attempt.score > best_attempts[user_id].score:
+                best_attempts[user_id] = attempt
+        
+        sorted_attempts = sorted(best_attempts.values(), key=lambda x: x.score, reverse=True)
+        return sorted_attempts[:number_of_users]
 
 
 class QuizRating(models.Model):
@@ -107,7 +157,7 @@ class QuizAttempt(models.Model):
     date_taken = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.user.username} - {self.quiz.title} - {self.score}"
+        return f"{self.user.username} - {self.quiz.name} - {self.score}"
     
 
 class SavedForLater(models.Model):
