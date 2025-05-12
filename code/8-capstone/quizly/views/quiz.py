@@ -19,14 +19,18 @@ def quiz(request, quiz_id):
     
     user_attempts = []
     user_rating = None
+    is_saved_for_later = False
+    
     if request.user.is_authenticated:
         user_attempts = quiz.get_attempts_for_user(request.user)
         user_rating = quiz.get_rating_for_user(request.user)
+        is_saved_for_later = quiz.get_is_saved_for_later(request.user)
     
     return render(request, "quizly/quiz.html", {
         "quiz": quiz,
         "user_attempts": user_attempts,
-        "user_rating": user_rating
+        "user_rating": user_rating,
+        "is_saved_for_later": is_saved_for_later
     })
 
 
@@ -69,11 +73,11 @@ def save_for_later(request):
         existing_save = SavedForLater.objects.filter(quiz=quiz, user=user).first()
         if existing_save:
             existing_save.delete()
-            return JsonResponse({"status": "success", "message": "Quiz removed from saved for later."})
+            return JsonResponse({"status": "success", "message": "Quiz removed from saved for later.", "is_saved": False})
         else:
             new_save = SavedForLater(quiz=quiz, user=user)
             new_save.save()
-            return JsonResponse({"status": "success", "message": "Quiz saved for later."})
+            return JsonResponse({"status": "success", "message": "Quiz saved for later.", "is_saved": True})
     else:
         return JsonResponse({"status": "error", "message": "Invalid request method."})
 

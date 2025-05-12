@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize rating popup functionality
     initRatingSystem();
+    
+    // Initialize save for later functionality
+    initSaveForLater();
 });
 
 function initRatingSystem() {
@@ -14,6 +17,58 @@ function initRatingSystem() {
         
         // Create and show the rating popup
         showRatingPopup(userRating);
+    });
+}
+
+function initSaveForLater() {
+    const saveButton = document.getElementById('save-for-later');
+    if (!saveButton)
+        return;
+    
+    saveButton.addEventListener('click', function() {
+        // Get the quiz ID from the URL
+        const path = window.location.pathname;
+        const quizId = path.split('/').pop();
+        
+        // Get CSRF token
+        const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+        
+        // Send the save for later request
+        fetch('/save_for_later', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'X-CSRFToken': csrfToken
+            },
+            body: `quiz_id=${quizId}`
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                // Update the button appearance and text
+                const icon = saveButton.querySelector('i');
+                const isSaved = data.is_saved;
+                
+                if (isSaved) {
+                    icon.classList.remove('bi-bookmark');
+                    icon.classList.add('bi-bookmark-fill');
+                    saveButton.textContent = '';
+                    saveButton.appendChild(icon);
+                    saveButton.appendChild(document.createTextNode('Saved For Later'));
+                    saveButton.dataset.saved = 'true';
+                } else {
+                    icon.classList.remove('bi-bookmark-fill');
+                    icon.classList.add('bi-bookmark');
+                    saveButton.textContent = '';
+                    saveButton.appendChild(icon);
+                    saveButton.appendChild(document.createTextNode('Save For Later'));
+                    saveButton.dataset.saved = 'false';
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Error saving quiz for later:', error);
+        });
     });
 }
 
