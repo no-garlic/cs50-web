@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initRatingSystem() {
     const rateButton = document.querySelector('.quiz-btn:has(i.bi-star)');
-    if (!rateButton) return;
+    if (!rateButton)
+        return;
     
     rateButton.addEventListener('click', function() {
         // Get user's previous rating if it exists

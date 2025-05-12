@@ -58,12 +58,6 @@ class Quiz(models.Model):
     def __str__(self):
         return self.name
     
-    def get_created_at_pretty(self):
-        """
-        Get the created_at field in a human-readable format.
-        """
-        return self.created_at.strftime("%B %d, %Y")
-
     def get_average_rating(self):
         """
         Calculate the average rating for the quiz.

@@ -14,7 +14,6 @@ from ..models import *
 def quiz(request, quiz_id):
     quiz = Quiz.objects.get(id=quiz_id)
 
-    # TODO: Handle the error
     if quiz is None:
         return render(request, "quizly/index.html")
     
@@ -31,12 +30,13 @@ def quiz(request, quiz_id):
     })
 
 
+@login_required
 def attempt(request, quiz_id):
     return render(request, "quizly/attempt.html", {
         "active_filter": "attempt",
     })
 
-
+@login_required
 def rate_quiz(request):
     if request.method == "POST":
         quiz_id = request.POST.get("quiz_id")
@@ -56,3 +56,24 @@ def rate_quiz(request):
         return JsonResponse({"status": "success", "message": "Rating submitted successfully."})
     else:
         return JsonResponse({"status": "error", "message": "Invalid request method."})
+    
+    
+@login_required
+def save_for_later(request):
+    if request.method == "POST":
+        quiz_id = request.POST.get("quiz_id")
+        quiz = Quiz.objects.get(id=quiz_id)
+        user = request.user
+
+        # Check if the quiz is already saved for later
+        existing_save = SavedForLater.objects.filter(quiz=quiz, user=user).first()
+        if existing_save:
+            existing_save.delete()
+            return JsonResponse({"status": "success", "message": "Quiz removed from saved for later."})
+        else:
+            new_save = SavedForLater(quiz=quiz, user=user)
+            new_save.save()
+            return JsonResponse({"status": "success", "message": "Quiz saved for later."})
+    else:
+        return JsonResponse({"status": "error", "message": "Invalid request method."})
+

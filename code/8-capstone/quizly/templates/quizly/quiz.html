@@ -16,7 +16,7 @@
     <div class="details-container">
         <div>
             <strong>Created by</strong> {{ quiz.created_by.display_name }}
-            <strong>on</strong> {{ quiz.get_created_at_pretty }}.
+            <strong>on</strong> {{ quiz.created_at|date:"M d, Y" }}.
         </div>            
         
         <div class="details-banner">
@@ -26,37 +26,39 @@
         </div>
     </div>
 
-    <div class="quiz-actions">
-        <button class="btn btn-primary quiz-btn" data-user-rating="{{ user_rating|default:0 }}"><i class="bi bi-star"></i> Rate</button>
-        <button class="btn btn-primary quiz-btn"><i class="bi bi-bookmark"></i> Save For Later</button>
-        <button class="btn btn-primary quiz-btn"><i class="bi bi-play-fill"></i> Attempt Now</button>
-    </div>
-
-    <div class="details-container">
-        <h3 class="details-heading">My Attempts</h3>
-        <div class="table-container">
-            {% if user.is_authenticated and user_attempts|length > 0 %}
-                <table class="attempts-table">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Score</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for attempt in user_attempts|dictsort:"date_taken" %}
-                            <tr>
-                                <td>{{ attempt.date_taken|date:"M d, Y" }}</td>
-                                <td>{{ attempt.score }}/{{ quiz.get_question_count }}</td>
-                            </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            {% else %}
-                <p class="no-attempts">You haven't attempted this quiz yet.</p>
-            {% endif %}
+    {% if user.is_authenticated %}
+        <div class="quiz-actions">
+            <button class="btn btn-primary quiz-btn" data-user-rating="{{ user_rating|default:0 }}"><i class="bi bi-star"></i>Rate</button>
+            <button class="btn btn-primary quiz-btn"><i class="bi bi-bookmark"></i>Save For Later</button>
+            <button class="btn btn-primary quiz-btn"><i class="bi bi-play-fill"></i>Attempt Now</button>
         </div>
-    </div>
+
+        <div class="details-container">
+            <h3 class="details-heading">My Attempts</h3>
+            <div class="table-container">
+                {% if user.is_authenticated and user_attempts|length > 0 %}
+                    <table class="attempts-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for attempt in user_attempts|dictsort:"date_taken" %}
+                                <tr>
+                                    <td>{{ attempt.date_taken|date:"M d, Y" }}</td>
+                                    <td>{{ attempt.score }}/{{ quiz.get_question_count }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% else %}
+                    <p class="no-attempts">You haven't attempted this quiz yet.</p>
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
 
     <div class="details-container">
         <h3 class="details-heading">Leaderboard</h3>

@@ -207,6 +207,23 @@
     transform: scale(1.2);
 }
 
+.bi-star {
+    color: #15a29f;
+}
+
+.bi-star-half {
+    color: #15a29f;
+}
+
 .bi-star-fill {
     color: #15a29f;
 }
+
+button .bi-star {
+    color: white;
+}
+
+button .bi-star-fill {
+    color: white;
+}
+
