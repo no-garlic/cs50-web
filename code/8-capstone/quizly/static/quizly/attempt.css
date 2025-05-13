@@ -126,6 +126,23 @@
     flex-grow: 1;
 }
 
+/* Hide the default radio buttons while keeping them functional */
+input[type="radio"].option-radio {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Style the labels to be clickable */
+.option-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
 /* Correct and incorrect answer styling */
 .correct-answer {
     background-color: rgba(76, 175, 80, 0.1) !important;

@@ -54,7 +54,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {% for attempt in user_attempts|dictsort:"date_taken" %}
+                            {% for attempt in user_attempts %}
                                 <tr>
                                     <td><a href="{% url 'profile' attempt.user.username %}">{{ attempt.user.display_name }}</a></td>
                                     <td>{{ attempt.date_taken|date:"M d, Y" }}</td>

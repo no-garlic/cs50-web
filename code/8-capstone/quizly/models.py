@@ -150,7 +150,7 @@ class Quiz(models.Model):
         """
         Get the attempts for the quiz by a specific user.
         """
-        return self.attempts.filter(user=user)
+        return self.attempts.filter(user=user).order_by("-score", "-date_taken")
     
     def get_leaderboard(self, number_of_users=10):
         """

@@ -14,7 +14,7 @@ from ..models import *
 def profile(request, username):
     profile_user = User.objects.filter(username=username).first()
     saved_for_later = profile_user.get_saved_for_later() if profile_user else []
-    quiz_attempts = profile_user.get_quiz_attempts() if profile_user else []
+    quiz_attempts = profile_user.get_quiz_attempts().order_by("-date_taken") if profile_user else []
 
     active_filter = ""
     if request.user.is_authenticated and request.user.username == username:
