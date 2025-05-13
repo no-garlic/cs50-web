@@ -28,9 +28,14 @@
 
         <!-- Add Question Button -->
         <div class="add-question-button-container">
-            <button type="button" id="show-question-form" class="btn btn-primary quiz-btn">
-                <i class="bi bi-plus-circle"></i>Add Question
-            </button>
+            <div class="button-group">
+                <button type="button" id="show-question-form" class="btn btn-primary quiz-btn">
+                    <i class="bi bi-plus-circle"></i>Add Question
+                </button>
+                <a href="{% url 'quiz' quiz.id %}" class="btn btn-primary quiz-btn finished-btn">
+                    <i class="bi bi-check-circle"></i>Finished
+                </a>
+            </div>
         </div>
 
         <!-- Question Form (Initially Hidden) -->

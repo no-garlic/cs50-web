@@ -105,6 +105,22 @@ select.form-control {
     cursor: pointer;
 }
 
+/* Button group styling */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.finished-btn {
+    background-color: #15a29f;
+    box-shadow: 0 2px 5px rgba(21, 162, 159, 0.3);
+}
+
+.finished-btn:hover {
+    background-color: #108e8b;
+    box-shadow: 0 4px 8px rgba(21, 162, 159, 0.4);
+}
+
 /* Details container styling */
 .details-container {
     position: relative;
