@@ -4,7 +4,8 @@ from django.db import migrations
 import json
 import random
 from pathlib import Path
-
+from django.utils import timezone
+import datetime
 
 def add_data(apps, schema_editor):
     quiz_model = apps.get_model('quizly', 'Quiz')
@@ -17,6 +18,8 @@ def add_data(apps, schema_editor):
     migration_folder = Path(__file__).parent
     json_file_path = migration_folder / 'quizzes.json'
     
+    now = timezone.now()
+
     with open(json_file_path, 'r') as file:
         quiz_data = json.load(file)
     
@@ -24,10 +27,17 @@ def add_data(apps, schema_editor):
         category = category_model.objects.get(name=category_name)
         
         for quiz_info in quizzes_list:
+
+            # Generate random date between 2 years ago and now
+            time_diff = datetime.timedelta(weeks=104).total_seconds()
+            random_seconds = random.randint(0, int(time_diff))
+            random_date = now - datetime.timedelta(seconds=random_seconds)
+
             quiz = quiz_model.objects.create(
                 name=quiz_info.get('name', ''),
                 description=quiz_info.get('description', ''),
                 created_by=random.choice(users),
+                created_at=random_date,
                 category=category
             )
             

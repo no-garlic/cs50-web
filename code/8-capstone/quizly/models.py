@@ -104,8 +104,7 @@ class Quiz(models.Model):
         attempts = self.attempts.all()
         if attempts.exists():
             score_value = sum(attempt.score for attempt in attempts) / attempts.count()
-            average_score = (int(score_value / 10) / 10) * self.get_question_count()
-            
+            average_score = (int(score_value * 10) / 10)
             if average_score.is_integer():
                 return int(average_score)
             return average_score
@@ -179,8 +178,8 @@ class QuizAttempt(models.Model):
     """
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='attempts')
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='attempts')
-    correct = models.IntegerField()
-    score = models.FloatField()
+    score = models.IntegerField()
+    answers = models.CharField(max_length=255)
     date_taken = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

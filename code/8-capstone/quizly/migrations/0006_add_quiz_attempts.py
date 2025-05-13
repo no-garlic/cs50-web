@@ -17,20 +17,27 @@ def add_data(apps, schema_editor):
     now = timezone.now()
     
     for quiz in quizzes:
-        for user in users:
-            if random.randint(0, 1) == 1:
-                correct = random.randint(quiz.questions.count() // 2, quiz.questions.count())
-                
+        for user in users:                
                 # Generate random date between quiz creation and now
                 time_diff = (now - quiz.created_at).total_seconds()
                 random_seconds = random.randint(0, int(time_diff))
                 random_date = quiz.created_at + datetime.timedelta(seconds=random_seconds)
-                
+
+                # Determine which questions are correct and incorrect
+                score = 0
+                answers = ""
+                questions = quiz.questions.all()
+                for question in questions:
+                     soution = question.solution if random.randint(0, 4) == 0 else random.randint(1, 4)
+                     score += 1 if soution == question.solution else 0
+                     answers += f"{question.id}:{soution},"
+
+                # Create the quiz attempt record
                 quiz_attempt_model.objects.create(
                     user=user,
                     quiz=quiz,
-                    correct=correct,
-                    score=correct / quiz.questions.count() * 100,
+                    score=score,
+                    answers=answers[:-1], 
                     date_taken=random_date,
                 )
 
