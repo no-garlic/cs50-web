@@ -140,6 +140,12 @@ class Quiz(models.Model):
         """
         return self.get_questions().count()
     
+    def has_questions(self):
+        """
+        Check if the quiz has any questions.
+        """
+        return self.get_question_count() > 0
+    
     def get_number_of_attempts(self):
         """
         Get the number of attempts for the quiz.
