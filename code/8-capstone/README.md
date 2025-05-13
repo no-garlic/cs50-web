@@ -1,11 +1,9 @@
 
 Todo:
-- move css, images, and js into subdirs
+* move css, images, and js into subdirs
 * create admin classes and register them
-- handle error conditions in views & html
 * update scemantic search when adding a quiz
 * left margin for sidebar is broken
-
 
 Data:
 - add more test data, break up the json file into one file per language
@@ -26,6 +24,7 @@ Cleanup:
 - remove unused CSS
 - create CSS variables
 - refactor javascript to look more hand written, and use snake case
+- handle error conditions in views & html
 
 Packaging:
 - read the Harvard project spec again, make sure nothing is missing or excluded
