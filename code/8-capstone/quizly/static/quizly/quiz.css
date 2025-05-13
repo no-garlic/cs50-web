@@ -117,7 +117,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 0; /* Required for text-overflow to work */
+    max-width: 0;
 }
 
 .attempts-table tr:last-child td {
@@ -154,7 +154,6 @@
     max-width: 20%;
 }
 
-/* Make sure links don't overflow */
 .attempts-table td a {
     display: block;
     white-space: nowrap;
@@ -178,7 +177,6 @@
     }
 }
 
-/* Rating Popup Styles */
 .rating-popup {
     position: fixed;
     top: 0;

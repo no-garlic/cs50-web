@@ -39,7 +39,6 @@ form {
 
 .page-content {
     height: 100%;
-    /*background-color: #15a29f33;*/
     width: calc(100% - 16px);
 }
 

@@ -50,7 +50,6 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-/* User Details Table Styles */
 .details-heading {
     font-size: 20px;
     font-weight: 600;
@@ -94,10 +93,9 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 0; /* Required for text-overflow to work */
+    max-width: 0;
 }
 
-/* Profile Table Styles */
 .profile-table {
     width: 100%;
     border-collapse: collapse;
@@ -122,7 +120,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 0; /* Required for text-overflow to work */
+    max-width: 0;
 }
 
 .profile-table tr:last-child td {
@@ -148,7 +146,6 @@
     width: 10%;
 }
 
-/* Make sure links don't overflow */
 .profile-table td a {
     display: block;
     white-space: nowrap;

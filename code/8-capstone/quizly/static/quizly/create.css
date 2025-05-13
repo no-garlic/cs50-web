@@ -1,4 +1,3 @@
-/* Quiz form styles */
 .quiz-form {
     width: 100%;
     display: flex;
@@ -48,12 +47,12 @@ select.form-control {
     background-size: 5px 5px, 
                    5px 5px;
     background-repeat: no-repeat;
-    padding: 12px 30px 12px 12px;  /* Increased padding to fix text cutoff */
+    padding: 12px 30px 12px 12px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    line-height: 1.5;  /* Ensure consistent line height */
-    height: auto;  /* Let the height adjust based on content */
+    line-height: 1.5;
+    height: auto;
 }
 
 .form-text {
@@ -62,7 +61,6 @@ select.form-control {
     margin-top: 2px;
 }
 
-/* Form actions container */
 .form-actions {
     display: flex;
     justify-content: flex-end;
@@ -82,7 +80,6 @@ select.form-control {
     background: linear-gradient(to right, transparent, #15a29f88 30%, #15a29f88 70%, transparent);
 }
 
-/* Button styling */
 .quiz-btn {
     display: flex;
     align-items: center;
@@ -105,7 +102,6 @@ select.form-control {
     cursor: pointer;
 }
 
-/* Button group styling */
 .button-group {
     display: flex;
     gap: 10px;
@@ -121,7 +117,6 @@ select.form-control {
     box-shadow: 0 4px 8px rgba(21, 162, 159, 0.4);
 }
 
-/* Details container styling */
 .details-container {
     position: relative;
     width: 100%;
@@ -135,7 +130,6 @@ select.form-control {
     gap: 20px;
 }
 
-/* Add Question button container styles */
 .add-question-button-container {
     display: flex;
     justify-content: flex-end;
@@ -144,7 +138,6 @@ select.form-control {
     margin: 0 auto 30px;
 }
 
-/* Continue button container styles */
 .continue-button-container {
     display: flex;
     justify-content: flex-end;
@@ -153,32 +146,30 @@ select.form-control {
     margin: 0 auto 30px;
 }
 
-/* Quiz info container specific styles */
 .quiz-info-container {
     padding-bottom: 15px;
 }
 
 .quiz-info-container strong {
-    font-size: 1.5rem;  /* Increased font size to match */
+    font-size: 1.5rem;
     font-weight: 700;
     color: #333;
     display: block;
-    margin-bottom: 10px;  /* Increased spacing */
+    margin-bottom: 10px;
 }
 
 .quiz-info-container p {
     color: #555;
-    font-size: 1.15rem;  /* Increased font size to match */
+    font-size: 1.15rem;
     margin-bottom: 15px;
     line-height: 1.5;
 }
 
-/* Horizontal banner with details */
 .details-banner {
     display: flex;
     align-items: center;
-    padding-top: 18px;  /* Increased padding to match */
-    font-size: 1.15rem;  /* Increased font size to match */
+    padding-top: 18px;
+    font-size: 1.15rem;
     color: #666;
     position: relative;
 }
@@ -190,7 +181,7 @@ select.form-control {
     left: -25px;
     right: -25px;
     height: 1px;
-    background: linear-gradient(to right, rgba(21, 162, 159, 0.05), rgba(21, 162, 159, 0.5) 20%, rgba(21, 162, 159, 0.5) 80%, rgba(21, 162, 159, 0.05));  /* Adjusted gradient colors and opacity */
+    background: linear-gradient(to right, rgba(21, 162, 159, 0.05), rgba(21, 162, 159, 0.5) 20%, rgba(21, 162, 159, 0.5) 80%, rgba(21, 162, 159, 0.05));
 }
 
 .details-banner span {
@@ -203,18 +194,17 @@ select.form-control {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 4px 12px;  /* Increased vertical padding slightly */
+    padding: 4px 12px;
     margin-left: 5px;
     background: linear-gradient(135deg, #ffffff, #15a29f11);
     border: 1px solid #15a29f44;
     border-radius: 4px;
     font-weight: 600;
     color: #333;
-    min-width: 28px;  /* Increased min-width */
-    height: 28px;  /* Increased height */
+    min-width: 28px;
+    height: 28px;
 }
 
-/* Section title for the question form */
 .section-title {
     font-size: 20px;
     font-weight: 600;
@@ -224,7 +214,6 @@ select.form-control {
     width: 100%;
 }
 
-/* Option grid layout */
 .options-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -232,7 +221,6 @@ select.form-control {
     margin-top: 5px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 576px) {
     .details-container {
         padding: 15px 20px;
