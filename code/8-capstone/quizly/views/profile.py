@@ -16,8 +16,6 @@ def profile(request, username):
     saved_for_later = profile_user.get_saved_for_later() if profile_user else []
     quiz_attempts = profile_user.get_quiz_attempts() if profile_user else []
 
-    print(quiz_attempts)
-    
     active_filter = ""
     if request.user.is_authenticated and request.user.username == username:
         active_filter = "profile"

@@ -58,17 +58,58 @@
             </div>
         {% endfor %}
 
+        <div class="action-buttons">
+            <a href="{% url 'quiz' quiz.id %}" class="quiz-btn btn-primary">Quiz Summary</a>
+        </div>
+
     {% else %}
 
         {% for question in questions %}
-            {{question}}
+            <div class="details-container question-container">
+                <div class="question-text">{{ question.text }}</div>
+                <form class="question-options" id="question-form">
+                    <div class="option-item">
+                        <input type="radio" name="question_{{ question.id }}" value="1" id="q{{ question.id }}_opt1" class="option-radio" required>
+                        <label for="q{{ question.id }}_opt1" class="option-label">
+                            <div class="radio-button"></div>
+                            <div class="option-text">{{ question.option1 }}</div>
+                        </label>
+                    </div>
+                    <div class="option-item">
+                        <input type="radio" name="question_{{ question.id }}" value="2" id="q{{ question.id }}_opt2" class="option-radio" required>
+                        <label for="q{{ question.id }}_opt2" class="option-label">
+                            <div class="radio-button"></div>
+                            <div class="option-text">{{ question.option2 }}</div>
+                        </label>
+                    </div>
+                    <div class="option-item">
+                        <input type="radio" name="question_{{ question.id }}" value="3" id="q{{ question.id }}_opt3" class="option-radio" required>
+                        <label for="q{{ question.id }}_opt3" class="option-label">
+                            <div class="radio-button"></div>
+                            <div class="option-text">{{ question.option3 }}</div>
+                        </label>
+                    </div>
+                    <div class="option-item">
+                        <input type="radio" name="question_{{ question.id }}" value="4" id="q{{ question.id }}_opt4" class="option-radio" required>
+                        <label for="q{{ question.id }}_opt4" class="option-label">
+                            <div class="radio-button"></div>
+                            <div class="option-text">{{ question.option4 }}</div>
+                        </label>
+                    </div>
+                </form>
+            </div>
         {% endfor %}
+
+        <form action="{% url 'new_attempt' quiz.id %}" method="post" id="quiz-form">
+            {% csrf_token %}
+            <input type="hidden" id="answers-data" name="answers" value="">
+            <div class="action-buttons">
+                <button type="submit" class="quiz-btn btn-primary">Submit Quiz</button>
+            </div>
+        </form>
 
     {% endif %}
 
-    <div class="action-buttons">
-        <a href="{% url 'quiz' quiz.id %}" class="quiz-btn btn-primary">Quiz Summary</a>
-    </div>
 
 
 {% endblock %}

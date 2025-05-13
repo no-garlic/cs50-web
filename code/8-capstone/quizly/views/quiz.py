@@ -46,12 +46,47 @@ def show_attempt(request, quiz_attempt_id):
 
 @login_required
 def new_attempt(request, quiz_id):
-    quiz = Quiz.objects.get(id=quiz_id)
-    return render(request, "quizly/attempt.html", {
-        "active_filter": "attempt",
-        "questions": quiz.questions.all(),
-        "quiz": quiz,
-    })
+    if request.method == "POST":
+        quiz = Quiz.objects.get(id=quiz_id)
+        user = request.user
+        score = 0
+
+        # Parse the JSON string from the 'answers' field
+        answers_data = json.loads(request.POST.get('answers', '{}'))
+        
+        # First, create and save the quiz attempt
+        quiz_attempt = QuizAttempt(quiz=quiz, user=user, score=0)
+        quiz_attempt.save()
+        
+        # Now create and save answer objects with the quiz_attempt reference
+        for question in quiz.questions.all():
+            question_id = str(question.id)
+            if question_id in answers_data:
+                answer_value = int(answers_data[question_id])
+                answer_obj = Answer(
+                    question=question, 
+                    answer=answer_value,
+                    quiz_attempt=quiz_attempt
+                )
+                answer_obj.save()
+                
+                # Check if the answer is correct and increment score
+                if question.solution == answer_value:
+                    score += 1
+
+        # Update the score on the quiz attempt
+        quiz_attempt.score = score
+        quiz_attempt.save()
+
+        return redirect("show_attempt", quiz_attempt_id=quiz_attempt.id)
+
+    else:
+        quiz = Quiz.objects.get(id=quiz_id)
+        return render(request, "quizly/attempt.html", {
+            "active_filter": "attempt",
+            "questions": quiz.questions.all(),
+            "quiz": quiz,
+        })
 
 
 @login_required

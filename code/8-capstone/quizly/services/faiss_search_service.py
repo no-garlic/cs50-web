@@ -53,8 +53,6 @@ class QuizSemanticSearchService:
         # Perform the search on the FAISS index
         similarities, indices = index.search(query_embedding, k=top_k)
 
-        print(similarities, indices)
-
         # Filter results based on the minimum similarity threshold
         results = []
         for i, sim in zip(indices[0], similarities[0]):
