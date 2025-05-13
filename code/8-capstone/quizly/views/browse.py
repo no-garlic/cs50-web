@@ -2,6 +2,12 @@ from django.shortcuts import render
 from ..models import *
 
 
+def index(request):
+    return render(request, "quizly/index.html", {
+        "active_filter": "index",
+    })
+
+
 def browse(request):
     selected_category_id = request.GET.get("category")
     selected_category = None

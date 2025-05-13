@@ -2,11 +2,45 @@
 {% load static %}
 
 {% block head %}
+<link rel="stylesheet" href="{% static 'quizly/create.css' %}">
     <script src="{% static 'quizly/create.js' %}"></script>
 {% endblock %}
 
 {% block body %}
-    <div>
+    <div class="page-heading">
+        <h2>Create a New Quiz</h2>
+        <p>Design your quiz by filling in the details below</p>
+    </div>
+
+    <div class="details-container">
+        <form method="post" action="{% url 'create' %}" class="quiz-form">
+            {% csrf_token %}
+            
+            <div class="form-group">
+                <label for="quiz-name">Quiz Name</label>
+                <input type="text" name="name" id="quiz-name" placeholder="Choose a descriptive name for your quiz" class="form-control" required maxlength="255" autocomplete="off" autofocus>
+            </div>
+            
+            <div class="form-group">
+                <label for="quiz-description">Description</label>
+                <textarea name="description" id="quiz-description" placeholder="Provide a brief description of what your quiz is about" class="form-control" rows="4" autocomplete="off" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="quiz-category">Category</label>
+                <select name="category" id="quiz-category" class="form-control" required>
+                    <option value="" disabled selected>Select a category</option>
+                    {% for category in categories %}
+                        <option value="{{ category.id }}">{{ category.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary quiz-btn">
+                    <i class="bi bi-plus-circle"></i>Continue
+                </button>
+            </div>
+        </form>
     </div>
 {% endblock %}
-

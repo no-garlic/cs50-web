@@ -5,7 +5,7 @@ from .views.account import *
 from .views.profile import *
 from .views.search import *
 from .views.browse import *
-from .views.other import *
+from .views.create import *
 from .views.quiz import *
 
 
