@@ -49,6 +49,7 @@ def new_attempt(request, quiz_id):
     quiz = Quiz.objects.get(id=quiz_id)
     return render(request, "quizly/attempt.html", {
         "active_filter": "attempt",
+        "questions": quiz.questions.all(),
         "quiz": quiz,
     })
 
