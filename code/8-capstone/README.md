@@ -1,5 +1,6 @@
 
 Todo:
+- read the Harvard project spec again, make sure nothing is missing or excluded
 - move css, images, and js into subdirs
 - create admin classes and register them
 - requirements.txt
@@ -11,7 +12,7 @@ Todo:
 - javascript file documentation & comments
 - update scemantic search when adding a quiz
 - update the migration to add multiple scores for each user
-- left margin for sidebar is broken
+* left margin for sidebar is broken
 - add more test data, break up the json file into one file per language
 - document all code with # comments
 - add docstrings

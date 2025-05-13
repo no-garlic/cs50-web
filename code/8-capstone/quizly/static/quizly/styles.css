@@ -51,28 +51,10 @@ form {
     flex-shrink: 0;
     padding: 15px;
     margin-right: 10px;
-    margin-left: 0;
+    margin-left: 15px;
     box-sizing: border-box;
     position: sticky;
     top: 1rem;
-    height: calc(100vh - 2rem);
-    overflow-y: auto;
-    border: 1px solid #15a29f44;
-    border-radius: 8px;
-    background: linear-gradient(135deg, #ffffff, #15a29f11);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.sidebar---old {
-    width: 260px;
-    flex-shrink: 0;
-    padding: 15px; 
-    margin-right: 10px;
-    margin-left: 0px;
-    box-sizing: border-box;
-    position: fixed;
-    top: 1rem;
-    left: 18px;
     height: calc(100vh - 2rem);
     overflow-y: auto;
     border: 1px solid #15a29f44;
@@ -179,7 +161,7 @@ form {
     font-size: 16px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 955px) {
     .sidebar {
         width: 110px;
     }
