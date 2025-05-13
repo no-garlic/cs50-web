@@ -122,7 +122,16 @@ select.form-control {
 /* Add Question button container styles */
 .add-question-button-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+/* Continue button container styles */
+.continue-button-container {
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     max-width: 800px;
     margin: 0 auto 30px;

@@ -37,7 +37,7 @@
         <div class="details-container" id="question-form-container" style="display: none;">
             <h3 class="section-title">Add New Question</h3>
             
-            <form method="post" action="{% url 'create' %}" class="quiz-form">
+            <form method="post" action="{% url 'create' %}" class="quiz-form" id="question-form">
                 {% csrf_token %}
 
                 <input type="hidden" name="form_action" value="save_question">
@@ -73,13 +73,13 @@
                     <label for="question-hint">Hint</label>
                     <input type="text" name="hint" id="question-hint" placeholder="Hint shown when incorrect answer is selected" class="form-control" required>
                 </div>
-
-                <div class="form-actions">
-                    <button type="submit" class="btn btn-primary quiz-btn">
-                        <i class="bi bi-floppy"></i>Save Question
-                    </button>
-                </div>
             </form>
+        </div>
+        
+        <div class="continue-button-container" id="save-question-button-container" style="display: none;">
+            <button type="submit" form="question-form" class="btn btn-primary quiz-btn">
+                <i class="bi bi-floppy"></i>Save Question
+            </button>
         </div>
     {% else %}
         <div class="page-heading">
@@ -87,7 +87,7 @@
             <p>Design your quiz by filling in the details below</p>
         </div>
         <div class="details-container">
-            <form method="post" action="{% url 'create' %}" class="quiz-form">
+            <form method="post" action="{% url 'create' %}" class="quiz-form" id="quiz-form">
                 {% csrf_token %}
                 
                 <input type="hidden" name="form_action" value="save_quiz">
@@ -111,13 +111,13 @@
                         {% endfor %}
                     </select>
                 </div>
-                
-                <div class="form-actions">
-                    <button type="submit" class="btn btn-primary quiz-btn">
-                        <i class="bi bi-plus-circle"></i>Continue
-                    </button>
-                </div>
             </form>
+        </div>
+        
+        <div class="continue-button-container">
+            <button type="submit" form="quiz-form" class="btn btn-primary quiz-btn">
+                <i class="bi bi-plus-circle"></i>Continue
+            </button>
         </div>
     {% endif %}
 {% endblock %}
