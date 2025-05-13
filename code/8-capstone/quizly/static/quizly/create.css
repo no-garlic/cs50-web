@@ -86,10 +86,8 @@ select.form-control {
 .quiz-btn {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 10px 20px;
-    font-weight: 600;
-    font-size: 1rem;
+    gap: 6px;
+    padding: 14px 22px;
     transition: all 0.2s ease;
 }
 
@@ -97,7 +95,7 @@ select.form-control {
     background-color: #15a29f;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: 0 2px 5px rgba(21, 162, 159, 0.3);
 }
 
@@ -107,21 +105,18 @@ select.form-control {
     cursor: pointer;
 }
 
-/* Consistent container styling */
+/* Details container styling */
 .details-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: left;
+    position: relative;
     width: 100%;
     max-width: 800px;
     margin: 0 auto 30px;
+    padding: 20px 25px;
     background: linear-gradient(135deg, #ffffff, #15a29f11);
     border: 1px solid #15a29f44;
     border-radius: 8px;
-    padding: 20px 25px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    position: relative;
+    gap: 20px;
 }
 
 /* Add Question button container styles */
@@ -133,11 +128,68 @@ select.form-control {
     margin: 0 auto 30px;
 }
 
-/* Quiz info container styles */
+/* Quiz info container specific styles */
 .quiz-info-container {
-    margin-bottom: 30px;
+    padding-bottom: 15px;
 }
 
+.quiz-info-container strong {
+    font-size: 1.5rem;  /* Increased font size to match */
+    font-weight: 700;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;  /* Increased spacing */
+}
+
+.quiz-info-container p {
+    color: #555;
+    font-size: 1.15rem;  /* Increased font size to match */
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Horizontal banner with details */
+.details-banner {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;  /* Increased padding to match */
+    font-size: 1.15rem;  /* Increased font size to match */
+    color: #666;
+    position: relative;
+}
+
+.details-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -25px;
+    right: -25px;
+    height: 1px;
+    background: linear-gradient(to right, rgba(21, 162, 159, 0.05), rgba(21, 162, 159, 0.5) 20%, rgba(21, 162, 159, 0.5) 80%, rgba(21, 162, 159, 0.05));  /* Adjusted gradient colors and opacity */
+}
+
+.details-banner span {
+    color: #333;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.details-value {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;  /* Increased vertical padding slightly */
+    margin-left: 5px;
+    background: linear-gradient(135deg, #ffffff, #15a29f11);
+    border: 1px solid #15a29f44;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #333;
+    min-width: 28px;  /* Increased min-width */
+    height: 28px;  /* Increased height */
+}
+
+/* Section title for the question form */
 .section-title {
     font-size: 20px;
     font-weight: 600;
@@ -145,63 +197,6 @@ select.form-control {
     margin-top: 0;
     margin-bottom: 15px;
     width: 100%;
-}
-
-.quiz-info-grid {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 5px;
-    display: table;
-}
-
-.info-item {
-    display: table-row;
-    border-bottom: 1px solid #15a29f22;
-}
-
-.info-item:last-child {
-    border-bottom: none;
-}
-
-.info-item:hover {
-    background-color: rgba(21, 162, 159, 0.05);
-}
-
-.info-label, .info-value {
-    display: table-cell;
-    padding: 10px;
-}
-
-.info-label {
-    width: 30%;
-    font-weight: 600;
-    color: #333;
-    font-size: inherit;
-}
-
-.info-value {
-    width: 70%;
-    color: #333;
-    font-size: inherit;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 0; /* Required for text-overflow to work */
-}
-
-.info-item.full-width {
-    display: table-row;
-}
-
-.info-item.full-width .info-label,
-.info-item.full-width .info-value {
-    display: table-cell;
-}
-
-.description-text {
-    font-style: italic;
-    line-height: 1.4;
-    white-space: normal; /* Allow description text to wrap */
 }
 
 /* Option grid layout */
@@ -212,6 +207,7 @@ select.form-control {
     margin-top: 5px;
 }
 
+/* Responsive adjustments */
 @media (max-width: 576px) {
     .details-container {
         padding: 15px 20px;
@@ -236,5 +232,15 @@ select.form-control {
     
     .info-value {
         width: 60%;
+    }
+
+    .details-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .details-banner > span:first-of-type {
+        margin-bottom: 5px;
     }
 }

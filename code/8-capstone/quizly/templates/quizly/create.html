@@ -14,28 +14,15 @@
         </div>
         
         <div class="details-container quiz-info-container">
-            <h3 class="section-title">Quiz Details</h3>
+            <div>
+                <strong>{{ quiz.name }}</strong>
+                <p>{{ quiz.description }}</p>
+            </div>
             
-            <div class="quiz-info-grid">
-                <div class="info-item">
-                    <span class="info-label">Name:</span>
-                    <span class="info-value">{{ quiz.name }}</span>
-                </div>
-                
-                <div class="info-item">
-                    <span class="info-label">Category:</span>
-                    <span class="info-value">{{ quiz.category.name }}</span>
-                </div>
-                
-                <div class="info-item full-width">
-                    <span class="info-label">Description:</span>
-                    <span class="info-value description-text">{{ quiz.description }}</span>
-                </div>
-                
-                <div class="info-item">
-                    <span class="info-label">Questions:</span>
-                    <span class="info-value">{{ quiz.question_set.all|length }}</span>
-                </div>
+            <div class="details-banner">
+                Category <div class="details-value">{{ quiz.category.name }}</div>
+                &nbsp;&nbsp;
+                Questions <div class="details-value">{{ quiz.question_set.all|length }}</div>
             </div>
         </div>
 
@@ -94,7 +81,6 @@
                 </div>
             </form>
         </div>
-
     {% else %}
         <div class="page-heading">
             <h2>Create a New Quiz</h2>
