@@ -124,6 +124,15 @@ select.form-control {
     position: relative;
 }
 
+/* Add Question button container styles */
+.add-question-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
 /* Quiz info container styles */
 .quiz-info-container {
     margin-bottom: 30px;

@@ -32,14 +32,22 @@
                     <span class="info-value description-text">{{ quiz.description }}</span>
                 </div>
                 
-                <!--div class="info-item">
+                <div class="info-item">
                     <span class="info-label">Questions:</span>
                     <span class="info-value">{{ quiz.question_set.all|length }}</span>
-                </div-->
+                </div>
             </div>
         </div>
 
-        <div class="details-container">
+        <!-- Add Question Button -->
+        <div class="add-question-button-container">
+            <button type="button" id="show-question-form" class="btn btn-primary quiz-btn">
+                <i class="bi bi-plus-circle"></i>Add Question
+            </button>
+        </div>
+
+        <!-- Question Form (Initially Hidden) -->
+        <div class="details-container" id="question-form-container" style="display: none;">
             <h3 class="section-title">Add New Question</h3>
             
             <form method="post" action="{% url 'create' %}" class="quiz-form">
@@ -81,7 +89,7 @@
 
                 <div class="form-actions">
                     <button type="submit" class="btn btn-primary quiz-btn">
-                        <i class="bi bi-plus-circle"></i>Add Question
+                        <i class="bi bi-floppy"></i>Save Question
                     </button>
                 </div>
             </form>
