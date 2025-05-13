@@ -34,6 +34,27 @@ class QuizSemanticSearchService:
 
 
     @classmethod
+    def add(cls, quiz):
+        """
+        Add a new quiz to the FAISS index.
+        :param quiz: The quiz object to add.
+        """
+        model = cls.get_model()
+        index = cls.get_index()
+
+        # Encode the quiz name and description into an embedding
+        text = f"{quiz.name} {quiz.description}"
+        embedding = model.encode([text], convert_to_numpy=True).astype(np.float32)
+        faiss.normalize_L2(embedding)
+
+        # Add the embedding to the FAISS index
+        index.add(embedding)
+
+        # Save the updated index to disk
+        faiss.write_index(index, "faiss_index.idx")
+
+
+    @classmethod
     def search(cls, query, quizzes, top_k=10, min_similarity=0.3):
         """
         Perform a semantic search on quizzes using FAISS and SentenceTransformer.
