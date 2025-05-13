@@ -89,7 +89,7 @@ function initAttemptNow() {
         const quizId = path.split('/').pop();
         
         // Navigate to the attempt page
-        window.location.href = `/attempt/${quizId}`;
+        window.location.href = `/new_attempt/${quizId}`;
     });
 }
 

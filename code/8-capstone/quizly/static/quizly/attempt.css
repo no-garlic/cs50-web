@@ -94,7 +94,7 @@
     padding: 8px 12px;
     background: transparent;
     border-radius: 6px;
-    /* Remove transition since we're removing hover effect */
+    position: relative;
 }
 
 .radio-button {
@@ -129,18 +129,43 @@
 /* Correct and incorrect answer styling */
 .correct-answer {
     background-color: rgba(76, 175, 80, 0.1) !important;
-    border-left: 4px solid #4CAF50;
+    border-left: none;
+    position: relative;
 }
 
 .incorrect-answer {
     background-color: rgba(244, 67, 54, 0.1) !important;
-    border-left: 4px solid #F44336;
+    border-left: none;
+    position: relative;
 }
 
-/* Only show correct solution when no answer was selected or correct answer was selected */
 .correct-solution {
     background-color: rgba(76, 175, 80, 0.05) !important;
-    border-left: 4px solid #4CAF50;
+    border-left: none;
+    position: relative;
+}
+
+.correct-answer::before, .incorrect-answer::before, .correct-solution::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.correct-answer::before {
+    background-color: #4CAF50;
+}
+
+.incorrect-answer::before {
+    background-color: #F44336;
+}
+
+.correct-solution::before {
+    background-color: #4CAF50;
 }
 
 .correct-answer .radio-button.selected {
@@ -159,6 +184,11 @@
     background-color: #F44336;
 }
 
+/* Hide the left border indicator when needed */
+.incorrect-answer-selected .correct-solution::before {
+    display: none;
+}
+
 /* Hide correct-solution highlighting when an incorrect answer is selected */
 .incorrect-answer-selected .correct-solution {
     background-color: transparent !important;
@@ -169,14 +199,28 @@
 .question-hint {
     margin-top: 15px;
     padding: 12px 15px;
-    background-color: #FFF9C4;
-    border-left: 4px solid #FBC02D;
+    background-color: rgba(255, 249, 196, 0.7);
+    border-left: none;
     border-radius: 6px;
     font-size: 0.95rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     display: none;
-    width: 100%; /* Make it full width */
-    box-sizing: border-box; /* Include padding in width calculation */
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Add pseudo-element for left border */
+.question-hint::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #FBC02D;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
 .question-hint-header {

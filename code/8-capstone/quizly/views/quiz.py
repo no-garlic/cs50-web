@@ -45,7 +45,7 @@ def show_attempt(request, quiz_attempt_id):
     
 
 @login_required
-def attempt(request, quiz_id):
+def new_attempt(request, quiz_id):
     quiz = Quiz.objects.get(id=quiz_id)
     return render(request, "quizly/attempt.html", {
         "active_filter": "attempt",
