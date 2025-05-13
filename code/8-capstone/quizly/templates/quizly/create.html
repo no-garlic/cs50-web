@@ -2,45 +2,128 @@
 {% load static %}
 
 {% block head %}
-<link rel="stylesheet" href="{% static 'quizly/create.css' %}">
+    <link rel="stylesheet" href="{% static 'quizly/create.css' %}">
     <script src="{% static 'quizly/create.js' %}"></script>
 {% endblock %}
 
 {% block body %}
-    <div class="page-heading">
-        <h2>Create a New Quiz</h2>
-        <p>Design your quiz by filling in the details below</p>
-    </div>
+    {% if quiz %}
+        <div class="page-heading">
+            <h2>Add Quiz Questions</h2>
+            <p>Enter the details for all of the questions you want to include in your new quiz.</p>
+        </div>
+        
+        <div class="details-container quiz-info-container">
+            <h3 class="section-title">Quiz Details</h3>
+            
+            <div class="quiz-info-grid">
+                <div class="info-item">
+                    <span class="info-label">Name:</span>
+                    <span class="info-value">{{ quiz.name }}</span>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-label">Category:</span>
+                    <span class="info-value">{{ quiz.category.name }}</span>
+                </div>
+                
+                <div class="info-item full-width">
+                    <span class="info-label">Description:</span>
+                    <span class="info-value description-text">{{ quiz.description }}</span>
+                </div>
+                
+                <!--div class="info-item">
+                    <span class="info-label">Questions:</span>
+                    <span class="info-value">{{ quiz.question_set.all|length }}</span>
+                </div-->
+            </div>
+        </div>
 
-    <div class="details-container">
-        <form method="post" action="{% url 'create' %}" class="quiz-form">
-            {% csrf_token %}
+        <div class="details-container">
+            <h3 class="section-title">Add New Question</h3>
             
-            <div class="form-group">
-                <label for="quiz-name">Quiz Name</label>
-                <input type="text" name="name" id="quiz-name" placeholder="Choose a descriptive name for your quiz" class="form-control" required maxlength="255" autocomplete="off" autofocus>
-            </div>
-            
-            <div class="form-group">
-                <label for="quiz-description">Description</label>
-                <textarea name="description" id="quiz-description" placeholder="Provide a brief description of what your quiz is about" class="form-control" rows="4" autocomplete="off" required></textarea>
-            </div>
-            
-            <div class="form-group">
-                <label for="quiz-category">Category</label>
-                <select name="category" id="quiz-category" class="form-control" required>
-                    <option value="" disabled selected>Select a category</option>
-                    {% for category in categories %}
-                        <option value="{{ category.id }}">{{ category.name }}</option>
-                    {% endfor %}
-                </select>
-            </div>
-            
-            <div class="form-actions">
-                <button type="submit" class="btn btn-primary quiz-btn">
-                    <i class="bi bi-plus-circle"></i>Continue
-                </button>
-            </div>
-        </form>
-    </div>
+            <form method="post" action="{% url 'create' %}" class="quiz-form">
+                {% csrf_token %}
+
+                <input type="hidden" name="form_action" value="save_question">
+                <input type="hidden" name="quiz_id" value="{{ quiz.id }}">
+
+                <div class="form-group">
+                    <label for="question-text">Question Text</label>
+                    <textarea name="question_text" id="question-text" placeholder="Enter your question here" class="form-control" rows="2" required autofocus></textarea>
+                </div>
+               
+                <div class="form-group">
+                    <label>Answer Options</label>
+                    <div class="options-grid">
+                        <input type="text" name="option1" placeholder="Option 1" class="form-control" required>
+                        <input type="text" name="option2" placeholder="Option 2" class="form-control" required>
+                        <input type="text" name="option3" placeholder="Option 3" class="form-control" required>
+                        <input type="text" name="option4" placeholder="Option 4" class="form-control" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="solution">Correct Answer</label>
+                    <select name="solution" id="solution" class="form-control" required>
+                        <option value="" disabled selected>Select the correct answer</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="question-hint">Hint</label>
+                    <input type="text" name="hint" id="question-hint" placeholder="Hint shown when incorrect answer is selected" class="form-control" required>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary quiz-btn">
+                        <i class="bi bi-plus-circle"></i>Add Question
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    {% else %}
+        <div class="page-heading">
+            <h2>Create a New Quiz</h2>
+            <p>Design your quiz by filling in the details below</p>
+        </div>
+        <div class="details-container">
+            <form method="post" action="{% url 'create' %}" class="quiz-form">
+                {% csrf_token %}
+                
+                <input type="hidden" name="form_action" value="save_quiz">
+
+                <div class="form-group">
+                    <label for="quiz-name">Quiz Name</label>
+                    <input type="text" name="name" id="quiz-name" placeholder="Choose a descriptive name for your quiz" class="form-control" required maxlength="255" autocomplete="off" autofocus>
+                </div>
+                
+                <div class="form-group">
+                    <label for="quiz-description">Description</label>
+                    <textarea name="description" id="quiz-description" placeholder="Provide a brief description of what your quiz is about" class="form-control" rows="4" autocomplete="off" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="quiz-category">Category</label>
+                    <select name="category" id="quiz-category" class="form-control" required>
+                        <option value="" disabled selected>Select a category</option>
+                        {% for category in categories %}
+                            <option value="{{ category.id }}">{{ category.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary quiz-btn">
+                        <i class="bi bi-plus-circle"></i>Continue
+                    </button>
+                </div>
+            </form>
+        </div>
+    {% endif %}
 {% endblock %}

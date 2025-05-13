@@ -124,7 +124,85 @@ select.form-control {
     position: relative;
 }
 
-/* Responsive adjustments */
+/* Quiz info container styles */
+.quiz-info-container {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #15a29f;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.quiz-info-grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    display: table;
+}
+
+.info-item {
+    display: table-row;
+    border-bottom: 1px solid #15a29f22;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-item:hover {
+    background-color: rgba(21, 162, 159, 0.05);
+}
+
+.info-label, .info-value {
+    display: table-cell;
+    padding: 10px;
+}
+
+.info-label {
+    width: 30%;
+    font-weight: 600;
+    color: #333;
+    font-size: inherit;
+}
+
+.info-value {
+    width: 70%;
+    color: #333;
+    font-size: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 0; /* Required for text-overflow to work */
+}
+
+.info-item.full-width {
+    display: table-row;
+}
+
+.info-item.full-width .info-label,
+.info-item.full-width .info-value {
+    display: table-cell;
+}
+
+.description-text {
+    font-style: italic;
+    line-height: 1.4;
+    white-space: normal; /* Allow description text to wrap */
+}
+
+/* Option grid layout */
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 5px;
+}
+
 @media (max-width: 576px) {
     .details-container {
         padding: 15px 20px;
@@ -137,5 +215,17 @@ select.form-control {
     .quiz-btn {
         padding: 8px 16px;
         font-size: 0.9rem;
+    }
+
+    .info-label, .info-value {
+        padding: 8px;
+    }
+    
+    .info-label {
+        width: 40%;
+    }
+    
+    .info-value {
+        width: 60%;
     }
 }
