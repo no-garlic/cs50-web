@@ -56,6 +56,10 @@
                 </div>
             </div>
         {% endfor %}
+        
+        <div class="action-buttons">
+            <a href="{% url 'quiz' quiz.id %}" class="quiz-btn btn-primary">Quiz Summary</a>
+        </div>
     </div>
 
 {% endblock %}

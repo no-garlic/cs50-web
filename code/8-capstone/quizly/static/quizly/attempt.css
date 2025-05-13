@@ -92,13 +92,9 @@
     align-items: center;
     gap: 10px;
     padding: 8px 12px;
-    background: rgba(255, 255, 255, 0.6);
+    background: transparent;
     border-radius: 6px;
-    transition: background-color 0.2s ease;
-}
-
-.option-item:hover {
-    background: rgba(21, 162, 159, 0.05);
+    /* Remove transition since we're removing hover effect */
 }
 
 .radio-button {
@@ -179,6 +175,8 @@
     font-size: 0.95rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     display: none;
+    width: 100%; /* Make it full width */
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .question-hint-header {
@@ -203,6 +201,34 @@
     display: block;
 }
 
+/* Add action buttons styles */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.quiz-btn {
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #15a29f;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 5px rgba(21, 162, 159, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #108e8b;
+    box-shadow: 0 4px 8px rgba(21, 162, 159, 0.4);
+}
+
 /* Responsive adjustments */
 @media (max-width: 576px) {
     .details-container {
@@ -225,6 +251,11 @@
 
     .question-hint {
         padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+
+    .quiz-btn {
+        padding: 8px 16px;
         font-size: 0.9rem;
     }
 }
