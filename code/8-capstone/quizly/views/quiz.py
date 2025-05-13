@@ -34,15 +34,24 @@ def quiz(request, quiz_id):
     })
 
 
+def show_attempt(request, quiz_attempt_id):
+    quiz_attempt = QuizAttempt.objects.get(id=quiz_attempt_id)
+    return render(request, "quizly/attempt.html", {
+        "active_filter": "attempt",
+        "quiz_attempt": quiz_attempt,
+        "answers": quiz_attempt.answers.all(),
+        "quiz": quiz_attempt.quiz,
+    })
+    
+
 @login_required
 def attempt(request, quiz_id):
-
     quiz = Quiz.objects.get(id=quiz_id)
-
     return render(request, "quizly/attempt.html", {
         "active_filter": "attempt",
         "quiz": quiz,
     })
+
 
 @login_required
 def rate_quiz(request):

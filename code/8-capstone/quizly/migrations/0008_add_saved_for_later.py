@@ -21,10 +21,12 @@ def add_data(apps, schema_editor):
                 if user == quiz.created_by:
                     continue
                 
-                # Don't save if the user has already attempted the quiz
+                # Don't always save if the user has already attempted the quiz
                 if quiz_attempt_model.objects.filter(user=user, quiz=quiz).exists():
-                    continue
-
+                    if random.randint(0, 2) != 1:
+                        continue
+                    
+                # Create the saved for later record
                 saved_for_later_model.objects.create(
                     user=user,
                     quiz=quiz,

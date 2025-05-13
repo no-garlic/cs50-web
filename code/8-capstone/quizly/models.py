@@ -56,6 +56,20 @@ class Question(models.Model):
     def __str__(self):
         return self.text
     
+    def get_solution_text(self):
+        """
+        Get the text of the solution option.
+        """
+        if self.solution == 1:
+            return self.option1
+        elif self.solution == 2:
+            return self.option2
+        elif self.solution == 3:
+            return self.option3
+        elif self.solution == 4:
+            return self.option4
+        return None
+    
 
 class Quiz(models.Model):
     """

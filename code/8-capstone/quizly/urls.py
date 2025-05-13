@@ -26,6 +26,7 @@ urlpatterns = [
     path("quiz/<int:quiz_id>", quiz, name="quiz"),
     
     # attempt a quiz or show the quiz results
+    path("attempt/show/<int:quiz_attempt_id>", show_attempt, name="show_attempt"),
     path("attempt/<int:quiz_id>", attempt, name="attempt"),
 
     # rate and save a quiz for later

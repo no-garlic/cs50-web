@@ -10,7 +10,7 @@ def add_data(apps, schema_editor):
     quiz_attempt_model = apps.get_model('quizly', 'QuizAttempt')
     quiz_model = apps.get_model('quizly', 'Quiz')
     user_model = apps.get_model('quizly', 'User')
-    #answer_model = apps.get_model('quizly', 'Answer')
+    answer_model = apps.get_model('quizly', 'Answer')
 
     users = list(user_model.objects.exclude(username='admin'))
     quizzes = list(quiz_model.objects.all())
@@ -18,39 +18,43 @@ def add_data(apps, schema_editor):
     now = timezone.now()
     
     for quiz in quizzes:
-        for user in users:                
-                # Generate random date between quiz creation and now
-                time_diff = (now - quiz.created_at).total_seconds()
-                random_seconds = random.randint(0, int(time_diff))
-                random_date = quiz.created_at + datetime.timedelta(seconds=random_seconds)
+        for user in users:
+            # People have attempted only half of the quizzes
+            if random.randint(0, 1) == 1:
+                continue
 
-                # Determine which questions are correct and incorrect
-                score = 0
-                answers = []
-                questions = quiz.questions.all()
-                for question in questions:
-                     soution = question.solution if random.randint(0, 3) != 0 else random.randint(1, 4)
-                     score += 1 if soution == question.solution else 0
-                     answers.append({
-                        'question': question,
-                        'selected_answer': soution
-                     })
+            # Generate random date between quiz creation and now
+            time_diff = (now - quiz.created_at).total_seconds()
+            random_seconds = random.randint(0, int(time_diff))
+            random_date = quiz.created_at + datetime.timedelta(seconds=random_seconds)
 
-                # Create the quiz attempt record
-                quiz_attempt = quiz_attempt_model.objects.create(
-                    user=user,
-                    quiz=quiz,
-                    score=score,
-                    date_taken=random_date,
+            # Determine which questions are correct and incorrect
+            score = 0
+            answers = []
+            questions = quiz.questions.all()
+            for question in questions:
+                    soution = question.solution if random.randint(0, 3) != 0 else random.randint(1, 4)
+                    score += 1 if soution == question.solution else 0
+                    answers.append({
+                    'question': question,
+                    'selected_answer': soution
+                    })
+
+            # Create the quiz attempt record
+            quiz_attempt = quiz_attempt_model.objects.create(
+                user=user,
+                quiz=quiz,
+                score=score,
+                date_taken=random_date,
+            )
+
+            # Create the answer records
+            for answer in answers:
+                answer_model.objects.create(
+                    quiz_attempt=quiz_attempt,
+                    question=answer['question'],
+                    answer=answer['selected_answer']
                 )
-
-                # Create the answer records
-                #for answer in answers:
-                #    answer_model.objects.create(
-                #        quiz_attempt=quiz_attempt,
-                #        question=answer['question'],
-                #        answer=answer['selected_answer']
-                #    )
 
     
 def remove_data(apps, schema_editor):
