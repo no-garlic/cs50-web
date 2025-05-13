@@ -179,11 +179,27 @@ class QuizAttempt(models.Model):
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='attempts')
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='attempts')
     score = models.IntegerField()
-    answers = models.CharField(max_length=255)
     date_taken = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f"{self.user.username} - {self.quiz.name} - {self.score}"
+
+
+class Answer(models.Model):
+    """
+    Answer model representing a user's answer to a quiz question.
+    """
+    quiz_attempt = models.ForeignKey(QuizAttempt, on_delete=models.CASCADE, related_name='answers')
+    question = models.ForeignKey(Question, on_delete=models.CASCADE, related_name='answers')
+    answer = models.IntegerField(choices=[
+        (1, 'Option1'),
+        (2, 'Option2'),
+        (3, 'Option3'),
+        (4, 'Option4'),
+    ])
+
+    def __str__(self):
+        return f"{self.quiz_attempt.user.username} - {self.question.text} - {self.answer}"
 
 
 class SavedForLater(models.Model):

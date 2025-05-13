@@ -10,6 +10,7 @@ def add_data(apps, schema_editor):
     quiz_attempt_model = apps.get_model('quizly', 'QuizAttempt')
     quiz_model = apps.get_model('quizly', 'Quiz')
     user_model = apps.get_model('quizly', 'User')
+    #answer_model = apps.get_model('quizly', 'Answer')
 
     users = list(user_model.objects.exclude(username='admin'))
     quizzes = list(quiz_model.objects.all())
@@ -25,21 +26,31 @@ def add_data(apps, schema_editor):
 
                 # Determine which questions are correct and incorrect
                 score = 0
-                answers = ""
+                answers = []
                 questions = quiz.questions.all()
                 for question in questions:
-                     soution = question.solution if random.randint(0, 4) == 0 else random.randint(1, 4)
+                     soution = question.solution if random.randint(0, 3) != 0 else random.randint(1, 4)
                      score += 1 if soution == question.solution else 0
-                     answers += f"{question.id}:{soution},"
+                     answers.append({
+                        'question': question,
+                        'selected_answer': soution
+                     })
 
                 # Create the quiz attempt record
-                quiz_attempt_model.objects.create(
+                quiz_attempt = quiz_attempt_model.objects.create(
                     user=user,
                     quiz=quiz,
                     score=score,
-                    answers=answers[:-1], 
                     date_taken=random_date,
                 )
+
+                # Create the answer records
+                #for answer in answers:
+                #    answer_model.objects.create(
+                #        quiz_attempt=quiz_attempt,
+                #        question=answer['question'],
+                #        answer=answer['selected_answer']
+                #    )
 
     
 def remove_data(apps, schema_editor):

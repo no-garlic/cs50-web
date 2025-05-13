@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Category',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=255)),
                 ('description', models.TextField()),
             ],
@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Quiz',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=255)),
                 ('description', models.TextField()),
                 ('created_at', models.DateTimeField(default=django.utils.timezone.now)),
@@ -36,7 +36,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Question',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('text', models.TextField()),
                 ('hint', models.TextField()),
                 ('option1', models.CharField(max_length=255)),
@@ -50,18 +50,26 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='QuizAttempt',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('score', models.IntegerField()),
-                ('answers', models.CharField(max_length=255)),
                 ('date_taken', models.DateTimeField(auto_now_add=True)),
                 ('quiz', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='attempts', to='quizly.quiz')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='attempts', to=settings.AUTH_USER_MODEL)),
             ],
         ),
         migrations.CreateModel(
+            name='Answer',
+            fields=[
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('answer', models.IntegerField(choices=[(1, 'Option1'), (2, 'Option2'), (3, 'Option3'), (4, 'Option4')])),
+                ('question', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='answers', to='quizly.question')),
+                ('quiz_attempt', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='answers', to='quizly.quizattempt')),
+            ],
+        ),
+        migrations.CreateModel(
             name='QuizRating',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('rating', models.IntegerField(choices=[(1, '1 Star'), (2, '2 Stars'), (3, '3 Stars'), (4, '4 Stars'), (5, '5 Stars')])),
                 ('quiz', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='ratings', to='quizly.quiz')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='ratings', to=settings.AUTH_USER_MODEL)),
@@ -70,7 +78,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='SavedForLater',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('quiz', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='saved_for_later', to='quizly.quiz')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='saved_for_later', to=settings.AUTH_USER_MODEL)),
             ],
