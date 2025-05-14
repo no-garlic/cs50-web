@@ -9,6 +9,7 @@ Todo:
 Data:
 - add more test data, break up the json file into one file per language
 - update the migration to add multiple scores for each user
+- Move the json files to the migrations folder
 
 Doc:
 - html file documentation
@@ -47,6 +48,7 @@ Why more complex:
 - full error checking from all views, and in javascript
 - more complex schema - saving a quiz is multiple entries in multiple tables
 - similarity search with vector database
+- threading and synchronization with python, and background loading the search database for better UX
 
 
 Put into readme:
