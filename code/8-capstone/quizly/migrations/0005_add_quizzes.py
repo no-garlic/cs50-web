@@ -8,51 +8,52 @@ from django.utils import timezone
 import datetime
 
 def add_data(apps, schema_editor):
+    now = timezone.now()
+
     quiz_model = apps.get_model('quizly', 'Quiz')
     category_model = apps.get_model('quizly', 'Category')
     user_model = apps.get_model('quizly', 'User')
     question_model = apps.get_model('quizly', 'Question')
-    
     users = list(user_model.objects.exclude(username='admin'))
     
-    migration_folder = Path(__file__).parent
-    json_file_path = migration_folder / 'quizzes.json'
-    
-    now = timezone.now()
+    root_folder = Path(__file__).parent.parent
+    json_folder = root_folder / 'data' / 'quizzes'
 
-    with open(json_file_path, 'r') as file:
-        quiz_data = json.load(file)
-    
-    for category_name, quizzes_list in quiz_data.items():
-        category = category_model.objects.get(name=category_name)
+    for json_file in json_folder.glob('*.json'):
+
+        with open(json_file, 'r') as file:
+            quiz_data = json.load(file)
         
-        for quiz_info in quizzes_list:
-
-            # Generate random date between 2 years ago and now
-            time_diff = datetime.timedelta(weeks=104).total_seconds()
-            random_seconds = random.randint(0, int(time_diff))
-            random_date = now - datetime.timedelta(seconds=random_seconds)
-
-            quiz = quiz_model.objects.create(
-                name=quiz_info.get('name', ''),
-                description=quiz_info.get('description', ''),
-                created_by=random.choice(users),
-                created_at=random_date,
-                category=category
-            )
+        for category_name, quizzes_list in quiz_data.items():
+            category = category_model.objects.get(name=category_name)
             
-            questions = quiz_info.get('questions', [])
-            for question_data in questions:
-                question_model.objects.create(
-                    quiz=quiz,
-                    text=question_data.get('text', ''),
-                    hint=question_data.get('hint', ''),
-                    option1=question_data.get('option1', ''),
-                    option2=question_data.get('option2', ''),
-                    option3=question_data.get('option3', ''),
-                    option4=question_data.get('option4', ''),
-                    solution=question_data.get('solution', 1)
+            for quiz_info in quizzes_list:
+
+                # Generate random date between 2 years ago and now
+                time_diff = datetime.timedelta(weeks=104).total_seconds()
+                random_seconds = random.randint(0, int(time_diff))
+                random_date = now - datetime.timedelta(seconds=random_seconds)
+
+                quiz = quiz_model.objects.create(
+                    name=quiz_info.get('name', ''),
+                    description=quiz_info.get('description', ''),
+                    created_by=random.choice(users),
+                    created_at=random_date,
+                    category=category
                 )
+                
+                questions = quiz_info.get('questions', [])
+                for question_data in questions:
+                    question_model.objects.create(
+                        quiz=quiz,
+                        text=question_data.get('text', ''),
+                        hint=question_data.get('hint', ''),
+                        option1=question_data.get('option1', ''),
+                        option2=question_data.get('option2', ''),
+                        option3=question_data.get('option3', ''),
+                        option4=question_data.get('option4', ''),
+                        solution=question_data.get('solution', 1)
+                    )
 
 
 def remove_data(apps, schema_editor):

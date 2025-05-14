@@ -139,7 +139,7 @@ for category in CATEGORIES:
 
     existing_titles = [quiz["name"] for quiz in data[category]]
     num_quizzes_to_generate = random.randint(5, 15) - len(data[category])
-    if num_quizzes_to_generate <= 0 or len(existing_titles) >= 8:
+    if num_quizzes_to_generate <= 0 or len(existing_titles) >= 5:
         print("   No new quizzes needed.")
         continue
 
