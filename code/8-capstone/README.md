@@ -59,3 +59,8 @@ Requirements:
 - faiss-cpu
 - sentence-transformers
 - numpy
+
+To generate data:
+langchain>=0.1.14
+langchain-core>=0.1.7
+langchain-ollama>=0.1.0
