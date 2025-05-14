@@ -545,6 +545,276 @@
                     "solution": "4"
                 }
             ]
+        },
+        {
+            "name": "Oracular Expressions: A Lexical Labyrinth",
+            "description": "Delve into the realm of impactful words and memorable speeches! This quiz explores quotes from diverse historical figures and literary works, testing your knowledge of their origins and significance. Prepare to navigate a labyrinth of oracular expressions and uncover the wisdom within.",
+            "questions": [
+                {
+                    "text": "The only thing we have to fear is fear itself. From which iconic speech did this powerful statement originate?",
+                    "hint": "This speech was delivered during a time of economic hardship and uncertainty in the United States.",
+                    "option1": "D-Day Address by Dwight D. Eisenhower",
+                    "option2": "Gettysburg Address by Abraham Lincoln",
+                    "option3": "First Inaugural Address by Franklin D. Roosevelt",
+                    "option4": "Victory Speech by Winston Churchill",
+                    "solution": "3"
+                },
+                {
+                    "text": "Ask not what your country can do for you  ask what you can do for your country. This call to action is most famously associated with which U.S. President?",
+                    "hint": "This president championed the 'New Frontier' and emphasized public service.",
+                    "option1": "Harry S. Truman",
+                    "option2": "John F. Kennedy",
+                    "option3": "Lyndon B. Johnson",
+                    "option4": "Richard Nixon",
+                    "solution": "4"
+                },
+                {
+                    "text": "I have a dream. This phrase is central to a landmark speech advocating for racial equality. Who delivered this speech?",
+                    "hint": "This individual was a pivotal figure in the American Civil Rights Movement.",
+                    "option1": "Malcolm X",
+                    "option2": "Rosa Parks",
+                    "option3": "Martin Luther King Jr.",
+                    "option4": "Thurgood Marshall",
+                    "solution": "3"
+                },
+                {
+                    "text": "We shall fight on the beaches, we shall fight on the landing grounds.... This defiant declaration was made during which historical event?",
+                    "hint": "This speech was given in response to a potential invasion.",
+                    "option1": "The American Revolution",
+                    "option2": "World War I",
+                    "option3": "The Napoleonic Wars",
+                    "option4": "World War II",
+                    "solution": "4"
+                },
+                {
+                    "text": "Four score and seven years ago... This opening line is instantly recognizable from which significant address?",
+                    "hint": "This speech was delivered at a dedication ceremony for a national cemetery.",
+                    "option1": "Second Inaugural Address by Abraham Lincoln",
+                    "option2": "Gettysburg Address by Abraham Lincoln",
+                    "option3": "Farewell Address by George Washington",
+                    "option4": "Emancipation Proclamation by Abraham Lincoln",
+                    "solution": "2"
+                },
+                {
+                    "text": "The fault, dear Brutus, lies not in our stars, but in ourselves. From which Shakespearean play does this line originate?",
+                    "hint": "This play involves a conspiracy against a Roman leader.",
+                    "option1": "Hamlet",
+                    "option2": "Othello",
+                    "option3": "Julius Caesar",
+                    "option4": "Macbeth",
+                    "solution": "3"
+                },
+                {
+                    "text": "Thats one small step for a man, one giant leap for mankind. Who famously uttered these words upon first stepping on the Moon?",
+                    "hint": "This individual was the commander of the Apollo 11 mission.",
+                    "option1": "Buzz Aldrin",
+                    "option2": "Yuri Gagarin",
+                    "option3": "Neil Armstrong",
+                    "option4": "Alan Shepard",
+                    "solution": "1"
+                },
+                {
+                    "text": "I came, I saw, I conquered. (Veni, vidi, vici) This concise declaration is attributed to which Roman general?",
+                    "hint": "This general was a significant figure in the Roman Republic.",
+                    "option1": "Scipio Africanus",
+                    "option2": "Marcus Aurelius",
+                    "option3": "Julius Caesar",
+                    "option4": "Pompey the Great",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Whispers of Wisdom: A Quotable Journey",
+            "description": "Delve into the profound and powerful words of history's most influential figures. This quiz explores iconic quotes and speeches, testing your knowledge of their origins and significance. Prepare to be challenged and inspired by these timeless declarations!",
+            "questions": [
+                {
+                    "text": "The only thing we have to fear is fear itself. From which famous speech did this line originate?",
+                    "hint": "This speech was delivered during a period of economic hardship in the United States.",
+                    "option1": "D-Day Address",
+                    "option2": "Gettysburg Address",
+                    "option3": "First Inaugural Address of Franklin D. Roosevelt",
+                    "option4": "Pearl Harbor Address to the Nation",
+                    "solution": "3"
+                },
+                {
+                    "text": "Ask not what your country can do for you  ask what you can do for your country. Who delivered this memorable line?",
+                    "hint": "This quote is associated with a president known for his call to public service.",
+                    "option1": "Harry S. Truman",
+                    "option2": "John F. Kennedy",
+                    "option3": "Dwight D. Eisenhower",
+                    "option4": "Lyndon B. Johnson",
+                    "solution": "2"
+                },
+                {
+                    "text": "I have a dream. This powerful phrase is most famously associated with which civil rights leaders speech?",
+                    "hint": "This speech was delivered during the March on Washington for Jobs and Freedom.",
+                    "option1": "Malcolm X",
+                    "option2": "Rosa Parks",
+                    "option3": "Martin Luther King Jr.",
+                    "option4": "Thurgood Marshall",
+                    "solution": "3"
+                },
+                {
+                    "text": "Thats one small step for a man, one giant leap for mankind. Who spoke these words upon first stepping on the moon?",
+                    "hint": "This quote marks a pivotal moment in space exploration.",
+                    "option1": "Buzz Aldrin",
+                    "option2": "Yuri Gagarin",
+                    "option3": "Neil Armstrong",
+                    "option4": "Alan Shepard",
+                    "solution": "3"
+                },
+                {
+                    "text": "We shall fight on the beaches, we shall fight on the landing grounds.... This defiant declaration was part of a speech delivered by which British Prime Minister during World War II?",
+                    "hint": "This leader rallied the British people during a time of immense peril.",
+                    "option1": "Neville Chamberlain",
+                    "option2": "Clement Attlee",
+                    "option3": "Winston Churchill",
+                    "option4": "Stanley Baldwin",
+                    "solution": "2"
+                },
+                {
+                    "text": "Four score and seven years ago... This opening line is from which iconic American speech?",
+                    "hint": "This speech commemorates a pivotal moment in the American Civil War.",
+                    "option1": "Second Inaugural Address",
+                    "option2": "Farewell Address",
+                    "option3": "Gettysburg Address",
+                    "option4": "First Inaugural Address",
+                    "solution": "4"
+                },
+                {
+                    "text": "Mr. Gorbachev, tear down this wall! This challenge was famously issued by which U.S. President?",
+                    "hint": "This speech was delivered near the Berlin Wall.",
+                    "option1": "Jimmy Carter",
+                    "option2": "Richard Nixon",
+                    "option3": "Ronald Reagan",
+                    "option4": "George H.W. Bush",
+                    "solution": "1"
+                },
+                {
+                    "text": "The arc of the moral universe is long, but it bends toward justice. Who is credited with this profound observation?",
+                    "hint": "This quote reflects a belief in the eventual triumph of righteousness.",
+                    "option1": "Abraham Lincoln",
+                    "option2": "Martin Luther King Jr.",
+                    "option3": "Theodore Parker",
+                    "option4": "Frederick Douglass",
+                    "solution": "3"
+                },
+                {
+                    "text": "I came, I saw, I conquered. (Veni, vidi, vici) This famous phrase is attributed to which Roman general?",
+                    "hint": "This general was known for his military victories and political influence.",
+                    "option1": "Marcus Aurelius",
+                    "option2": "Julius Caesar",
+                    "option3": "Pompey the Great",
+                    "option4": "Augustus Caesar",
+                    "solution": "4"
+                },
+                {
+                    "text": "Never, never, never give up. What inspirational message did Winston Churchill often repeat?",
+                    "hint": "This quote embodies resilience and determination.",
+                    "option1": "A call to arms",
+                    "option2": "A political slogan",
+                    "option3": "A personal motto",
+                    "option4": "A declaration of war",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Lexical Landmarks: Charting Quotable Territory",
+            "description": "Embark on a journey through history's most impactful words! This quiz explores famous quotes and speeches, testing your knowledge of their origins and significance. Prepare to decipher the meaning behind iconic declarations and uncover the voices that shaped our world.",
+            "questions": [
+                {
+                    "text": "The only thing we have to fear is fear itself. From which famous speech did this line originate?",
+                    "hint": "Consider a speech delivered during a period of economic hardship.",
+                    "option1": "D-Day Address",
+                    "option2": "Gettysburg Address",
+                    "option3": "First Inaugural Address of Franklin D. Roosevelt",
+                    "option4": "Pearl Harbor Address to the Nation",
+                    "solution": "3"
+                },
+                {
+                    "text": "Ask not what your country can do for you  ask what you can do for your country. Who delivered this powerful call to action?",
+                    "hint": "This speech was given during a period of national service and idealism.",
+                    "option1": "Harry S. Truman",
+                    "option2": "Dwight D. Eisenhower",
+                    "option3": "John F. Kennedy",
+                    "option4": "Lyndon B. Johnson",
+                    "solution": "4"
+                },
+                {
+                    "text": "I have a dream. This iconic phrase is most associated with which civil rights leaders speech?",
+                    "hint": "Think about a march for equality and justice.",
+                    "option1": "Malcolm X",
+                    "option2": "Rosa Parks",
+                    "option3": "Martin Luther King Jr.",
+                    "option4": "Thurgood Marshall",
+                    "solution": "3"
+                },
+                {
+                    "text": "We choose to go to the moon. This declaration marked a pivotal moment in space exploration. Who delivered this speech?",
+                    "hint": "This speech outlined ambitious goals for the future.",
+                    "option1": "Neil Armstrong",
+                    "option2": "Buzz Aldrin",
+                    "option3": "Wernher von Braun",
+                    "option4": "John F. Kennedy",
+                    "solution": "4"
+                },
+                {
+                    "text": "Four score and seven years ago... This opening line is from which historically significant address?",
+                    "hint": "It commemorates a turning point in a major conflict.",
+                    "option1": "Second Inaugural Address",
+                    "option2": "Farewell Address",
+                    "option3": "Gettysburg Address",
+                    "option4": "First Inaugural Address",
+                    "solution": "3"
+                },
+                {
+                    "text": "Mr. Gorbachev, tear down this wall! This challenge was famously issued by which U.S. President?",
+                    "hint": "This speech was delivered near the Berlin Wall.",
+                    "option1": "Jimmy Carter",
+                    "option2": "Richard Nixon",
+                    "option3": "Gerald Ford",
+                    "option4": "Ronald Reagan",
+                    "solution": "4"
+                },
+                {
+                    "text": "Thats one small step for a man, one giant leap for mankind. Who spoke these words upon first stepping on the moon?",
+                    "hint": "Consider the first human to walk on the lunar surface.",
+                    "option1": "Neil Armstrong",
+                    "option2": "Buzz Aldrin",
+                    "option3": "Yuri Gagarin",
+                    "option4": "Alan Shepard",
+                    "solution": "1"
+                },
+                {
+                    "text": "I have nothing to declare but my love for my country. This quote is attributed to which historical figure?",
+                    "hint": "Think about a French revolutionary leader.",
+                    "option1": "Napoleon Bonaparte",
+                    "option2": "Maximilien Robespierre",
+                    "option3": "Jean-Paul Marat",
+                    "option4": "Georges Danton",
+                    "solution": "4"
+                },
+                {
+                    "text": "The arc of the moral universe is long, but it bends toward justice. Who penned this profound observation?",
+                    "hint": "This quote reflects a belief in the eventual triumph of righteousness.",
+                    "option1": "Abraham Lincoln",
+                    "option2": "Martin Luther King Jr.",
+                    "option3": "Theodore Roosevelt",
+                    "option4": "Martin Luther",
+                    "solution": "2"
+                },
+                {
+                    "text": "The only thing necessary for the triumph of evil is for good men to do nothing. To whom is this quote commonly attributed?",
+                    "hint": "Consider a figure associated with resistance and moral responsibility.",
+                    "option1": "Edmund Burke",
+                    "option2": "Plato",
+                    "option3": "Aristotle",
+                    "option4": "Confucius",
+                    "solution": "1"
+                }
+            ]
         }
     ]
 }

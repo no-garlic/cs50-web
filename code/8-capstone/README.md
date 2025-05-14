@@ -6,7 +6,6 @@ Data:
 
 Doc:
 
--   javascript file documentation & comments
 -   CSS file documentation
 
 Cleanup:
@@ -14,8 +13,7 @@ Cleanup:
 -   refactor CSS so it looks less like it was done with gpt
 -   remove unused CSS
 -   create CSS variables
--   refactor javascript to look more hand written, and use snake case
--   attempt.js - remove for and remove it from the html
+-   attempt.js - remove 'for' and then also remove it from the html
 -   hero button - why hero? rename.
 
 Packaging:
