@@ -8,63 +8,10 @@ from langchain_core.prompts import ChatPromptTemplate
 import unicodedata
 
 
-# List of categories
-CATEGORIES = [
-    "Science & Technology",
-    "General Knowledge", 
-    "Pop Culture", 
-    "Literature & Books", 
-    "Geography",
-    "Movies & TV Shows", 
-    "Music Through the Decades", 
-    "Sports & Athletics", 
-    "Plant Based Diet", 
-    "Art & Architecture",
-    "Ancient Civilizations", 
-    "Famous Personalities", 
-    "Natural Wonders", 
-    "Inventions & Discoveries", 
-    "Mythology & Folklore",
-    "Language & Word Origins", 
-    "Wildlife & Nature", 
-    "Space & Astronomy", 
-    "Board Games & Video Games",
-    "Odd Facts & Trivia", 
-    "Health & Human Body", 
-    "Business & Economics", 
-    "Puzzles & Brain Teasers",
-    "World History",
-    "Fashion Through the Ages",
-    "Famous Landmarks",
-    "Environmental Science",
-    "Cryptic Codes & Ciphers",
-    "Musical Instruments",
-    "Ocean Life",
-    "Extreme Weather",
-    "Animated Films",
-    "Social Media & Internet Culture",
-    "Olympic Games",
-    "Unusual Hobbies",
-    "Fictional Worlds & Universes",
-    "Dinosaurs & Prehistoric Life",
-    "Famous Quotes & Speeches",
-    "Transportation & Vehicles",
-    "TV Sitcoms & Comedy Shows",
-    "Wonders of the Modern World",
-    "Paranormal & Supernatural",
-    "Historical Conflicts & Wars",
-    "Food & Culinary Arts",
-    "Logic & Deduction",
-    "TV Game Shows",
-    "World Religions & Beliefs",
-    "Royalty & Monarchies",
-    "Famous Duos & Teams",
-    "Innovation & Future Tech"
-]
-
-
 def extract_json(text):
-    """Attempt to extract the first JSON object from text."""
+    """
+    Attempt to extract the first JSON object from text.
+    """
     try:
         # Extract the first {...} block
         match = re.search(r'\{[\s\S]*\}', text)
@@ -75,9 +22,10 @@ def extract_json(text):
     return None
 
 
-
 def normalize_to_ascii(text):
-    """Convert Unicode characters to closest ASCII equivalent."""
+    """
+    Convert Unicode characters to closest ASCII equivalent.
+    """
     if isinstance(text, str):
         return unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
     elif isinstance(text, list):
@@ -86,6 +34,11 @@ def normalize_to_ascii(text):
         return {normalize_to_ascii(k): normalize_to_ascii(v) for k, v in text.items()}
     return text
 
+
+# Read categories from categories.json file
+with open('categories.json', 'r') as f:
+    categories_data = json.load(f)
+    CATEGORIES = list(categories_data.keys())
 
 # Initialize the LLM
 llm = OllamaLLM(model="gemma3:12b")
@@ -175,7 +128,6 @@ for category in CATEGORIES:
 
         correct_options_str = ", ".join(map(str, correct_options))
         print(f"   ✏️ Generating quiz {i+1}/{num_quizzes_to_generate} with {num_questions} questions...")
-        print(f"   📝 Correct options: {correct_options_str}")
 
         prompt = PROMPT_TEMPLATE.format_messages(
             category=category,
@@ -183,11 +135,8 @@ for category in CATEGORIES:
             num_questions=num_questions,
             correct_options=f"[{correct_options_str}]",
         )
-        #print(f"   🧠 Prompt:\n{prompt}\n")
         try:
             response = llm.invoke(prompt)
-            #print(f"   🧠 Raw response:\n{response[:500]}...\n")
-
             quiz_json = extract_json(response)
 
             if not quiz_json:
