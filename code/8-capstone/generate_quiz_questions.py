@@ -73,7 +73,7 @@ def normalize_to_ascii(text):
 
 
 # Initialize the LLM
-llm = OllamaLLM(model="gemma3:4b")
+llm = OllamaLLM(model="gemma3:12b")
 
 # Prompt template
 PROMPT_TEMPLATE = ChatPromptTemplate.from_template("""
@@ -87,9 +87,9 @@ The quiz should include:
     - Question text
     - A hint to show the user if they ask for help
     - 4 answer options
-    - The correct option number (1, 2, 3, or 4)
+    - The correct option number (1, 2, 3, or 4) for the solution
                                                    
-The correct option numbers for each question are: {correct_options}, index into this list based on the question number.
+You must use this list of correct option numbers for the solutions: {correct_options}, each question you generate will use the next number in the list for the solution.
 The questions should be challenging and engaging, suitable for a quiz format. 
 The quiz should be in English.
 Make sure to include a variety of topics within the category. 
@@ -159,8 +159,9 @@ for category in CATEGORIES:
             correct_options.append(correct_option)
 
         correct_options_str = ", ".join(map(str, correct_options))
-
         print(f"   ✏️ Generating quiz {i+1}/{num_quizzes_to_generate} with {num_questions} questions...")
+        print(f"   📝 Correct options: {correct_options_str}")
+
         prompt = PROMPT_TEMPLATE.format_messages(
             category=category,
             existing_titles=existing_titles,
