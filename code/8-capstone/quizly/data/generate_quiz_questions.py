@@ -45,6 +45,21 @@ CATEGORIES = [
     "Social Media & Internet Culture",
     "Olympic Games",
     "Unusual Hobbies",
+    "Fictional Worlds & Universes",
+    "Dinosaurs & Prehistoric Life",
+    "Famous Quotes & Speeches",
+    "Transportation & Vehicles",
+    "TV Sitcoms & Comedy Shows",
+    "Wonders of the Modern World",
+    "Paranormal & Supernatural",
+    "Historical Conflicts & Wars",
+    "Food & Culinary Arts",
+    "Logic & Deduction",
+    "TV Game Shows",
+    "World Religions & Beliefs",
+    "Royalty & Monarchies",
+    "Famous Duos & Teams",
+    "Innovation & Future Tech"
 ]
 
 
