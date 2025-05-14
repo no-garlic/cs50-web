@@ -17,6 +17,10 @@ class QuizlyConfig(AppConfig):
                 # skip loading in the reloader process
                 return
         
+        # Also skip starting the search thread if we're running migrations
+        if 'migrate' in sys.argv or 'makemigrations' in sys.argv:
+            return
+
         # Import here to avoid circular imports
         from .services.faiss_search_service import QuizSemanticSearchService
         

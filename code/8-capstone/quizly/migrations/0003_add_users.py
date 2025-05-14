@@ -5,6 +5,9 @@ from django.contrib.auth.hashers import make_password
 
 
 def add_data(apps, schema_editor):
+    """
+    Adds users to the database.
+    """
     users = apps.get_model('quizly', 'User')
     users.objects.create(username='admin', password=make_password('admin'), email='admin@example.com', first_name='Admin', last_name='Admin', is_superuser=True, is_staff=True)
     users.objects.create(username='mike74', password=make_password('mike'), email='mike@example.com', first_name='Mike', last_name='Jones', is_superuser=True, is_staff=True)
@@ -20,6 +23,9 @@ def add_data(apps, schema_editor):
                        
 
 def remove_data(apps, schema_editor):
+    """
+    Removes all users from the database.
+    """
     users = apps.get_model('quizly', 'User')
     users.objects.all().delete()
 
