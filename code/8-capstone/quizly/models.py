@@ -5,9 +5,15 @@ from django.utils import timezone
 
 class User(AbstractUser):
     def __str__(self):
+        """
+        Return the username of the user.
+        """
         return self.username
     
     def display_name(self):
+        """
+        Return the display name of the user.
+        """
         return f"{self.first_name} {self.last_name}" if self.first_name and self.last_name else self.username
     
     def get_saved_for_later(self):
@@ -32,6 +38,9 @@ class Category(models.Model):
     description = models.TextField()
 
     def __str__(self):
+        """
+        Return the name of the category.
+        """
         return self.name
     
 
@@ -54,6 +63,9 @@ class Question(models.Model):
     quiz = models.ForeignKey('Quiz', on_delete=models.CASCADE, related_name='questions')
 
     def __str__(self):
+        """
+        Return the text of the question.
+        """
         return self.text
     
     def get_solution_text(self):
@@ -82,6 +94,9 @@ class Quiz(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='quizzes')
 
     def __str__(self):
+        """
+        Return the name of the quiz.
+        """
         return self.name
     
     def get_average_rating(self):
@@ -130,6 +145,9 @@ class Quiz(models.Model):
         return self.saved_for_later.filter(user=user).exists()
     
     def get_questions(self):
+        """
+        Get the questions for the quiz.
+        """
         questions = Question.objects.filter(quiz=self)
         return questions
     
@@ -164,11 +182,13 @@ class Quiz(models.Model):
         all_attempts = self.attempts.all()
         best_attempts = {}
         
+        # get the best attempt for each user
         for attempt in all_attempts:
             user_id = attempt.user_id
             if user_id not in best_attempts or attempt.score > best_attempts[user_id].score:
                 best_attempts[user_id] = attempt
         
+        # sort the attempts by score
         sorted_attempts = sorted(best_attempts.values(), key=lambda x: x.score, reverse=True)
         return sorted_attempts[:number_of_users]
 
@@ -188,6 +208,9 @@ class QuizRating(models.Model):
     ])
 
     def __str__(self):
+        """
+        Return a string representation of the rating.
+        """
         return f"{self.user.username} - {self.quiz.name} - {self.rating}"
 
 
@@ -201,6 +224,9 @@ class QuizAttempt(models.Model):
     date_taken = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
+        """
+        Return a string representation of the quiz attempt.
+        """
         return f"{self.user.username} - {self.quiz.name} - {self.score}"
 
 
@@ -218,6 +244,9 @@ class Answer(models.Model):
     ])
 
     def __str__(self):
+        """
+        Return a string representation of the answer.
+        """
         return f"{self.quiz_attempt.user.username} - {self.question.text} - {self.answer}"
 
 
@@ -229,4 +258,7 @@ class SavedForLater(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='saved_for_later')
 
     def __str__(self):
+        """
+        Return a string representation of the saved quiz.
+        """
         return f"{self.user.username} - {self.quiz.name}"

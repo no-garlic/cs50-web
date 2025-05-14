@@ -4,6 +4,7 @@ Todo:
 * create admin classes and register them
 * update scemantic search when adding a quiz
 * left margin for sidebar is broken
+- Load the FAISS model by default to remove the lag
 
 Data:
 - add more test data, break up the json file into one file per language
@@ -18,7 +19,6 @@ Doc:
 
 Cleanup:
 - remove unused imports
-- remove unused functions in Models
 - review all code to look hand written
 - refactor CSS so it looks less like it was done with gpt
 - remove unused CSS

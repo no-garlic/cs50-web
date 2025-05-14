@@ -1,21 +1,17 @@
-import json
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth import authenticate, login, logout
-from django.db import IntegrityError
-from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
-from django.views.decorators.csrf import csrf_exempt
-from django.shortcuts import render, redirect
-from django.urls import reverse
-from django import forms
-from django.core.paginator import Paginator
+from django.shortcuts import render
 from ..services.faiss_search_service import *
 from ..models import *
 
 
 @login_required
 def create(request):
+    """
+    Create a new quiz and add questions to it.
+    """
     # POST request, handle the form submission
     if request.method == "POST":
+        # Get the form action to determine if we are saving a quiz or a question
         form_action = request.POST.get("form_action")
 
         # this is step 1, to save the quiz before adding questions

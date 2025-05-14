@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block body %}
-    {% if quiz %}
+    {% if quiz %} <!-- If there is a quiz object, then we can add questions to it -->
         <div class="page-heading">
             <h2>Add Quiz Questions</h2>
             <p>Enter the details for all of the questions you want to include in your new quiz.</p>
@@ -21,13 +21,11 @@
             
             <div class="details-banner">
                 Category <div class="details-value">{{ quiz.category.name }}</div>
-                &nbsp;&nbsp;
-                &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 Questions <div class="details-value">{{ quiz.get_question_count }}</div>
             </div>
         </div>
 
-        <!-- Add Question Button -->
         <div class="add-question-button-container">
             <div class="button-group">
                 {% if quiz.has_questions %}
@@ -45,9 +43,7 @@
             </div>
         </div>
 
-        <!-- Question Form (Initially Hidden) -->
         <div class="details-container" id="question-form-container" style="display: none;">
-            
             <form method="post" action="{% url 'create' %}" class="quiz-form" id="question-form">
                 {% csrf_token %}
 
@@ -92,7 +88,9 @@
                 <i class="bi bi-floppy"></i>Save Question
             </button>
         </div>
-    {% else %}
+
+    {% else %} <!-- If there is no quiz object yet, start at step 1 and create a quiz before adding questions -->
+
         <div class="page-heading">
             <h2>Create a New Quiz</h2>
             <p>Design your quiz by filling in the details below</p>

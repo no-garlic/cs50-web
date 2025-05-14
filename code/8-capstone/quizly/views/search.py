@@ -1,4 +1,3 @@
-import numpy as np
 from django.shortcuts import render
 from ..services.faiss_search_service import QuizSemanticSearchService
 from ..models import *
@@ -11,19 +10,21 @@ def search(request):
     query = request.GET.get("q")
     search_type = request.GET.get("type")
 
+    # If no query or search type is provided, return empty search results
     if not query or not search_type:
         return render(request, "quizly/list.html", {
             "active_filter": "search",
             "filtered_quizzes": [],
         })
 
-    search_results = []
-    
+    # Get the search results based on the search type
+    search_results = []    
     if search_type == "semantic":
         search_results = semantic_search(query)
     else:
         search_results = keyword_search(query)
 
+    # show the page with the search results
     return render(request, "quizly/list.html", {
         "active_filter": "search",
         "filtered_quizzes": search_results,

@@ -56,9 +56,15 @@
                         <tbody>
                             {% for attempt in user_attempts %}
                                 <tr>
-                                    <td><a href="{% url 'profile' attempt.user.username %}">{{ attempt.user.display_name }}</a></td>
-                                    <td>{{ attempt.date_taken|date:"M d, Y" }}</td>
-                                    <td><a href="{% url 'show_attempt' attempt.id %}">{{ attempt.score }}/{{ quiz.get_question_count }}</a></td>
+                                    <td>
+                                        <a href="{% url 'profile' attempt.user.username %}">{{ attempt.user.display_name }}</a>
+                                    </td>
+                                    <td>
+                                        {{ attempt.date_taken|date:"M d, Y" }}
+                                    </td>
+                                    <td>
+                                        <a href="{% url 'show_attempt' attempt.id %}">{{ attempt.score }}/{{ quiz.get_question_count }}</a>
+                                    </td>
                                 </tr>
                             {% endfor %}
                         </tbody>
@@ -85,9 +91,15 @@
                     <tbody>
                         {% for attempt in quiz.get_leaderboard %}
                             <tr>
-                                <td><a href="{% url 'profile' attempt.user.username %}">{{ attempt.user.display_name }}</a></td>
-                                <td>{{ attempt.date_taken|date:"M d, Y" }}</td>
-                                <td><a href="{% url 'show_attempt' attempt.id %}">{{ attempt.score }}/{{ quiz.get_question_count }}</a></td>
+                                <td>
+                                    <a href="{% url 'profile' attempt.user.username %}">{{ attempt.user.display_name }}</a>
+                                </td>
+                                <td>
+                                    {{ attempt.date_taken|date:"M d, Y" }}
+                                </td>
+                                <td>
+                                    <a href="{% url 'show_attempt' attempt.id %}">{{ attempt.score }}/{{ quiz.get_question_count }}</a>
+                                </td>
                             </tr>
                         {% endfor %}
                     </tbody>

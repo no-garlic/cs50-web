@@ -44,6 +44,7 @@ def register(request):
     Handle registration request
     """
     if request.method == "POST":
+        # get the form data
         username = request.POST["username"]
         email = request.POST["email"]
         firstname = request.POST["firstname"]
@@ -58,8 +59,8 @@ def register(request):
                 "active_filter": "register"
             })
 
-        # Attempt to create new user
         try:
+            # Attempt to create and save the new user
             user = User.objects.create_user(
                 username=username, 
                 email=email, 
@@ -68,13 +69,16 @@ def register(request):
                 last_name=lastname)
             user.save()
         except IntegrityError:
+            # If username already taken, show error message
             return render(request, "quizly/register.html", {
                 "message": "Username already taken.",
                 "active_filter": "register"
             })
+        # Automatically log the user in after registration
         login(request, user)
         return HttpResponseRedirect(reverse("browse"))
     else:
+        # GET request, show the registration form
         return render(request, "quizly/register.html", {
             "active_filter": "register"
         })
