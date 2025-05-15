@@ -24,6 +24,11 @@ def search(request):
     else:
         search_results = keyword_search(query)
 
+    # Add the users best score to each quiz if user is authenticated
+    if request.user.is_authenticated:
+        for quiz in search_results:
+            quiz.best_attempt = quiz.get_best_attempt(request.user)
+
     # show the page with the search results
     return render(request, "quizly/list.html", {
         "active_filter": "search",
