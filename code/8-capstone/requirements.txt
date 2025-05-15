@@ -1,0 +1,16 @@
+# Python 3.12.9 preferred
+
+# Django dependencies
+Django>=5.2
+python-dotenv>=1.0.0
+
+# For semantic search
+faiss-cpu>=1.7.0
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+
+# For test-data generation only, not required to 
+# run the server or to run migrations
+langchain>=0.1.14
+langchain-core>=0.1.7
+langchain-ollama>=0.1.0
