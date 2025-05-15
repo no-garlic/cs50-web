@@ -1,3 +1,8 @@
+/* 
+ --------------------------------------------------------
+                    Container styling
+ -------------------------------------------------------- 
+*/
 .details-container {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +24,11 @@
     padding-left: 0;
 }
 
+/* 
+ --------------------------------------------------------
+                     Banner styling
+ -------------------------------------------------------- 
+*/
 .details-banner {
     width: 100%;
     display: flex;
@@ -50,10 +60,20 @@
     box-shadow: var(--shadow-lg);
 }
 
+/* 
+ --------------------------------------------------------
+                    Content styling
+ -------------------------------------------------------- 
+*/
 .attempt-content {
     width: 100%;
 }
 
+/* 
+ --------------------------------------------------------
+                    Question styling
+ -------------------------------------------------------- 
+*/
 .question-container {
     margin-bottom: var(--space-lg);
 }
@@ -79,6 +99,11 @@
     background: var(--gradient-banner);
 }
 
+/* 
+ --------------------------------------------------------
+                    Question options
+ -------------------------------------------------------- 
+*/
 .question-options {
     width: 100%;
     display: flex;
@@ -101,6 +126,11 @@ form.question-options {
     position: relative;
 }
 
+/* 
+ --------------------------------------------------------
+                    Radio button styling
+ -------------------------------------------------------- 
+*/
 .radio-button {
     width: 18px;
     height: 18px;
@@ -148,6 +178,11 @@ input[type="radio"].option-radio {
     margin: 0; 
 }
 
+/* 
+ --------------------------------------------------------
+                Answer status styling
+ -------------------------------------------------------- 
+*/
 .correct-answer {
     background-color: var(--color-success-bg) !important;
     border-left: none;
@@ -214,6 +249,11 @@ input[type="radio"].option-radio {
     border-left: none;
 }
 
+/* 
+ --------------------------------------------------------
+                    Question hint styling
+ -------------------------------------------------------- 
+*/
 .question-hint {
     margin-top: var(--space-md);
     padding: 12px 15px;
@@ -264,6 +304,11 @@ input[type="radio"].option-radio {
     display: block;
 }
 
+/* 
+ --------------------------------------------------------
+                    Action buttons styling
+ -------------------------------------------------------- 
+*/
 .action-buttons {
     display: flex;
     justify-content: center;
@@ -291,6 +336,11 @@ input[type="radio"].option-radio {
     box-shadow: var(--shadow-primary-btn-hover);
 }
 
+/* 
+ --------------------------------------------------------
+                 Responsive adjustments
+ -------------------------------------------------------- 
+*/
 @media (max-width: 576px) {
     .details-container {
         padding: var(--space-md) var(--space-lg);

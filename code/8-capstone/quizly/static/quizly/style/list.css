@@ -1,3 +1,8 @@
+/* 
+ --------------------------------------------------------
+                    Item container styling
+ -------------------------------------------------------- 
+*/
 .item-container {
     display: flex;
     flex-wrap: wrap;
@@ -5,6 +10,11 @@
     justify-content: center;
 }
 
+/* 
+ --------------------------------------------------------
+                    Item card styling
+ -------------------------------------------------------- 
+*/
 .item-card {
     background: var(--gradient-primary);
     border: 1px solid var(--color-primary-transparent-44);
@@ -48,6 +58,11 @@
     overflow: hidden;
 }
 
+/* 
+ --------------------------------------------------------
+                    Item banner styling
+ -------------------------------------------------------- 
+*/
 .item-banner {
     color: var(--color-primary);
     font-weight: var(--font-weight-semibold);
@@ -71,6 +86,11 @@
     gap: var(--space-sm);
 }
 
+/* 
+ --------------------------------------------------------
+                    Card type variants
+ -------------------------------------------------------- 
+*/
 .quiz-card {
     width: 460px;
     height: 290px;
@@ -80,6 +100,11 @@
     height: 285px;
 }
 
+/* 
+ --------------------------------------------------------
+                    Search form styling
+ -------------------------------------------------------- 
+*/
 .search-form {
     width: 100%;
     max-width: var(--max-width-content);
@@ -135,6 +160,11 @@
     background-color: var(--color-primary-light);
 }
 
+/* 
+ --------------------------------------------------------
+                Search options styling
+ -------------------------------------------------------- 
+*/
 .search-options {
     display: flex;
     justify-content: space-between;
@@ -163,6 +193,11 @@
     cursor: pointer;
 }
 
+/* 
+ --------------------------------------------------------
+                 Responsive adjustments
+ -------------------------------------------------------- 
+*/
 @media (max-width: 600px) {
     .search-form {
         padding: var(--space-md);

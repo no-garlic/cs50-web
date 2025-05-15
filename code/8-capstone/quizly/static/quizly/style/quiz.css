@@ -1,3 +1,8 @@
+/* 
+ --------------------------------------------------------
+                    Container styling
+ -------------------------------------------------------- 
+*/
 .details-container {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +24,11 @@
     padding-left: 0;
 }
 
+/* 
+ --------------------------------------------------------
+                     Banner styling
+ -------------------------------------------------------- 
+*/
 .details-banner {
     width: 100%;
     display: flex;
@@ -50,6 +60,11 @@
     box-shadow: var(--shadow-lg);
 }
 
+/* 
+ --------------------------------------------------------
+                    Quiz action buttons
+ -------------------------------------------------------- 
+*/
 .quiz-actions {
     display: flex;
     justify-content: flex-end;
@@ -78,6 +93,11 @@
     color: var(--color-text-white);
 }
 
+/* 
+ --------------------------------------------------------
+                    Heading styling
+ -------------------------------------------------------- 
+*/
 .details-heading {
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-semibold);
@@ -87,6 +107,11 @@
     width: 100%;
 }
 
+/* 
+ --------------------------------------------------------
+                    Table styling
+ -------------------------------------------------------- 
+*/
 .table-container {
     width: 100%;
     overflow-x: auto;
@@ -163,22 +188,11 @@
     text-overflow: ellipsis;
 }
 
-@media (max-width: 576px) {
-    .quiz-actions {
-        flex-wrap: wrap;
-    }
-    
-    .quiz-btn {
-        flex: 1 1 auto;
-        justify-content: center;
-    }
-
-    .attempts-table th,
-    .attempts-table td {
-        padding: 8px;
-    }
-}
-
+/* 
+ --------------------------------------------------------
+                   Rating popup styling
+ -------------------------------------------------------- 
+*/
 .rating-popup {
     position: fixed;
     top: 0;
@@ -220,6 +234,11 @@
     font-size: var(--font-size-lg);
 }
 
+/* 
+ --------------------------------------------------------
+                    Star rating styling
+ -------------------------------------------------------- 
+*/
 .stars-container {
     display: flex;
     justify-content: center;
@@ -255,5 +274,26 @@ button .bi-star {
 
 button .bi-star-fill {
     color: var(--color-text-white);
+}
+
+/* 
+ --------------------------------------------------------
+                 Responsive adjustments
+ -------------------------------------------------------- 
+*/
+@media (max-width: 576px) {
+    .quiz-actions {
+        flex-wrap: wrap;
+    }
+    
+    .quiz-btn {
+        flex: 1 1 auto;
+        justify-content: center;
+    }
+
+    .attempts-table th,
+    .attempts-table td {
+        padding: 8px;
+    }
 }
 

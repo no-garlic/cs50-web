@@ -1,9 +1,19 @@
+/* 
+ --------------------------------------------------------
+                Main page container styling 
+ -------------------------------------------------------- 
+*/
 .page-content {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
+/* 
+ --------------------------------------------------------
+                  Logo section styling 
+ -------------------------------------------------------- 
+*/
 .logo-container {
     background: var(--color-bg-primary);
     margin-top: 30px;
@@ -17,6 +27,11 @@
     margin-bottom: 60px;
 }
 
+/* 
+ --------------------------------------------------------
+                  Hero section styling 
+ -------------------------------------------------------- 
+*/
 .homepage-hero {
     width: calc(100% - 20px);
     margin: 2rem 10px;
@@ -45,6 +60,11 @@
     line-height: 1.6;
 }
 
+/* 
+ --------------------------------------------------------
+              Button styling for hero section 
+ -------------------------------------------------------- 
+*/
 .hero-btn {
     background-color: var(--color-primary);
     color: var(--color-text-white);
@@ -73,6 +93,11 @@
     color: var(--color-text-white);
 }
 
+/* 
+ --------------------------------------------------------
+                Features section styling 
+ -------------------------------------------------------- 
+*/
 .features-section {
     display: flex;
     justify-content: space-around;
@@ -102,6 +127,11 @@
     color: var(--color-text-primary);
 }
 
+/* 
+ --------------------------------------------------------
+              Layout overrides for homepage 
+ -------------------------------------------------------- 
+*/
 body .content {
     margin-left: 0;
     width: 100%;
@@ -110,12 +140,6 @@ body .content {
 .page-content {
     max-width: 1000px;
     width: 100%;
-}
-
-@media (max-width: 900px) {
-    .logo-large {
-        width: 80%;
-    }
 }
 
 .page-container {
@@ -132,7 +156,16 @@ body .content {
     align-items: center;
 }
 
+/* 
+ --------------------------------------------------------
+                Responsive adjustments 
+ -------------------------------------------------------- 
+*/
 @media (max-width: 900px) {
+    .logo-large {
+        width: 80%;
+    }
+    
     .homepage-hero {
         width: calc(100% - 30px);
         margin: 1.5rem 15px;

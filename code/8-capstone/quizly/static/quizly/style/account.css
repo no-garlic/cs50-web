@@ -1,3 +1,8 @@
+/* 
+ --------------------------------------------------------
+                    Authentication container 
+ -------------------------------------------------------- 
+*/
 .auth-container {
     display: flex;
     justify-content: center;
@@ -6,6 +11,11 @@
     padding: var(--space-lg);
 }
 
+/* 
+ --------------------------------------------------------
+                    Authentication card 
+ -------------------------------------------------------- 
+*/
 .auth-card {
     background-color: var(--color-bg-primary);
     border-radius: var(--border-radius-lg);
@@ -39,6 +49,11 @@
     margin: 0;
 }
 
+/* 
+ --------------------------------------------------------
+                      Alert styling 
+ -------------------------------------------------------- 
+*/
 .alert {
     padding: 12px;
     margin-bottom: var(--space-lg);
@@ -51,6 +66,11 @@
     border: 1px solid #feb2b2;
 }
 
+/* 
+ --------------------------------------------------------
+                      Form styling 
+ -------------------------------------------------------- 
+*/
 .auth-form {
     margin: 0 0 var(--space-lg) 0;
     width: 100%;
@@ -104,6 +124,11 @@ label {
     background-color: var(--color-primary-light);
 }
 
+/* 
+ --------------------------------------------------------
+                    Auth footer styling 
+ -------------------------------------------------------- 
+*/
 .auth-footer {
     text-align: center;
     margin-top: var(--space-lg);
@@ -121,6 +146,11 @@ label {
     text-decoration: underline;
 }
 
+/* 
+ --------------------------------------------------------
+                 Responsive adjustments 
+ -------------------------------------------------------- 
+*/
 @media (max-width: 576px) {
     .auth-card {
         padding: var(--space-lg);

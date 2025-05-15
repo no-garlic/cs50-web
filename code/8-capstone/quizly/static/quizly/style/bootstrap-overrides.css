@@ -1,3 +1,8 @@
+/* 
+ --------------------------------------------------------
+                   Button style overrides 
+ -------------------------------------------------------- 
+*/
 .btn-primary {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
@@ -16,6 +21,11 @@
     box-shadow: var(--shadow-focus) !important;
 }
 
+/* 
+ --------------------------------------------------------
+                    Text style overrides 
+ -------------------------------------------------------- 
+*/
 .text-primary {
     color: var(--color-primary) !important;
 }

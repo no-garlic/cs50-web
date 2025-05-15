@@ -1,3 +1,8 @@
+/* 
+ --------------------------------------------------------
+                      Body styling 
+ -------------------------------------------------------- 
+*/
 body {
     font-family: var(--font-family-primary);
     font-size: var(--font-size-base);
@@ -10,6 +15,11 @@ form {
     margin-right: var(--space-lg);
 }
 
+/* 
+ --------------------------------------------------------
+                    Container styling 
+ -------------------------------------------------------- 
+*/
 .container {
     width: 100%;
     max-width: var(--max-width-container);
@@ -42,6 +52,11 @@ form {
     width: calc(100% - 16px);
 }
 
+/* 
+ --------------------------------------------------------
+                     Sidebar styling 
+ -------------------------------------------------------- 
+*/
 .sidebar-menu-text {
     padding-left: var(--space-xs);
 }
@@ -143,6 +158,11 @@ form {
     margin-top: var(--space-xl);
 }
 
+/* 
+ --------------------------------------------------------
+                   Page heading styling 
+ -------------------------------------------------------- 
+*/
 .page-heading {
     text-align: center;
     margin-bottom: 35px;
@@ -161,6 +181,11 @@ form {
     font-size: var(--font-size-sm);
 }
 
+/* 
+ --------------------------------------------------------
+                 Responsive adjustments 
+ -------------------------------------------------------- 
+*/
 @media (max-width: 955px) {
     .sidebar {
         width: var(--sidebar-width-collapsed);

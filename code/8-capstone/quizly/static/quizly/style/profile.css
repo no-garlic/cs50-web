@@ -1,3 +1,8 @@
+/* 
+ --------------------------------------------------------
+                    Container styling
+ -------------------------------------------------------- 
+*/
 .details-container {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +24,11 @@
     padding-left: 0;
 }
 
+/* 
+ --------------------------------------------------------
+                     Banner styling
+ -------------------------------------------------------- 
+*/
 .details-banner {
     width: 100%;
     display: flex;
@@ -50,6 +60,11 @@
     box-shadow: var(--shadow-lg);
 }
 
+/* 
+ --------------------------------------------------------
+                    Heading styling
+ -------------------------------------------------------- 
+*/
 .details-heading {
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-semibold);
@@ -59,11 +74,21 @@
     width: 100%;
 }
 
+/* 
+ --------------------------------------------------------
+                    Table container
+ -------------------------------------------------------- 
+*/
 .table-container {
     width: 100%;
     overflow-x: auto;
 }
 
+/* 
+ --------------------------------------------------------
+                 User details table styling
+ -------------------------------------------------------- 
+*/
 .user-details-table {
     width: 100%;
     border-collapse: collapse;
@@ -98,6 +123,11 @@
     font-size: var(--font-size-sm);
 }
 
+/* 
+ --------------------------------------------------------
+                 Profile table styling
+ -------------------------------------------------------- 
+*/
 .profile-table {
     width: 100%;
     border-collapse: collapse;
@@ -157,6 +187,11 @@
     text-overflow: ellipsis;
 }
 
+/* 
+ --------------------------------------------------------
+                    Empty state styling
+ -------------------------------------------------------- 
+*/
 .no-items {
     color: var(--color-text-secondary);
     font-style: italic;
@@ -166,6 +201,11 @@
     font-size: var(--font-size-sm);
 }
 
+/* 
+ --------------------------------------------------------
+                 Responsive adjustments
+ -------------------------------------------------------- 
+*/
 @media (max-width: 920px) {
     .user-details-table td {
         padding: 8px;
