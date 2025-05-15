@@ -36,6 +36,7 @@ Why more complex:
 -   more complex schema - saving a quiz is multiple entries in multiple tables
 -   similarity search with vector database
 -   threading and synchronization with python, and background loading the search database for better UX
+-   css variables
 
 Put into readme:
 

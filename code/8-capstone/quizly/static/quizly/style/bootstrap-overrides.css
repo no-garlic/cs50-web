@@ -1,21 +1,21 @@
 .btn-primary {
-    background-color: #15a29f;
-    border-color: #15a29f;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 .btn-primary:hover {
-    background-color: #128a89;
-    border-color: #128a89;
+    background-color: var(--color-primary-light);
+    border-color: var(--color-primary-light);
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary.active {
-    background-color: #0e706f !important;
-    border-color: #0e706f !important;
-    box-shadow: 0 0 0 0.25rem rgba(21, 162, 159, 0.5) !important;
+    background-color: var(--color-primary-dark) !important;
+    border-color: var(--color-primary-dark) !important;
+    box-shadow: var(--shadow-focus) !important;
 }
 
 .text-primary {
-    color: #15a29f !important;
+    color: var(--color-primary) !important;
 }
