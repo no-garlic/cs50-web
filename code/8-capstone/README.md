@@ -142,12 +142,17 @@ I organized my templates as follows:
    pip install -r requirements.txt
    ```
 
-3. Run the development server:
+3. Download the semantic search model (~40MB):
+   ```bash
+   python manage.py download_search_model
+   ```
+
+4. Run the development server:
    ```bash
    python manage.py runserver
    ```
 
-4. Access the application at `http://127.0.0.1:8000`
+5. Access the application at `http://127.0.0.1:8000`
 
 ### Default Users
 The application comes with several pre-created users for testing. New users can be created through the Register User function of the app. To access the admin interface, login with the admin user:

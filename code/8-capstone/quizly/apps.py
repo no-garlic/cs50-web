@@ -21,6 +21,14 @@ class QuizlyConfig(AppConfig):
         if 'migrate' in sys.argv or 'makemigrations' in sys.argv:
             return
 
+        # Also skip starting the search thread if we're running tests
+        if 'test' in sys.argv:
+            return
+        
+        # Also skip starting the search thread if we're running download_search_model
+        if 'download_search_model' in sys.argv:
+            return
+
         # Import here to avoid circular imports
         from .services.faiss_search_service import QuizSemanticSearchService
         
