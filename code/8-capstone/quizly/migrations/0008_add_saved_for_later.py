@@ -5,32 +5,27 @@ from django.db import migrations
 
 
 def add_data(apps, schema_editor):
+    # Get the models
     saved_for_later_model = apps.get_model('quizly', 'SavedForLater')
-    quiz_attempt_model = apps.get_model('quizly', 'QuizAttempt')
     quiz_model = apps.get_model('quizly', 'Quiz')
     user_model = apps.get_model('quizly', 'User')
-
     users = list(user_model.objects.exclude(username='admin'))
     quizzes = list(quiz_model.objects.all())
     
-    for quiz in quizzes:
-        for user in users:
-            if random.randint(0, 1) == 1:
-                
-                # Dont save your own quiz for later
-                if user == quiz.created_by:
-                    continue
-                
-                # Don't always save if the user has already attempted the quiz
-                if quiz_attempt_model.objects.filter(user=user, quiz=quiz).exists():
-                    if random.randint(0, 2) != 1:
-                        continue
-                    
-                # Create the saved for later record
-                saved_for_later_model.objects.create(
-                    user=user,
-                    quiz=quiz,
-                )
+    # Loop through all quizzes and users to create saved for later records    
+    for user in users:
+
+        # Only save for later 6 quizzes
+        for _ in range(6):
+
+            # Pick a random quiz
+            quiz = random.choice(quizzes)    
+
+            # Create the saved for later record
+            saved_for_later_model.objects.create(
+                user=user,
+                quiz=quiz,
+            )
 
     
 def remove_data(apps, schema_editor):

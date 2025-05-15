@@ -43,8 +43,8 @@ def add_data(apps, schema_editor):
             # Loop through each quiz in the category
             for quiz_info in quizzes_list:
 
-                # Generate random date between 2 years ago and now
-                time_diff = datetime.timedelta(weeks=104).total_seconds()
+                # Generate random date between 5 years ago and now
+                time_diff = datetime.timedelta(weeks=260).total_seconds()
                 random_seconds = random.randint(0, int(time_diff))
                 random_date = now - datetime.timedelta(seconds=random_seconds)
 
