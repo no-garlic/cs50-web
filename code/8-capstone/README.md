@@ -3,6 +3,9 @@
 # Quizly - Interactive Quiz Platform
 Welcome to Quizly, my interactive web application that allows users to create, attempt, and share quizzes. I've built this platform with a wide range of features including quiz creation and participation, semantic search, ratings, personalized profiles, and leaderboards. I developed Quizly using Django on the backend and HTML/CSS/JavaScript on the frontend to provide a responsive and intuitive user interface that works seamlessly across devices.
 
+## About Me
+Just to give some context before you start looking at my code, I am a professional software engineer with ~30 years of experience in C / C++, but new to Python and brand new to web development. So I have a solid software engineering backround, but I have never worked with HTML, CSS, Javascript, or Django before starting this course.  I hope that helps you when looking at my code, to understand why I may have done some things in a more advanced way that you would expect a new student to do.
+
 ## Distinctiveness and Complexity
 I believe my Quizly project stands apart from other projects in the CS50 Web course in several significant ways:
 
