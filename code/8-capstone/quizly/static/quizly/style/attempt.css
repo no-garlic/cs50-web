@@ -319,9 +319,13 @@ input[type="radio"].option-radio {
 .quiz-btn {
     font-weight: var(--font-weight-semibold);
     padding: var(--space-sm) var(--space-lg);
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-sm);
     text-decoration: none;
     transition: var(--transition-fast);
+}
+
+.quiz-btn:hover {
+    text-decoration: none;
 }
 
 .btn-primary {
