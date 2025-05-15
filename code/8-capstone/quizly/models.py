@@ -43,6 +43,26 @@ class Category(models.Model):
         """
         return self.name
     
+    def get_num_quizzes(self):
+        """
+        Count the number of quizzes in this category.
+        """
+        return Quiz.objects.filter(category=self).count()   
+
+    def get_num_unique_quizzes_attempted(self, user):
+        """
+        Count the number of unique quizzes attempted in this category by a user.
+        """
+        attempts = QuizAttempt.objects.filter(quiz__category=self, user=user)
+        unique_quizzes = set(attempt.quiz for attempt in attempts)
+        return len(unique_quizzes)
+
+    def get_num_questions(self):
+        """
+        Count the number of questions in this category.
+        """
+        return Question.objects.filter(quiz__category=self).count()    
+
 
 class Question(models.Model):
     """
@@ -174,6 +194,15 @@ class Quiz(models.Model):
         Get the attempts for the quiz by a specific user.
         """
         return self.attempts.filter(user=user).order_by("-score", "-date_taken")
+    
+    def get_best_attempt(self, user):
+        """
+        Get the best attempt for the quiz by a specific user.
+        """
+        attempts = self.get_attempts_for_user(user)
+        if attempts.exists():
+            return attempts.first()
+        return None
     
     def get_leaderboard(self, number_of_users=10):
         """

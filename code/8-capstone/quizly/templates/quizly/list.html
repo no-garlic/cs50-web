@@ -48,10 +48,15 @@
 
     <div class="item-container">
         {% for category in all_categories %}
-        <div class="item-card">
+        <div class="item-card category-card">
             <a href="{% url 'browse' %}?category={{category.id}}">
                 <h3 class="item-name">{{ category.name }}</h3>
                 <p class="item-description">{{ category.description }}</p>
+                {% if user.is_authenticated %}
+                    <div class="item-banner">{{ category.attempted_count }}/{{ category.get_num_quizzes }} Quizzes Attempted</div>
+                {% else %}
+                    <div class="item-banner">{{ category.get_num_quizzes }} Quizzes</div>
+                {% endif %}
             </a>
         </div>            
         {% endfor %}
@@ -63,6 +68,18 @@
             <a href="{% url 'quiz' quiz.id %}">
                 <h3 class="item-name">{{ quiz.name }}</h3>
                 <p class="item-description">{{ quiz.description }}</p>
+                {% if user.is_authenticated %}
+                    <div class="item-banner-group">
+                        {% if quiz.best_attempt %}
+                            <div class="item-banner">Best Score: {{ quiz.best_attempt.score }}/{{ quiz.get_question_count }}</div>
+                        {% else %}
+                            <div class="item-banner">Not Attempted</div>
+                            <div class="item-banner">{{ quiz.get_question_count }} Questions</div>
+                        {% endif %}
+                    </div>
+                {% else %}
+                    <div class="item-banner">{{ quiz.get_question_count }} Questions</div>
+                {% endif %}
             </a>
         </div>            
         {% endfor %}

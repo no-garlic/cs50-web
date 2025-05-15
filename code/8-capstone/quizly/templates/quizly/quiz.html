@@ -15,10 +15,10 @@
 
     <div class="details-container">
         <div>
-            <strong>Created by</strong> <a href="{% url 'profile' quiz.created_by.username %}">{{ quiz.created_by.display_name }}</a>
-            <strong>on</strong> {{ quiz.created_at|date:"M d, Y" }}.
-        </div>            
-        
+            Created by <strong><a href="{% url 'profile' quiz.created_by.username %}">{{ quiz.created_by.display_name }}</a>
+            </strong> on <strong> {{ quiz.created_at|date:"M d, Y" }}</strong> in category 
+            <strong><a href="{% url 'browse' %}?category={{ quiz.category.id }}">{{ quiz.category.name }}</a></strong>.
+        </div>  
         <div class="details-banner">
             Average Score<div class="details-value">{{ quiz.get_average_score }}/{{ quiz.get_question_count }}</div>
             &nbsp;&nbsp;

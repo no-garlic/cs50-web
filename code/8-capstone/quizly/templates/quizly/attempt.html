@@ -15,8 +15,9 @@
     {% if quiz_attempt %}
     <div class="details-container">
         <div>
-            <strong>Completed by</strong> <a href="{% url 'profile' quiz_attempt.user.username %}">{{ quiz_attempt.user.display_name }}</a>
-            <strong>on</strong> {{ quiz_attempt.date_taken|date:"M d, Y" }}.
+            Completed by <strong><a href="{% url 'profile' quiz_attempt.user.username %}">{{ quiz_attempt.user.display_name }}</a></strong>
+            on <strong>{{ quiz_attempt.date_taken|date:"M d, Y" }}</strong> from category <strong> 
+            <a href="{% url 'browse' %}?category={{ quiz.category.id }}">{{ quiz.category.name }}</strong></a>.
         </div>
         
         <div class="details-banner">
