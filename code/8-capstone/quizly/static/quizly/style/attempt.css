@@ -60,6 +60,7 @@
 
 .question-text {
     font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-sm);    
     margin-bottom: var(--space-md);
     width: 100%;
     color: var(--color-text-primary);
@@ -122,6 +123,7 @@
 
 .option-text {
     flex-grow: 1;
+    font-size: var(--font-size-sm);
 }
 
 input[type="radio"].option-radio {
@@ -238,6 +240,7 @@ input[type="radio"].option-radio {
     display: flex;
     align-items: center;
     gap: 6px;
+    font-size: var(--font-size-sm);    
 }
 
 .question-hint-header i {
@@ -246,6 +249,8 @@ input[type="radio"].option-radio {
 
 .question-hint-content {
     color: var(--color-hint-text);
+    font-size: var(--font-size-sm);
+    font-style: italic;
 }
 
 .incorrect-answer-selected .question-hint {

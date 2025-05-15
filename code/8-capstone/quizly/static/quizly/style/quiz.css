@@ -108,6 +108,7 @@
     font-weight: var(--font-weight-semibold);
     color: var(--color-primary);
     border-bottom: 2px solid var(--color-primary-transparent-44);
+    font-size: var(--font-size-sm);
 }
 
 .attempts-table td {
@@ -117,6 +118,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 0;
+    font-size: var(--font-size-sm);
 }
 
 .attempts-table tr:last-child td {
@@ -133,6 +135,7 @@
     padding: var(--space-sm) 0;
     text-align: center;
     width: 100%;
+    font-size: var(--font-size-sm);
 }
 
 .attempts-table th:nth-child(1),
@@ -214,6 +217,7 @@
     margin-top: 0;
     margin-bottom: var(--space-lg);
     font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-lg);
 }
 
 .stars-container {
