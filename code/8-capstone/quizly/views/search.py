@@ -24,7 +24,7 @@ def search(request):
     else:
         search_results = keyword_search(query)
 
-    # Add the users best score to each quiz if user is authenticated
+    # Add the users best score to each quiz if the user is authenticated
     if request.user.is_authenticated:
         for quiz in search_results:
             quiz.best_attempt = quiz.get_best_attempt(request.user)
