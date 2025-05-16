@@ -1,0 +1,241 @@
+{
+    "Business & Economics": [
+        {
+            "name": "Capitalism Chronicles",
+            "description": "Delve into the core concepts of economics and business with this quiz. From historical figures to modern corporations, test your knowledge of the forces that shape our world.",
+            "questions": [
+                {
+                    "text": "What is the proletariat?"
+                },
+                {
+                    "text": "Which of these is a commonly-known investment account?"
+                },
+                {
+                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                },
+                {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                }
+            ]
+        },
+        {
+            "name": "Metropolis Money Makers",
+            "description": "Test your knowledge of business and finance with a touch of fictional flair. This quiz combines real-world concepts with references to iconic stories and characters.",
+            "questions": [
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
+                {
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                },
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "What is the proletariat?"
+                }
+            ]
+        },
+        {
+            "name": "Wall Street Wonders",
+            "description": "Challenge your understanding of the financial world with this quiz. From stock markets to corporate structures, see how well you know the language of money.",
+            "questions": [
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "Which of these is a commonly-known investment account?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                },
+                {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                }
+            ]
+        },
+        {
+            "name": "Titans of Industry",
+            "description": "Explore the lives and legacies of the individuals who shaped the modern business landscape. This quiz tests your knowledge of the entrepreneurs, innovators, and financiers who built empires.",
+            "questions": [
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
+                },
+                {
+                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                }
+            ]
+        },
+        {
+            "name": "Investor's Insights",
+            "description": "Sharpen your financial acumen with this quiz focused on investment strategies and market dynamics. From risk assessment to portfolio management, test your knowledge of the world of finance.",
+            "questions": [
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                },
+                {
+                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                },
+                {
+                    "text": "What is the proletariat?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
+                },
+                {
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                }
+            ]
+        },
+        {
+            "name": "Market Mavericks",
+            "description": "Dive into the world of online trading and investment platforms. This quiz will test your knowledge of the tools and strategies used by modern investors.",
+            "questions": [
+                {
+                    "text": "Which of these is a commonly-known investment account?"
+                },
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                }
+            ]
+        },
+        {
+            "name": "Financial Frontiers",
+            "description": "Explore the cutting edge of the financial world with this quiz. From fintech startups to blockchain technology, test your knowledge of the innovations shaping the future of money.",
+            "questions": [
+                {
+                    "text": "Which of these is a commonly-known investment account?"
+                },
+                {
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
+                },
+                {
+                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                }
+            ]
+        },
+        {
+            "name": "Business Legends",
+            "description": "Uncover the stories behind the most influential companies and entrepreneurs in history. This quiz will test your knowledge of the people and events that have shaped the business world.",
+            "questions": [
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "What is the proletariat?"
+                },
+                {
+                    "text": "What is the proletariat?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                },
+                {
+                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                }
+            ]
+        },
+        {
+            "name": "Corporate Chronicles",
+            "description": "Test your knowledge of the inner workings of major corporations and the strategies they use to succeed. From marketing to management, see how well you understand the business world.",
+            "questions": [
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
+                },
+                {
+                    "text": "Which of these is a commonly-known investment account?"
+                },
+                {
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                },
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                }
+            ]
+        }
+    ]
+}

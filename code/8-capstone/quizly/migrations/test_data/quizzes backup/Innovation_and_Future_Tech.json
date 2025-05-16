@@ -1,0 +1,109 @@
+{
+    "Innovation & Future Tech": [
+        {
+            "name": "Silicon Roots: A Tech History Primer",
+            "description": "Delve into the foundational elements of computing with this quiz. Test your knowledge of early internet companies and the building blocks of modern technology. It's a journey through the history that shaped our digital world.",
+            "questions": [
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                }
+            ]
+        },
+        {
+            "name": "Macintosh Genesis: A Legacy Unveiled",
+            "description": "Explore the origins of Apple's iconic Macintosh line. This quiz examines the early days of personal computing and the innovations that defined a generation. Discover the stories behind the machines that changed the world.",
+            "questions": [
+                {
+                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                }
+            ]
+        },
+        {
+            "name": "Decoding the Digital Age: A Comprehensive Tech Challenge",
+            "description": "This quiz is a deep dive into the core concepts and terminology of the digital age. From internet infrastructure to pioneering figures, it's a test of your overall tech literacy. Are you ready to decode the digital world?",
+            "questions": [
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                }
+            ]
+        },
+        {
+            "name": "Network Navigator: Essential Internet Acronyms",
+            "description": "Test your knowledge of essential internet acronyms and foundational tech concepts. This quiz covers a range of topics, from file transfer protocols to early computing pioneers. Navigate the digital landscape with confidence!",
+            "questions": [
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                },
+                {
+                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                }
+            ]
+        },
+        {
+            "name": "The Building Blocks of the Internet",
+            "description": "This quiz focuses on the core components and foundational knowledge of the internet. From essential acronyms to the materials that power our devices, it's a test of your understanding of the digital infrastructure.",
+            "questions": [
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                }
+            ]
+        }
+    ]
+}

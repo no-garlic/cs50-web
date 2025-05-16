@@ -1,0 +1,166 @@
+{
+    "Logic & Deduction": [
+        {
+            "name": "The Number Weaver",
+            "description": "Test your mathematical prowess with this quiz! From square roots to decimals, this challenge will push your numerical reasoning skills to the limit. Can you unravel the patterns and find the solutions?",
+            "questions": [
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                },
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                }
+            ]
+        },
+        {
+            "name": "The Analytical Eye",
+            "description": "Sharpen your observational skills and deductive reasoning with this quiz. It combines mathematical concepts with grammatical nuances, demanding a keen eye for detail and a logical mind.",
+            "questions": [
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                }
+            ]
+        },
+        {
+            "name": "Fractional Reasoning",
+            "description": "Dive into a world of fractions, angles, and grammatical structures. This quiz tests your ability to connect seemingly disparate concepts and arrive at logical conclusions.",
+            "questions": [
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                }
+            ]
+        },
+        {
+            "name": "The Grammar & Geometry Gambit",
+            "description": "A unique blend of grammatical precision and geometric understanding awaits! This quiz challenges you to decipher sentences and solve mathematical problems with equal skill.",
+            "questions": [
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                }
+            ]
+        },
+        {
+            "name": "The Numerical Detective",
+            "description": "Unravel the mysteries of numbers and language with this challenging quiz. It requires a sharp mind and a knack for spotting patterns and making logical deductions.",
+            "questions": [
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                }
+            ]
+        },
+        {
+            "name": "The Comprehensive Challenge",
+            "description": "Test your overall logical reasoning skills with this comprehensive quiz. It covers a wide range of mathematical and grammatical concepts, demanding a broad understanding and a keen eye for detail.",
+            "questions": [
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                }
+            ]
+        }
+    ]
+}

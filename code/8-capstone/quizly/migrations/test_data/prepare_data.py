@@ -250,7 +250,7 @@ def patch_quiz_details():
     with open("questions_with_hints.json", 'r') as f:
         data = json.load(f)
         for item in data:
-            question_details_lookup[item["question"]] = item
+            question_details_lookup[item["text"]] = item
 
     input_path = "quizzes"
     Path(input_path).mkdir(exist_ok=True)
@@ -261,7 +261,7 @@ def patch_quiz_details():
             with open(os.path.join(input_path, filename), 'r') as f:
                 data = json.load(f)
 
-                quizzes = data.items()[0][1]
+                quizzes = next(iter(data.items()))[1]
                 
                 for quiz in quizzes:
                     for question in quiz["questions"]:
@@ -273,11 +273,11 @@ def patch_quiz_details():
                             question.update(source)
                         else:
                             print(f"Question not found in lookup: {question_text}")
-
+                
                 with open(os.path.join(input_path, filename), 'w') as outfile:
                     json.dump(data, outfile, indent=4)
                     print(f"Updated {filename} with question details.")             
-
+                return
 
 def run():
     #extract_questions()

@@ -1,0 +1,139 @@
+{
+    "Art & Architecture": [
+        {
+            "name": "Palette & Panel: Art Fundamentals",
+            "description": "Test your knowledge of essential art techniques and terminology. This quiz explores everything from mixing colors to understanding different art forms, perfect for budding artists and art enthusiasts alike.",
+            "questions": [
+                {
+                    "text": "What is the name for the thin board used to mix colors while painting?"
+                },
+                {
+                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                },
+                {
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                },
+                {
+                    "text": "Which of these places is known for art auctions?"
+                },
+                {
+                    "text": "What is the Frank Lloyd Wright-designed house known as Falling Water?"
+                },
+                {
+                    "text": "A triptych is a work of art that is painted on how many panels?"
+                },
+                {
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                },
+                {
+                    "text": "What is the art of elegant handwriting called?"
+                }
+            ]
+        },
+        {
+            "name": "Brushstrokes & Beyond",
+            "description": "Dive into the world of painting tools and techniques. This quiz focuses on the instruments and processes used to create stunning works of art, from the humble brush to complex panel arrangements.",
+            "questions": [
+                {
+                    "text": "Which of these painting tools has bristles on it?"
+                },
+                {
+                    "text": "Which of these painting tools has bristles on it?"
+                },
+                {
+                    "text": "A triptych is a work of art that is painted on how many panels?"
+                }
+            ]
+        },
+        {
+            "name": "Artistic Echoes",
+            "description": "Explore the intersection of artistic styles, historical significance, and iconic locations. This quiz challenges your understanding of art history and the places that have shaped it.",
+            "questions": [
+                {
+                    "text": "Which of these places is known for art auctions?"
+                },
+                {
+                    "text": "What is the name for the thin board used to mix colors while painting?"
+                },
+                {
+                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                },
+                {
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                },
+                {
+                    "text": "What is the art of elegant handwriting called?"
+                },
+                {
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                },
+                {
+                    "text": "What is the Frank Lloyd Wright-designed house known as Falling Water?"
+                },
+                {
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                }
+            ]
+        },
+        {
+            "name": "Panel Discussions",
+            "description": "Test your knowledge of architectural design and artistic composition. This quiz focuses on the structure and arrangement of artworks, from triptychs to iconic houses.",
+            "questions": [
+                {
+                    "text": "A triptych is a work of art that is painted on how many panels?"
+                },
+                {
+                    "text": "What is the Frank Lloyd Wright-designed house known as Falling Water?"
+                },
+                {
+                    "text": "Which of these places is known for art auctions?"
+                }
+            ]
+        },
+        {
+            "name": "Caricatures & Calligraphy",
+            "description": "Delve into the nuances of portraiture and the beauty of written art. This quiz explores the techniques behind capturing a likeness and the elegance of calligraphy.",
+            "questions": [
+                {
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                },
+                {
+                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                },
+                {
+                    "text": "What is the name for the thin board used to mix colors while painting?"
+                },
+                {
+                    "text": "Which of these painting tools has bristles on it?"
+                },
+                {
+                    "text": "What is the art of elegant handwriting called?"
+                },
+                {
+                    "text": "Which of these places is known for art auctions?"
+                },
+                {
+                    "text": "A triptych is a work of art that is painted on how many panels?"
+                },
+                {
+                    "text": "A portrait that comically exaggerates a persons physical traits is called a what?"
+                }
+            ]
+        },
+        {
+            "name": "Wood & Water: Architectural Wonders",
+            "description": "Explore the intersection of woodworking artistry and architectural design. This quiz focuses on the creation of intricate wood inlays and the iconic Fallingwater house.",
+            "questions": [
+                {
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                },
+                {
+                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                },
+                {
+                    "text": "What is the Frank Lloyd Wright-designed house known as Falling Water?"
+                }
+            ]
+        }
+    ]
+}

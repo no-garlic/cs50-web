@@ -1,0 +1,151 @@
+{
+    "Animated Films": [
+        {
+            "name": "Cartoon Crossroads",
+            "description": "Test your knowledge of classic cartoons and beloved characters! This quiz covers a wide range of animated icons, from comic strips to iconic films. See if you can navigate the world of animation!",
+            "questions": [
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
+                    "text": "What color is cartoon character Marge Simpson's hair?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                }
+            ]
+        },
+        {
+            "name": "Peanuts & Pop Culture",
+            "description": "Dive into the world of 'Peanuts' and beyond! This quiz explores the characters and stories that have charmed audiences for generations. From Schroeder's piano to Aladdin's magic carpet, how much do you know?",
+            "questions": [
+                {
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "What color is cartoon character Marge Simpson's hair?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                }
+            ]
+        },
+        {
+            "name": "Animated Essentials",
+            "description": "A whirlwind tour of animated history! This quiz covers a variety of characters and moments from beloved cartoons and films. Are you an animation aficionado or a casual viewer?",
+            "questions": [
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                },
+                {
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                },
+                {
+                    "text": "What color is cartoon character Marge Simpson's hair?"
+                }
+            ]
+        },
+        {
+            "name": "Time-Traveling Toons",
+            "description": "Embark on a journey through animated adventures! This quiz focuses on characters and stories that involve time travel, clever gadgets, and unforgettable moments. Can you ace this animated expedition?",
+            "questions": [
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                }
+            ]
+        },
+        {
+            "name": "Simpson's & Friends",
+            "description": "Test your knowledge of Springfield and beyond! This quiz dives into the world of 'The Simpsons' and other iconic animated characters. From Marge's hair to Aladdin's magic carpet, how well do you know these animated legends?",
+            "questions": [
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "What color is cartoon character Marge Simpson's hair?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                }
+            ]
+        },
+        {
+            "name": "Popeye's Playbook",
+            "description": "Spin your muscles and test your knowledge of classic cartoons! This quiz focuses on iconic characters and moments from beloved animated series. From Popeye's spinach to Schroeder's piano, how much do you know?",
+            "questions": [
+                {
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                },
+                {
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "What color is cartoon character Marge Simpson's hair?"
+                },
+                {
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                }
+            ]
+        }
+    ]
+}

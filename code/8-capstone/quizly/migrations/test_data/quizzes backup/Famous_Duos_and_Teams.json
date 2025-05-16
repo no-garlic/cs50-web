@@ -1,0 +1,115 @@
+{
+    "Famous Duos & Teams": [
+        {
+            "name": "Dynamic Duos: A Partnership Puzzle",
+            "description": "Test your knowledge of iconic partnerships, from explorers to cartoon characters! This quiz explores the names and relationships of famous duos and teams throughout history and pop culture. Can you identify these legendary collaborations?",
+            "questions": [
+                {
+                    "text": "What were the first names of the early American explorers Lewis and Clark?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                },
+                {
+                    "text": "What are the names of Donald Duck's three nephews?"
+                },
+                {
+                    "text": "What are the Smothers Brothers' first names?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                },
+                {
+                    "text": "Which of these is not a TV cartoon duo?"
+                },
+                {
+                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
+                },
+                {
+                    "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
+                }
+            ]
+        },
+        {
+            "name": "Triple Threat Teams",
+            "description": "Dive into the world of trios and groups! This quiz focuses on teams of three, from comedic duos to cartoon characters. See if you can name these memorable groups.",
+            "questions": [
+                {
+                    "text": "What are the Smothers Brothers' first names?"
+                },
+                {
+                    "text": "What are the names of Donald Duck's three nephews?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                }
+            ]
+        },
+        {
+            "name": "Beyond the Pair: Group Dynamics",
+            "description": "This quiz explores teams of more than two! Test your knowledge of groups and collaborations, from animated characters to Hollywood connections. How well do you know these dynamic ensembles?",
+            "questions": [
+                {
+                    "text": "Which of these is not a TV cartoon duo?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                },
+                {
+                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
+                }
+            ]
+        },
+        {
+            "name": "Sibling Connections & Historical Figures",
+            "description": "Uncover the relationships and identities of famous figures and their connections! This quiz delves into sibling rivalries, historical partnerships, and iconic collaborations. Can you piece together these fascinating links?",
+            "questions": [
+                {
+                    "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
+                },
+                {
+                    "text": "What were the first names of the early American explorers Lewis and Clark?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                }
+            ]
+        },
+        {
+            "name": "Ducklings & Discoveries",
+            "description": "Explore the world of cartoon characters and historical explorers! This quiz combines the fun of Disney with the significance of American history. How much do you know about these iconic figures and their teams?",
+            "questions": [
+                {
+                    "text": "What are the names of Donald Duck's three nephews?"
+                },
+                {
+                    "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
+                },
+                {
+                    "text": "What were the first names of the early American explorers Lewis and Clark?"
+                }
+            ]
+        },
+        {
+            "name": "Hollywood & Candy Connections",
+            "description": "This quiz blends the glitz of Hollywood with the sweetness of candy! Test your knowledge of acting families, cartoon mascots, and iconic partnerships. Can you connect these seemingly disparate worlds?",
+            "questions": [
+                {
+                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                },
+                {
+                    "text": "Which of these is not a TV cartoon duo?"
+                },
+                {
+                    "text": "What are the Smothers Brothers' first names?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "Paranormal & Supernatural": [
+        {
+            "name": "Echoes of Olympus",
+            "description": "Delve into the realm of Greek and Roman mythology with this quiz! Test your knowledge of legendary figures, sacred places, and ancient folklore. Can you decipher the whispers of the gods?",
+            "questions": [
+                {
+                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                },
+                {
+                    "text": "Who is the mythological Roman goddess of flowers?"
+                },
+                {
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
+                }
+            ]
+        },
+        {
+            "name": "Divine Lineage & Curses",
+            "description": "Unravel the complex family trees and potent curses of Greek mythology. From Zeus's origins to the power of the 'evil eye,' this quiz explores the darker side of the divine.",
+            "questions": [
+                {
+                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                },
+                {
+                    "text": "Who was the mother of the Greek god Zeus?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                },
+                {
+                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                },
+                {
+                    "text": "Who was the mother of the Greek god Zeus?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                },
+                {
+                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                }
+            ]
+        },
+        {
+            "name": "Cryptid Chronicles",
+            "description": "Venture into the world of folklore and cryptozoology! This quiz explores legendary creatures from around the globe, testing your knowledge of mythical beasts and unexplained phenomena.",
+            "questions": [
+                {
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                },
+                {
+                    "text": "Who is the mythological Roman goddess of flowers?"
+                },
+                {
+                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                },
+                {
+                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                }
+            ]
+        },
+        {
+            "name": "Mount Olympus & Mythical Beasts",
+            "description": "A blend of divine power and earthly legends! This quiz combines knowledge of Greek mythology with the lore of cryptids, challenging you to connect the realms of gods and monsters.",
+            "questions": [
+                {
+                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                },
+                {
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                }
+            ]
+        },
+        {
+            "name": "The Pantheon's Legacy",
+            "description": "Explore the lineage and power of the Greek gods! This quiz delves into the family dynamics, curses, and legendary tales that shape the mythology of Mount Olympus.",
+            "questions": [
+                {
+                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                },
+                {
+                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                },
+                {
+                    "text": "Who was the mother of the Greek god Zeus?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                },
+                {
+                    "text": "Who is the mythological Roman goddess of flowers?"
+                },
+                {
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
+                },
+                {
+                    "text": "Who was the mother of the Greek god Zeus?"
+                },
+                {
+                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                }
+            ]
+        },
+        {
+            "name": "Curses & Divine Favor",
+            "description": "Test your knowledge of ancient curses and the blessings of the gods! This quiz explores the power of fate, the consequences of defying the divine, and the legends that shape our understanding of the supernatural.",
+            "questions": [
+                {
+                    "text": "Who is the mythological Roman goddess of flowers?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                },
+                {
+                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                },
+                {
+                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                },
+                {
+                    "text": "Who is the mythological Roman goddess of flowers?"
+                },
+                {
+                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                },
+                {
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "Royalty & Monarchies": [
+        {
+            "name": "Crown & Conquest",
+            "description": "Test your knowledge of royal lineages and historical empires. This quiz explores key figures and pivotal moments in monarchical rule across the globe. From England to Japan, see how well you understand the world's royal history.",
+            "questions": [
+                {
+                    "text": "After Prince Charles, who is next in line to be the king of England?"
+                },
+                {
+                    "text": "In what country was once ruled by shoguns?"
+                },
+                {
+                    "text": "Who was the English king at the time of the American Revolution?"
+                }
+            ]
+        },
+        {
+            "name": "Royal Echoes",
+            "description": "Delve into the complex tapestry of royal history with this comprehensive quiz. Featuring questions about French monarchs, English rulers, and the legacy of the shogunate, it's a true test of your knowledge of global royalty.",
+            "questions": [
+                {
+                    "text": "In what country was once ruled by shoguns?"
+                },
+                {
+                    "text": "After Prince Charles, who is next in line to be the king of England?"
+                },
+                {
+                    "text": "Who was the English king at the time of the American Revolution?"
+                },
+                {
+                    "text": "Who was the longest reigning monarch in French history?"
+                },
+                {
+                    "text": "Who was the longest reigning monarch in French history?"
+                },
+                {
+                    "text": "In what country was once ruled by shoguns?"
+                },
+                {
+                    "text": "Who was the longest reigning monarch in French history?"
+                },
+                {
+                    "text": "Who was the English king at the time of the American Revolution?"
+                }
+            ]
+        },
+        {
+            "name": "Heir Apparent",
+            "description": "Explore the succession of power and the intricacies of royal lineages. This quiz focuses on key figures and their place in the line of succession, testing your understanding of who comes next in the world of royalty.",
+            "questions": [
+                {
+                    "text": "After Prince Charles, who is next in line to be the king of England?"
+                },
+                {
+                    "text": "After Prince Charles, who is next in line to be the king of England?"
+                },
+                {
+                    "text": "Who was the longest reigning monarch in French history?"
+                },
+                {
+                    "text": "Who was the English king at the time of the American Revolution?"
+                },
+                {
+                    "text": "In what country was once ruled by shoguns?"
+                }
+            ]
+        },
+        {
+            "name": "Shogunate & Sovereignty",
+            "description": "Journey through the annals of history, examining the reigns of powerful monarchs and the rise and fall of empires. This quiz combines questions about English royalty and the unique system of the Japanese shogunate.",
+            "questions": [
+                {
+                    "text": "Who was the English king at the time of the American Revolution?"
+                },
+                {
+                    "text": "Who was the longest reigning monarch in French history?"
+                },
+                {
+                    "text": "In what country was once ruled by shoguns?"
+                },
+                {
+                    "text": "In what country was once ruled by shoguns?"
+                },
+                {
+                    "text": "Who was the English king at the time of the American Revolution?"
+                }
+            ]
+        },
+        {
+            "name": "French Fleur-de-Lis",
+            "description": "Focusing on the history of the French monarchy, this quiz explores the reigns of kings and queens, and the lasting impact of the French royal family. Test your knowledge of the longest reigns and pivotal moments in French history.",
+            "questions": [
+                {
+                    "text": "Who was the longest reigning monarch in French history?"
+                },
+                {
+                    "text": "After Prince Charles, who is next in line to be the king of England?"
+                },
+                {
+                    "text": "After Prince Charles, who is next in line to be the king of England?"
+                }
+            ]
+        },
+        {
+            "name": "East Meets West: Royalty",
+            "description": "This quiz blends questions about English royalty with those about the unique history of the Japanese shogunate. Explore the differences and similarities in these two distinct systems of governance.",
+            "questions": [
+                {
+                    "text": "Who was the English king at the time of the American Revolution?"
+                },
+                {
+                    "text": "In what country was once ruled by shoguns?"
+                },
+                {
+                    "text": "After Prince Charles, who is next in line to be the king of England?"
+                }
+            ]
+        }
+    ]
+}

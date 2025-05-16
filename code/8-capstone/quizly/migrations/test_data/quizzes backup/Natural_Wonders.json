@@ -1,0 +1,136 @@
+{
+    "Natural Wonders": [
+        {
+            "name": "Earth's Echoes",
+            "description": "Delve into the fundamental processes and creatures that shape our planet. This quiz explores basic ecological concepts and the fascinating wildlife that calls Earth home. Test your knowledge of life's building blocks and the animals that roam wild.",
+            "questions": [
+                {
+                    "text": "What is produced during photosynthesis?"
+                },
+                {
+                    "text": "What kind of animal is a peregrine?"
+                },
+                {
+                    "text": "On average, what length of time passes between high tides?"
+                },
+                {
+                    "text": "Which of these rocks will float in water?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                }
+            ]
+        },
+        {
+            "name": "Scottish Flora & Fauna",
+            "description": "Journey to the highlands and explore the iconic plants and animals of Scotland. This quiz focuses on the unique emblems and creatures that define this beautiful nation. Discover the natural heritage of Scotland!",
+            "questions": [
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?"
+                },
+                {
+                    "text": "Which of these animals lays eggs?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "Which of these rocks will float in water?"
+                }
+            ]
+        },
+        {
+            "name": "Tidal Rhythms & Highland Life",
+            "description": "Explore the interplay of tides, wildlife, and iconic Scottish emblems. This quiz combines questions about oceanic patterns, animal classifications, and the natural symbols of Scotland. Discover the interconnectedness of Earth's wonders!",
+            "questions": [
+                {
+                    "text": "On average, what length of time passes between high tides?"
+                },
+                {
+                    "text": "Which of these animals lays eggs?"
+                },
+                {
+                    "text": "What kind of animal is a peregrine?"
+                },
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?"
+                },
+                {
+                    "text": "What is produced during photosynthesis?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "On average, what length of time passes between high tides?"
+                }
+            ]
+        },
+        {
+            "name": "Photosynthesis & Predators",
+            "description": "Uncover the secrets of plant life and the world's most impressive predators. This quiz explores the process of photosynthesis and the characteristics of various animal species. Test your knowledge of the natural world!",
+            "questions": [
+                {
+                    "text": "What is produced during photosynthesis?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "What kind of animal is a peregrine?"
+                }
+            ]
+        },
+        {
+            "name": "Floating Rocks & Scottish Symbols",
+            "description": "Discover the unique properties of rocks and the iconic symbols of Scotland. This quiz combines questions about geology and the natural emblems that define this beautiful nation. Explore the wonders of Earth!",
+            "questions": [
+                {
+                    "text": "Which of these animals lays eggs?"
+                },
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?"
+                },
+                {
+                    "text": "Which of these rocks will float in water?"
+                }
+            ]
+        },
+        {
+            "name": "Global Ecosystems & Oceanic Patterns",
+            "description": "Embark on a journey across continents and oceans, exploring diverse ecosystems and the rhythms of the tides. This quiz combines questions about animal habitats, geological processes, and the patterns that shape our planet. Test your knowledge of Earth's interconnectedness!",
+            "questions": [
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "On average, what length of time passes between high tides?"
+                },
+                {
+                    "text": "Which of these rocks will float in water?"
+                },
+                {
+                    "text": "What kind of animal is a peregrine?"
+                },
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "What is produced during photosynthesis?"
+                },
+                {
+                    "text": "Which of these animals lays eggs?"
+                }
+            ]
+        }
+    ]
+}
