@@ -1,8 +1,8 @@
 {
     "Logic & Deduction": [
         {
-            "name": "",
-            "description": "",
+            "name": "The Number Weaver",
+            "description": "Test your mathematical prowess with this quiz! From square roots to decimals, this challenge will push your numerical reasoning skills to the limit. Can you unravel the patterns and find the solutions?",
             "questions": [
                 {
                     "text": "What is the square root of 81 squared?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "The Analytical Eye",
+            "description": "Sharpen your observational skills and deductive reasoning with this quiz. It combines mathematical concepts with grammatical nuances, demanding a keen eye for detail and a logical mind.",
             "questions": [
                 {
                     "text": "What is the square root of 81 squared?"
@@ -61,8 +61,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Fractional Reasoning",
+            "description": "Dive into a world of fractions, angles, and grammatical structures. This quiz tests your ability to connect seemingly disparate concepts and arrive at logical conclusions.",
             "questions": [
                 {
                     "text": "How do you express 3/4 as a decimal?"
@@ -82,8 +82,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "The Grammar & Geometry Gambit",
+            "description": "A unique blend of grammatical precision and geometric understanding awaits! This quiz challenges you to decipher sentences and solve mathematical problems with equal skill.",
             "questions": [
                 {
                     "text": "In the card game blackjack, how much are a queen and a king worth-together?"
@@ -112,8 +112,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "The Numerical Detective",
+            "description": "Unravel the mysteries of numbers and language with this challenging quiz. It requires a sharp mind and a knack for spotting patterns and making logical deductions.",
             "questions": [
                 {
                     "text": "What is the square root of 81 squared?"
@@ -133,8 +133,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "The Comprehensive Challenge",
+            "description": "Test your overall logical reasoning skills with this comprehensive quiz. It covers a wide range of mathematical and grammatical concepts, demanding a broad understanding and a keen eye for detail.",
             "questions": [
                 {
                     "text": "What mathematical term is used to describe the average of a series of numbers?"

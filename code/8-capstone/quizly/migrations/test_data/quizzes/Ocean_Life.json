@@ -1,8 +1,8 @@
 {
     "Ocean Life": [
         {
-            "name": "",
-            "description": "",
+            "name": "Fin-tastic Fish Facts",
+            "description": "Dive into the world of ichthyology with this quiz! Test your knowledge of fish, tides, and the ocean's bounty. From identifying different species to understanding marine terminology, this quiz will challenge your understanding of the underwater realm.",
             "questions": [
                 {
                     "text": "What is the technical term for someone who studies fish?"
@@ -22,8 +22,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Ocean's Edge: A Marine Mishap",
+            "description": "Explore the impact of environmental disasters and test your knowledge of marine life. This quiz combines questions about fish identification with a look at a significant ecological event. Can you navigate the waters of knowledge?",
             "questions": [
                 {
                     "text": "Which of these is a fish?"
@@ -37,8 +37,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "School's Out: Fishy Fundamentals",
+            "description": "This quiz focuses on the basics of marine life, particularly fish. From understanding terminology to identifying edible species, it's a great starting point for anyone interested in the ocean's inhabitants.",
             "questions": [
                 {
                     "text": "What term is used to describe a group of fish?"
@@ -52,8 +52,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Deep Dive: Marine Mysteries",
+            "description": "Uncover the secrets of the ocean with this challenging quiz! It combines questions about fish identification, marine science, and a look at a significant environmental event. Are you ready to explore the depths?",
             "questions": [
                 {
                     "text": "Which of these is a fish?"
@@ -67,8 +67,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Tidal Waves of Knowledge",
+            "description": "Test your comprehensive understanding of ocean life with this extensive quiz! Covering a wide range of topics, from fish identification to tidal patterns, it's a true deep dive into the marine world. Prepare to be challenged!",
             "questions": [
                 {
                     "text": "On average, what length of time passes between high tides?"
@@ -97,8 +97,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Marine Biologist 101",
+            "description": "Embark on a journey to understand the science behind ocean life! This quiz explores the technical aspects of marine biology, covering fish identification, terminology, and a look at a significant environmental event. Are you ready to become a marine expert?",
             "questions": [
                 {
                     "text": "What is the technical term for someone who studies fish?"

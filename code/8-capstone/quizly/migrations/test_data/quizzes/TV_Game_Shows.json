@@ -1,8 +1,8 @@
 {
     "TV Game Shows": [
         {
-            "name": "",
-            "description": "",
+            "name": "Board Game Blitz",
+            "description": "Test your knowledge of classic board games and beyond! This quiz covers everything from Monopoly to Mario, challenging your understanding of rules, tokens, and gameplay.",
             "questions": [
                 {
                     "text": "What is the name of Mario's brother in the 'Super Mario' video games?"
@@ -16,8 +16,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Card Shark Challenge",
+            "description": "Think you're a card game expert? This quiz dives into blackjack, bluffing, and more! See if you can ace these questions and prove your card-playing prowess.",
             "questions": [
                 {
                     "text": "Which of these popular games relies on bluffing?"
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Toy Box Trivia",
+            "description": "From classic board games to interactive toys, this quiz explores the world of games and playthings.  Can you identify the answers and prove your knowledge of these beloved items?",
             "questions": [
                 {
                     "text": "Which of these popular games relies on bluffing?"
@@ -67,8 +67,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Blackjack & Bluff",
+            "description": "A quickfire round of card game challenges! This quiz focuses on blackjack strategy and the art of bluffing. Are you ready to test your skills?",
             "questions": [
                 {
                     "text": "In the card game blackjack, how much are a queen and a king worth-together?"
@@ -82,8 +82,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Interactive Playtime",
+            "description": "Dive into the world of toys and games! This quiz explores a variety of playthings, from answering toys to classic board games.  See how much you know about the fun and games!",
             "questions": [
                 {
                     "text": "Which of these toys answers questions?"
@@ -97,8 +97,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Game Master's Gauntlet",
+            "description": "The ultimate test of game knowledge! This quiz covers a wide range of games, from cards to boards to interactive toys.  Prepare for a challenging and rewarding experience!",
             "questions": [
                 {
                     "text": "Which of these games is not played with cards?"

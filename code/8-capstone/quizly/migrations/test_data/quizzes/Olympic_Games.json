@@ -1,8 +1,8 @@
 {
     "Olympic Games": [
         {
-            "name": "",
-            "description": "",
+            "name": "American Pastimes: A Sporting Quiz",
+            "description": "Test your knowledge of American sports and their connection to the Olympic Games. This quiz covers a range of popular games and iconic moments in American sporting history. From baseball to tennis, see how well you know the fundamentals!",
             "questions": [
                 {
                     "text": "What sporting event is held annually on Memorial Day weekend?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Frozen Glory: Hockey History",
+            "description": "Dive into the history of American men's ice hockey and test your knowledge of Olympic triumphs and memorable moments. This quiz focuses on the United States' journey to Olympic gold and the challenges faced along the way.",
             "questions": [
                 {
                     "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Field of Dreams: American Sports Challenge",
+            "description": "From touchdowns to home runs, this quiz explores a wide range of American sports and their place in the Olympic Games. Sharpen your knowledge of rules, history, and iconic figures in this comprehensive challenge.",
             "questions": [
                 {
                     "text": "In American football, how many points is a touchdown worth?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Tennis Titans & Memorial Day Traditions",
+            "description": "Explore the world of tennis and American sporting traditions with this engaging quiz. From the legendary 'Battle of the Sexes' to the annual Memorial Day weekend celebrations, test your knowledge of these iconic moments.",
             "questions": [
                 {
                     "text": "What sporting event is held annually on Memorial Day weekend?"
@@ -91,8 +91,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "The Walker Cup & Gridiron Glory",
+            "description": "Test your knowledge of golf and American football with this challenging quiz. From the prestigious Walker Cup to the excitement of touchdowns and field goals, see how well you know these beloved sports.",
             "questions": [
                 {
                     "text": "In what sport do athletes compete for the Walker Cup?"
@@ -106,8 +106,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "King's Court: Tennis & American Sports",
+            "description": "Celebrate the legacy of Billie Jean King and explore the broader landscape of American sports with this comprehensive quiz. From her historic 'Battle of the Sexes' match to the traditions of Memorial Day weekend, test your knowledge of these iconic moments.",
             "questions": [
                 {
                     "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?"

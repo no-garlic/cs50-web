@@ -1,8 +1,8 @@
 {
     "Food & Culinary Arts": [
         {
-            "name": "",
-            "description": "",
+            "name": "Spice Rack Showdown",
+            "description": "Test your knowledge of herbs, spices, and kosher dietary laws! This quiz explores the nuances of flavor and tradition in the culinary world.",
             "questions": [
                 {
                     "text": "Which of these is not a spice?"
@@ -16,8 +16,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Global Gastronomy",
+            "description": "From citrus hybrids to international delicacies, this quiz takes you on a flavorful journey around the globe.  Are you a true connoisseur of diverse cuisines?",
             "questions": [
                 {
                     "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Bready & Beyond",
+            "description": "From flatbreads to breakfast cereals, this quiz dives into the world of baked goods and unique food preparations.  Can you identify these culinary creations?",
             "questions": [
                 {
                     "text": "A pita is a type of what?"
@@ -61,8 +61,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Breakfast Bonanza",
+            "description": "Sausage-wrapped pancakes? Opium-laced poppy seeds? This quiz explores the quirky and surprising side of breakfast traditions worldwide.",
             "questions": [
                 {
                     "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Sweet & Savory Secrets",
+            "description": "From candies to legumes, this quiz explores the diverse ingredients and flavors that make up our favorite foods.  Do you know your cacao from your cat food?",
             "questions": [
                 {
                     "text": "Which of the following candies is traditionally fruit flavored?"
@@ -106,8 +106,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "British Bites & Beyond",
+            "description": "From bangers and mash to 'Where's the beef?', this quiz explores iconic British dishes and advertising slogans.  Are you ready to tackle this culinary challenge?",
             "questions": [
                 {
                     "text": "The British dish 'bangers and mash' is made up of sausage and what?"
@@ -127,8 +127,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Cocktail Creations & Culinary Curiosities",
+            "description": "From Pink Ladies to cat food endorsements, this quiz delves into the unexpected corners of the culinary world.  Prepare for some surprising facts!",
             "questions": [
                 {
                     "text": "What liqueur is used to make a Pink Lady cocktail pink?"
@@ -157,98 +157,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What type of meat is on a traditional Reuben sandwich?"
-                },
-                {
-                    "text": "In what restaurant can you order a Grand Slam breakfast?"
-                },
-                {
-                    "text": "Which of these is not a traditional Greek dish?"
-                },
-                {
-                    "text": "Which of these is a member of the cucumber family?"
-                },
-                {
-                    "text": "Which of these foods is not traditionally considered kosher?"
-                },
-                {
-                    "text": "What liqueur is used to make a Pink Lady cocktail pink?"
-                },
-                {
-                    "text": "Which of these foods could you catch at sea?"
-                },
-                {
-                    "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "The term 'chili con carne' refers to chili with what?"
-                },
-                {
-                    "text": "Which of these foods could contain small amounts of naturally occurring opium?"
-                },
-                {
-                    "text": "Which of these is not a spice?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Cheese is a necessary ingredient in which of these dishes?"
-                },
-                {
-                    "text": "In America, what is the main ingredient in pepperoni?"
-                },
-                {
-                    "text": "Which of these is not a type of chili pepper?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "A pita is a type of what?"
-                },
-                {
-                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?"
-                },
-                {
-                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
-                },
-                {
-                    "text": "If you ask for 'gai' at a Thai restaurant, what will you get?"
-                },
-                {
-                    "text": "Which of these is made from cacao seeds?"
-                },
-                {
-                    "text": "Which fast food chain used the advertising slogan, 'Where's the beef'?"
-                },
-                {
-                    "text": "A knish is traditionally stuffed with what filling?"
-                },
-                {
-                    "text": "What is the most popular month for weddings in America?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
+            "name": "Cereal & Cuisine Conundrums",
+            "description": "From breakfast staples to alternative names for classic dishes, this quiz tests your knowledge of food terminology and preparation methods.",
             "questions": [
                 {
                     "text": "Which of the following breakfast cereals is shaped like the letter O?"
@@ -262,8 +172,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Mash, Meat & Yorkshire Wonders",
+            "description": "A deep dive into British cuisine and cooking techniques, this quiz will challenge your knowledge of classic dishes and culinary terminology.",
             "questions": [
                 {
                     "text": "The British dish 'bangers and mash' is made up of sausage and what?"
@@ -284,16 +194,13 @@
                     "text": "Which of the following candies is traditionally fruit flavored?"
                 },
                 {
-                    "text": "What term is used to describe a group of fish?"
-                },
-                {
                     "text": "Which of these is not a traditional Greek dish?"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Spice, Chili & Citrus Challenge",
+            "description": "A whirlwind tour of flavors and ingredients, this quiz will test your knowledge of spices, chilis, and citrus fruits.",
             "questions": [
                 {
                     "text": "Which of these is not a type of chili pepper?"
@@ -313,32 +220,23 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Final Feast Frenzy",
+            "description": "A comprehensive test of your culinary knowledge, this quiz combines questions from all previous rounds.  Are you the ultimate food expert?",
             "questions": [
                 {
-                    "text": "Cheese is a necessary ingredient in which of these dishes?"
+                    "text": "Which of these is not a type of chili pepper?"
                 },
                 {
-                    "text": "Which of these foods is poisonous to dogs?"
+                    "text": "The term 'chili con carne' refers to chili with what?"
                 },
                 {
-                    "text": "What is an alternate name for the food dish 'Beijing duck'?"
+                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
                 },
                 {
-                    "text": "The British dish 'bangers and mash' is made up of sausage and what?"
+                    "text": "What type of meat is on a traditional Reuben sandwich?"
                 },
                 {
-                    "text": "In what restaurant can you order a Grand Slam breakfast?"
-                },
-                {
-                    "text": "A pita is a type of what?"
-                },
-                {
-                    "text": "What is the most popular month for weddings in America?"
-                },
-                {
-                    "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?"
+                    "text": "Which brand of cat food claims its so tasty that 'cats ask for it by name'?"
                 }
             ]
         }

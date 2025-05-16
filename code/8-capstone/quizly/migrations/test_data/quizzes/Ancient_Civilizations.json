@@ -1,8 +1,8 @@
 {
     "Ancient Civilizations": [
         {
-            "name": "",
-            "description": "",
+            "name": "Echoes of the Cradle: Southern Africa's Legacy",
+            "description": "Delve into the history of Southern Africa, exploring the rise and fall of empires and the rich tapestry of its mythology. This quiz tests your knowledge of the Zulu, Xhosa, and other influential groups that shaped the region.",
             "questions": [
                 {
                     "text": "What native empire controlled Large areas of South African Territory during the 19th century?"
@@ -16,8 +16,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Andean Ascent: Lords of the Mountains",
+            "description": "Journey to the heart of the Andes and uncover the secrets of the Inca civilization. This quiz explores their impressive engineering, complex social structure, and ultimate downfall at the hands of the Spanish.",
             "questions": [
                 {
                     "text": "What people ruled the Andes Mountains until they were conquered by the Spanish in 1532?"
@@ -37,8 +37,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Chronicles of Antiquity: A Civilizational Blend",
+            "description": "A comprehensive test of your knowledge spanning multiple ancient civilizations. From the Andes to the Valley of the Kings, this quiz challenges you to connect the dots across diverse cultures and historical periods.",
             "questions": [
                 {
                     "text": "In what war did Joan of Arc fight?"
@@ -67,8 +67,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Olympian Lineage: Myths and Legends",
+            "description": "Test your knowledge of Greek mythology and the powerful figures who shaped ancient beliefs. This quiz explores the family tree of the gods, their domains, and the stories that continue to resonate today.",
             "questions": [
                 {
                     "text": "In Greek mythology, what is the name of Zeus' father?"
@@ -88,8 +88,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Valley of Kings & Andean Lords",
+            "description": "A challenging quiz combining knowledge of ancient Egypt and the Inca Empire. Explore the mysteries of the Valley of the Kings and the impressive achievements of the Andean civilization.",
             "questions": [
                 {
                     "text": "What native empire controlled Large areas of South African Territory during the 19th century?"
@@ -109,8 +109,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Mount Olympus: Divine Origins",
+            "description": "Delve into the realm of the Greek gods and goddesses, exploring their origins, powers, and relationships. This quiz tests your understanding of the mythology that shaped ancient Greek culture.",
             "questions": [
                 {
                     "text": "In Greek mythology, what is the name of Zeus' father?"

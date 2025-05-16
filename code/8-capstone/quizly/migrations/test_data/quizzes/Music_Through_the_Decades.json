@@ -1,8 +1,8 @@
 {
     "Music Through the Decades": [
         {
-            "name": "",
-            "description": "",
+            "name": "ABBA to Strauss: European Melodies",
+            "description": "Journey through the sounds of Europe, from the pop sensation ABBA to the waltzes of the Strauss family. This quiz explores iconic composers and bands that shaped the continent's musical landscape.",
             "questions": [
                 {
                     "text": "The disco band ABBA comes from what country?"
@@ -16,8 +16,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Beethoven's Legacy & Beyond",
+            "description": "Delve into the classical era and beyond, exploring the works of Beethoven and other influential composers. This quiz tests your knowledge of opera, musical forms, and the evolution of classical music.",
             "questions": [
                 {
                     "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Wonder Years: Duets & Icons",
+            "description": "From soulful duets to legendary figures, this quiz celebrates the iconic collaborations and artists that defined an era. Test your knowledge of music from the 70s, 80s, and beyond.",
             "questions": [
                 {
                     "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Guitar Gods & New Age Sounds",
+            "description": "Explore the world of rock guitar legends and the ethereal sounds of New Age music. This quiz tests your knowledge of iconic guitarists and the artists who pioneered a genre of calming, atmospheric music.",
             "questions": [
                 {
                     "text": "Which of the following bands did Jimmy Page not play guitar?"
@@ -91,8 +91,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Folksingers & Beatlemania",
+            "description": "From protest anthems to the British Invasion, this quiz explores the voices and movements that shaped a generation. Test your knowledge of folk music icons and the phenomenon that was the Beatles.",
             "questions": [
                 {
                     "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
@@ -112,83 +112,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
-                },
-                {
-                    "text": "Who composed the 'Moonlight Sonata'?"
-                },
-                {
-                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
-                },
-                {
-                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
-                },
-                {
-                    "text": "The disco band ABBA comes from what country?"
-                },
-                {
-                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
-                },
-                {
-                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
-                },
-                {
-                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "The Strauss family of composers popularized what dance?"
-                },
-                {
-                    "text": "What was the title of Beethoven's only completed opera?"
-                },
-                {
-                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
-                },
-                {
-                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
-                },
-                {
-                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
-                },
-                {
-                    "text": "Which of the following bands did Jimmy Page not play guitar?"
-                },
-                {
-                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?"
-                },
-                {
-                    "text": "What city did the Beatles originally call home?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
-                },
-                {
-                    "text": "The disco band ABBA comes from what country?"
-                },
-                {
-                    "text": "Who wrote musicals with Oscar Hammerstein II?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
+            "name": "Sinatra's Style & Lunar Serenades",
+            "description": "Step into the world of Frank Sinatra and the romantic melodies of the 'Moonlight Sonata.' This quiz explores the artistry of a timeless crooner and the beauty of classical composition.",
             "questions": [
                 {
                     "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
@@ -202,8 +127,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Beatles' Birthplace & Musical Time",
+            "description": "Discover the origins of a musical revolution and the fundamentals of musical notation. This quiz explores the city that launched the Beatles and the building blocks of musical structure.",
             "questions": [
                 {
                     "text": "What city did the Beatles originally call home?"
@@ -223,47 +148,26 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Police Rhythms & ABBA's Pop",
+            "description": "From the infectious rhythms of The Police to the global phenomenon of ABBA, this quiz explores the diverse sounds of popular music. Test your knowledge of iconic bands and their chart-topping hits.",
             "questions": [
                 {
-                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
-                },
-                {
-                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
-                },
-                {
-                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
-                },
-                {
-                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?"
-                },
-                {
-                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
                 },
                 {
                     "text": "The disco band ABBA comes from what country?"
                 },
                 {
-                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
-                },
-                {
-                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
+                    "text": "Who wrote musicals with Oscar Hammerstein II?"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Sinatra's Legacy & Lunar Echoes",
+            "description": "Delve into the enduring legacy of Frank Sinatra and the timeless beauty of the 'Moonlight Sonata.' This quiz explores the artistry of a legendary crooner and the elegance of classical composition.",
             "questions": [
                 {
-                    "text": "The Strauss family of composers popularized what dance?"
-                },
-                {
-                    "text": "Who wrote musicals with Oscar Hammerstein II?"
-                },
-                {
-                    "text": "What city did the Beatles originally call home?"
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
                 },
                 {
                     "text": "Who composed the 'Moonlight Sonata'?"

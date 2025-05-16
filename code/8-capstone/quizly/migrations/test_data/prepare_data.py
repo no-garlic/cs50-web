@@ -243,14 +243,52 @@ def create_quiz_names_and_descriptions():
     print(f"\nFinished name generation. Total time: {total_minutes}m {total_seconds}s.")
 
 
+def patch_quiz_details():
+
+    question_details_lookup = {}
+
+    with open("questions_with_hints.json", 'r') as f:
+        data = json.load(f)
+        for item in data:
+            question_details_lookup[item["question"]] = item
+
+    input_path = "quizzes"
+    Path(input_path).mkdir(exist_ok=True)
+
+    for filename in os.listdir(input_path):
+        if filename.endswith(".json"):
+
+            with open(os.path.join(input_path, filename), 'r') as f:
+                data = json.load(f)
+
+                quizzes = data.items()[0][1]
+                
+                for quiz in quizzes:
+                    for question in quiz["questions"]:
+                        question_text = question["text"]
+                        
+                        source = question_details_lookup[question_text]
+                        if source:
+                            print(f"Updated question: {question_text}")
+                            question.update(source)
+                        else:
+                            print(f"Question not found in lookup: {question_text}")
+
+                with open(os.path.join(input_path, filename), 'w') as outfile:
+                    json.dump(data, outfile, indent=4)
+                    print(f"Updated {filename} with question details.")             
+
+
 def run():
     #extract_questions()
     #extract_categories()
-    insert_quizzes_to_categorised_questions()
-    split_quizzes_into_files()
+    
+    #insert_quizzes_to_categorised_questions()
+    #split_quizzes_into_files()
 
-    create_quiz_names_and_descriptions()
+    #create_quiz_names_and_descriptions()
      
+    patch_quiz_details()
 
 
 

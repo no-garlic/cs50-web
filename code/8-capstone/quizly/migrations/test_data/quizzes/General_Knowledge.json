@@ -1,8 +1,8 @@
 {
     "General Knowledge": [
         {
-            "name": "",
-            "description": "",
+            "name": "Curiosities & Conundrums",
+            "description": "Delve into a collection of intriguing facts and puzzling questions spanning various topics. Test your knowledge of measurements, nautical terms, and more in this eclectic quiz.",
             "questions": [
                 {
                     "text": "When it comes to measuring horses, how long is a 'hand'?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Sayings & Standards",
+            "description": "Explore common phrases, measurement systems, and cultural norms from around the world. This quiz challenges your understanding of idioms, weights and measures, and etiquette.",
             "questions": [
                 {
                     "text": "According to the popular saying, what should you do 'when in Rome'?"
@@ -61,8 +61,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Global Tidbits",
+            "description": "Test your knowledge of international terms and concepts. From British slang to Arabic numerals, this quiz explores the nuances of different cultures.",
             "questions": [
                 {
                     "text": "What is called a 'lorry' in Britain?"
@@ -76,17 +76,14 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Time & Tools",
+            "description": "Explore the intricacies of timekeeping, essential tools, and everyday objects. This quiz challenges your understanding of military time, skeleton keys, and more.",
             "questions": [
                 {
-                    "text": "How is 4:00 pm expressed in military time?"
+                    "text": "How many quarts are there in a gallon?"
                 },
                 {
                     "text": "What's unique about a skeleton key?"
-                },
-                {
-                    "text": "How many quarts are there in a gallon?"
                 },
                 {
                     "text": "A flashing red traffic light signifies that a driver should do what?"
@@ -97,8 +94,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Money & Measurements",
+            "description": "Dive into the world of currency, dimensions, and standard sizes. This quiz tests your knowledge of British pounds, letter sizes, and Visa card numbers.",
             "questions": [
                 {
                     "text": "In British currency, how many pence make a pound?"
@@ -118,8 +115,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "New Mexico Notes",
+            "description": "Discover fascinating facts about the Land of Enchantment. This quiz explores New Mexico's nickname, measurements, and international phone calls.",
             "questions": [
                 {
                     "text": "What is New Mexico's nickname?"
@@ -133,8 +130,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Automotive & Arithmetic",
+            "description": "Test your knowledge of vehicles, numbers, and communication. This quiz covers axles, ambulances, phone numbers, and Arabic numerals.",
             "questions": [
                 {
                     "text": "How many axles does a standard automobile have?"
@@ -154,104 +151,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "To ward off bad luck, what do many people do to wood?"
-                },
-                {
-                    "text": "A flashing red traffic light signifies that a driver should do what?"
-                },
-                {
-                    "text": "What does the Latin phrase 'e pluribus unum' mean?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What is considered the proper way to address a duke?"
-                },
-                {
-                    "text": "On a set of jumper cables, what color designates the negative connector?"
-                },
-                {
-                    "text": "How many ounces are in a pound?"
-                },
-                {
-                    "text": "What are the dimensions of a 'letter size' piece of paper?"
-                },
-                {
-                    "text": "How is 4:00 pm expressed in military time?"
-                },
-                {
-                    "text": "How many quarts are there in a gallon?"
-                },
-                {
-                    "text": "Including the bottom, how many sides are on a square-based pyramid?"
-                },
-                {
-                    "text": "What is the singular form of the word 'graffiti'?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What is the correct spelling of New Mexico's largest city?"
-                },
-                {
-                    "text": "For a man and woman on a date, 'dutch treat' means what?"
-                },
-                {
-                    "text": "What's unique about a skeleton key?"
-                },
-                {
-                    "text": "In British currency, how many pence make a pound?"
-                },
-                {
-                    "text": "According to the popular saying, what should you do 'when in Rome'?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What is the final word of the Pledge of Allegiance?"
-                },
-                {
-                    "text": "When it comes to measuring horses, how long is a 'hand'?"
-                },
-                {
-                    "text": "If you have a 'sawbuck' how much money do you have?"
-                },
-                {
-                    "text": "What is called a 'lorry' in Britain?"
-                },
-                {
-                    "text": "How many $100 bills does it take to equal one million dollars?"
-                },
-                {
-                    "text": "What is the proper nautical use of an anchor?"
-                },
-                {
-                    "text": "What is another way of writing 'six feet'?"
-                },
-                {
-                    "text": "What is New Mexico's nickname?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
+            "name": "Traffic & Traditions",
+            "description": "Explore the rules of the road and the customs of communication. This quiz covers traffic signals, the Pledge of Allegiance, and Visa card numbers.",
             "questions": [
                 {
                     "text": "How many digits are in a standard Visa credit card number?"
@@ -265,11 +166,11 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Dimensions & Declarations",
+            "description": "Test your knowledge of measurements, communication, and cultural norms. This quiz covers paper sizes, Latin phrases, and the number of quarts in a gallon.",
             "questions": [
                 {
-                    "text": "What are the dimensions of a 'letter size' piece of paper?"
+                    "text": "How are the dimensions of a 'letter size' piece of paper?"
                 },
                 {
                     "text": "What does the Latin phrase 'e pluribus unum' mean?"
@@ -280,8 +181,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Idioms & Infrastructure",
+            "description": "Explore common phrases, measurements, and the rules of the road. This quiz challenges your understanding of idioms, paper sizes, and traffic signals.",
             "questions": [
                 {
                     "text": "According to the popular saying, what should you do 'when in Rome'?"
@@ -310,8 +211,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Quarts & Questions",
+            "description": "Test your knowledge of measurements, time, and communication. This quiz covers gallons, military time, and Visa card numbers.",
             "questions": [
                 {
                     "text": "How is 4:00 pm expressed in military time?"

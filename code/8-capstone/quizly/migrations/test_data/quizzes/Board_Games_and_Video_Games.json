@@ -1,8 +1,8 @@
 {
     "Board Games & Video Games": [
         {
-            "name": "",
-            "description": "",
+            "name": "Pop Culture Pixel Pursuit",
+            "description": "Test your knowledge of gaming and movie trivia! This quiz dives into the quirky corners of board games and video games, blending iconic characters with classic gameplay.",
             "questions": [
                 {
                     "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
@@ -16,8 +16,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "The Bluff & Board Brain Bender",
+            "description": "From card games to classic board games, this quiz challenges your understanding of strategy and pop culture references. Can you outsmart the competition and claim victory?",
             "questions": [
                 {
                     "text": "Which of these popular games relies on bluffing?"
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Nostalgic Game Galaxy",
+            "description": "Journey through a universe of beloved characters and iconic games! This quiz combines movie trivia with board game knowledge, testing your memory of pop culture moments.",
             "questions": [
                 {
                     "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Card & Board Game Challenge",
+            "description": "Put your gaming knowledge to the test! This quiz covers a wide range of board games and card games, blending strategy and pop culture references.",
             "questions": [
                 {
                     "text": "Which of these popular games relies on bluffing?"
@@ -97,8 +97,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Bearly Believable Board Bonanza",
+            "description": "From classic board games to beloved cartoon characters, this quiz is a wild ride through the world of gaming and pop culture. Are you ready to prove your knowledge?",
             "questions": [
                 {
                     "text": "What fictional character claims to be 'smarter than the average bear'?"
@@ -127,8 +127,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Gaming & Pop Culture Mashup",
+            "description": "Test your knowledge of both board games and pop culture! This quiz combines trivia from classic games with references to beloved characters and movies.",
             "questions": [
                 {
                     "text": "Which of these games is not played with cards?"

@@ -1,8 +1,8 @@
 {
     "Wildlife & Nature": [
         {
-            "name": "",
-            "description": "",
+            "name": "Ivory & Antlers: A Safari of Facts",
+            "description": "Test your knowledge of animal anatomy and unusual facts! This quiz explores everything from elephant tusks to the camelopard, challenging your understanding of the animal kingdom.",
             "questions": [
                 {
                     "text": "Elephant tusks are made of what material?"
@@ -22,8 +22,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Fin-tastic Fauna: Aquatic & Avian Adventures",
+            "description": "Dive into the world of fish and birds with this challenging quiz! From ichthyologists to Australian avians, prepare to explore the diverse ecosystems of our planet.",
             "questions": [
                 {
                     "text": "What is the technical term for someone who studies fish?"
@@ -52,8 +52,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Cartoon Critters & Curious Customs",
+            "description": "From Tennessee Tuxedo to sacred Indian animals, this quiz explores the intersection of pop culture and wildlife.  Test your knowledge of animal representations and cultural significance.",
             "questions": [
                 {
                     "text": "What kind of animal is cartoon character Tennessee Tuxedo?"
@@ -73,8 +73,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Fleece, Foals & Fantastic Habitats",
+            "description": "Explore the world of animal products, hybrid offspring, and preferred habitats! This quiz covers everything from mohair to jackalopes, challenging your understanding of animal biology and folklore.",
             "questions": [
                 {
                     "text": "Mohair is made from the fleece of what animal?"
@@ -103,8 +103,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Nocturnal Notes & Scottish Symbols",
+            "description": "Test your knowledge of animal sounds and national emblems! This quiz explores the world of owls and Scottish flora, challenging your understanding of animal behavior and cultural significance.",
             "questions": [
                 {
                     "text": "How many eyes does a Giraffe have?"
@@ -118,8 +118,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Mohair, Ivory & Egg-cellent Facts",
+            "description": "A mix of animal products, anatomy, and reproduction! This quiz covers a wide range of topics, from the fleece of a mohair goat to the egg-laying habits of certain animals.",
             "questions": [
                 {
                     "text": "Mohair is made from the fleece of what animal?"
@@ -133,8 +133,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Sacred Beasts & Camelopard Curiosities",
+            "description": "Explore the cultural significance of animals and the fascinating world of the camelopard! This quiz delves into the reverence shown to certain animals and the unique characteristics of this intriguing creature.",
             "questions": [
                 {
                     "text": "What animal is considered sacred in India?"
@@ -148,8 +148,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Animated Animals & Aquatic Experts",
+            "description": "From cartoon characters to ichthyologists, this quiz explores the intersection of pop culture and wildlife science. Test your knowledge of animal representations and the experts who study them.",
             "questions": [
                 {
                     "text": "What kind of animal is cartoon character Tennessee Tuxedo?"
@@ -169,8 +169,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Hooting Habits & Highland Heritage",
+            "description": "Delve into the world of nocturnal creatures and Scottish symbols! This quiz explores the sounds of owls and the national emblem of Scotland, challenging your understanding of animal behavior and cultural significance.",
             "questions": [
                 {
                     "text": "Which of these sounds is commonly associated with owls?"
@@ -184,89 +184,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What is the technical term for the offspring of a female donkey and a male horse?"
-                },
-                {
-                    "text": "Which of these is most commonly kept in a terrarium?"
-                },
-                {
-                    "text": "Mohair is made from the fleece of what animal?"
-                },
-                {
-                    "text": "Which of these household pets should be vaccinated for parvovirus?"
-                },
-                {
-                    "text": "What kind of animal is a peregrine?"
-                },
-                {
-                    "text": "How many eyes does a Giraffe have?"
-                },
-                {
-                    "text": "Which of these animals shares its name with a luxury car?"
-                },
-                {
-                    "text": "What is the technical term for someone who studies fish?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What animal is considered sacred in India?"
-                },
-                {
-                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
-                },
-                {
-                    "text": "What is another name for the camelopard?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What animal is used to make lard?"
-                },
-                {
-                    "text": "What kind of animal is cartoon character Tennessee Tuxedo?"
-                },
-                {
-                    "text": "What animal represents the year 2000 on the Chinese calendar?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these plants is the national emblem of Scotland?"
-                },
-                {
-                    "text": "Elephant tusks are made of what material?"
-                },
-                {
-                    "text": "Which of these snakes is poisonous?"
-                },
-                {
-                    "text": "What animal is considered sacred in India?"
-                },
-                {
-                    "text": "Which of these animals lays eggs?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
+            "name": "Hybrid Offspring & Luxurious Linens",
+            "description": "Explore the world of animal hybrids and the luxurious products they provide! This quiz covers everything from mules to mohair, challenging your understanding of animal biology and textile production.",
             "questions": [
                 {
                     "text": "Which of these household pets should be vaccinated for parvovirus?"
@@ -291,36 +210,6 @@
                 },
                 {
                     "text": "Which of these snakes is poisonous?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these Australian birds is most closely related to the ostrich?"
-                },
-                {
-                    "text": "What animal is used to make lard?"
-                },
-                {
-                    "text": "Mohair is made from the fleece of what animal?"
-                },
-                {
-                    "text": "What kind of animal is cartoon character Tennessee Tuxedo?"
-                },
-                {
-                    "text": "Which of these is most commonly kept in a terrarium?"
-                },
-                {
-                    "text": "Which of these animals shares its name with a luxury car?"
-                },
-                {
-                    "text": "Which of these sounds is commonly associated with owls?"
-                },
-                {
-                    "text": "What is the technical term for the offspring of a female donkey and a male horse?"
                 }
             ]
         }

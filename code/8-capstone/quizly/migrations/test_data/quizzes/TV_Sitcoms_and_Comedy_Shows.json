@@ -1,8 +1,8 @@
 {
     "TV Sitcoms & Comedy Shows": [
         {
-            "name": "",
-            "description": "",
+            "name": "Golden Age Giggles",
+            "description": "Test your knowledge of classic sitcoms and iconic comedy shows from television's golden age. From 'Happy Days' spin-offs to network abbreviations, this quiz covers a wide range of familiar faces and moments. Are you a true fan of these timeless shows?",
             "questions": [
                 {
                     "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
@@ -22,8 +22,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Seinfeld & Beyond",
+            "description": "Dive into the quirky world of 'Seinfeld' and other beloved sitcoms. This quiz explores memorable moments and characters from shows that defined a generation of comedy. Can you recall the details of these hilarious television experiences?",
             "questions": [
                 {
                     "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
@@ -37,8 +37,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "My Three Sons & Designing Women",
+            "description": "Relive the heartwarming and humorous moments from 'My Three Sons' and 'Designing Women'. This quiz challenges your memory of these classic sitcoms, focusing on characters, plotlines, and behind-the-scenes details. How well do you remember these beloved shows?",
             "questions": [
                 {
                     "text": "Which of the boys on the TV show 'My Three Sons' is adopted?"
@@ -52,8 +52,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Sitcom Superfan Challenge",
+            "description": "This comprehensive quiz tests your knowledge of a wide range of classic sitcoms and comedy shows. From 'The Mary Tyler Moore Show' to 'Seinfeld', prepare for a challenging journey through television history. Only the true sitcom experts will prevail!",
             "questions": [
                 {
                     "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
@@ -82,8 +82,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Delta & The Network",
+            "description": "Test your knowledge of 'Designing Women' and the television network landscape. This quiz explores Delta Burke's iconic character and the inner workings of television broadcasting. Are you ready to tackle these challenging questions?",
             "questions": [
                 {
                     "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
@@ -112,8 +112,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Fusilli & Cheers",
+            "description": "Relive the hilarious moments from 'Seinfeld' and 'Cheers'. This quiz focuses on memorable characters and iconic scenes from these beloved sitcoms. Can you recall the details that made these shows so special?",
             "questions": [
                 {
                     "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"

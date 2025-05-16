@@ -1,8 +1,8 @@
 {
     "Business & Economics": [
         {
-            "name": "",
-            "description": "",
+            "name": "Capitalism Chronicles",
+            "description": "Delve into the core concepts of economics and business with this quiz. From historical figures to modern corporations, test your knowledge of the forces that shape our world.",
             "questions": [
                 {
                     "text": "What is the proletariat?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Metropolis Money Makers",
+            "description": "Test your knowledge of business and finance with a touch of fictional flair. This quiz combines real-world concepts with references to iconic stories and characters.",
             "questions": [
                 {
                     "text": "What newspaper do Lois Lane and Clark Kent work for?"
@@ -52,8 +52,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Wall Street Wonders",
+            "description": "Challenge your understanding of the financial world with this quiz. From stock markets to corporate structures, see how well you know the language of money.",
             "questions": [
                 {
                     "text": "What newspaper do Lois Lane and Clark Kent work for?"
@@ -82,8 +82,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Titans of Industry",
+            "description": "Explore the lives and legacies of the individuals who shaped the modern business landscape. This quiz tests your knowledge of the entrepreneurs, innovators, and financiers who built empires.",
             "questions": [
                 {
                     "text": "John D. Rockefeller made his fortune in what industry?"
@@ -112,8 +112,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Investor's Insights",
+            "description": "Sharpen your financial acumen with this quiz focused on investment strategies and market dynamics. From risk assessment to portfolio management, test your knowledge of the world of finance.",
             "questions": [
                 {
                     "text": "Which of these is a government agency established to protect investors?"
@@ -133,8 +133,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Market Mavericks",
+            "description": "Dive into the world of online trading and investment platforms. This quiz will test your knowledge of the tools and strategies used by modern investors.",
             "questions": [
                 {
                     "text": "Which of these is a commonly-known investment account?"
@@ -148,8 +148,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Financial Frontiers",
+            "description": "Explore the cutting edge of the financial world with this quiz. From fintech startups to blockchain technology, test your knowledge of the innovations shaping the future of money.",
             "questions": [
                 {
                     "text": "Which of these is a commonly-known investment account?"
@@ -178,8 +178,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Business Legends",
+            "description": "Uncover the stories behind the most influential companies and entrepreneurs in history. This quiz will test your knowledge of the people and events that have shaped the business world.",
             "questions": [
                 {
                     "text": "What newspaper do Lois Lane and Clark Kent work for?"
@@ -208,8 +208,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Corporate Chronicles",
+            "description": "Test your knowledge of the inner workings of major corporations and the strategies they use to succeed. From marketing to management, see how well you understand the business world.",
             "questions": [
                 {
                     "text": "What internet company goes by the acronym AOL?"
