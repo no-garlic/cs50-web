@@ -1,209 +1,89 @@
 {
     "Geography": [
         {
-            "name": "Geography Quiz 42",
-            "description": "This is a quiz about Geography.",
+            "name": "",
+            "description": "",
             "questions": [
-                {
-                    "text": "In what country did Pokemon originate?"
-                },
                 {
                     "text": "What part of the world was once known as Cathay?"
-                },
-                {
-                    "text": "Where did the Exxon Valdez run aground in March of 1989?"
-                },
-                {
-                    "text": "What is the capital of North Dakota?"
-                },
-                {
-                    "text": "In what city would you find people studying art and design at the Fashion Institute of Technology?"
-                },
-                {
-                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
-                },
-                {
-                    "text": "Which of these rivers flows through France?"
-                },
-                {
-                    "text": "Which of these countries is not in Europe?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 16",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "In what U.S. city can you find the Basketball Hall of Fame?"
-                },
-                {
-                    "text": "Into what body of water does the Rhone River flow?"
-                },
-                {
-                    "text": "According to legend, in what country are you most likely to meet a leprechaun?"
-                },
-                {
-                    "text": "What city is known as 'the rubber capital of the world'?"
-                },
-                {
-                    "text": "What city's airport uses the code ORD?"
-                },
-                {
-                    "text": "What is the largest city in Pennsylvania?"
-                },
-                {
-                    "text": "Where is Ghirardelli Square located?"
-                },
-                {
-                    "text": "People are supposed to drive on the left-hand side of the road in which country?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 45",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "Where is the Louvre museum?"
-                },
-                {
-                    "text": "As of 1999, which state has the most Girl Scouts?"
-                },
-                {
-                    "text": "In what state is the 1999 movie 'Magnolia' set?"
-                },
-                {
-                    "text": "In what country are police officers referred to as 'bobbies'?"
-                },
-                {
-                    "text": "On what continent can you find tigers in the wild?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 46",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "Which of these countries does not participate in NAFTA?"
-                },
-                {
-                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?"
-                },
-                {
-                    "text": "What is the capital of New Zealand?"
-                },
-                {
-                    "text": "What is the capital of New Zealand?"
-                },
-                {
-                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 66",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
-                },
-                {
-                    "text": "Where is Ghirardelli Square located?"
-                },
-                {
-                    "text": "Where did the Exxon Valdez run aground in March of 1989?"
-                },
-                {
-                    "text": "In what city would you find people studying art and design at the Fashion Institute of Technology?"
-                },
-                {
-                    "text": "In what state is the 1999 movie 'Magnolia' set?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 71",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "What is the largest city in Pennsylvania?"
-                },
-                {
-                    "text": "In what U.S. city can you find the Basketball Hall of Fame?"
-                },
-                {
-                    "text": "In what country did Pokemon originate?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 95",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "According to legend, in what country are you most likely to meet a leprechaun?"
-                },
-                {
-                    "text": "Which of these countries is not in Europe?"
-                },
-                {
-                    "text": "Which of these countries does not participate in NAFTA?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 100",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "On what continent can you find tigers in the wild?"
-                },
-                {
-                    "text": "In what country are police officers referred to as 'bobbies'?"
-                },
-                {
-                    "text": "Into what body of water does the Rhone River flow?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 94",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "As of 1999, which state has the most Girl Scouts?"
-                },
-                {
-                    "text": "What is the capital of North Dakota?"
-                },
-                {
-                    "text": "Where is the Louvre museum?"
-                },
-                {
-                    "text": "What part of the world was once known as Cathay?"
-                },
-                {
-                    "text": "What city is known as 'the rubber capital of the world'?"
                 },
                 {
                     "text": "People are supposed to drive on the left-hand side of the road in which country?"
                 },
                 {
-                    "text": "What city's airport uses the code ORD?"
-                },
-                {
-                    "text": "Which of these rivers flows through France?"
+                    "text": "Where is the Louvre museum?"
                 }
             ]
         },
         {
-            "name": "Geography Quiz 61",
-            "description": "This is a quiz about Geography.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
+                    "text": "Which of these countries is not in Europe?"
+                },
+                {
                     "text": "According to legend, in what country are you most likely to meet a leprechaun?"
+                },
+                {
+                    "text": "In what U.S. city can you find the Basketball Hall of Fame?"
+                },
+                {
+                    "text": "What is the capital of New Zealand?"
+                },
+                {
+                    "text": "What city's airport uses the code ORD?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In what country did Pokemon originate?"
+                },
+                {
+                    "text": "Into what body of water does the Rhone River flow?"
+                },
+                {
+                    "text": "In what city would you find people studying art and design at the Fashion Institute of Technology?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Where is Ghirardelli Square located?"
+                },
+                {
+                    "text": "As of 1999, which state has the most Girl Scouts?"
+                },
+                {
+                    "text": "Which of these countries does not participate in NAFTA?"
+                },
+                {
+                    "text": "Which of these rivers flows through France?"
+                },
+                {
+                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In what country are police officers referred to as 'bobbies'?"
+                },
+                {
+                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?"
+                },
+                {
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?"
                 },
                 {
                     "text": "What city is known as 'the rubber capital of the world'?"
@@ -212,31 +92,187 @@
                     "text": "On what continent can you find tigers in the wild?"
                 },
                 {
-                    "text": "In what country are police officers referred to as 'bobbies'?"
+                    "text": "What is the largest city in Pennsylvania?"
+                },
+                {
+                    "text": "In what state is the 1999 movie 'Magnolia' set?"
+                },
+                {
+                    "text": "What is the capital of North Dakota?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "According to legend, in what country are you most likely to meet a leprechaun?"
+                },
+                {
+                    "text": "Which of these countries is not in Europe?"
+                },
+                {
+                    "text": "In what city would you find people studying art and design at the Fashion Institute of Technology?"
+                },
+                {
+                    "text": "Where is the Louvre museum?"
+                },
+                {
+                    "text": "What is the capital of North Dakota?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "On what continent can you find tigers in the wild?"
                 },
                 {
                     "text": "Where is Ghirardelli Square located?"
                 },
                 {
-                    "text": "Which of these countries does not participate in NAFTA?"
-                },
-                {
-                    "text": "What part of the world was once known as Cathay?"
-                },
-                {
-                    "text": "People are supposed to drive on the left-hand side of the road in which country?"
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?"
                 }
             ]
         },
         {
-            "name": "Geography Quiz 93",
-            "description": "This is a quiz about Geography.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Where is the Louvre museum?"
+                    "text": "Which of these countries does not participate in NAFTA?"
+                },
+                {
+                    "text": "As of 1999, which state has the most Girl Scouts?"
+                },
+                {
+                    "text": "In what state is the 1999 movie 'Magnolia' set?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these rivers flows through France?"
+                },
+                {
+                    "text": "Into what body of water does the Rhone River flow?"
+                },
+                {
+                    "text": "People are supposed to drive on the left-hand side of the road in which country?"
+                },
+                {
+                    "text": "In what country are police officers referred to as 'bobbies'?"
+                },
+                {
+                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?"
+                },
+                {
+                    "text": "What is the largest city in Pennsylvania?"
+                },
+                {
+                    "text": "What city is known as 'the rubber capital of the world'?"
+                },
+                {
+                    "text": "What is the capital of New Zealand?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In what country did Pokemon originate?"
+                },
+                {
+                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
+                },
+                {
+                    "text": "In what U.S. city can you find the Basketball Hall of Fame?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What part of the world was once known as Cathay?"
+                },
+                {
+                    "text": "What city's airport uses the code ORD?"
+                },
+                {
+                    "text": "In what U.S. city can you find the Basketball Hall of Fame?"
+                },
+                {
+                    "text": "People are supposed to drive on the left-hand side of the road in which country?"
+                },
+                {
+                    "text": "Into what body of water does the Rhone River flow?"
+                },
+                {
+                    "text": "What is the largest city in Pennsylvania?"
+                },
+                {
+                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
                 },
                 {
                     "text": "In what city would you find people studying art and design at the Fashion Institute of Technology?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these countries does not participate in NAFTA?"
+                },
+                {
+                    "text": "In what state is the 1999 movie 'Magnolia' set?"
+                },
+                {
+                    "text": "According to legend, in what country are you most likely to meet a leprechaun?"
+                },
+                {
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What is the capital of New Zealand?"
+                },
+                {
+                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?"
+                },
+                {
+                    "text": "What is the capital of North Dakota?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In what country are police officers referred to as 'bobbies'?"
+                },
+                {
+                    "text": "Where is Ghirardelli Square located?"
                 },
                 {
                     "text": "In what country did Pokemon originate?"
@@ -244,68 +280,23 @@
             ]
         },
         {
-            "name": "Geography Quiz 15",
-            "description": "This is a quiz about Geography.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "In what state is the 1999 movie 'Magnolia' set?"
-                },
-                {
-                    "text": "Where did the Exxon Valdez run aground in March of 1989?"
-                },
-                {
-                    "text": "What is the capital of North Dakota?"
-                },
-                {
-                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?"
-                },
-                {
-                    "text": "What is the largest city in Pennsylvania?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 86",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "Into what body of water does the Rhone River flow?"
-                },
-                {
-                    "text": "In what U.S. city can you find the Basketball Hall of Fame?"
-                },
-                {
-                    "text": "As of 1999, which state has the most Girl Scouts?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 94",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
-                },
-                {
-                    "text": "What city's airport uses the code ORD?"
-                },
-                {
-                    "text": "Which of these rivers flows through France?"
-                }
-            ]
-        },
-        {
-            "name": "Geography Quiz 21",
-            "description": "This is a quiz about Geography.",
-            "questions": [
-                {
-                    "text": "What is the capital of New Zealand?"
+                    "text": "Where is the Louvre museum?"
                 },
                 {
                     "text": "Which of these countries is not in Europe?"
                 },
                 {
+                    "text": "What part of the world was once known as Cathay?"
+                },
+                {
                     "text": "Which of these rivers flows through France?"
+                },
+                {
+                    "text": "What city is known as 'the rubber capital of the world'?"
                 }
             ]
         }

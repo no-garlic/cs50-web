@@ -1,62 +1,29 @@
 {
     "Board Games & Video Games": [
         {
-            "name": "Board Games & Video Games Quiz 97",
-            "description": "This is a quiz about Board Games & Video Games.",
-            "questions": [
-                {
-                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?"
-                },
-                {
-                    "text": "Which of these games is not played with cards?"
-                },
-                {
-                    "text": "What new token was recently added to the Monopoly board game?"
-                },
-                {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
-                },
-                {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                }
-            ]
-        },
-        {
-            "name": "Board Games & Video Games Quiz 6",
-            "description": "This is a quiz about Board Games & Video Games.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
                 },
                 {
-                    "text": "Backgammon is a how many player game?"
-                },
-                {
-                    "text": "Which of these popular games relies on bluffing?"
-                },
-                {
                     "text": "What new token was recently added to the Monopoly board game?"
                 },
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                },
-                {
-                    "text": "Backgammon is a how many player game?"
-                },
-                {
                     "text": "What is the name of Mario's brother in the 'Super Mario' video games?"
-                },
-                {
-                    "text": "Which of these popular games relies on bluffing?"
                 }
             ]
         },
         {
-            "name": "Board Games & Video Games Quiz 81",
-            "description": "This is a quiz about Board Games & Video Games.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                    "text": "Which of these popular games relies on bluffing?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
                 },
                 {
                     "text": "What fictional character claims to be 'smarter than the average bear'?"
@@ -65,7 +32,43 @@
                     "text": "Which of these games is not played with cards?"
                 },
                 {
+                    "text": "Backgammon is a how many player game?"
+                },
+                {
+                    "text": "Backgammon is a how many player game?"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?"
+                },
+                {
                     "text": "Which of these games is not played with cards?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                },
+                {
+                    "text": "Backgammon is a how many player game?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
                 },
                 {
                     "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
@@ -73,14 +76,65 @@
             ]
         },
         {
-            "name": "Board Games & Video Games Quiz 87",
-            "description": "This is a quiz about Board Games & Video Games.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "Which of these popular games relies on bluffing?"
+                },
+                {
+                    "text": "Which of these games is not played with cards?"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "Which of these games is not played with cards?"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?"
+                },
                 {
                     "text": "What new token was recently added to the Monopoly board game?"
                 },
                 {
+                    "text": "Backgammon is a how many player game?"
+                },
+                {
                     "text": "What is the name of Mario's brother in the 'Super Mario' video games?"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these games is not played with cards?"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?"
                 },
                 {
                     "text": "What fictional character claims to be 'smarter than the average bear'?"
@@ -89,55 +143,13 @@
                     "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
                 },
                 {
-                    "text": "Which of these popular games relies on bluffing?"
-                }
-            ]
-        },
-        {
-            "name": "Board Games & Video Games Quiz 98",
-            "description": "This is a quiz about Board Games & Video Games.",
-            "questions": [
-                {
-                    "text": "Backgammon is a how many player game?"
-                },
-                {
-                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?"
-                },
-                {
                     "text": "Backgammon is a how many player game?"
                 },
                 {
                     "text": "What new token was recently added to the Monopoly board game?"
-                },
-                {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
-                },
-                {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
                 },
                 {
                     "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                },
-                {
-                    "text": "Which of these games is not played with cards?"
-                }
-            ]
-        },
-        {
-            "name": "Board Games & Video Games Quiz 59",
-            "description": "This is a quiz about Board Games & Video Games.",
-            "questions": [
-                {
-                    "text": "Which of these popular games relies on bluffing?"
-                },
-                {
-                    "text": "What new token was recently added to the Monopoly board game?"
-                },
-                {
-                    "text": "Which of these popular games relies on bluffing?"
-                },
-                {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
                 },
                 {
                     "text": "What is the name of Mario's brother in the 'Super Mario' video games?"

@@ -1,29 +1,14 @@
 {
     "Music Through the Decades": [
         {
-            "name": "Music Through the Decades Quiz 53",
-            "description": "This is a quiz about Music Through the Decades.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Which of the following bands did Jimmy Page not play guitar?"
+                    "text": "The disco band ABBA comes from what country?"
                 },
                 {
-                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?"
-                },
-                {
-                    "text": "Who composed the 'Moonlight Sonata'?"
-                }
-            ]
-        },
-        {
-            "name": "Music Through the Decades Quiz 37",
-            "description": "This is a quiz about Music Through the Decades.",
-            "questions": [
-                {
-                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
-                },
-                {
-                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
+                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
                 },
                 {
                     "text": "The Strauss family of composers popularized what dance?"
@@ -31,11 +16,11 @@
             ]
         },
         {
-            "name": "Music Through the Decades Quiz 47",
-            "description": "This is a quiz about Music Through the Decades.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
                 },
                 {
                     "text": "What was the title of Beethoven's only completed opera?"
@@ -44,115 +29,40 @@
                     "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
                 },
                 {
-                    "text": "Who wrote musicals with Oscar Hammerstein II?"
-                },
-                {
-                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
-                },
-                {
-                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
-                },
-                {
-                    "text": "The disco band ABBA comes from what country?"
-                },
-                {
                     "text": "What city did the Beatles originally call home?"
-                }
-            ]
-        },
-        {
-            "name": "Music Through the Decades Quiz 57",
-            "description": "This is a quiz about Music Through the Decades.",
-            "questions": [
-                {
-                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
-                },
-                {
-                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
-                },
-                {
-                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
                 },
                 {
                     "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
                 },
                 {
-                    "text": "The Strauss family of composers popularized what dance?"
-                }
-            ]
-        },
-        {
-            "name": "Music Through the Decades Quiz 100",
-            "description": "This is a quiz about Music Through the Decades.",
-            "questions": [
-                {
-                    "text": "Who wrote musicals with Oscar Hammerstein II?"
-                },
-                {
-                    "text": "What city did the Beatles originally call home?"
-                },
-                {
-                    "text": "The disco band ABBA comes from what country?"
-                },
-                {
-                    "text": "What was the title of Beethoven's only completed opera?"
-                },
-                {
-                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
-                }
-            ]
-        },
-        {
-            "name": "Music Through the Decades Quiz 5",
-            "description": "This is a quiz about Music Through the Decades.",
-            "questions": [
-                {
-                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
                 },
                 {
                     "text": "Which of the following bands did Jimmy Page not play guitar?"
                 },
                 {
-                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
+                    "text": "Who wrote musicals with Oscar Hammerstein II?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
+                },
+                {
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
                 },
                 {
                     "text": "Who composed the 'Moonlight Sonata'?"
                 },
                 {
-                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
-                }
-            ]
-        },
-        {
-            "name": "Music Through the Decades Quiz 32",
-            "description": "This is a quiz about Music Through the Decades.",
-            "questions": [
-                {
-                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
-                },
-                {
-                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
+                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
                 },
                 {
                     "text": "Pop icon Tiny Tim was famous for playing what musical instrument?"
-                },
-                {
-                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
-                },
-                {
-                    "text": "What city did the Beatles originally call home?"
-                }
-            ]
-        },
-        {
-            "name": "Music Through the Decades Quiz 94",
-            "description": "This is a quiz about Music Through the Decades.",
-            "questions": [
-                {
-                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
-                },
-                {
-                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
                 },
                 {
                     "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
@@ -161,19 +71,19 @@
                     "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
                 },
                 {
-                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
+                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
                 }
             ]
         },
         {
-            "name": "Music Through the Decades Quiz 21",
-            "description": "This is a quiz about Music Through the Decades.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
+                    "text": "Which of the following bands did Jimmy Page not play guitar?"
                 },
                 {
-                    "text": "Who wrote musicals with Oscar Hammerstein II?"
+                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
                 },
                 {
                     "text": "Pop icon Tiny Tim was famous for playing what musical instrument?"
@@ -181,24 +91,126 @@
             ]
         },
         {
-            "name": "Music Through the Decades Quiz 100",
-            "description": "This is a quiz about Music Through the Decades.",
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
+                },
+                {
+                    "text": "What city did the Beatles originally call home?"
+                },
+                {
+                    "text": "The Strauss family of composers popularized what dance?"
+                },
+                {
+                    "text": "Who wrote musicals with Oscar Hammerstein II?"
+                },
+                {
+                    "text": "What was the title of Beethoven's only completed opera?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?"
+                },
+                {
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
+                },
+                {
+                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
+                },
+                {
+                    "text": "The disco band ABBA comes from what country?"
+                },
+                {
+                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
+                },
+                {
+                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
+                },
+                {
+                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "The Strauss family of composers popularized what dance?"
                 },
                 {
+                    "text": "What was the title of Beethoven's only completed opera?"
+                },
+                {
                     "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
                 },
                 {
-                    "text": "The disco band ABBA comes from what country?"
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
+                },
+                {
+                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
+                },
+                {
+                    "text": "Which of the following bands did Jimmy Page not play guitar?"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?"
+                },
+                {
+                    "text": "What city did the Beatles originally call home?"
                 }
             ]
         },
         {
-            "name": "Music Through the Decades Quiz 96",
-            "description": "This is a quiz about Music Through the Decades.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
+                },
+                {
+                    "text": "The disco band ABBA comes from what country?"
+                },
+                {
+                    "text": "Who wrote musicals with Oscar Hammerstein II?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?"
+                },
+                {
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What city did the Beatles originally call home?"
+                },
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
+                },
                 {
                     "text": "Who composed the 'Moonlight Sonata'?"
                 },
@@ -207,33 +219,66 @@
                 },
                 {
                     "text": "Which of the following bands did Jimmy Page not play guitar?"
-                },
-                {
-                    "text": "Who composed the 'Moonlight Sonata'?"
-                },
-                {
-                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
                 }
             ]
         },
         {
-            "name": "Music Through the Decades Quiz 86",
-            "description": "This is a quiz about Music Through the Decades.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
+                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
+                },
+                {
+                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?"
+                },
+                {
+                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?"
+                },
+                {
+                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?"
                 },
                 {
                     "text": "The disco band ABBA comes from what country?"
                 },
                 {
-                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
+                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?"
                 },
                 {
-                    "text": "What was the title of Beethoven's only completed opera?"
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "The Strauss family of composers popularized what dance?"
+                },
+                {
+                    "text": "Who wrote musicals with Oscar Hammerstein II?"
                 },
                 {
                     "text": "What city did the Beatles originally call home?"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?"
+                },
+                {
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?"
+                },
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?"
+                },
+                {
+                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?"
                 }
             ]
         }

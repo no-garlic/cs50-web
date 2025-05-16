@@ -1,111 +1,18 @@
 {
     "Fictional Worlds & Universes": [
         {
-            "name": "Fictional Worlds & Universes Quiz 36",
-            "description": "This is a quiz about Fictional Worlds & Universes.",
-            "questions": [
-                {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                },
-                {
-                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
-                },
-                {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
-                },
-                {
-                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
-                },
-                {
-                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
-                }
-            ]
-        },
-        {
-            "name": "Fictional Worlds & Universes Quiz 7",
-            "description": "This is a quiz about Fictional Worlds & Universes.",
-            "questions": [
-                {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
-                },
-                {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                },
-                {
-                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
-                },
-                {
-                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
-                },
-                {
-                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
-                }
-            ]
-        },
-        {
-            "name": "Fictional Worlds & Universes Quiz 83",
-            "description": "This is a quiz about Fictional Worlds & Universes.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
                 },
                 {
-                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
-                },
-                {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                },
-                {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
-                },
-                {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                },
-                {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
-                },
-                {
-                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
-                },
-                {
-                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
-                }
-            ]
-        },
-        {
-            "name": "Fictional Worlds & Universes Quiz 47",
-            "description": "This is a quiz about Fictional Worlds & Universes.",
-            "questions": [
-                {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
-                },
-                {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
-                },
-                {
-                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
-                },
-                {
-                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
-                },
-                {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                },
-                {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                },
-                {
                     "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
                 },
                 {
                     "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                }
-            ]
-        },
-        {
-            "name": "Fictional Worlds & Universes Quiz 97",
-            "description": "This is a quiz about Fictional Worlds & Universes.",
-            "questions": [
+                },
                 {
                     "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
                 },
@@ -116,7 +23,22 @@
                     "text": "What fictional character claims to be 'smarter than the average bear'?"
                 },
                 {
-                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
+                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
+                },
+                {
+                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
                 },
                 {
                     "text": "In what high school does the gang from the 'Archie' comic strip attend?"
@@ -124,23 +46,95 @@
             ]
         },
         {
-            "name": "Fictional Worlds & Universes Quiz 80",
-            "description": "This is a quiz about Fictional Worlds & Universes.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
                 {
                     "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
                 },
                 {
+                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
+                },
+                {
                     "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                },
+                {
+                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
                 },
                 {
                     "text": "In what high school does the gang from the 'Archie' comic strip attend?"
                 },
                 {
                     "text": "What animated character has a crush on the Little Red Haired Girl?"
-                },
-                {
-                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
                 }
             ]
         }

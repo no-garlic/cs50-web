@@ -1,212 +1,50 @@
 {
     "Pop Culture": [
         {
-            "name": "Pop Culture Quiz 76",
-            "description": "This is a quiz about Pop Culture.",
+            "name": "",
+            "description": "",
             "questions": [
-                {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
-                },
-                {
-                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
-                },
-                {
-                    "text": "What is the name of the character Played by Woody Allen in the 1967 James Bond film 'Casino Royale'?"
-                },
-                {
-                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
-                },
-                {
-                    "text": "On the TV show 'CHiPs' what was Officer Frank Poncherello's nickname?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 2",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "What is the name of Howard Stern's female on-air sidekick?"
-                },
-                {
-                    "text": "What children's TV character is known as 'Da Niao' in China?"
-                },
-                {
-                    "text": "What character did Woody replace on the TV show 'Cheers'?"
-                },
-                {
-                    "text": "What company makes Oreo cookies?"
-                },
-                {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 81",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "What are the Smothers Brothers' first names?"
-                },
                 {
                     "text": "Which character on the TV show 'Friends' is a chef?"
                 },
                 {
-                    "text": "Which of these performers made her film debut in Spike Lee's 'Do the Right Thing'?"
-                },
-                {
-                    "text": "What is the name of Raggedy Ann's doll brother?"
-                },
-                {
-                    "text": "What recording artist claims that sportscaster Marv Albert was a major influence on his sound?"
-                },
-                {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                },
-                {
-                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
-                },
-                {
-                    "text": "What color is the masthead of USA Today's 'Life' section?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 50",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "What is the name of the female character played by comedian Flip Wilson on his 1970s TV show?"
-                },
-                {
-                    "text": "What are fans of the TV show 'Mystery Science Theater 3000' known as?"
-                },
-                {
-                    "text": "What are the plastic boxes that hold compact discs called?"
-                },
-                {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
-                },
-                {
-                    "text": "What former 'Today' show personality played a neighbor on the TV sitcom 'The Hogan Family'?"
-                },
-                {
-                    "text": "In the Jimmy Buffet song 'Margaritaville' what is the singer searching for?"
-                },
-                {
-                    "text": "By what name is Bob Keeshan better known?"
-                },
-                {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 57",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "What singer appeared in the 1992 baseball film 'A League of Their Own'?"
-                },
-                {
-                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
-                },
-                {
-                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 95",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "What color is cartoon character Marge Simpson's hair?"
-                },
-                {
-                    "text": "What famous radio personality was also the voice of Shaggy on the cartoon 'Scooby-Doo'?"
-                },
-                {
-                    "text": "What is the TV show 'House of Style' airs on what network?"
-                },
-                {
-                    "text": "What is the name of the StarKist tuna mascot?"
-                },
-                {
                     "text": "What are the names of the two primary M&M's spokes-candies?"
-                },
-                {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                },
-                {
-                    "text": "What is the name of the character Played by Woody Allen in the 1967 James Bond film 'Casino Royale'?"
-                },
-                {
-                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 76",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "In the Jimmy Buffet song 'Margaritaville' what is the singer searching for?"
-                },
-                {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
                 },
                 {
                     "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
-                },
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
                 {
-                    "text": "What former 'Today' show personality played a neighbor on the TV sitcom 'The Hogan Family'?"
-                },
-                {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
-                },
-                {
-                    "text": "What is the name of the StarKist tuna mascot?"
+                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
                 },
                 {
                     "text": "What are the plastic boxes that hold compact discs called?"
                 },
                 {
-                    "text": "What recording artist claims that sportscaster Marv Albert was a major influence on his sound?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 79",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "What company makes Oreo cookies?"
-                },
-                {
-                    "text": "What are fans of the TV show 'Mystery Science Theater 3000' known as?"
-                },
-                {
-                    "text": "What are the Smothers Brothers' first names?"
-                },
-                {
                     "text": "Which of these performers made her film debut in Spike Lee's 'Do the Right Thing'?"
                 },
-                {
-                    "text": "What are the names of the two primary M&M's spokes-candies?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 21",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
                 {
                     "text": "What famous radio personality was also the voice of Shaggy on the cartoon 'Scooby-Doo'?"
                 },
                 {
-                    "text": "What is the name of Raggedy Ann's doll brother?"
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "On the TV show 'CHiPs' what was Officer Frank Poncherello's nickname?"
+                },
+                {
+                    "text": "What character did Woody replace on the TV show 'Cheers'?"
                 },
                 {
                     "text": "What is the name of Howard Stern's female on-air sidekick?"
@@ -214,86 +52,38 @@
             ]
         },
         {
-            "name": "Pop Culture Quiz 87",
-            "description": "This is a quiz about Pop Culture.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "What character did Woody replace on the TV show 'Cheers'?"
+                    "text": "What is the name of the StarKist tuna mascot?"
                 },
                 {
-                    "text": "Which character on the TV show 'Friends' is a chef?"
+                    "text": "What company makes Oreo cookies?"
                 },
+                {
+                    "text": "What recording artist claims that sportscaster Marv Albert was a major influence on his sound?"
+                },
+                {
+                    "text": "What is the name of Raggedy Ann's doll brother?"
+                },
+                {
+                    "text": "What is the name of the character Played by Woody Allen in the 1967 James Bond film 'Casino Royale'?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
                 {
                     "text": "What singer appeared in the 1992 baseball film 'A League of Their Own'?"
                 },
                 {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
                     "text": "What is the TV show 'House of Style' airs on what network?"
-                },
-                {
-                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
-                },
-                {
-                    "text": "What is the name of the female character played by comedian Flip Wilson on his 1970s TV show?"
-                },
-                {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                },
-                {
-                    "text": "What color is the masthead of USA Today's 'Life' section?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 89",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
-                },
-                {
-                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
-                },
-                {
-                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
-                },
-                {
-                    "text": "What children's TV character is known as 'Da Niao' in China?"
-                },
-                {
-                    "text": "By what name is Bob Keeshan better known?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 46",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "On the TV show 'CHiPs' what was Officer Frank Poncherello's nickname?"
-                },
-                {
-                    "text": "What color is cartoon character Marge Simpson's hair?"
-                },
-                {
-                    "text": "In the Jimmy Buffet song 'Margaritaville' what is the singer searching for?"
-                },
-                {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
-                },
-                {
-                    "text": "What is the name of the female character played by comedian Flip Wilson on his 1970s TV show?"
-                }
-            ]
-        },
-        {
-            "name": "Pop Culture Quiz 91",
-            "description": "This is a quiz about Pop Culture.",
-            "questions": [
-                {
-                    "text": "What are the names of the two primary M&M's spokes-candies?"
-                },
-                {
-                    "text": "What is the name of the StarKist tuna mascot?"
                 },
                 {
                     "text": "What former 'Today' show personality played a neighbor on the TV sitcom 'The Hogan Family'?"
@@ -305,10 +95,7 @@
                     "text": "What are fans of the TV show 'Mystery Science Theater 3000' known as?"
                 },
                 {
-                    "text": "What color is the masthead of USA Today's 'Life' section?"
-                },
-                {
-                    "text": "What is the name of Raggedy Ann's doll brother?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
                 },
                 {
                     "text": "What animated character has a crush on the Little Red Haired Girl?"
@@ -316,32 +103,215 @@
             ]
         },
         {
-            "name": "Pop Culture Quiz 52",
-            "description": "This is a quiz about Pop Culture.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "By what name is Bob Keeshan better known?"
+                },
                 {
                     "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
                 },
                 {
-                    "text": "What famous radio personality was also the voice of Shaggy on the cartoon 'Scooby-Doo'?"
+                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
                 },
                 {
-                    "text": "What is the TV show 'House of Style' airs on what network?"
+                    "text": "What are the Smothers Brothers' first names?"
+                },
+                {
+                    "text": "What is the name of the female character played by comedian Flip Wilson on his 1970s TV show?"
                 }
             ]
         },
         {
-            "name": "Pop Culture Quiz 82",
-            "description": "This is a quiz about Pop Culture.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
                 },
                 {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                    "text": "What color is cartoon character Marge Simpson's hair?"
+                },
+                {
+                    "text": "What color is the masthead of USA Today's 'Life' section?"
+                },
+                {
+                    "text": "What children's TV character is known as 'Da Niao' in China?"
+                },
+                {
+                    "text": "In the Jimmy Buffet song 'Margaritaville' what is the singer searching for?"
+                },
+                {
+                    "text": "What is the name of the female character played by comedian Flip Wilson on his 1970s TV show?"
+                },
+                {
+                    "text": "What is the name of Raggedy Ann's doll brother?"
+                },
+                {
+                    "text": "What color is the masthead of USA Today's 'Life' section?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What is the name of Howard Stern's female on-air sidekick?"
+                },
+                {
+                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
+                },
+                {
+                    "text": "What is the name of the StarKist tuna mascot?"
+                },
+                {
+                    "text": "What character did Woody replace on the TV show 'Cheers'?"
+                },
+                {
+                    "text": "What former 'Today' show personality played a neighbor on the TV sitcom 'The Hogan Family'?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "On the TV show 'CHiPs' what was Officer Frank Poncherello's nickname?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
+                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
                 },
                 {
                     "text": "Which of these performers made her film debut in Spike Lee's 'Do the Right Thing'?"
+                },
+                {
+                    "text": "What singer appeared in the 1992 baseball film 'A League of Their Own'?"
+                },
+                {
+                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
+                },
+                {
+                    "text": "What recording artist claims that sportscaster Marv Albert was a major influence on his sound?"
+                },
+                {
+                    "text": "By what name is Bob Keeshan better known?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which character on the TV show 'Friends' is a chef?"
+                },
+                {
+                    "text": "What are the plastic boxes that hold compact discs called?"
+                },
+                {
+                    "text": "In the Jimmy Buffet song 'Margaritaville' what is the singer searching for?"
+                },
+                {
+                    "text": "What is the TV show 'House of Style' airs on what network?"
+                },
+                {
+                    "text": "What are the Smothers Brothers' first names?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                },
+                {
+                    "text": "What is the name of the character Played by Woody Allen in the 1967 James Bond film 'Casino Royale'?"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                },
+                {
+                    "text": "What are fans of the TV show 'Mystery Science Theater 3000' known as?"
+                },
+                {
+                    "text": "What company makes Oreo cookies?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What children's TV character is known as 'Da Niao' in China?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                },
+                {
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What color is cartoon character Marge Simpson's hair?"
+                },
+                {
+                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "What famous radio personality was also the voice of Shaggy on the cartoon 'Scooby-Doo'?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
+                },
+                {
+                    "text": "What are the plastic boxes that hold compact discs called?"
+                },
+                {
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                },
+                {
+                    "text": "What is the name of the StarKist tuna mascot?"
+                },
+                {
+                    "text": "What color is the masthead of USA Today's 'Life' section?"
                 }
             ]
         }

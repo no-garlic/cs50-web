@@ -1,65 +1,14 @@
 {
     "Inventions & Discoveries": [
         {
-            "name": "Inventions & Discoveries Quiz 33",
-            "description": "This is a quiz about Inventions & Discoveries.",
+            "name": "",
+            "description": "",
             "questions": [
-                {
-                    "text": "What was the name of the first ship to sail around the world?"
-                },
-                {
-                    "text": "What was the name of the first nuclear-powered submarine?"
-                },
-                {
-                    "text": "Modern computer microchips are primarily composed of what element?"
-                },
-                {
-                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
-                },
-                {
-                    "text": "The first commercial radio station was located in what city?"
-                }
-            ]
-        },
-        {
-            "name": "Inventions & Discoveries Quiz 66",
-            "description": "This is a quiz about Inventions & Discoveries.",
-            "questions": [
-                {
-                    "text": "Ada Lovelace is credited with being the first person to have made what?"
-                },
                 {
                     "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
                 },
                 {
                     "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
-                }
-            ]
-        },
-        {
-            "name": "Inventions & Discoveries Quiz 22",
-            "description": "This is a quiz about Inventions & Discoveries.",
-            "questions": [
-                {
-                    "text": "Modern computer microchips are primarily composed of what element?"
-                },
-                {
-                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
-                },
-                {
-                    "text": "Ada Lovelace is credited with being the first person to have made what?"
-                }
-            ]
-        },
-        {
-            "name": "Inventions & Discoveries Quiz 96",
-            "description": "This is a quiz about Inventions & Discoveries.",
-            "questions": [
-                {
-                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
-                },
-                {
-                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
                 },
                 {
                     "text": "What was the name of the first nuclear-powered submarine?"
@@ -68,53 +17,65 @@
                     "text": "What was the name of the first ship to sail around the world?"
                 },
                 {
-                    "text": "The first commercial radio station was located in what city?"
-                },
-                {
-                    "text": "The first commercial radio station was located in what city?"
-                },
-                {
-                    "text": "What was the name of the first ship to sail around the world?"
-                },
-                {
                     "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
-                }
-            ]
-        },
-        {
-            "name": "Inventions & Discoveries Quiz 67",
-            "description": "This is a quiz about Inventions & Discoveries.",
-            "questions": [
-                {
-                    "text": "Modern computer microchips are primarily composed of what element?"
-                },
-                {
-                    "text": "What was the name of the first nuclear-powered submarine?"
-                },
-                {
-                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
-                }
-            ]
-        },
-        {
-            "name": "Inventions & Discoveries Quiz 45",
-            "description": "This is a quiz about Inventions & Discoveries.",
-            "questions": [
-                {
-                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
                 },
                 {
                     "text": "Ada Lovelace is credited with being the first person to have made what?"
                 },
                 {
-                    "text": "What was the name of the first ship to sail around the world?"
+                    "text": "The first commercial radio station was located in what city?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                },
+                {
+                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
                 },
                 {
                     "text": "The first commercial radio station was located in what city?"
                 },
                 {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "What was the name of the first ship to sail around the world?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
+                },
+                {
                     "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
                 },
+                {
+                    "text": "What was the name of the first nuclear-powered submarine?"
+                },
+                {
+                    "text": "What was the name of the first ship to sail around the world?"
+                },
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
                 {
                     "text": "Modern computer microchips are primarily composed of what element?"
                 },
@@ -122,7 +83,58 @@
                     "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
                 },
                 {
+                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
+                },
+                {
+                    "text": "What was the name of the first nuclear-powered submarine?"
+                },
+                {
+                    "text": "The first commercial radio station was located in what city?"
+                },
+                {
                     "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
+                },
+                {
+                    "text": "What was the name of the first ship to sail around the world?"
+                },
+                {
+                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "The first commercial radio station was located in what city?"
+                },
+                {
+                    "text": "What was the name of the first nuclear-powered submarine?"
+                },
+                {
+                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
+                },
+                {
+                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
                 }
             ]
         }

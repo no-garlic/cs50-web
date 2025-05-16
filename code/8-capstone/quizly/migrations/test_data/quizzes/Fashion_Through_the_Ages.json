@@ -1,11 +1,47 @@
 {
     "Fashion Through the Ages": [
         {
-            "name": "Fashion Through the Ages Quiz 57",
-            "description": "This is a quiz about Fashion Through the Ages.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
+                    "text": "Which of these fashion designers was born in the United States?"
+                },
+                {
                     "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                },
+                {
+                    "text": "Which of these is not a style of shoe?"
+                },
+                {
+                    "text": "Which of these rock guitarists designed a colorful line of men's neckties?"
+                },
+                {
+                    "text": "What country gave us the fashionable headgear called the beret?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these fashion designers was born in the United States?"
+                },
+                {
+                    "text": "What article of clothing best describes a 'pashmina'?"
+                },
+                {
+                    "text": "Which of the following articles of clothing has a hood?"
+                },
+                {
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                },
+                {
+                    "text": "Which of the following articles of clothing has a hood?"
+                },
+                {
+                    "text": "Which of these fashion designers was born in the United States?"
                 },
                 {
                     "text": "Which of these fashion designers was born in the United States?"
@@ -16,41 +52,17 @@
             ]
         },
         {
-            "name": "Fashion Through the Ages Quiz 14",
-            "description": "This is a quiz about Fashion Through the Ages.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "Which of these rock guitarists designed a colorful line of men's neckties?"
+                },
                 {
                     "text": "What article of clothing best describes a 'pashmina'?"
                 },
                 {
-                    "text": "Which of the following articles of clothing has a hood?"
-                },
-                {
-                    "text": "Which of these rock guitarists designed a colorful line of men's neckties?"
-                }
-            ]
-        },
-        {
-            "name": "Fashion Through the Ages Quiz 49",
-            "description": "This is a quiz about Fashion Through the Ages.",
-            "questions": [
-                {
-                    "text": "Which of these fashion designers was born in the United States?"
-                },
-                {
                     "text": "Which of these is not a style of shoe?"
-                },
-                {
-                    "text": "What country gave us the fashionable headgear called the beret?"
-                },
-                {
-                    "text": "Which of the following articles of clothing has a hood?"
-                },
-                {
-                    "text": "Which of these fashion designers was born in the United States?"
-                },
-                {
-                    "text": "Which of these rock guitarists designed a colorful line of men's neckties?"
                 },
                 {
                     "text": "Which of these is not a style of shoe?"
@@ -61,27 +73,9 @@
             ]
         },
         {
-            "name": "Fashion Through the Ages Quiz 25",
-            "description": "This is a quiz about Fashion Through the Ages.",
+            "name": "",
+            "description": "",
             "questions": [
-                {
-                    "text": "Which of these fashion designers was born in the United States?"
-                },
-                {
-                    "text": "What article of clothing best describes a 'pashmina'?"
-                },
-                {
-                    "text": "Which of these fashion designers was born in the United States?"
-                }
-            ]
-        },
-        {
-            "name": "Fashion Through the Ages Quiz 92",
-            "description": "This is a quiz about Fashion Through the Ages.",
-            "questions": [
-                {
-                    "text": "Which of these is not a style of shoe?"
-                },
                 {
                     "text": "Which of these rock guitarists designed a colorful line of men's neckties?"
                 },
@@ -92,19 +86,46 @@
                     "text": "Which of the following articles of clothing has a hood?"
                 },
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
-                }
-            ]
-        },
-        {
-            "name": "Fashion Through the Ages Quiz 56",
-            "description": "This is a quiz about Fashion Through the Ages.",
-            "questions": [
-                {
                     "text": "What country gave us the fashionable headgear called the beret?"
                 },
                 {
                     "text": "What article of clothing best describes a 'pashmina'?"
+                },
+                {
+                    "text": "Which of these fashion designers was born in the United States?"
+                },
+                {
+                    "text": "What article of clothing best describes a 'pashmina'?"
+                },
+                {
+                    "text": "Which of these fashion designers was born in the United States?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of the following articles of clothing has a hood?"
+                },
+                {
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                },
+                {
+                    "text": "Which of these is not a style of shoe?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these rock guitarists designed a colorful line of men's neckties?"
+                },
+                {
+                    "text": "What country gave us the fashionable headgear called the beret?"
                 },
                 {
                     "text": "Which of these fashion designers was born in the United States?"

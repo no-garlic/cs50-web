@@ -1,29 +1,38 @@
 {
     "Famous Duos & Teams": [
         {
-            "name": "Famous Duos & Teams Quiz 82",
-            "description": "This is a quiz about Famous Duos & Teams.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
+                    "text": "What were the first names of the early American explorers Lewis and Clark?"
                 },
                 {
                     "text": "What are the names of the two primary M&M's spokes-candies?"
                 },
                 {
-                    "text": "What were the first names of the early American explorers Lewis and Clark?"
+                    "text": "What are the names of Donald Duck's three nephews?"
+                },
+                {
+                    "text": "What are the Smothers Brothers' first names?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
                 },
                 {
                     "text": "Which of these is not a TV cartoon duo?"
                 },
                 {
-                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
+                },
+                {
+                    "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
                 }
             ]
         },
         {
-            "name": "Famous Duos & Teams Quiz 14",
-            "description": "This is a quiz about Famous Duos & Teams.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "What are the Smothers Brothers' first names?"
@@ -32,74 +41,62 @@
                     "text": "What are the names of Donald Duck's three nephews?"
                 },
                 {
-                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
                 }
             ]
         },
         {
-            "name": "Famous Duos & Teams Quiz 74",
-            "description": "This is a quiz about Famous Duos & Teams.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "What are the Smothers Brothers' first names?"
+                    "text": "Which of these is not a TV cartoon duo?"
                 },
                 {
                     "text": "What are the names of the two primary M&M's spokes-candies?"
                 },
                 {
-                    "text": "Which of these is not a TV cartoon duo?"
-                },
-                {
-                    "text": "What were the first names of the early American explorers Lewis and Clark?"
-                },
+                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
                 {
                     "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
-                },
-                {
-                    "text": "What are the names of Donald Duck's three nephews?"
-                },
-                {
-                    "text": "What are the names of the two primary M&M's spokes-candies?"
-                },
-                {
-                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
-                }
-            ]
-        },
-        {
-            "name": "Famous Duos & Teams Quiz 15",
-            "description": "This is a quiz about Famous Duos & Teams.",
-            "questions": [
-                {
-                    "text": "What are the Smothers Brothers' first names?"
-                },
-                {
-                    "text": "Which of these is not a TV cartoon duo?"
-                },
-                {
-                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
-                },
-                {
-                    "text": "What are the names of Donald Duck's three nephews?"
-                },
-                {
-                    "text": "What are the names of the two primary M&M's spokes-candies?"
                 },
                 {
                     "text": "What were the first names of the early American explorers Lewis and Clark?"
                 },
                 {
                     "text": "What are the names of the two primary M&M's spokes-candies?"
-                },
-                {
-                    "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
                 }
             ]
         },
         {
-            "name": "Famous Duos & Teams Quiz 91",
-            "description": "This is a quiz about Famous Duos & Teams.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "What are the names of Donald Duck's three nephews?"
+                },
+                {
+                    "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
+                },
+                {
+                    "text": "What were the first names of the early American explorers Lewis and Clark?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
+                },
                 {
                     "text": "What are the names of the two primary M&M's spokes-candies?"
                 },
@@ -107,22 +104,10 @@
                     "text": "Which of these is not a TV cartoon duo?"
                 },
                 {
-                    "text": "What are the names of the two primary M&M's spokes-candies?"
-                }
-            ]
-        },
-        {
-            "name": "Famous Duos & Teams Quiz 95",
-            "description": "This is a quiz about Famous Duos & Teams.",
-            "questions": [
-                {
-                    "text": "Who is the twin sister of 'Dear Abby' columnist Abigail VanBuren?"
-                },
-                {
-                    "text": "How are actors Charlie Sheen and Emilio Estevez related?"
-                },
-                {
                     "text": "What are the Smothers Brothers' first names?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
                 }
             ]
         }

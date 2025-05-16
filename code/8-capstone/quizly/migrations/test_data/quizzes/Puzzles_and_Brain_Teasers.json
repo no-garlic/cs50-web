@@ -1,14 +1,20 @@
 {
     "Puzzles & Brain Teasers": [
         {
-            "name": "Puzzles & Brain Teasers Quiz 16",
-            "description": "This is a quiz about Puzzles & Brain Teasers.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What is the square root of 81 squared?"
                 },
                 {
                     "text": "What mathematical term is used to describe the average of a series of numbers?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "How do you express 3/4 as a decimal?"
                 },
                 {
                     "text": "What is the square root of 81 squared?"
@@ -16,34 +22,31 @@
                 {
                     "text": "How do you express 3/4 as a decimal?"
                 },
-                {
-                    "text": "How do you express 3/4 as a decimal?"
-                }
-            ]
-        },
-        {
-            "name": "Puzzles & Brain Teasers Quiz 7",
-            "description": "This is a quiz about Puzzles & Brain Teasers.",
-            "questions": [
                 {
                     "text": "Which of these sentences is written in the subjunctive?"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
-                },
-                {
-                    "text": "What is the square root of 81 squared?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
                 }
             ]
         },
         {
-            "name": "Puzzles & Brain Teasers Quiz 2",
-            "description": "This is a quiz about Puzzles & Brain Teasers.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "What kind of angle is formed where two perpendicular lines meet?"
                 },
                 {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
                     "text": "How do you express 3/4 as a decimal?"
                 },
                 {
@@ -51,6 +54,36 @@
                 },
                 {
                     "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
                 },
                 {
                     "text": "Which of these sentences is written in the subjunctive?"
@@ -58,47 +91,68 @@
             ]
         },
         {
-            "name": "Puzzles & Brain Teasers Quiz 55",
-            "description": "This is a quiz about Puzzles & Brain Teasers.",
-            "questions": [
-                {
-                    "text": "What is the square root of 81 squared?"
-                },
-                {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
-                },
-                {
-                    "text": "What mathematical term is used to describe the average of a series of numbers?"
-                }
-            ]
-        },
-        {
-            "name": "Puzzles & Brain Teasers Quiz 60",
-            "description": "This is a quiz about Puzzles & Brain Teasers.",
-            "questions": [
-                {
-                    "text": "What is the square root of 81 squared?"
-                },
-                {
-                    "text": "What mathematical term is used to describe the average of a series of numbers?"
-                },
-                {
-                    "text": "How do you express 3/4 as a decimal?"
-                }
-            ]
-        },
-        {
-            "name": "Puzzles & Brain Teasers Quiz 61",
-            "description": "This is a quiz about Puzzles & Brain Teasers.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "What kind of angle is formed where two perpendicular lines meet?"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
                 },
                 {
                     "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                },
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
+                },
+                {
+                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "How do you express 3/4 as a decimal?"
+                },
+                {
+                    "text": "Which of these sentences is written in the subjunctive?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
                 }
             ]
         }

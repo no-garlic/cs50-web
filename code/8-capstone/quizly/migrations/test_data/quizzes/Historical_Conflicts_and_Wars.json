@@ -1,92 +1,14 @@
 {
     "Historical Conflicts & Wars": [
         {
-            "name": "Historical Conflicts & Wars Quiz 65",
-            "description": "This is a quiz about Historical Conflicts & Wars.",
+            "name": "Echoes of Valor: A Historical Conflict Quiz",
+            "description": "Test your knowledge of pivotal moments and figures in history's most significant conflicts. From Joan of Arc to the Line of Death, this quiz explores a range of wars and their impact.",
             "questions": [
-                {
-                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?"
-                },
-                {
-                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
-                },
-                {
-                    "text": "Which one of these world leaders was assassinated?"
-                },
-                {
-                    "text": "In what war did Joan of Arc fight?"
-                },
-                {
-                    "text": "Which one of these World War II leaders was not at the Yalta Conference?"
-                }
-            ]
-        },
-        {
-            "name": "Historical Conflicts & Wars Quiz 76",
-            "description": "This is a quiz about Historical Conflicts & Wars.",
-            "questions": [
-                {
-                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
-                },
-                {
-                    "text": "During which war did US troops fight the Battle of New Orleans?"
-                },
-                {
-                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
-                }
-            ]
-        },
-        {
-            "name": "Historical Conflicts & Wars Quiz 81",
-            "description": "This is a quiz about Historical Conflicts & Wars.",
-            "questions": [
-                {
-                    "text": "Which one of these World War II leaders was not at the Yalta Conference?"
-                },
-                {
-                    "text": "During which war did US troops fight the Battle of New Orleans?"
-                },
-                {
-                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
-                },
-                {
-                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
-                },
-                {
-                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?"
-                }
-            ]
-        },
-        {
-            "name": "Historical Conflicts & Wars Quiz 90",
-            "description": "This is a quiz about Historical Conflicts & Wars.",
-            "questions": [
-                {
-                    "text": "Which one of these world leaders was assassinated?"
-                },
-                {
-                    "text": "In what war did Joan of Arc fight?"
-                },
-                {
-                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
-                }
-            ]
-        },
-        {
-            "name": "Historical Conflicts & Wars Quiz 25",
-            "description": "This is a quiz about Historical Conflicts & Wars.",
-            "questions": [
-                {
-                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
-                },
                 {
                     "text": "In what war did Joan of Arc fight?"
                 },
                 {
                     "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
-                },
-                {
-                    "text": "Which one of these world leaders was assassinated?"
                 },
                 {
                     "text": "Which one of these World War II leaders was not at the Yalta Conference?"
@@ -99,21 +21,135 @@
                 },
                 {
                     "text": "Which of these countries was not a member of the Axis nations during World War II?"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
+                },
+                {
+                    "text": "Which one of these world leaders was assassinated?"
                 }
             ]
         },
         {
-            "name": "Historical Conflicts & Wars Quiz 84",
-            "description": "This is a quiz about Historical Conflicts & Wars.",
+            "name": "New Orleans & Yalta: A Conflict Crossroads",
+            "description": "This quiz focuses on key battles, political summits, and figures that shaped the course of history. Explore the complexities of warfare and diplomacy through a series of challenging questions.",
             "questions": [
                 {
+                    "text": "During which war did US troops fight the Battle of New Orleans?"
+                },
+                {
+                    "text": "Which one of these World War II leaders was not at the Yalta Conference?"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
+                },
+                {
                     "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
+                },
+                {
+                    "text": "In what war did Joan of Arc fight?"
+                }
+            ]
+        },
+        {
+            "name": "Lines of Fire: Conflicts & Confrontations",
+            "description": "Delve into the world of international tensions and armed conflicts with this quiz. From the 'Line of Death' to the Axis powers, test your understanding of pivotal moments in history.",
+            "questions": [
+                {
+                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?"
+                },
+                {
+                    "text": "Which one of these world leaders was assassinated?"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
                 },
                 {
                     "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?"
                 },
                 {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
+                }
+            ]
+        },
+        {
+            "name": "The Crucible of War: A Historical Challenge",
+            "description": "This quiz examines the defining moments and key players in some of history's most significant conflicts. From the Battle of New Orleans to the Yalta Conference, prepare to test your knowledge.",
+            "questions": [
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?"
+                },
+                {
+                    "text": "Which one of these World War II leaders was not at the Yalta Conference?"
+                },
+                {
                     "text": "In what war did Joan of Arc fight?"
+                },
+                {
+                    "text": "Which one of these world leaders was assassinated?"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
+                }
+            ]
+        },
+        {
+            "name": "Axis & Allies: A World War II Focus",
+            "description": "This quiz zeroes in on the major players and defining moments of World War II. Test your knowledge of the Axis powers, key leaders, and pivotal battles that shaped the conflict.",
+            "questions": [
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
+                },
+                {
+                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
+                },
+                {
+                    "text": "In what war did Joan of Arc fight?"
+                },
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?"
+                },
+                {
+                    "text": "Which one of these World War II leaders was not at the Yalta Conference?"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
+                }
+            ]
+        },
+        {
+            "name": "Leaders & Legacies: A Conflict Timeline",
+            "description": "Explore the lives and actions of influential figures who shaped the course of history's conflicts. From assassinations to alliances, this quiz examines the lasting impact of war and diplomacy.",
+            "questions": [
+                {
+                    "text": "Which one of these world leaders was assassinated?"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
+                },
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
+                },
+                {
+                    "text": "In what war did Joan of Arc fight?"
+                },
+                {
+                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?"
+                },
+                {
+                    "text": "Which one of these world leaders was assassinated?"
                 }
             ]
         }

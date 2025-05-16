@@ -1,56 +1,14 @@
 {
     "Ancient Civilizations": [
         {
-            "name": "Ancient Civilizations Quiz 23",
-            "description": "This is a quiz about Ancient Civilizations.",
+            "name": "",
+            "description": "",
             "questions": [
-                {
-                    "text": "Which of these people was buried in the Valley of the Kings?"
-                },
-                {
-                    "text": "What is the name of the mountain where the mythological Greek gods live?"
-                },
                 {
                     "text": "What native empire controlled Large areas of South African Territory during the 19th century?"
-                }
-            ]
-        },
-        {
-            "name": "Ancient Civilizations Quiz 96",
-            "description": "This is a quiz about Ancient Civilizations.",
-            "questions": [
-                {
-                    "text": "According to Greek mythology, who was Apollo's twin sister?"
-                },
-                {
-                    "text": "What people ruled the Andes Mountains until they were conquered by the Spanish in 1532?"
-                },
-                {
-                    "text": "In Greek mythology, what is the name of Zeus' father?"
                 },
                 {
                     "text": "Who was the mother of the Greek god Zeus?"
-                },
-                {
-                    "text": "In what war did Joan of Arc fight?"
-                }
-            ]
-        },
-        {
-            "name": "Ancient Civilizations Quiz 49",
-            "description": "This is a quiz about Ancient Civilizations.",
-            "questions": [
-                {
-                    "text": "In Greek mythology, what is the name of Zeus' father?"
-                },
-                {
-                    "text": "In what war did Joan of Arc fight?"
-                },
-                {
-                    "text": "What is the name of the mountain where the mythological Greek gods live?"
-                },
-                {
-                    "text": "What native empire controlled Large areas of South African Territory during the 19th century?"
                 },
                 {
                     "text": "According to Greek mythology, who was Apollo's twin sister?"
@@ -58,23 +16,14 @@
             ]
         },
         {
-            "name": "Ancient Civilizations Quiz 32",
-            "description": "This is a quiz about Ancient Civilizations.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "What people ruled the Andes Mountains until they were conquered by the Spanish in 1532?"
                 },
                 {
-                    "text": "Who was the mother of the Greek god Zeus?"
-                },
-                {
-                    "text": "Which of these people was buried in the Valley of the Kings?"
-                },
-                {
-                    "text": "What people ruled the Andes Mountains until they were conquered by the Spanish in 1532?"
-                },
-                {
-                    "text": "What native empire controlled Large areas of South African Territory during the 19th century?"
+                    "text": "What is the name of the mountain where the mythological Greek gods live?"
                 },
                 {
                     "text": "In what war did Joan of Arc fight?"
@@ -88,9 +37,12 @@
             ]
         },
         {
-            "name": "Ancient Civilizations Quiz 73",
-            "description": "This is a quiz about Ancient Civilizations.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "In what war did Joan of Arc fight?"
+                },
                 {
                     "text": "Who was the mother of the Greek god Zeus?"
                 },
@@ -98,10 +50,16 @@
                     "text": "According to Greek mythology, who was Apollo's twin sister?"
                 },
                 {
+                    "text": "Which of these people was buried in the Valley of the Kings?"
+                },
+                {
                     "text": "What is the name of the mountain where the mythological Greek gods live?"
                 },
                 {
-                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                    "text": "What people ruled the Andes Mountains until they were conquered by the Spanish in 1532?"
+                },
+                {
+                    "text": "What native empire controlled Large areas of South African Territory during the 19th century?"
                 },
                 {
                     "text": "In Greek mythology, what is the name of Zeus' father?"
@@ -109,32 +67,59 @@
             ]
         },
         {
-            "name": "Ancient Civilizations Quiz 90",
-            "description": "This is a quiz about Ancient Civilizations.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                    "text": "In Greek mythology, what is the name of Zeus' father?"
                 },
                 {
-                    "text": "What native empire controlled Large areas of South African Territory during the 19th century?"
-                },
-                {
-                    "text": "In what war did Joan of Arc fight?"
-                },
-                {
-                    "text": "What people ruled the Andes Mountains until they were conquered by the Spanish in 1532?"
-                },
-                {
-                    "text": "Which of these people was buried in the Valley of the Kings?"
+                    "text": "According to Greek mythology, who was Apollo's twin sister?"
                 },
                 {
                     "text": "Who was the mother of the Greek god Zeus?"
                 },
                 {
+                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                },
+                {
                     "text": "What people ruled the Andes Mountains until they were conquered by the Spanish in 1532?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What native empire controlled Large areas of South African Territory during the 19th century?"
+                },
+                {
+                    "text": "Which of these people was buried in the Valley of the Kings?"
                 },
                 {
                     "text": "In what war did Joan of Arc fight?"
+                },
+                {
+                    "text": "What people ruled the Andes Mountains until they were conquered by the Spanish in 1532?"
+                },
+                {
+                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                },
+                {
+                    "text": "Who was the mother of the Greek god Zeus?"
+                },
+                {
+                    "text": "What is the name of the mountain where the mythological Greek gods live?"
                 }
             ]
         }

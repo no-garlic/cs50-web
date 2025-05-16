@@ -1,29 +1,14 @@
 {
     "Business & Economics": [
         {
-            "name": "Business & Economics Quiz 37",
-            "description": "This is a quiz about Business & Economics.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                    "text": "What is the proletariat?"
                 },
                 {
-                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
-                },
-                {
-                    "text": "Who is considered the owner of a 'publicly held' company?"
-                }
-            ]
-        },
-        {
-            "name": "Business & Economics Quiz 82",
-            "description": "This is a quiz about Business & Economics.",
-            "questions": [
-                {
-                    "text": "What internet company goes by the acronym AOL?"
-                },
-                {
-                    "text": "John D. Rockefeller made his fortune in what industry?"
+                    "text": "Which of these is a commonly-known investment account?"
                 },
                 {
                     "text": "By what nickname is the Federal National Mortgage Association known?"
@@ -32,76 +17,13 @@
                     "text": "When it first appeared on the Internet, amazon.com sold only what?"
                 },
                 {
-                    "text": "Which of these companies is not an online stock brokerage?"
-                }
-            ]
-        },
-        {
-            "name": "Business & Economics Quiz 1",
-            "description": "This is a quiz about Business & Economics.",
-            "questions": [
-                {
-                    "text": "Which of these is a commonly-known investment account?"
-                },
-                {
                     "text": "If a business files under Chapter 11 what is it doing?"
-                },
-                {
-                    "text": "Which of these is a government agency established to protect investors?"
-                }
-            ]
-        },
-        {
-            "name": "Business & Economics Quiz 63",
-            "description": "This is a quiz about Business & Economics.",
-            "questions": [
-                {
-                    "text": "What is the proletariat?"
-                },
-                {
-                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
-                },
-                {
-                    "text": "By what nickname is the Federal National Mortgage Association known?"
                 },
                 {
                     "text": "What internet company goes by the acronym AOL?"
                 },
                 {
-                    "text": "Who is considered the owner of a 'publicly held' company?"
-                }
-            ]
-        },
-        {
-            "name": "Business & Economics Quiz 39",
-            "description": "This is a quiz about Business & Economics.",
-            "questions": [
-                {
-                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
-                },
-                {
-                    "text": "What is the proletariat?"
-                },
-                {
-                    "text": "If a business files under Chapter 11 what is it doing?"
-                },
-                {
-                    "text": "Which of these is a commonly-known investment account?"
-                },
-                {
-                    "text": "Which of these companies is not an online stock brokerage?"
-                }
-            ]
-        },
-        {
-            "name": "Business & Economics Quiz 47",
-            "description": "This is a quiz about Business & Economics.",
-            "questions": [
-                {
                     "text": "Which of these is a government agency established to protect investors?"
-                },
-                {
-                    "text": "John D. Rockefeller made his fortune in what industry?"
                 },
                 {
                     "text": "What corporation was founded by a candlemaker and a soapmaker?"
@@ -109,65 +31,197 @@
             ]
         },
         {
-            "name": "Business & Economics Quiz 42",
-            "description": "This is a quiz about Business & Economics.",
+            "name": "",
+            "description": "",
             "questions": [
-                {
-                    "text": "Who is considered the owner of a 'publicly held' company?"
-                },
                 {
                     "text": "What newspaper do Lois Lane and Clark Kent work for?"
-                },
-                {
-                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
-                },
-                {
-                    "text": "John D. Rockefeller made his fortune in what industry?"
-                },
-                {
-                    "text": "If a business files under Chapter 11 what is it doing?"
-                }
-            ]
-        },
-        {
-            "name": "Business & Economics Quiz 93",
-            "description": "This is a quiz about Business & Economics.",
-            "questions": [
-                {
-                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
-                },
-                {
-                    "text": "Which of these is a commonly-known investment account?"
                 },
                 {
                     "text": "Which of these companies is not an online stock brokerage?"
                 },
                 {
-                    "text": "Which of these is a government agency established to protect investors?"
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                },
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
                 },
                 {
                     "text": "What is the proletariat?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "Which of these is a commonly-known investment account?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                },
+                {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
+                },
+                {
+                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                },
+                {
+                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                },
+                {
+                    "text": "What is the proletariat?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
+                },
+                {
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these is a commonly-known investment account?"
+                },
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these is a commonly-known investment account?"
+                },
+                {
+                    "text": "Who is considered the owner of a 'publicly held' company?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
                 },
                 {
                     "text": "By what nickname is the Federal National Mortgage Association known?"
                 },
                 {
                     "text": "What internet company goes by the acronym AOL?"
-                },
-                {
-                    "text": "What is the proletariat?"
                 }
             ]
         },
         {
-            "name": "Business & Economics Quiz 82",
-            "description": "This is a quiz about Business & Economics.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "What is the proletariat?"
+                },
+                {
+                    "text": "What is the proletariat?"
+                },
+                {
+                    "text": "Which of these companies is not an online stock brokerage?"
+                },
                 {
                     "text": "When it first appeared on the Internet, amazon.com sold only what?"
                 },
                 {
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                },
+                {
                     "text": "By what nickname is the Federal National Mortgage Association known?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
+                },
+                {
+                    "text": "If a business files under Chapter 11 what is it doing?"
                 },
                 {
                     "text": "Which of these is a commonly-known investment account?"
@@ -176,7 +230,10 @@
                     "text": "Who is considered the owner of a 'publicly held' company?"
                 },
                 {
-                    "text": "If a business files under Chapter 11 what is it doing?"
+                    "text": "John D. Rockefeller made his fortune in what industry?"
+                },
+                {
+                    "text": "Which of these is a government agency established to protect investors?"
                 }
             ]
         }

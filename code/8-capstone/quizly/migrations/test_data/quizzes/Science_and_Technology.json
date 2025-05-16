@@ -1,9 +1,36 @@
 {
     "Science & Technology": [
         {
-            "name": "Science & Technology Quiz 39",
-            "description": "This is a quiz about Science & Technology.",
+            "name": "Digital Echoes",
+            "description": "Delve into the history of computing with this quiz, exploring everything from early storage media to iconic Apple designs and celestial exploration.",
             "questions": [
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                },
+                {
+                    "text": "The Original Apple iMac computer was available in all of the following colors except which?"
+                },
+                {
+                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                }
+            ]
+        },
+        {
+            "name": "Melting Point Mysteries",
+            "description": "Test your knowledge of physical science and computer basics with this quiz, covering everything from phase transitions to internet infrastructure.",
+            "questions": [
+                {
+                    "text": "What is the chemical process wherein a solid is turned to a liquid via the application of heat?"
+                },
+                {
+                    "text": "Paper will burn at approximately what temperature, in Fahrenheit?"
+                },
                 {
                     "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
                 },
@@ -11,13 +38,28 @@
                     "text": "What is the square root of 81 squared?"
                 },
                 {
-                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
                 }
             ]
         },
         {
-            "name": "Science & Technology Quiz 54",
-            "description": "This is a quiz about Science & Technology.",
+            "name": "Asteroid Orbit & Light Speed",
+            "description": "Explore the cosmos and fundamental scientific principles with this quiz, covering asteroid exploration, the speed of light, and DNA replication.",
+            "questions": [
+                {
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                },
+                {
+                    "text": "What is the approximate speed of light?"
+                },
+                {
+                    "text": "What biological process replicates DNA?"
+                }
+            ]
+        },
+        {
+            "name": "Earth's Spin & Ada's Algorithm",
+            "description": "Discover the secrets of our planet's rotation and the pioneering work of Ada Lovelace, alongside questions about computer components.",
             "questions": [
                 {
                     "text": "At the equator, how fast is the earth's surface turning?"
@@ -26,145 +68,22 @@
                     "text": "Ada Lovelace is credited with being the first person to have made what?"
                 },
                 {
-                    "text": "Paper will burn at approximately what temperature, in Fahrenheit?"
-                },
-                {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
-                },
-                {
-                    "text": "What biological process replicates DNA?"
-                }
-            ]
-        },
-        {
-            "name": "Science & Technology Quiz 82",
-            "description": "This is a quiz about Science & Technology.",
-            "questions": [
-                {
-                    "text": "What does the 'ROM' in CD-ROM stand for?"
-                },
-                {
-                    "text": "The Original Apple iMac computer was available in all of the following colors except which?"
-                },
-                {
                     "text": "Modern computer microchips are primarily composed of what element?"
                 }
             ]
         },
         {
-            "name": "Science & Technology Quiz 59",
-            "description": "This is a quiz about Science & Technology.",
+            "name": "Code & Cosmos Combined",
+            "description": "A comprehensive quiz blending computer science fundamentals with astronomical and biological concepts, testing a wide range of scientific knowledge.",
             "questions": [
-                {
-                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
-                },
-                {
-                    "text": "What is the approximate speed of light?"
-                },
-                {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
-                }
-            ]
-        },
-        {
-            "name": "Science & Technology Quiz 45",
-            "description": "This is a quiz about Science & Technology.",
-            "questions": [
-                {
-                    "text": "What is the chemical process wherein a solid is turned to a liquid via the application of heat?"
-                },
                 {
                     "text": "What is the square root of 81 squared?"
                 },
                 {
-                    "text": "What biological process replicates DNA?"
-                }
-            ]
-        },
-        {
-            "name": "Science & Technology Quiz 18",
-            "description": "This is a quiz about Science & Technology.",
-            "questions": [
-                {
-                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
-                },
-                {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
-                },
-                {
-                    "text": "What is the chemical process wherein a solid is turned to a liquid via the application of heat?"
-                },
-                {
-                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
-                },
-                {
-                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
-                },
-                {
                     "text": "The Original Apple iMac computer was available in all of the following colors except which?"
                 },
                 {
-                    "text": "At the equator, how fast is the earth's surface turning?"
-                },
-                {
-                    "text": "Ada Lovelace is credited with being the first person to have made what?"
-                }
-            ]
-        },
-        {
-            "name": "Science & Technology Quiz 42",
-            "description": "This is a quiz about Science & Technology.",
-            "questions": [
-                {
-                    "text": "Paper will burn at approximately what temperature, in Fahrenheit?"
-                },
-                {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
-                },
-                {
-                    "text": "Modern computer microchips are primarily composed of what element?"
-                }
-            ]
-        },
-        {
-            "name": "Science & Technology Quiz 96",
-            "description": "This is a quiz about Science & Technology.",
-            "questions": [
-                {
-                    "text": "What is the approximate speed of light?"
-                },
-                {
-                    "text": "What does the 'ROM' in CD-ROM stand for?"
-                },
-                {
-                    "text": "What is the square root of 81 squared?"
-                },
-                {
-                    "text": "Modern computer microchips are primarily composed of what element?"
-                },
-                {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
-                },
-                {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
-                },
-                {
                     "text": "What is the chemical process wherein a solid is turned to a liquid via the application of heat?"
-                },
-                {
-                    "text": "What does the 'ROM' in CD-ROM stand for?"
-                }
-            ]
-        },
-        {
-            "name": "Science & Technology Quiz 5",
-            "description": "This is a quiz about Science & Technology.",
-            "questions": [
-                {
-                    "text": "Paper will burn at approximately what temperature, in Fahrenheit?"
-                },
-                {
-                    "text": "The Original Apple iMac computer was available in all of the following colors except which?"
                 },
                 {
                     "text": "What biological process replicates DNA?"
@@ -173,19 +92,10 @@
                     "text": "At the equator, how fast is the earth's surface turning?"
                 },
                 {
-                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
-                }
-            ]
-        },
-        {
-            "name": "Science & Technology Quiz 62",
-            "description": "This is a quiz about Science & Technology.",
-            "questions": [
-                {
-                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
                 },
                 {
-                    "text": "What is the approximate speed of light?"
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
                 },
                 {
                     "text": "In computer terminology, what does the acronym 'FTP' stand for?"
@@ -193,17 +103,125 @@
             ]
         },
         {
-            "name": "Science & Technology Quiz 70",
-            "description": "This is a quiz about Science & Technology.",
+            "name": "Saturn's Secrets",
+            "description": "Unravel the mysteries of Saturn's moons and the forces that govern motion, alongside questions about the speed of light.",
+            "questions": [
+                {
+                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                },
+                {
+                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+                },
+                {
+                    "text": "What is the approximate speed of light?"
+                }
+            ]
+        },
+        {
+            "name": "Digital Storage & Burning Questions",
+            "description": "Explore the evolution of data storage and delve into the science of combustion, alongside questions about internet infrastructure.",
+            "questions": [
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "Paper will burn at approximately what temperature, in Fahrenheit?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "At the equator, how fast is the earth's surface turning?"
+                }
+            ]
+        },
+        {
+            "name": "Color, Force & Data Flow",
+            "description": "A quiz combining questions about computer aesthetics, physical forces, and the flow of data across networks.",
+            "questions": [
+                {
+                    "text": "The Original Apple iMac computer was available in all of the following colors except which?"
+                },
+                {
+                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+                },
+                {
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "What biological process replicates DNA?"
+                }
+            ]
+        },
+        {
+            "name": "Data Transfer & Square Roots",
+            "description": "Test your knowledge of computer protocols and mathematical concepts, with a focus on data transfer and fundamental calculations.",
+            "questions": [
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                },
+                {
+                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                },
+                {
+                    "text": "What is the square root of 81 squared?"
+                }
+            ]
+        },
+        {
+            "name": "Pioneering Code & Cosmic Speed",
+            "description": "A blend of computer science history and astronomical principles, exploring the legacy of Ada Lovelace and the fundamental constant of the speed of light.",
             "questions": [
                 {
                     "text": "Ada Lovelace is credited with being the first person to have made what?"
                 },
                 {
-                    "text": "The Original Apple iMac computer was available in all of the following colors except which?"
+                    "text": "What is the approximate speed of light?"
+                },
+                {
+                    "text": "Paper will burn at approximately what temperature, in Fahrenheit?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
                 },
                 {
                     "text": "What is the chemical process wherein a solid is turned to a liquid via the application of heat?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "What is the chemical process wherein a solid is turned to a liquid via the application of heat?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                }
+            ]
+        },
+        {
+            "name": "Combustion & Earth's Rotation",
+            "description": "Explore the science of burning and the mechanics of Earth's rotation, alongside questions about computer components and data transfer.",
+            "questions": [
+                {
+                    "text": "Paper will burn at approximately what temperature, in Fahrenheit?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "The Original Apple iMac computer was available in all of the following colors except which?"
+                },
+                {
+                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+                },
+                {
+                    "text": "At the equator, how fast is the earth's surface turning?"
                 }
             ]
         }

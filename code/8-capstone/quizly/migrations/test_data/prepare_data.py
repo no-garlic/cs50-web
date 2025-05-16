@@ -1,5 +1,72 @@
-import os, json, random, unicodedata
+import re, os, json, random, unicodedata, time
 from pathlib import Path
+from langchain_ollama import OllamaLLM
+from langchain_core.prompts import ChatPromptTemplate
+
+
+# Create a prompt template for generating quizzes and questions
+PROMPT_TEMPLATE = ChatPromptTemplate.from_template(
+"""
+You are a quiz generator. 
+Create unique names and unique descriptions for the following sets of quizzes.
+                                                   
+All quizzes are for the category "{category}".
+The quiz name should be unique and creative, based on the quiz questions.
+The quiz description should be a short summary of the quiz, 2-4 sentences long.
+
+The quizzes and their questions are supplied in the following JSON format:
+{{
+  "name": "",
+  "description": "",
+  "questions": [
+    {{
+      "text": "question 1",
+    }},
+    {{
+      "text": "question 2",
+    }},
+    ...
+  ]
+}}
+
+Return the same json format with the new quiz names and descriptions inserted, and no other changes:
+{{
+  "name": "<insert the quiz name here>",
+  "description": "<insert the quiz description here>",
+  "questions": [
+    {{
+      "text": "question 1",
+    }},
+    {{
+      "text": "question 2",
+    }},
+    ...
+  ]
+}}
+    
+Return only the JSON, with no explanation or additional text. 
+Do not include code blocks or any Markdown formatting.
+
+Here is the JSON:
+{json_data}
+""")
+
+
+def extract_json(text):
+    """
+    Attempt to extract the first JSON object from text.
+    """
+    try:
+        # Extract the first {...} block
+        match = re.search(r'\{[\s\S]*\}', text)
+
+        # If a match is found, parse it as JSON
+        return json.loads(match.group(0)) if match else None
+
+    except json.JSONDecodeError as e:
+        print(f"JSON decode error: {e}")
+
+    return None
 
 
 def normalize_to_ascii(text):
@@ -106,9 +173,35 @@ def split_quizzes_into_files(json_filename="quizzes_categorised"):
             print(f"Saved {category} quizzes to {output_filename}")
         
 
-def generate_quiz_details(quiz):
+def generate_quiz_details(category, json_data):
     """
     """
+    llm = OllamaLLM(model="gemma3:12b")
+
+    prompt = PROMPT_TEMPLATE.format_messages(
+        category=category,
+        json_data=json.dumps(json_data, indent=4)
+    )
+
+    try:
+        # Invoke the LLM with the prompt and get the response which should be in JSON format
+        response = llm.invoke(prompt)
+        quiz_json = extract_json(response)
+
+        # If the response is not valid JSON, skip this quiz
+        if not quiz_json:
+            print(f"Failed to parse JSON from response.")
+            return
+
+        # Convert all Unicode characters to ASCII
+        quiz_json = normalize_to_ascii(quiz_json)
+        return quiz_json
+
+    except Exception as e:
+        # If we get an error, print it and the response so we can see what went wrong
+        # and continue to the next quiz
+        print(f"Error generating quiz details: {e}")
+        print(f"Raw response:\n{response}...\n")
 
 
 def create_quiz_names_and_descriptions():
@@ -120,28 +213,41 @@ def create_quiz_names_and_descriptions():
     Path(input_path).mkdir(exist_ok=True)
     print("Starting name generation...\n")
 
+    start_time = time.time()  # Record start time
+
     # open each file in the input path one by one
     for filename in os.listdir(input_path):
         if filename.endswith(".json"):
+            file_start_time = time.time() # Record start time for this file
             with open(os.path.join(input_path, filename), 'r') as f:
                 data = json.load(f)
-                for category, quizzes in data.items():
-                    for quiz in quizzes:
-                        name, description = generate_quiz_details(quiz)
-                        quiz["name"] = name
-                        quiz["description"] = description
+                for category, _ in data.items():
+                    pass
+
+                print(f"Generating quiz names and descriptions for {category}...")
+                new_data = generate_quiz_details(category, data)
             
-            # Save the updated quizzes back to the file
-            with open(os.path.join(input_path, filename), 'w') as outfile:
-                json.dump(data, outfile, indent=4)
-                print(f"Updated {filename} with quiz names and descriptions.")
+            if new_data:
+                with open(os.path.join(input_path, filename), 'w') as outfile:
+                    json.dump(new_data, outfile, indent=4)
+                    file_end_time = time.time() # Record end time for this file
+                    file_duration_seconds = file_end_time - file_start_time
+                    file_minutes = int(file_duration_seconds // 60)
+                    file_seconds = int(file_duration_seconds % 60)
+                    print(f" - Updated {filename}, took {file_minutes}m {file_seconds}s.")
+
+    end_time = time.time()  # Record end time
+    total_duration_seconds = end_time - start_time
+    total_minutes = int(total_duration_seconds // 60)
+    total_seconds = int(total_duration_seconds % 60)
+    print(f"\nFinished name generation. Total time: {total_minutes}m {total_seconds}s.")
 
 
 def run():
     #extract_questions()
     #extract_categories()
-    #insert_quizzes_to_categorised_questions()
-    #split_quizzes_into_files()
+    insert_quizzes_to_categorised_questions()
+    split_quizzes_into_files()
 
     create_quiz_names_and_descriptions()
      

@@ -1,29 +1,74 @@
 {
     "Food & Culinary Arts": [
         {
-            "name": "Food & Culinary Arts Quiz 92",
-            "description": "This is a quiz about Food & Culinary Arts.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Which of these foods could contain small amounts of naturally occurring opium?"
-                },
-                {
-                    "text": "What is the most popular month for weddings in America?"
-                },
-                {
-                    "text": "In what restaurant can you order a Grand Slam breakfast?"
-                },
-                {
-                    "text": "What is an alternate name for the food dish 'Beijing duck'?"
+                    "text": "Which of these is not a spice?"
                 },
                 {
                     "text": "Which of these foods is not traditionally considered kosher?"
                 },
                 {
-                    "text": "Which of these is not a spice?"
-                },
+                    "text": "Which of these is not a type of chili pepper?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
                 {
                     "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
+                },
+                {
+                    "text": "Which of these is not an ingredient in Yorkshire pudding?"
+                },
+                {
+                    "text": "Which of these foods is poisonous to dogs?"
+                },
+                {
+                    "text": "In what restaurant can you order a Grand Slam breakfast?"
+                },
+                {
+                    "text": "In America, what is the main ingredient in pepperoni?"
+                },
+                {
+                    "text": "Which of these is not a traditional Greek dish?"
+                },
+                {
+                    "text": "What is the principal ingredient in traditional cole slaw?"
+                },
+                {
+                    "text": "Cheese is a necessary ingredient in which of these dishes?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "A pita is a type of what?"
+                },
+                {
+                    "text": "Which of the following breakfast cereals is shaped like the letter O?"
+                },
+                {
+                    "text": "Which of these dishes is made from pig intestines?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?"
+                },
+                {
+                    "text": "Which of these foods could contain small amounts of naturally occurring opium?"
                 },
                 {
                     "text": "What tea is known for its distinctive bergamot flavor?"
@@ -31,35 +76,20 @@
             ]
         },
         {
-            "name": "Food & Culinary Arts Quiz 51",
-            "description": "This is a quiz about Food & Culinary Arts.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?"
+                    "text": "Which of the following candies is traditionally fruit flavored?"
+                },
+                {
+                    "text": "Which of these are not legumes?"
                 },
                 {
                     "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?"
                 },
                 {
-                    "text": "The British dish 'bangers and mash' is made up of sausage and what?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 5",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
-                {
-                    "text": "What term is used to describe a group of fish?"
-                },
-                {
-                    "text": "Which of the following breakfast cereals is shaped like the letter O?"
-                },
-                {
-                    "text": "Cheese is a necessary ingredient in which of these dishes?"
-                },
-                {
-                    "text": "Which of the following candies is traditionally fruit flavored?"
+                    "text": "The term 'chili con carne' refers to chili with what?"
                 },
                 {
                     "text": "Which of these foods could you catch at sea?"
@@ -68,172 +98,163 @@
                     "text": "Which of these is made from cacao seeds?"
                 },
                 {
-                    "text": "Which of these is not a traditional Greek dish?"
-                },
-                {
-                    "text": "Which of these are not legumes?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 42",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
-                {
-                    "text": "What is the principal ingredient in traditional cole slaw?"
-                },
-                {
-                    "text": "A knish is traditionally stuffed with what filling?"
-                },
-                {
-                    "text": "In America, what is the main ingredient in pepperoni?"
-                },
-                {
                     "text": "If you ask for 'gai' at a Thai restaurant, what will you get?"
                 },
                 {
-                    "text": "Which of these is not a type of chili pepper?"
+                    "text": "Which of these is not found in a Snickers candy bar?"
                 }
             ]
         },
         {
-            "name": "Food & Culinary Arts Quiz 4",
-            "description": "This is a quiz about Food & Culinary Arts.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "What type of meat is on a traditional Reuben sandwich?"
-                },
-                {
-                    "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?"
-                },
-                {
-                    "text": "Which of these dishes is made from pig intestines?"
+                    "text": "The British dish 'bangers and mash' is made up of sausage and what?"
                 },
                 {
                     "text": "Which fast food chain used the advertising slogan, 'Where's the beef'?"
-                },
-                {
-                    "text": "What liqueur is used to make a Pink Lady cocktail pink?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 75",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
-                {
-                    "text": "Which of these is not an ingredient in Yorkshire pudding?"
-                },
-                {
-                    "text": "Which of these foods is poisonous to dogs?"
-                },
-                {
-                    "text": "The term 'chili con carne' refers to chili with what?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 46",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
-                {
-                    "text": "Which of these is a member of the cucumber family?"
-                },
-                {
-                    "text": "A pita is a type of what?"
-                },
-                {
-                    "text": "Which of these is not found in a Snickers candy bar?"
-                },
-                {
-                    "text": "What tea is known for its distinctive bergamot flavor?"
-                },
-                {
-                    "text": "Which of these is not a type of chili pepper?"
-                },
-                {
-                    "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?"
-                },
-                {
-                    "text": "Which of these is not a spice?"
-                },
-                {
-                    "text": "Which of these foods is poisonous to dogs?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 75",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
-                {
-                    "text": "In America, what is the main ingredient in pepperoni?"
                 },
                 {
                     "text": "What term is used to describe a group of fish?"
                 },
                 {
-                    "text": "Which of these foods could you catch at sea?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 5",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
+                    "text": "A knish is traditionally stuffed with what filling?"
+                },
                 {
                     "text": "What is an alternate name for the food dish 'Beijing duck'?"
-                },
-                {
-                    "text": "Which of the following candies is traditionally fruit flavored?"
-                },
-                {
-                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?"
-                },
-                {
-                    "text": "The British dish 'bangers and mash' is made up of sausage and what?"
-                },
-                {
-                    "text": "Which of these foods is not traditionally considered kosher?"
                 }
             ]
         },
         {
-            "name": "Food & Culinary Arts Quiz 92",
-            "description": "This is a quiz about Food & Culinary Arts.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Which of these dishes is made from pig intestines?"
-                },
-                {
-                    "text": "Which of these is made from cacao seeds?"
-                },
-                {
-                    "text": "Which of these are not legumes?"
+                    "text": "What liqueur is used to make a Pink Lady cocktail pink?"
                 },
                 {
                     "text": "What is the most popular month for weddings in America?"
                 },
                 {
-                    "text": "Which of these is not an ingredient in Yorkshire pudding?"
+                    "text": "Which of these is a member of the cucumber family?"
+                },
+                {
+                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?"
+                },
+                {
+                    "text": "What type of meat is on a traditional Reuben sandwich?"
+                },
+                {
+                    "text": "What tea is known for its distinctive bergamot flavor?"
+                },
+                {
+                    "text": "Which of these are not legumes?"
+                },
+                {
+                    "text": "Which of these foods is poisonous to dogs?"
                 }
             ]
         },
         {
-            "name": "Food & Culinary Arts Quiz 2",
-            "description": "This is a quiz about Food & Culinary Arts.",
+            "name": "",
+            "description": "",
             "questions": [
+                {
+                    "text": "What type of meat is on a traditional Reuben sandwich?"
+                },
+                {
+                    "text": "In what restaurant can you order a Grand Slam breakfast?"
+                },
+                {
+                    "text": "Which of these is not a traditional Greek dish?"
+                },
+                {
+                    "text": "Which of these is a member of the cucumber family?"
+                },
+                {
+                    "text": "Which of these foods is not traditionally considered kosher?"
+                },
+                {
+                    "text": "What liqueur is used to make a Pink Lady cocktail pink?"
+                },
+                {
+                    "text": "Which of these foods could you catch at sea?"
+                },
+                {
+                    "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "The term 'chili con carne' refers to chili with what?"
+                },
+                {
+                    "text": "Which of these foods could contain small amounts of naturally occurring opium?"
+                },
+                {
+                    "text": "Which of these is not a spice?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Cheese is a necessary ingredient in which of these dishes?"
+                },
+                {
+                    "text": "In America, what is the main ingredient in pepperoni?"
+                },
+                {
+                    "text": "Which of these is not a type of chili pepper?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "A pita is a type of what?"
+                },
+                {
+                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?"
+                },
+                {
+                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
+                },
+                {
+                    "text": "If you ask for 'gai' at a Thai restaurant, what will you get?"
+                },
+                {
+                    "text": "Which of these is made from cacao seeds?"
+                },
                 {
                     "text": "Which fast food chain used the advertising slogan, 'Where's the beef'?"
                 },
                 {
+                    "text": "A knish is traditionally stuffed with what filling?"
+                },
+                {
+                    "text": "What is the most popular month for weddings in America?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
                     "text": "Which of the following breakfast cereals is shaped like the letter O?"
                 },
                 {
-                    "text": "What is the principal ingredient in traditional cole slaw?"
-                },
-                {
-                    "text": "What type of meat is on a traditional Reuben sandwich?"
+                    "text": "What is an alternate name for the food dish 'Beijing duck'?"
                 },
                 {
                     "text": "Which of these is not found in a Snickers candy bar?"
@@ -241,98 +262,83 @@
             ]
         },
         {
-            "name": "Food & Culinary Arts Quiz 77",
-            "description": "This is a quiz about Food & Culinary Arts.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
-                    "text": "Which of these is a member of the cucumber family?"
+                    "text": "The British dish 'bangers and mash' is made up of sausage and what?"
+                },
+                {
+                    "text": "Which of these dishes is made from pig intestines?"
+                },
+                {
+                    "text": "Which of these is not an ingredient in Yorkshire pudding?"
+                },
+                {
+                    "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?"
+                },
+                {
+                    "text": "What is the principal ingredient in traditional cole slaw?"
+                },
+                {
+                    "text": "Which of the following candies is traditionally fruit flavored?"
+                },
+                {
+                    "text": "What term is used to describe a group of fish?"
+                },
+                {
+                    "text": "Which of these is not a traditional Greek dish?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these is not a type of chili pepper?"
                 },
                 {
                     "text": "The term 'chili con carne' refers to chili with what?"
                 },
                 {
+                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
+                },
+                {
+                    "text": "What type of meat is on a traditional Reuben sandwich?"
+                },
+                {
+                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
                     "text": "Cheese is a necessary ingredient in which of these dishes?"
+                },
+                {
+                    "text": "Which of these foods is poisonous to dogs?"
+                },
+                {
+                    "text": "What is an alternate name for the food dish 'Beijing duck'?"
+                },
+                {
+                    "text": "The British dish 'bangers and mash' is made up of sausage and what?"
                 },
                 {
                     "text": "In what restaurant can you order a Grand Slam breakfast?"
                 },
                 {
                     "text": "A pita is a type of what?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 8",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
-                {
-                    "text": "Which of these is not a traditional Greek dish?"
-                },
-                {
-                    "text": "What liqueur is used to make a Pink Lady cocktail pink?"
-                },
-                {
-                    "text": "If you ask for 'gai' at a Thai restaurant, what will you get?"
-                },
-                {
-                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
-                },
-                {
-                    "text": "A knish is traditionally stuffed with what filling?"
-                },
-                {
-                    "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?"
-                },
-                {
-                    "text": "Which of these foods could contain small amounts of naturally occurring opium?"
-                },
-                {
-                    "text": "In America, what is the main ingredient in pepperoni?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 56",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
-                {
-                    "text": "What liqueur is used to make a Pink Lady cocktail pink?"
-                },
-                {
-                    "text": "Which of these is a member of the cucumber family?"
                 },
                 {
                     "text": "What is the most popular month for weddings in America?"
                 },
                 {
-                    "text": "What term is used to describe a group of fish?"
-                },
-                {
-                    "text": "Which of these foods is poisonous to dogs?"
-                },
-                {
-                    "text": "What is the principal ingredient in traditional cole slaw?"
-                },
-                {
-                    "text": "Which of these foods is not traditionally considered kosher?"
-                },
-                {
-                    "text": "Which of the following breakfast cereals is shaped like the letter O?"
-                }
-            ]
-        },
-        {
-            "name": "Food & Culinary Arts Quiz 30",
-            "description": "This is a quiz about Food & Culinary Arts.",
-            "questions": [
-                {
-                    "text": "If you ask for 'gai' at a Thai restaurant, what will you get?"
-                },
-                {
-                    "text": "Which of these foods could you catch at sea?"
-                },
-                {
-                    "text": "Which of these is not found in a Snickers candy bar?"
+                    "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?"
                 }
             ]
         }

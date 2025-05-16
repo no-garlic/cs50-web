@@ -1,75 +1,15 @@
 {
     "Natural Wonders": [
         {
-            "name": "Natural Wonders Quiz 77",
-            "description": "This is a quiz about Natural Wonders.",
+            "name": "",
+            "description": "",
             "questions": [
-                {
-                    "text": "Which of these animals lays eggs?"
-                },
-                {
-                    "text": "Which of these rocks will float in water?"
-                },
-                {
-                    "text": "What kind of animal is a peregrine?"
-                }
-            ]
-        },
-        {
-            "name": "Natural Wonders Quiz 25",
-            "description": "This is a quiz about Natural Wonders.",
-            "questions": [
-                {
-                    "text": "On what continent can you find tigers in the wild?"
-                },
-                {
-                    "text": "On what continent can you find tigers in the wild?"
-                },
-                {
-                    "text": "On average, what length of time passes between high tides?"
-                },
                 {
                     "text": "What is produced during photosynthesis?"
                 },
                 {
-                    "text": "Which of these plants is the national emblem of Scotland?"
-                }
-            ]
-        },
-        {
-            "name": "Natural Wonders Quiz 35",
-            "description": "This is a quiz about Natural Wonders.",
-            "questions": [
-                {
-                    "text": "Which of these animals lays eggs?"
-                },
-                {
-                    "text": "On what continent can you find tigers in the wild?"
-                },
-                {
-                    "text": "On average, what length of time passes between high tides?"
-                },
-                {
                     "text": "What kind of animal is a peregrine?"
                 },
-                {
-                    "text": "Which of these rocks will float in water?"
-                },
-                {
-                    "text": "On what continent can you find tigers in the wild?"
-                },
-                {
-                    "text": "What is produced during photosynthesis?"
-                },
-                {
-                    "text": "Which of these plants is the national emblem of Scotland?"
-                }
-            ]
-        },
-        {
-            "name": "Natural Wonders Quiz 90",
-            "description": "This is a quiz about Natural Wonders.",
-            "questions": [
                 {
                     "text": "On average, what length of time passes between high tides?"
                 },
@@ -82,8 +22,59 @@
             ]
         },
         {
-            "name": "Natural Wonders Quiz 2",
-            "description": "This is a quiz about Natural Wonders.",
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?"
+                },
+                {
+                    "text": "Which of these animals lays eggs?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "Which of these rocks will float in water?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
+                {
+                    "text": "On average, what length of time passes between high tides?"
+                },
+                {
+                    "text": "Which of these animals lays eggs?"
+                },
+                {
+                    "text": "What kind of animal is a peregrine?"
+                },
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?"
+                },
+                {
+                    "text": "What is produced during photosynthesis?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "On average, what length of time passes between high tides?"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "What is produced during photosynthesis?"
@@ -93,10 +84,13 @@
                 },
                 {
                     "text": "What kind of animal is a peregrine?"
-                },
-                {
-                    "text": "Which of these plants is the national emblem of Scotland?"
-                },
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "questions": [
                 {
                     "text": "Which of these animals lays eggs?"
                 },
@@ -104,22 +98,19 @@
                     "text": "Which of these plants is the national emblem of Scotland?"
                 },
                 {
-                    "text": "What is produced during photosynthesis?"
-                },
-                {
-                    "text": "On what continent can you find tigers in the wild?"
+                    "text": "Which of these rocks will float in water?"
                 }
             ]
         },
         {
-            "name": "Natural Wonders Quiz 90",
-            "description": "This is a quiz about Natural Wonders.",
+            "name": "",
+            "description": "",
             "questions": [
                 {
                     "text": "On what continent can you find tigers in the wild?"
                 },
                 {
-                    "text": "Which of these animals lays eggs?"
+                    "text": "On average, what length of time passes between high tides?"
                 },
                 {
                     "text": "Which of these rocks will float in water?"
@@ -128,7 +119,16 @@
                     "text": "What kind of animal is a peregrine?"
                 },
                 {
-                    "text": "On average, what length of time passes between high tides?"
+                    "text": "Which of these plants is the national emblem of Scotland?"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?"
+                },
+                {
+                    "text": "What is produced during photosynthesis?"
+                },
+                {
+                    "text": "Which of these animals lays eggs?"
                 }
             ]
         }
