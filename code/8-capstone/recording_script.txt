@@ -4,63 +4,67 @@ landing page
 
 
 
+
 [Administration]
-show register page (dont register)
-go to login page and login mike74/mike
+show register page
+- dont register
+show login page
+- login mike74/mike
 
 
 
 
 [Browse]
-browse categories, go into 2 different categories and back to browse
+browse categories, go into 2 different categories
+ - pop culture
+ - science and technology
+go back to browse
 
 
 
 
 [Search]
 go to search page
-keyword search for "plant"
-keyword search for "diet"
-semantic search for "diet"
+- keyword search for "plant"
+- keyword search for "diet"
+- semantic search for "sweet foods and diet"
+
 
 
 
 [Show Attempts]
-semantic search for "folklore"   Sweet & Savory Secrets
-go into 3/5 quiz
+click on "Sweet & Savory Secrets"
+- go into 1/3 quiz
+- go back
 
-click on my 3/5 attempt, show errors
-back to summary
+- click on my 2/3 attempt, show errors
+- back to summary
 
-click on Sally's 5/5 attempt, show no errors
-back to summary
+- go into 3/3 quiz
+- go back
 
 
 
 
 [Attempt Quiz]
-attempt quiz: 2, 4, 2, 1, 3 (4/5)
-back to summary, see updated leaderboard and attempts
+attempt quiz: 2, 3, 3 (3/3)
+- back to summary, see updated leaderboard and attempts
 
 rate quiz up and down - see the average change
 toggle save for later
 
 click on my name
-click back on the quiz in save-for-later
-
+- click back on the quiz in save-for-later list
 
 
 
 
 [Profile]
 click on Sally's name
-scroll up and down
+- scroll up and down
 
 click back on My profile
-scroll up and down
-
-
-
+- scroll up and down
 
 
 
@@ -94,8 +98,6 @@ go to my profile
 
 semantic search for "maths"
 click on the new quiz
-
-
 
 
 
