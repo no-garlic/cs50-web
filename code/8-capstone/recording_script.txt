@@ -6,7 +6,7 @@ landing page
 
 [Administration]
 show register page (dont register)
-go to login page and login
+go to login page and login mike74/mike
 
 
 
@@ -26,7 +26,7 @@ semantic search for "diet"
 
 
 [Show Attempts]
-semantic search for "folklore"
+semantic search for "folklore"   Sweet & Savory Secrets
 go into 3/5 quiz
 
 click on my 3/5 attempt, show errors
