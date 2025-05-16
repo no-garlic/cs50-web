@@ -1,0 +1,157 @@
+{
+    "Pop Culture": [
+        {
+            "name": "Friends & Fortune",
+            "description": "Test your knowledge of classic sitcoms and iconic brands! This quiz dives into the details of 'Friends' and the world of advertising, covering everything from culinary characters to candy mascots.",
+            "questions": [
+                {
+                    "text": "Which character on the TV show 'Friends' is a chef?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                },
+                {
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                }
+            ]
+        },
+        {
+            "name": "Designing Women & Disc Days",
+            "description": "Step back into the 80s and 90s with this quiz! We're exploring the world of 'Designing Women' and the rise of the compact disc, covering everything from career paths to pop culture trends.",
+            "questions": [
+                {
+                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
+                },
+                {
+                    "text": "What are the plastic boxes that hold compact discs called?"
+                },
+                {
+                    "text": "Which of these performers made her film debut in Spike Lee's 'Do the Right Thing'?"
+                },
+                {
+                    "text": "What famous radio personality was also the voice of Shaggy on the cartoon 'Scooby-Doo'?"
+                },
+                {
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                }
+            ]
+        },
+        {
+            "name": "CHiPs & Cheers: The 80s Flashback",
+            "description": "Relive the action and laughter of the 1980s! This quiz covers everything from the iconic TV show 'CHiPs' to the beloved sitcom 'Cheers', testing your knowledge of law enforcement and television history.",
+            "questions": [
+                {
+                    "text": "On the TV show 'CHiPs' what was Officer Frank Poncherello's nickname?"
+                },
+                {
+                    "text": "What character did Woody replace on the TV show 'Cheers'?"
+                },
+                {
+                    "text": "What is the name of Howard Stern's female on-air sidekick?"
+                }
+            ]
+        },
+        {
+            "name": "Tuna, Oreos & 007",
+            "description": "Dive into the world of advertising and movie magic! This quiz covers everything from the StarKist tuna mascot to Woody Allen's role in a James Bond film, testing your knowledge of iconic brands and cinematic moments.",
+            "questions": [
+                {
+                    "text": "What is the name of the StarKist tuna mascot?"
+                },
+                {
+                    "text": "What company makes Oreo cookies?"
+                },
+                {
+                    "text": "What recording artist claims that sportscaster Marv Albert was a major influence on his sound?"
+                },
+                {
+                    "text": "What is the name of Raggedy Ann's doll brother?"
+                },
+                {
+                    "text": "What is the name of the character Played by Woody Allen in the 1967 James Bond film 'Casino Royale'?"
+                }
+            ]
+        },
+        {
+            "name": "A League of Their Own & Mr. Peabody's Time Machine",
+            "description": "Step onto the baseball diamond and into a time-traveling adventure! This quiz covers everything from the 1992 film 'A League of Their Own' to the classic cartoon 'Mr. Peabody's Time Machine', testing your knowledge of sports and animation.",
+            "questions": [
+                {
+                    "text": "What singer appeared in the 1992 baseball film 'A League of Their Own'?"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                },
+                {
+                    "text": "What is the TV show 'House of Style' airs on what network?"
+                },
+                {
+                    "text": "What former 'Today' show personality played a neighbor on the TV sitcom 'The Hogan Family'?"
+                },
+                {
+                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
+                },
+                {
+                    "text": "What are fans of the TV show 'Mystery Science Theater 3000' known as?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                }
+            ]
+        },
+        {
+            "name": "Bob Keeshan & The Smothers Brothers",
+            "description": "Journey back to the golden age of children's television and comedy! This quiz covers everything from Bob Keeshan's iconic persona to the hilarious antics of The Smothers Brothers, testing your knowledge of classic entertainment.",
+            "questions": [
+                {
+                    "text": "By what name is Bob Keeshan better known?"
+                },
+                {
+                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
+                },
+                {
+                    "text": "What are the Smothers Brothers' first names?"
+                }
+            ]
+        },
+        {
+            "name": "Austin Powers & Marge Simpson",
+            "description": "Get ready for a groovy trip through the 90s! This quiz covers everything from the hilarious 'Austin Powers' movies to the vibrant world of 'The Simpsons', testing your knowledge of comedy and animation.",
+            "questions": [
+                {
+                    "text": "What color is cartoon character Marge Simpson's hair?"
+                },
+                {
+                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                },
+                {
+                    "text": "What famous radio personality was also the voice of Shaggy on the cartoon 'Scooby-Doo'?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                }
+            ]
+        },
+        {
+            "name": "Da Niao & Happy Days",
+            "description": "Explore the world of international children's television and classic American sitcoms! This quiz covers everything from the beloved character 'Da Niao' to the iconic show 'Happy Days', testing your knowledge of entertainment across cultures.",
+            "questions": [
+                {
+                    "text": "What children's TV character is known as 'Da Niao' in China?"
+                },
+                {
+                    "text": "What are the names of the two primary M&M's spokes-candies?"
+                },
+                {
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                }
+            ]
+        }
+    ]
+}

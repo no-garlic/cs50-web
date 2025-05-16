@@ -1,0 +1,128 @@
+
+[Intro]
+landing page
+
+
+
+
+[Administration]
+show register page
+- dont register
+show login page
+- login mike74/mike
+
+
+
+
+[Browse]
+browse categories, go into 2 different categories
+ - pop culture
+ - science and technology
+go back to browse
+
+
+
+
+[Search]
+go to search page
+- keyword search for "plant"
+- keyword search for "diet"
+- semantic search for "sweet foods and diet"
+
+
+
+
+[Show Attempts]
+click on "Sweet & Savory Secrets"
+- go into 1/3 quiz
+- go back
+
+- click on my 2/3 attempt, show errors
+- back to summary
+
+- go into 3/3 quiz
+- go back
+
+
+
+
+[Attempt Quiz]
+attempt quiz: 2, 3, 3 (3/3)
+- back to summary, see updated leaderboard and attempts
+
+rate quiz up and down - see the average change
+toggle save for later
+
+click on my name
+- click back on the quiz in save-for-later list
+
+
+
+
+[Profile]
+click on Sally's name
+- scroll up and down
+
+click back on My profile
+- scroll up and down
+
+
+
+[Create a new Quiz]
+click on Create New
+
+Maths for Kids
+"Maths for Kids" is a fun and engaging quiz designed to help young learners build confidence with numbers. It covers basic topics like addition, subtraction, shapes, and simple word problems. Each question is crafted to be age-appropriate and encourage logical thinking. Perfect for early learners, this quiz makes math feel like play!
+General Knowledge
+
+What is 1 + 1?
+0, 1, 2, 3
+option 3
+basic arithmetic
+
+What is 1 x 1?
+0, 1, 2, 3
+option 2
+basic arithmetic
+
+What is 1 - 1
+0, 1, 2, 3
+option 1
+basic arithmetic
+
+attempt quiz
+3, 2, 1
+
+rate quiz 4*
+go to my profile
+
+semantic search for "maths"
+click on the new quiz
+
+
+
+[Responsive]
+go to browse
+shrink window
+navigate to first category
+navigate to first quiz
+click on someones score (6/8)
+scroll down -> click on summary
+click attempt now (but dont attempt it)
+click create New
+click my profile
+click logout
+click register
+click login
+
+
+
+
+
+
+[Admin Interface]
+back to full size
+navigate to http://127.0.0.1:8000/admin/
+show all models
+
+

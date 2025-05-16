@@ -1,0 +1,214 @@
+{
+    "World History": [
+        {
+            "name": "Echoes of the Roaring Twenties",
+            "description": "Delve into the tumultuous era of the Great Depression and the cultural shifts of the 20th century. This quiz explores key events and figures that shaped America's past, from presidential legacies to iconic moments in American history.",
+            "questions": [
+                {
+                    "text": "In what year did the Great Depression begin?"
+                },
+                {
+                    "text": "What U.S. president is mentioned by name in the opening theme song of TV's 'All in the Family'?"
+                },
+                {
+                    "text": "The American patriot Paul Revere was named for his father, whose original name was what?"
+                },
+                {
+                    "text": "How many states were in the Confederate States of America?"
+                },
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?"
+                }
+            ]
+        },
+        {
+            "name": "Westward Expansion Chronicles",
+            "description": "Journey across the American frontier with this quiz focusing on exploration, settlement, and the challenges faced by pioneers. Discover the stories behind Lewis and Clark, the significance of early American settlements, and the shaping of a nation.",
+            "questions": [
+                {
+                    "text": "Where did Lewis and Clark begin their famous expedition in 1804?"
+                },
+                {
+                    "text": "Which of these is about the Watergate scandal?"
+                },
+                {
+                    "text": "What is the oldest permanent European settlement in the United States?"
+                }
+            ]
+        },
+        {
+            "name": "Rebellion and Reform",
+            "description": "Explore the struggles for freedom and equality in American history. This quiz examines pivotal moments of resistance, from slave insurrections to political upheaval, and the individuals who fought for change.",
+            "questions": [
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
+                },
+                {
+                    "text": "Who or what was Big Bertha?"
+                },
+                {
+                    "text": "In the presidential election of 1932, how many U.S. states did FDR not win the electoral votes for?"
+                }
+            ]
+        },
+        {
+            "name": "Stars, Stripes, and Scandals",
+            "description": "Test your knowledge of American history with this quiz covering iconic moments, political controversies, and cultural shifts. From the Vietnam War protests to the creation of the national anthem, explore the defining events that shaped the nation.",
+            "questions": [
+                {
+                    "text": "Who were the Chicago Seven?"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
+                },
+                {
+                    "text": "Which American colony, known for its religious tolerance, did Roger Williams found in 1636?"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
+                },
+                {
+                    "text": "In what decade was the Hula-Hoop invented?"
+                }
+            ]
+        },
+        {
+            "name": "Education and Evolution",
+            "description": "Discover the evolution of American institutions and the individuals who shaped them. This quiz explores the history of education, political movements, and the challenges faced by a nation striving for progress.",
+            "questions": [
+                {
+                    "text": "What U.S. president is mentioned by name in the opening theme song of TV's 'All in the Family'?"
+                },
+                {
+                    "text": "Who were the Know-Nothings?"
+                },
+                {
+                    "text": "What was the first American college to become coeducational?"
+                },
+                {
+                    "text": "What famous baseball figures was once acquitted at court-martial for insubordination?"
+                },
+                {
+                    "text": "In what decade did Israel become an independent state?"
+                }
+            ]
+        },
+        {
+            "name": "Political Turmoil and Triumph",
+            "description": "Examine the defining moments of American politics, from presidential elections to landmark legislation. This quiz explores the challenges and triumphs of a nation grappling with social and economic change.",
+            "questions": [
+                {
+                    "text": "In the presidential election of 1932, how many U.S. states did FDR not win the electoral votes for?"
+                },
+                {
+                    "text": "Which of these is about the Watergate scandal?"
+                },
+                {
+                    "text": "Who were the Chicago Seven?"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
+                }
+            ]
+        },
+        {
+            "name": "Yalta and Beyond",
+            "description": "Delve into the complexities of international relations and the challenges of post-war America. This quiz explores pivotal moments in global history, from wartime conferences to the rise of new nations.",
+            "questions": [
+                {
+                    "text": "Which one of these World War II leaders was not at the Yalta Conference?"
+                },
+                {
+                    "text": "How many states were in the Confederate States of America?"
+                },
+                {
+                    "text": "Where did Lewis and Clark begin their famous expedition in 1804?"
+                }
+            ]
+        },
+        {
+            "name": "The Swinging Sixties",
+            "description": "Explore the cultural and political upheaval of the 1960s, a decade of change and challenge. This quiz examines the rise of counterculture, the Vietnam War, and the fight for civil rights.",
+            "questions": [
+                {
+                    "text": "In what decade was the Hula-Hoop invented?"
+                },
+                {
+                    "text": "What is the oldest permanent European settlement in the United States?"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
+                }
+            ]
+        },
+        {
+            "name": "Roaring Twenties Revisited",
+            "description": "Step back in time to the era of jazz, flappers, and economic boom. This quiz explores the cultural and economic landscape of the 1920s, a decade of prosperity and change.",
+            "questions": [
+                {
+                    "text": "In what year did the Great Depression begin?"
+                },
+                {
+                    "text": "Who or what was Big Bertha?"
+                },
+                {
+                    "text": "In the presidential election of 1932, how many U.S. states did FDR not win the electoral votes for?"
+                }
+            ]
+        },
+        {
+            "name": "American Crossroads",
+            "description": "Test your knowledge of American history with this quiz covering a wide range of topics, from political movements to cultural shifts. Explore the defining moments that shaped the nation.",
+            "questions": [
+                {
+                    "text": "How many states were in the Confederate States of America?"
+                },
+                {
+                    "text": "In what decade did Israel become an independent state?"
+                },
+                {
+                    "text": "In what decade was the Hula-Hoop invented?"
+                },
+                {
+                    "text": "Which American colony, known for its religious tolerance, did Roger Williams found in 1636?"
+                },
+                {
+                    "text": "What was the first American college to become coeducational?"
+                },
+                {
+                    "text": "Who were the Chicago Seven?"
+                },
+                {
+                    "text": "Where did Lewis and Clark begin their famous expedition in 1804?"
+                },
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?"
+                }
+            ]
+        },
+        {
+            "name": "Legacy of Change",
+            "description": "Examine the defining moments of American history, from political movements to cultural shifts. This quiz explores the challenges and triumphs of a nation grappling with social and economic change.",
+            "questions": [
+                {
+                    "text": "In the presidential election of 1932, how many U.S. states did FDR not win the electoral votes for?"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?"
+                },
+                {
+                    "text": "In what year did the Great Depression begin?"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?"
+                }
+            ]
+        }
+    ]
+}

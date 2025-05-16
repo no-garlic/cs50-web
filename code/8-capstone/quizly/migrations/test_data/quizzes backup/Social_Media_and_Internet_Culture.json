@@ -1,0 +1,127 @@
+{
+    "Social Media & Internet Culture": [
+        {
+            "name": "Decoding the Digital Dawn",
+            "description": "Journey back to the early days of the internet and test your knowledge of foundational tech terms and pioneers. This quiz explores the building blocks of the digital world we know today. From acronyms to elements, see how much you remember about the internet's origins.",
+            "questions": [
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                }
+            ]
+        },
+        {
+            "name": "The Amazonian Roots",
+            "description": "Discover the surprising beginnings of some of the internet's biggest names. This quiz delves into the early days of companies like Amazon and Apple, revealing their humble origins and unexpected first steps. How well do you know the history of online retail and personal computing?",
+            "questions": [
+                {
+                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                }
+            ]
+        },
+        {
+            "name": "Silicon & Code",
+            "description": "Explore the intersection of hardware and software with this quiz. It covers foundational concepts in computer science, from the materials that make up microchips to the groundbreaking work of early programmers. Are you fluent in the language of technology?",
+            "questions": [
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                }
+            ]
+        },
+        {
+            "name": "The Web's First Chapter",
+            "description": "Test your knowledge of the early internet landscape with this comprehensive quiz. From online retailers to foundational acronyms, this quiz covers a wide range of topics related to the web's formative years. Can you navigate the digital past?",
+            "questions": [
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                }
+            ]
+        },
+        {
+            "name": "Macintosh Memories",
+            "description": "Relive the era of the Macintosh with this quiz focused on Apple's iconic computer line. From its original name to the technology within, this quiz explores the history and innovation behind a revolutionary product. How much do you know about the machine that changed computing?",
+            "questions": [
+                {
+                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'FTP' stand for?"
+                }
+            ]
+        },
+        {
+            "name": "Pioneers of the Pixel",
+            "description": "Celebrate the visionaries who shaped the digital world with this quiz. From Ada Lovelace's groundbreaking work to the early days of online retail, this quiz explores the individuals and innovations that paved the way for the internet we know today. Are you ready to meet the architects of the online age?",
+            "questions": [
+                {
+                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                },
+                {
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                },
+                {
+                    "text": "In computer terminology, what does the acronym 'ISP' stand for?"
+                },
+                {
+                    "text": "Modern computer microchips are primarily composed of what element?"
+                },
+                {
+                    "text": "What does the 'ROM' in CD-ROM stand for?"
+                },
+                {
+                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                },
+                {
+                    "text": "What internet company goes by the acronym AOL?"
+                }
+            ]
+        }
+    ]
+}

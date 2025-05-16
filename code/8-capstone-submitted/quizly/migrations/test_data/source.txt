@@ -1,2 +1,0 @@
-The test data quiz questions were sourced from here:
-https://gist.github.com/cmota/f7919cd962a061126effb2d7118bec72

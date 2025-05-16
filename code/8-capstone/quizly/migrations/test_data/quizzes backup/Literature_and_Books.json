@@ -1,0 +1,229 @@
+{
+    "Literature & Books": [
+        {
+            "name": "Fable & Verse: A Literary Primer",
+            "description": "Test your knowledge of classic tales and poetic forms with this introductory quiz. From Aesop's fables to Lewis Carroll's whimsical verse, see how well you know the foundations of literature.",
+            "questions": [
+                {
+                    "text": "Which of these is not one of Aesop's fables?"
+                },
+                {
+                    "text": "Which of these words does not appear in the Lewis Carroll poem 'Jabberwocky'?"
+                },
+                {
+                    "text": "In the novel 'The Adventures of Tom Sawyer' what is the name of Tom's sweetheart?"
+                },
+                {
+                    "text": "If you are watching a Shavian play, who is the author?"
+                },
+                {
+                    "text": "Who wrote 'A Tale of Two Cities'?"
+                }
+            ]
+        },
+        {
+            "name": "Echoes of the Page: Literary Adaptations",
+            "description": "Explore the intersection of literature and film with this quiz. Discover the stories behind beloved movies and test your knowledge of the authors who inspired them.",
+            "questions": [
+                {
+                    "text": "The film 'Stand By Me' is based on a novel by what author?"
+                },
+                {
+                    "text": "What literary work is the source of the quote 'Abandon every hope, all you who enter here'?"
+                },
+                {
+                    "text": "In the novel 'Around the World in 80 Days' Phileas Fogg's faithful valet is named what?"
+                }
+            ]
+        },
+        {
+            "name": "Beanstalks & Ballads: Folklore & Poetry",
+            "description": "Delve into the world of folklore and poetic expression with this quiz. From classic fairy tales to the innovative style of E.E. Cummings, see how much you know about these timeless forms.",
+            "questions": [
+                {
+                    "text": "In the story 'Jack and the Beanstalk' what does Jack trade to get the magic beans?"
+                },
+                {
+                    "text": "What do the initials 'E. E.' in poet E. E. Cummings' name stand for?"
+                },
+                {
+                    "text": "Which of these Hemingway characters is a newspaperman?"
+                }
+            ]
+        },
+        {
+            "name": "Literary Mashup: A Hodgepodge of Tales",
+            "description": "A whirlwind tour through classic literature! This quiz combines questions from various stories, poems, and authors to test your broad knowledge of the literary world.",
+            "questions": [
+                {
+                    "text": "What children's storybook character believes that the sky is falling?"
+                },
+                {
+                    "text": "What Greek poet wrote 'The Iliad' and 'The Odyssey'?"
+                },
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?"
+                },
+                {
+                    "text": "What do the initials 'E. E.' in poet E. E. Cummings' name stand for?"
+                },
+                {
+                    "text": "Who wrote 'A Tale of Two Cities'?"
+                },
+                {
+                    "text": "Which of these is not one of Aesop's fables?"
+                },
+                {
+                    "text": "In the novel 'The Adventures of Tom Sawyer' what is the name of Tom's sweetheart?"
+                },
+                {
+                    "text": "In the story 'Jack and the Beanstalk' what does Jack trade to get the magic beans?"
+                }
+            ]
+        },
+        {
+            "name": "Shavian Echoes & Hemingway's World",
+            "description": "Explore the works of George Bernard Shaw and Ernest Hemingway in this quiz. Test your knowledge of their distinct styles and iconic characters.",
+            "questions": [
+                {
+                    "text": "If you are watching a Shavian play, who is the author?"
+                },
+                {
+                    "text": "Which of these Hemingway characters is a newspaperman?"
+                },
+                {
+                    "text": "What literary work is the source of the quote 'Abandon every hope, all you who enter here'?"
+                },
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?"
+                },
+                {
+                    "text": "What children's storybook character believes that the sky is falling?"
+                }
+            ]
+        },
+        {
+            "name": "Carroll's Verse & Homer's Epic",
+            "description": "Journey through the whimsical world of Lewis Carroll and the epic tales of Homer. This quiz combines poetry and ancient mythology for a unique literary challenge.",
+            "questions": [
+                {
+                    "text": "Which of these words does not appear in the Lewis Carroll poem 'Jabberwocky'?"
+                },
+                {
+                    "text": "What Greek poet wrote 'The Iliad' and 'The Odyssey'?"
+                },
+                {
+                    "text": "The film 'Stand By Me' is based on a novel by what author?"
+                },
+                {
+                    "text": "In the novel 'Around the World in 80 Days' Phileas Fogg's faithful valet is named what?"
+                },
+                {
+                    "text": "What Greek poet wrote 'The Iliad' and 'The Odyssey'?"
+                }
+            ]
+        },
+        {
+            "name": "Whimsical Words & Falling Skies",
+            "description": "A playful mix of literary elements! This quiz combines the imaginative world of Lewis Carroll with classic children's tales and poetic expression.",
+            "questions": [
+                {
+                    "text": "Which of these words does not appear in the Lewis Carroll poem 'Jabberwocky'?"
+                },
+                {
+                    "text": "What children's storybook character believes that the sky is falling?"
+                },
+                {
+                    "text": "What do the initials 'E. E.' in poet E. E. Cummings' name stand for?"
+                },
+                {
+                    "text": "In the novel 'The Adventures of Tom Sawyer' what is the name of Tom's sweetheart?"
+                },
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?"
+                }
+            ]
+        },
+        {
+            "name": "Literary Legends: A Grand Survey",
+            "description": "Test your knowledge of literary giants and beloved tales with this comprehensive quiz. From fables to epics, see how well you know the classics.",
+            "questions": [
+                {
+                    "text": "Which of these is not one of Aesop's fables?"
+                },
+                {
+                    "text": "The film 'Stand By Me' is based on a novel by what author?"
+                },
+                {
+                    "text": "What literary work is the source of the quote 'Abandon every hope, all you who enter here'?"
+                },
+                {
+                    "text": "Who wrote 'A Tale of Two Cities'?"
+                },
+                {
+                    "text": "In the novel 'Around the World in 80 Days' Phileas Fogg's faithful valet is named what?"
+                },
+                {
+                    "text": "In the story 'Jack and the Beanstalk' what does Jack trade to get the magic beans?"
+                },
+                {
+                    "text": "Which of these Hemingway characters is a newspaperman?"
+                },
+                {
+                    "text": "If you are watching a Shavian play, who is the author?"
+                }
+            ]
+        },
+        {
+            "name": "Children's Tales & Poetic Voices",
+            "description": "Delve into the enchanting world of children's literature and the innovative voices of poets. This quiz combines classic tales with poetic expression for a delightful literary challenge.",
+            "questions": [
+                {
+                    "text": "What children's storybook character believes that the sky is falling?"
+                },
+                {
+                    "text": "Which of these is not one of Aesop's fables?"
+                },
+                {
+                    "text": "What do the initials 'E. E.' in poet E. E. Cummings' name stand for?"
+                },
+                {
+                    "text": "Who wrote 'A Tale of Two Cities'?"
+                },
+                {
+                    "text": "If you are watching a Shavian play, who is the author?"
+                }
+            ]
+        },
+        {
+            "name": "Literary Crossroads: A Thematic Blend",
+            "description": "Explore the connections between different literary works and themes with this challenging quiz. From childhood adventures to epic journeys, see how well you can connect the dots.",
+            "questions": [
+                {
+                    "text": "What children's storybook character believes that the sky is falling?"
+                },
+                {
+                    "text": "The film 'Stand By Me' is based on a novel by what author?"
+                },
+                {
+                    "text": "What literary work is the source of the quote 'Abandon every hope, all you who enter here'?"
+                },
+                {
+                    "text": "Who wrote 'A Tale of Two Cities'?"
+                },
+                {
+                    "text": "In the novel 'Around the World in 80 Days' Phileas Fogg's faithful valet is named what?"
+                },
+                {
+                    "text": "In the story 'Jack and the Beanstalk' what does Jack trade to get the magic beans?"
+                },
+                {
+                    "text": "Which of these Hemingway characters is a newspaperman?"
+                },
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?"
+                }
+            ]
+        }
+    ]
+}
