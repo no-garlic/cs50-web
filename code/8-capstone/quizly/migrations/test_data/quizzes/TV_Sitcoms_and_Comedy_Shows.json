@@ -5,19 +5,40 @@
             "description": "Test your knowledge of classic sitcoms and iconic comedy shows from television's golden age. From 'Happy Days' spin-offs to network abbreviations, this quiz covers a wide range of familiar faces and moments. Are you a true fan of these timeless shows?",
             "questions": [
                 {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?",
+                    "hint": "This show about cousins in Chicago has no connection to the \u2018Happy Days\u2019 universe.",
+                    "option1": "'Mork & Mindy'",
+                    "option2": "'Perfect Strangers'",
+                    "option3": "'Joanie Loves Chachi'",
+                    "option4": "'Laverne & Shirley'",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the star of the TV show 'Everybody Loves Raymond'?"
+                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?",
+                    "hint": "This city is a major hub in the Midwest, known for its cold winters.",
+                    "option1": "Dallas",
+                    "option2": "Chicago",
+                    "option3": "New York",
+                    "option4": "Minneapolis",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
+                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?",
+                    "hint": "The name reflects the network\u2019s national scope in the United States.",
+                    "option1": "Artistic",
+                    "option2": "Audio",
+                    "option3": "American",
+                    "option4": "Adult",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
-                },
-                {
-                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
+                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?",
+                    "hint": "Her character works on creating stylish home environments.",
+                    "option1": "fashion designer",
+                    "option2": "graphic designer",
+                    "option3": "interior designer",
+                    "option4": "website designer",
+                    "solution": "3"
                 }
             ]
         },
@@ -26,13 +47,31 @@
             "description": "Dive into the quirky world of 'Seinfeld' and other beloved sitcoms. This quiz explores memorable moments and characters from shows that defined a generation of comedy. Can you recall the details of these hilarious television experiences?",
             "questions": [
                 {
-                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
+                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?",
+                    "hint": "The incident involved a delicate area, requiring a specialist in that region.",
+                    "option1": "ophthalmologist",
+                    "option2": "cardiologist",
+                    "option3": "neurologist",
+                    "option4": "proctologist",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of the boys on the TV show 'My Three Sons' is adopted?"
+                    "text": "Which of the boys on the TV show 'My Three Sons' is adopted?",
+                    "hint": "This boy\u2019s name starts with \u2018E\u2019 and he joined the family later in the series.",
+                    "option1": "Mike",
+                    "option2": "Ernie",
+                    "option3": "Chip",
+                    "option4": "Robbie",
+                    "solution": "2"
                 },
                 {
-                    "text": "What character did Woody replace on the TV show 'Cheers'?"
+                    "text": "What character did Woody replace on the TV show 'Cheers'?",
+                    "hint": "This character was an older bartender who passed away before Woody joined.",
+                    "option1": "Coach",
+                    "option2": "Diane",
+                    "option3": "Norm",
+                    "option4": "Frasier",
+                    "solution": "1"
                 }
             ]
         },
@@ -41,13 +80,31 @@
             "description": "Relive the heartwarming and humorous moments from 'My Three Sons' and 'Designing Women'. This quiz challenges your memory of these classic sitcoms, focusing on characters, plotlines, and behind-the-scenes details. How well do you remember these beloved shows?",
             "questions": [
                 {
-                    "text": "Which of the boys on the TV show 'My Three Sons' is adopted?"
+                    "text": "Which of the boys on the TV show 'My Three Sons' is adopted?",
+                    "hint": "This boy\u2019s name starts with \u2018E\u2019 and he joined the family later in the series.",
+                    "option1": "Mike",
+                    "option2": "Ernie",
+                    "option3": "Chip",
+                    "option4": "Robbie",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
+                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?",
+                    "hint": "Her character works on creating stylish home environments.",
+                    "option1": "fashion designer",
+                    "option2": "graphic designer",
+                    "option3": "interior designer",
+                    "option4": "website designer",
+                    "solution": "3"
                 },
                 {
-                    "text": "What character did Woody replace on the TV show 'Cheers'?"
+                    "text": "What character did Woody replace on the TV show 'Cheers'?",
+                    "hint": "This character was an older bartender who passed away before Woody joined.",
+                    "option1": "Coach",
+                    "option2": "Diane",
+                    "option3": "Norm",
+                    "option4": "Frasier",
+                    "solution": "1"
                 }
             ]
         },
@@ -56,28 +113,67 @@
             "description": "This comprehensive quiz tests your knowledge of a wide range of classic sitcoms and comedy shows. From 'The Mary Tyler Moore Show' to 'Seinfeld', prepare for a challenging journey through television history. Only the true sitcom experts will prevail!",
             "questions": [
                 {
-                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
+                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?",
+                    "hint": "This city is a major hub in the Midwest, known for its cold winters.",
+                    "option1": "Dallas",
+                    "option2": "Chicago",
+                    "option3": "New York",
+                    "option4": "Minneapolis",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the star of the TV show 'Everybody Loves Raymond'?"
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?",
+                    "hint": "This show about cousins in Chicago has no connection to the \u2018Happy Days\u2019 universe.",
+                    "option1": "'Mork & Mindy'",
+                    "option2": "'Perfect Strangers'",
+                    "option3": "'Joanie Loves Chachi'",
+                    "option4": "'Laverne & Shirley'",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?",
+                    "hint": "The name reflects the network\u2019s national scope in the United States.",
+                    "option1": "Artistic",
+                    "option2": "Audio",
+                    "option3": "American",
+                    "option4": "Adult",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
+                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?",
+                    "hint": "The incident involved a delicate area, requiring a specialist in that region.",
+                    "option1": "ophthalmologist",
+                    "option2": "cardiologist",
+                    "option3": "neurologist",
+                    "option4": "proctologist",
+                    "solution": "4"
                 },
                 {
-                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
+                    "text": "What character did Woody replace on the TV show 'Cheers'?",
+                    "hint": "This character was an older bartender who passed away before Woody joined.",
+                    "option1": "Coach",
+                    "option2": "Diane",
+                    "option3": "Norm",
+                    "option4": "Frasier",
+                    "solution": "1"
                 },
                 {
-                    "text": "What character did Woody replace on the TV show 'Cheers'?"
+                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?",
+                    "hint": "The name reflects the network\u2019s national scope in the United States.",
+                    "option1": "Artistic",
+                    "option2": "Audio",
+                    "option3": "American",
+                    "option4": "Adult",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
-                },
-                {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?",
+                    "hint": "This show about cousins in Chicago has no connection to the \u2018Happy Days\u2019 universe.",
+                    "option1": "'Mork & Mindy'",
+                    "option2": "'Perfect Strangers'",
+                    "option3": "'Joanie Loves Chachi'",
+                    "option4": "'Laverne & Shirley'",
+                    "solution": "2"
                 }
             ]
         },
@@ -86,28 +182,67 @@
             "description": "Test your knowledge of 'Designing Women' and the television network landscape. This quiz explores Delta Burke's iconic character and the inner workings of television broadcasting. Are you ready to tackle these challenging questions?",
             "questions": [
                 {
-                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
+                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?",
+                    "hint": "This city is a major hub in the Midwest, known for its cold winters.",
+                    "option1": "Dallas",
+                    "option2": "Chicago",
+                    "option3": "New York",
+                    "option4": "Minneapolis",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of the boys on the TV show 'My Three Sons' is adopted?"
+                    "text": "Which of the boys on the TV show 'My Three Sons' is adopted?",
+                    "hint": "This boy\u2019s name starts with \u2018E\u2019 and he joined the family later in the series.",
+                    "option1": "Mike",
+                    "option2": "Ernie",
+                    "option3": "Chip",
+                    "option4": "Robbie",
+                    "solution": "2"
                 },
                 {
-                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
+                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?",
+                    "hint": "The incident involved a delicate area, requiring a specialist in that region.",
+                    "option1": "ophthalmologist",
+                    "option2": "cardiologist",
+                    "option3": "neurologist",
+                    "option4": "proctologist",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the star of the TV show 'Everybody Loves Raymond'?"
+                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?",
+                    "hint": "Her character works on creating stylish home environments.",
+                    "option1": "fashion designer",
+                    "option2": "graphic designer",
+                    "option3": "interior designer",
+                    "option4": "website designer",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
+                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?",
+                    "hint": "Her character works on creating stylish home environments.",
+                    "option1": "fashion designer",
+                    "option2": "graphic designer",
+                    "option3": "interior designer",
+                    "option4": "website designer",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is Delta Burke's character's job on the sitcom 'Designing Women'?"
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?",
+                    "hint": "This show about cousins in Chicago has no connection to the \u2018Happy Days\u2019 universe.",
+                    "option1": "'Mork & Mindy'",
+                    "option2": "'Perfect Strangers'",
+                    "option3": "'Joanie Loves Chachi'",
+                    "option4": "'Laverne & Shirley'",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
-                },
-                {
-                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?"
+                    "text": "In the television network abbreviation 'ABC' what does the 'A' stand for?",
+                    "hint": "The name reflects the network\u2019s national scope in the United States.",
+                    "option1": "Artistic",
+                    "option2": "Audio",
+                    "option3": "American",
+                    "option4": "Adult",
+                    "solution": "3"
                 }
             ]
         },
@@ -116,13 +251,31 @@
             "description": "Relive the hilarious moments from 'Seinfeld' and 'Cheers'. This quiz focuses on memorable characters and iconic scenes from these beloved sitcoms. Can you recall the details that made these shows so special?",
             "questions": [
                 {
-                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?"
+                    "text": "On TV's 'Seinfeld' what type of doctor did Mr. Costanza go to when he sat on 'fusilli Jerry'?",
+                    "hint": "The incident involved a delicate area, requiring a specialist in that region.",
+                    "option1": "ophthalmologist",
+                    "option2": "cardiologist",
+                    "option3": "neurologist",
+                    "option4": "proctologist",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of the boys on the TV show 'My Three Sons' is adopted?"
+                    "text": "Which of the boys on the TV show 'My Three Sons' is adopted?",
+                    "hint": "This boy\u2019s name starts with \u2018E\u2019 and he joined the family later in the series.",
+                    "option1": "Mike",
+                    "option2": "Ernie",
+                    "option3": "Chip",
+                    "option4": "Robbie",
+                    "solution": "2"
                 },
                 {
-                    "text": "What character did Woody replace on the TV show 'Cheers'?"
+                    "text": "What character did Woody replace on the TV show 'Cheers'?",
+                    "hint": "This character was an older bartender who passed away before Woody joined.",
+                    "option1": "Coach",
+                    "option2": "Diane",
+                    "option3": "Norm",
+                    "option4": "Frasier",
+                    "solution": "1"
                 }
             ]
         }

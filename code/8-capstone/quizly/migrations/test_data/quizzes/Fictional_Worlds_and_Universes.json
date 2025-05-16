@@ -5,28 +5,67 @@
             "description": "Test your knowledge of beloved characters and iconic moments from film, television, and literature. From galactic heroes to mischievous spies, this quiz covers a wide range of fictional universes. Are you a true pop culture aficionado?",
             "questions": [
                 {
-                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
+                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?",
+                    "hint": "This species is known for its tall, furry appearance and loyalty as a co-pilot.",
+                    "option1": "Woolie",
+                    "option2": "Boobie",
+                    "option3": "Wookie",
+                    "option4": "Klingon",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
+                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?",
+                    "hint": "The name includes a German term for a prisoner-of-war camp.",
+                    "option1": "Stalag 13",
+                    "option2": "Alcatraz 17",
+                    "option3": "Devil's Island",
+                    "option4": "Leavenworth",
+                    "solution": "1"
                 },
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
-                },
-                {
-                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
+                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?",
+                    "hint": "This villain leads an army of rodents in the story's battle scene.",
+                    "option1": "Sugar Plum Fairy",
+                    "option2": "Rat King",
+                    "option3": "Snow Queen",
+                    "option4": "Marzipan",
+                    "solution": "2"
                 }
             ]
         },
@@ -35,13 +74,22 @@
             "description": "Relive the golden age of animation with this quiz focused on memorable characters and storylines. From POW camps to time-traveling adventures, this quiz will challenge your memory of beloved cartoons. Can you navigate this animated landscape?",
             "questions": [
                 {
-                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
+                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?",
+                    "hint": "The name includes a German term for a prisoner-of-war camp.",
+                    "option1": "Stalag 13",
+                    "option2": "Alcatraz 17",
+                    "option3": "Devil's Island",
+                    "option4": "Leavenworth",
+                    "solution": "1"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
-                },
-                {
-                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 }
             ]
         },
@@ -50,19 +98,49 @@
             "description": "Delve into the quirky and chaotic worlds of villains, time travel, and iconic moments. This quiz explores the darker corners of fictional universes, testing your knowledge of memorable antagonists and extraordinary adventures. Are you ready to face the challenge?",
             "questions": [
                 {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
                 },
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
+                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?",
+                    "hint": "This villain leads an army of rodents in the story's battle scene.",
+                    "option1": "Sugar Plum Fairy",
+                    "option2": "Rat King",
+                    "option3": "Snow Queen",
+                    "option4": "Marzipan",
+                    "solution": "2"
                 },
                 {
-                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
+                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?",
+                    "hint": "This species is known for its tall, furry appearance and loyalty as a co-pilot.",
+                    "option1": "Woolie",
+                    "option2": "Boobie",
+                    "option3": "Wookie",
+                    "option4": "Klingon",
+                    "solution": "3"
                 },
                 {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
                 }
             ]
         },
@@ -71,19 +149,40 @@
             "description": "Journey through a universe of iconic characters and storylines, from the vastness of space to the familiar streets of Riverdale. This quiz combines the excitement of galactic battles with the charm of classic comic book adventures. How well do you know these beloved worlds?",
             "questions": [
                 {
-                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
+                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?",
+                    "hint": "This species is known for its tall, furry appearance and loyalty as a co-pilot.",
+                    "option1": "Woolie",
+                    "option2": "Boobie",
+                    "option3": "Wookie",
+                    "option4": "Klingon",
+                    "solution": "3"
                 },
                 {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
-                },
-                {
-                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 }
             ]
         },
@@ -92,28 +191,76 @@
             "description": "Test your knowledge of classic television and timeless ballet with this quiz. From daring escapes from POW camps to the magical world of 'The Nutcracker,' this quiz covers a diverse range of fictional universes. Are you ready to embrace the challenge?",
             "questions": [
                 {
-                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
+                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?",
+                    "hint": "The name includes a German term for a prisoner-of-war camp.",
+                    "option1": "Stalag 13",
+                    "option2": "Alcatraz 17",
+                    "option3": "Devil's Island",
+                    "option4": "Leavenworth",
+                    "solution": "1"
                 },
                 {
-                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
+                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?",
+                    "hint": "This villain leads an army of rodents in the story's battle scene.",
+                    "option1": "Sugar Plum Fairy",
+                    "option2": "Rat King",
+                    "option3": "Snow Queen",
+                    "option4": "Marzipan",
+                    "solution": "2"
                 },
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?"
+                    "text": "What is the name of the POW camp where 'Hogan's Heroes' are held?",
+                    "hint": "The name includes a German term for a prisoner-of-war camp.",
+                    "option1": "Stalag 13",
+                    "option2": "Alcatraz 17",
+                    "option3": "Devil's Island",
+                    "option4": "Leavenworth",
+                    "solution": "1"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
                 },
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?"
+                    "text": "In the famous ballet 'The Nutcracker' who does the hero defeat?",
+                    "hint": "This villain leads an army of rodents in the story's battle scene.",
+                    "option1": "Sugar Plum Fairy",
+                    "option2": "Rat King",
+                    "option3": "Snow Queen",
+                    "option4": "Marzipan",
+                    "solution": "2"
                 }
             ]
         },
@@ -122,19 +269,31 @@
             "description": "Explore the quirky and familiar worlds of villains and classic comic book characters. This quiz combines the chaos of evil schemes with the charm of Riverdale High. Can you navigate this blend of fictional universes?",
             "questions": [
                 {
-                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?"
+                    "text": "In the movie 'Star Wars' what kind of creature is Chewbacca?",
+                    "hint": "This species is known for its tall, furry appearance and loyalty as a co-pilot.",
+                    "option1": "Woolie",
+                    "option2": "Boobie",
+                    "option3": "Wookie",
+                    "option4": "Klingon",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
                 },
                 {
-                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
-                },
-                {
-                    "text": "In what high school does the gang from the 'Archie' comic strip attend?"
-                },
-                {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 }
             ]
         }

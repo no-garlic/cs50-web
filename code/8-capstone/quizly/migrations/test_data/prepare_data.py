@@ -263,21 +263,29 @@ def patch_quiz_details():
 
                 quizzes = next(iter(data.items()))[1]
                 
+                print(f"Updating quiz details for {filename}...")
+
                 for quiz in quizzes:
+                    questions_to_keep = []
                     for question in quiz["questions"]:
                         question_text = question["text"]
                         
-                        source = question_details_lookup[question_text]
-                        if source:
-                            print(f"Updated question: {question_text}")
+                        if question_text in question_details_lookup:
+                            source = question_details_lookup[question_text]
                             question.update(source)
+                            questions_to_keep.append(question)
+                            #print(f"Updated question: {question_text}")
                         else:
-                            print(f"Question not found in lookup: {question_text}")
-                
+                            print(f" - Question not found in lookup: {question_text}, deleting...")
+                    
+                    quiz["questions"] = questions_to_keep
+
+                #print(json.dumps(data, indent=4))            
                 with open(os.path.join(input_path, filename), 'w') as outfile:
                     json.dump(data, outfile, indent=4)
-                    print(f"Updated {filename} with question details.")             
-                return
+                    print(f" - Done.")
+
+
 
 def run():
     #extract_questions()

@@ -5,28 +5,76 @@
             "description": "Test your knowledge of various sports, from the gridiron to the ice rink. This quiz covers a range of questions about professional teams, rules, and legendary moments in sports history. Are you a true sports aficionado?",
             "questions": [
                 {
-                    "text": "In golf, what is one stroke over par called?"
+                    "text": "In golf, what is one stroke over par called?",
+                    "hint": "This term is used when a golfer takes one more shot than the expected score for a hole.",
+                    "option1": "eagle",
+                    "option2": "bogey",
+                    "option3": "dormy",
+                    "option4": "birdie",
+                    "solution": "2"
                 },
                 {
-                    "text": "What professional sports team plays its home games in the Alamodome?"
+                    "text": "What professional sports team plays its home games in the Alamodome?",
+                    "hint": "This NBA team is based in a Texas city famous for the Alamo.",
+                    "option1": "New York Jets",
+                    "option2": "Detroit Tigers",
+                    "option3": "Boston Bruins",
+                    "option4": "San Antonio Spurs",
+                    "solution": "4"
                 },
                 {
-                    "text": "In ice hockey, which of the following is not a penalty?"
+                    "text": "In ice hockey, which of the following is not a penalty?",
+                    "hint": "Penalties in hockey involve physical infractions, not artistic maneuvers.",
+                    "option1": "hooking",
+                    "option2": "charging",
+                    "option3": "carving",
+                    "option4": "butt-ending",
+                    "solution": "3"
                 },
                 {
-                    "text": "In American football, how many points is a touchdown worth?"
+                    "text": "In American football, how many points is a touchdown worth?",
+                    "hint": "This is the primary scoring play, worth more than a field goal but less than with an extra point.",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "six",
+                    "option4": "seven",
+                    "solution": "3"
                 },
                 {
-                    "text": "How many periods are there in an ice hockey game?"
+                    "text": "How many periods are there in an ice hockey game?",
+                    "hint": "A standard game is divided into equal segments, excluding overtime.",
+                    "option1": "One",
+                    "option2": "Two",
+                    "option3": "Three",
+                    "option4": "Four",
+                    "solution": "3"
                 },
                 {
-                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?"
+                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?",
+                    "hint": "This former male champion was challenged by King in a 1973 publicity stunt.",
+                    "option1": "Jimmy Connors",
+                    "option2": "Pete Sampras",
+                    "option3": "John McEnroe",
+                    "option4": "Bobby Riggs",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what sport do athletes compete for the Walker Cup?"
+                    "text": "In what sport do athletes compete for the Walker Cup?",
+                    "hint": "This sport involves international amateur competition on manicured courses.",
+                    "option1": "cricket",
+                    "option2": "tennis",
+                    "option3": "squash",
+                    "option4": "golf",
+                    "solution": "4"
                 },
                 {
-                    "text": "What sport is known as 'The Sport of Kings'?"
+                    "text": "What sport is known as 'The Sport of Kings'?",
+                    "hint": "This sport involves thoroughbreds and has a long history with royalty.",
+                    "option1": "polo",
+                    "option2": "archery",
+                    "option3": "yachting",
+                    "option4": "horse racing",
+                    "solution": "4"
                 }
             ]
         },
@@ -35,13 +83,31 @@
             "description": "From the lanes to the ballpark, this quiz dives into the world of bowling and baseball.  Challenge your understanding of rules, terminology, and iconic moments in these beloved American pastimes. Can you knock it out of the park?",
             "questions": [
                 {
-                    "text": "What do you call three consecutive strikes in bowling?"
+                    "text": "What do you call three consecutive strikes in bowling?",
+                    "hint": "This term is named after a bird associated with Thanksgiving.",
+                    "option1": "yahtzee",
+                    "option2": "mulligan",
+                    "option3": "turkey",
+                    "option4": "ace",
+                    "solution": "3"
                 },
                 {
-                    "text": "How many innings are there in a regular Major League Baseball game?"
+                    "text": "How many innings are there in a regular Major League Baseball game?",
+                    "hint": "This number allows each team multiple opportunities to bat and field.",
+                    "option1": "seven",
+                    "option2": "eight",
+                    "option3": "nine",
+                    "option4": "ten",
+                    "solution": "3"
                 },
                 {
-                    "text": "In horse racing, what is the term for a wager on the 1st, 2nd and 3rd place finishers in a specific race?"
+                    "text": "In horse racing, what is the term for a wager on the 1st, 2nd and 3rd place finishers in a specific race?",
+                    "hint": "This bet requires predicting the top three horses in exact order.",
+                    "option1": "triple action",
+                    "option2": "trifecta",
+                    "option3": "exacta",
+                    "option4": "triple crown",
+                    "solution": "2"
                 }
             ]
         },
@@ -50,28 +116,76 @@
             "description": "Delve into the history and lore of horse racing and American football. This quiz explores legendary figures, record-breaking moments, and the unique traditions that make these sports so captivating.  Do you have what it takes to be a champion?",
             "questions": [
                 {
-                    "text": "In 1978, who became the youngest jockey ever to win horse racing's triple crown?"
+                    "text": "In 1978, who became the youngest jockey ever to win horse racing's triple crown?",
+                    "hint": "This jockey's name is associated with a common first name and a youthful achievement.",
+                    "option1": "Jerry Bailey",
+                    "option2": "Steve Cauthen",
+                    "option3": "Willie Shoemaker",
+                    "option4": "Pasquale Devito",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is referred to as a 'pigskin'?"
+                    "text": "Which of these is referred to as a 'pigskin'?",
+                    "hint": "This sport\u2019s ball was historically made from animal hide, earning the nickname.",
+                    "option1": "Football",
+                    "option2": "Basketball",
+                    "option3": "hockey puck",
+                    "option4": "catcher's Mitt",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the oldest continuously run sporting event in the United States?"
+                    "text": "What is the oldest continuously run sporting event in the United States?",
+                    "hint": "This horse race is known as 'The Run for the Roses.'",
+                    "option1": "Westminster Dog Show",
+                    "option2": "Boston Marathon",
+                    "option3": "Kentucky Derby",
+                    "option4": "Indianapolis 500",
+                    "solution": "3"
                 },
                 {
-                    "text": "In baseball, how many balls make a walk?"
+                    "text": "In baseball, how many balls make a walk?",
+                    "hint": "This number of pitches outside the strike zone grants the batter a free base.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these candy bars was named for a baseball player?"
+                    "text": "Which of these candy bars was named for a baseball player?",
+                    "hint": "This candy\u2019s name is linked to a legendary slugger from the early 20th century.",
+                    "option1": "Baby Ruth",
+                    "option2": "Clark Bar",
+                    "option3": "Reggie Bar",
+                    "option4": "Butterfinger",
+                    "solution": "1"
                 },
                 {
-                    "text": "What football player was known as 'The Galloping Ghost'?"
+                    "text": "What football player was known as 'The Galloping Ghost'?",
+                    "hint": "This early NFL star played for the Chicago Bears and was a college legend.",
+                    "option1": "Jim Thorpe",
+                    "option2": "Dick Butkus",
+                    "option3": "Red Grange",
+                    "option4": "George Halas",
+                    "solution": "3"
                 },
                 {
-                    "text": "In bowling, how many pins must you knock down to get a strike?"
+                    "text": "In bowling, how many pins must you knock down to get a strike?",
+                    "hint": "A strike requires clearing the entire set of pins in one roll.",
+                    "option1": "zero",
+                    "option2": "8",
+                    "option3": "10",
+                    "option4": "12",
+                    "solution": "3"
                 },
                 {
-                    "text": "What sporting event is held annually on Memorial Day weekend?"
+                    "text": "What sporting event is held annually on Memorial Day weekend?",
+                    "hint": "This auto race is one of the oldest and most prestigious in the U.S.",
+                    "option1": "Iditarod",
+                    "option2": "Kentucky Derby",
+                    "option3": "Indianapolis 500",
+                    "option4": "Super Bowl",
+                    "solution": "3"
                 }
             ]
         },
@@ -80,13 +194,31 @@
             "description": "Test your knowledge of international sports and the thrill of the ice rink. This quiz covers soccer, hockey, and Olympic moments, challenging your understanding of rules, strategies, and legendary athletes. Are you ready to score big?",
             "questions": [
                 {
-                    "text": "Before he went into coaching, Phil Jackson played for which of the following NBA teams?"
+                    "text": "Before he went into coaching, Phil Jackson played for which of the following NBA teams?",
+                    "hint": "This team is based in a major East Coast city known for its basketball history.",
+                    "option1": "Boston Celtics",
+                    "option2": "Los Angeles Lakers",
+                    "option3": "New York Knicks",
+                    "option4": "Philadelphia 76ers",
+                    "solution": "3"
                 },
                 {
-                    "text": "In soccer, which player is allowed to use his or her hands in the field of play?"
+                    "text": "In soccer, which player is allowed to use his or her hands in the field of play?",
+                    "hint": "This player is responsible for protecting the goal from incoming shots.",
+                    "option1": "midfielder",
+                    "option2": "center",
+                    "option3": "sweeper",
+                    "option4": "goalkeeper",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 }
             ]
         },
@@ -95,28 +227,76 @@
             "description": "From the hardwood to the diamond, this quiz explores the worlds of basketball and baseball.  Challenge your understanding of legendary players, championship moments, and the statistics that define greatness. Can you rise to the challenge?",
             "questions": [
                 {
-                    "text": "Who is the shortest man to ever win an NBA slam dunk competition?"
+                    "text": "Who is the shortest man to ever win an NBA slam dunk competition?",
+                    "hint": "This player\u2019s nickname reflects his small stature and explosive athleticism.",
+                    "option1": "Anthony 'Spud' Webb",
+                    "option2": "Michael 'Air' Jordan",
+                    "option3": "Tyrone 'Muggsy' Bogues",
+                    "option4": "Julius 'Dr. J' Erving",
+                    "solution": "1"
                 },
                 {
-                    "text": "What team has won the most World Series?"
+                    "text": "What team has won the most World Series?",
+                    "hint": "This team is a New York-based franchise with a storied baseball history.",
+                    "option1": "Chicago Cubs",
+                    "option2": "Los Angeles Dodgers",
+                    "option3": "New York Yankees",
+                    "option4": "San Francisco Giants",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these college football programs has produced the most Heisman Trophy winners?"
+                    "text": "Which of these college football programs has produced the most Heisman Trophy winners?",
+                    "hint": "This university is known for its storied football tradition and \u2018Fighting Irish\u2019 nickname.",
+                    "option1": "Notre Dame",
+                    "option2": "USC",
+                    "option3": "Oklahoma",
+                    "option4": "Michigan",
+                    "solution": "1"
                 },
                 {
-                    "text": "In what sport do you find 'steel cage' matches?"
+                    "text": "In what sport do you find 'steel cage' matches?",
+                    "hint": "This sport combines athleticism with theatrical drama, often in a ring.",
+                    "option1": "boxing",
+                    "option2": "fencing",
+                    "option3": "pro wrestling",
+                    "option4": "college basketball",
+                    "solution": "3"
                 },
                 {
-                    "text": "How long is the time on an NBA shot clock?"
+                    "text": "How long is the time on an NBA shot clock?",
+                    "hint": "This duration allows for strategic play but keeps the game moving quickly.",
+                    "option1": "18 seconds",
+                    "option2": "24 seconds",
+                    "option3": "30 seconds",
+                    "option4": "35 seconds",
+                    "solution": "2"
                 },
                 {
-                    "text": "Each year in pro baseball, the player voted as the best fielder at his position wins what?"
+                    "text": "Each year in pro baseball, the player voted as the best fielder at his position wins what?",
+                    "hint": "The award's name reflects the material of a piece of fielding equipment.",
+                    "option1": "a brand new car",
+                    "option2": "the Gold Glove",
+                    "option3": "the Silver Bat",
+                    "option4": "the Brass Baseball",
+                    "solution": "2"
                 },
                 {
-                    "text": "In soccer, which player is allowed to use his or her hands in the field of play?"
+                    "text": "In soccer, which player is allowed to use his or her hands in the field of play?",
+                    "hint": "This player is responsible for protecting the goal from incoming shots.",
+                    "option1": "midfielder",
+                    "option2": "center",
+                    "option3": "sweeper",
+                    "option4": "goalkeeper",
+                    "solution": "4"
                 },
                 {
-                    "text": "What team has won the most World Series?"
+                    "text": "What team has won the most World Series?",
+                    "hint": "This team is a New York-based franchise with a storied baseball history.",
+                    "option1": "Chicago Cubs",
+                    "option2": "Los Angeles Dodgers",
+                    "option3": "New York Yankees",
+                    "option4": "San Francisco Giants",
+                    "solution": "3"
                 }
             ]
         },
@@ -125,19 +305,49 @@
             "description": "A mix of classic sports knowledge, this quiz covers horse racing, bowling, hockey, and tennis.  Test your understanding of rules, terminology, and iconic moments in these beloved sports. Are you a true all-around sports enthusiast?",
             "questions": [
                 {
-                    "text": "In soccer, which player is allowed to use his or her hands in the field of play?"
+                    "text": "In soccer, which player is allowed to use his or her hands in the field of play?",
+                    "hint": "This player is responsible for protecting the goal from incoming shots.",
+                    "option1": "midfielder",
+                    "option2": "center",
+                    "option3": "sweeper",
+                    "option4": "goalkeeper",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what sport do you find 'steel cage' matches?"
+                    "text": "In what sport do you find 'steel cage' matches?",
+                    "hint": "This sport combines athleticism with theatrical drama, often in a ring.",
+                    "option1": "boxing",
+                    "option2": "fencing",
+                    "option3": "pro wrestling",
+                    "option4": "college basketball",
+                    "solution": "3"
                 },
                 {
-                    "text": "In 1978, who became the youngest jockey ever to win horse racing's triple crown?"
+                    "text": "In 1978, who became the youngest jockey ever to win horse racing's triple crown?",
+                    "hint": "This jockey's name is associated with a common first name and a youthful achievement.",
+                    "option1": "Jerry Bailey",
+                    "option2": "Steve Cauthen",
+                    "option3": "Willie Shoemaker",
+                    "option4": "Pasquale Devito",
+                    "solution": "2"
                 },
                 {
-                    "text": "How many periods are there in an ice hockey game?"
+                    "text": "How many periods are there in an ice hockey game?",
+                    "hint": "A standard game is divided into equal segments, excluding overtime.",
+                    "option1": "One",
+                    "option2": "Two",
+                    "option3": "Three",
+                    "option4": "Four",
+                    "solution": "3"
                 },
                 {
-                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?"
+                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?",
+                    "hint": "This former male champion was challenged by King in a 1973 publicity stunt.",
+                    "option1": "Jimmy Connors",
+                    "option2": "Pete Sampras",
+                    "option3": "John McEnroe",
+                    "option4": "Bobby Riggs",
+                    "solution": "4"
                 }
             ]
         },
@@ -146,13 +356,31 @@
             "description": "A blend of college football and baseball trivia, this quiz tests your knowledge of legendary players, championship moments, and the traditions that make these sports so captivating.  Do you have what it takes to be a champion?",
             "questions": [
                 {
-                    "text": "Which of these college football programs has produced the most Heisman Trophy winners?"
+                    "text": "Which of these college football programs has produced the most Heisman Trophy winners?",
+                    "hint": "This university is known for its storied football tradition and \u2018Fighting Irish\u2019 nickname.",
+                    "option1": "Notre Dame",
+                    "option2": "USC",
+                    "option3": "Oklahoma",
+                    "option4": "Michigan",
+                    "solution": "1"
                 },
                 {
-                    "text": "What sporting event is held annually on Memorial Day weekend?"
+                    "text": "What sporting event is held annually on Memorial Day weekend?",
+                    "hint": "This auto race is one of the oldest and most prestigious in the U.S.",
+                    "option1": "Iditarod",
+                    "option2": "Kentucky Derby",
+                    "option3": "Indianapolis 500",
+                    "option4": "Super Bowl",
+                    "solution": "3"
                 },
                 {
-                    "text": "How many innings are there in a regular Major League Baseball game?"
+                    "text": "How many innings are there in a regular Major League Baseball game?",
+                    "hint": "This number allows each team multiple opportunities to bat and field.",
+                    "option1": "seven",
+                    "option2": "eight",
+                    "option3": "nine",
+                    "option4": "ten",
+                    "solution": "3"
                 }
             ]
         },
@@ -161,13 +389,31 @@
             "description": "A mix of horse racing and baseball trivia, this quiz tests your understanding of rules, terminology, and iconic moments in these beloved sports. Are you a true all-around sports enthusiast?",
             "questions": [
                 {
-                    "text": "In horse racing, what is the term for a wager on the 1st, 2nd and 3rd place finishers in a specific race?"
+                    "text": "In horse racing, what is the term for a wager on the 1st, 2nd and 3rd place finishers in a specific race?",
+                    "hint": "This bet requires predicting the top three horses in exact order.",
+                    "option1": "triple action",
+                    "option2": "trifecta",
+                    "option3": "exacta",
+                    "option4": "triple crown",
+                    "solution": "2"
                 },
                 {
-                    "text": "What team has won the most World Series?"
+                    "text": "What team has won the most World Series?",
+                    "hint": "This team is a New York-based franchise with a storied baseball history.",
+                    "option1": "Chicago Cubs",
+                    "option2": "Los Angeles Dodgers",
+                    "option3": "New York Yankees",
+                    "option4": "San Francisco Giants",
+                    "solution": "3"
                 },
                 {
-                    "text": "What sport is known as 'The Sport of Kings'?"
+                    "text": "What sport is known as 'The Sport of Kings'?",
+                    "hint": "This sport involves thoroughbreds and has a long history with royalty.",
+                    "option1": "polo",
+                    "option2": "archery",
+                    "option3": "yachting",
+                    "option4": "horse racing",
+                    "solution": "4"
                 }
             ]
         },
@@ -176,28 +422,76 @@
             "description": "A mix of football and hockey trivia, this quiz tests your understanding of rules, terminology, and iconic moments in these beloved sports. Are you a true all-around sports enthusiast?",
             "questions": [
                 {
-                    "text": "Which of these is referred to as a 'pigskin'?"
+                    "text": "Which of these is referred to as a 'pigskin'?",
+                    "hint": "This sport\u2019s ball was historically made from animal hide, earning the nickname.",
+                    "option1": "Football",
+                    "option2": "Basketball",
+                    "option3": "hockey puck",
+                    "option4": "catcher's Mitt",
+                    "solution": "1"
                 },
                 {
-                    "text": "Who is the shortest man to ever win an NBA slam dunk competition?"
+                    "text": "Who is the shortest man to ever win an NBA slam dunk competition?",
+                    "hint": "This player\u2019s nickname reflects his small stature and explosive athleticism.",
+                    "option1": "Anthony 'Spud' Webb",
+                    "option2": "Michael 'Air' Jordan",
+                    "option3": "Tyrone 'Muggsy' Bogues",
+                    "option4": "Julius 'Dr. J' Erving",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these candy bars was named for a baseball player?"
+                    "text": "Which of these candy bars was named for a baseball player?",
+                    "hint": "This candy\u2019s name is linked to a legendary slugger from the early 20th century.",
+                    "option1": "Baby Ruth",
+                    "option2": "Clark Bar",
+                    "option3": "Reggie Bar",
+                    "option4": "Butterfinger",
+                    "solution": "1"
                 },
                 {
-                    "text": "In golf, what is one stroke over par called?"
+                    "text": "In golf, what is one stroke over par called?",
+                    "hint": "This term is used when a golfer takes one more shot than the expected score for a hole.",
+                    "option1": "eagle",
+                    "option2": "bogey",
+                    "option3": "dormy",
+                    "option4": "birdie",
+                    "solution": "2"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 },
                 {
-                    "text": "In baseball, how many balls make a walk?"
+                    "text": "In baseball, how many balls make a walk?",
+                    "hint": "This number of pitches outside the strike zone grants the batter a free base.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "4"
                 },
                 {
-                    "text": "What football player was known as 'The Galloping Ghost'?"
+                    "text": "What football player was known as 'The Galloping Ghost'?",
+                    "hint": "This early NFL star played for the Chicago Bears and was a college legend.",
+                    "option1": "Jim Thorpe",
+                    "option2": "Dick Butkus",
+                    "option3": "Red Grange",
+                    "option4": "George Halas",
+                    "solution": "3"
                 },
                 {
-                    "text": "What do you call three consecutive strikes in bowling?"
+                    "text": "What do you call three consecutive strikes in bowling?",
+                    "hint": "This term is named after a bird associated with Thanksgiving.",
+                    "option1": "yahtzee",
+                    "option2": "mulligan",
+                    "option3": "turkey",
+                    "option4": "ace",
+                    "solution": "3"
                 }
             ]
         }

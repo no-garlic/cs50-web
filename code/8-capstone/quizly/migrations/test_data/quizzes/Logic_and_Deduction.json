@@ -5,28 +5,76 @@
             "description": "Test your mathematical prowess with this quiz! From square roots to decimals, this challenge will push your numerical reasoning skills to the limit. Can you unravel the patterns and find the solutions?",
             "questions": [
                 {
-                    "text": "What is the square root of 81 squared?"
+                    "text": "What is the square root of 81 squared?",
+                    "hint": "First calculate 81 squared, then find the number that, when multiplied by itself, equals that result.",
+                    "option1": "9",
+                    "option2": "27",
+                    "option3": "81",
+                    "option4": "729",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                    "text": "What mathematical term is used to describe the average of a series of numbers?",
+                    "hint": "This term is often calculated by adding numbers and dividing by their count.",
+                    "option1": "median",
+                    "option2": "mode",
+                    "option3": "majority",
+                    "option4": "mean",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these sentences is written in the subjunctive?"
+                    "text": "Which of these sentences is written in the subjunctive?",
+                    "hint": "The subjunctive mood expresses wishes or hypothetical situations, often using \u2018were.\u2019",
+                    "option1": "I am not your man",
+                    "option2": "I wish I were your man",
+                    "option3": "Wherefore art your man?",
+                    "option4": "Your man is where?",
+                    "solution": "2"
                 },
                 {
-                    "text": "How do you express 3/4 as a decimal?"
+                    "text": "How do you express 3/4 as a decimal?",
+                    "hint": "Divide 3 by 4 to convert this fraction into its decimal form.",
+                    "option1": ".25",
+                    "option2": ".50",
+                    "option3": ".75",
+                    "option4": ".90",
+                    "solution": "3"
                 }
             ]
         },
@@ -35,28 +83,76 @@
             "description": "Sharpen your observational skills and deductive reasoning with this quiz. It combines mathematical concepts with grammatical nuances, demanding a keen eye for detail and a logical mind.",
             "questions": [
                 {
-                    "text": "What is the square root of 81 squared?"
+                    "text": "What is the square root of 81 squared?",
+                    "hint": "First calculate 81 squared, then find the number that, when multiplied by itself, equals that result.",
+                    "option1": "9",
+                    "option2": "27",
+                    "option3": "81",
+                    "option4": "729",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these sentences is written in the subjunctive?"
+                    "text": "Which of these sentences is written in the subjunctive?",
+                    "hint": "The subjunctive mood expresses wishes or hypothetical situations, often using \u2018were.\u2019",
+                    "option1": "I am not your man",
+                    "option2": "I wish I were your man",
+                    "option3": "Wherefore art your man?",
+                    "option4": "Your man is where?",
+                    "solution": "2"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "How do you express 3/4 as a decimal?"
+                    "text": "How do you express 3/4 as a decimal?",
+                    "hint": "Divide 3 by 4 to convert this fraction into its decimal form.",
+                    "option1": ".25",
+                    "option2": ".50",
+                    "option3": ".75",
+                    "option4": ".90",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                    "text": "What mathematical term is used to describe the average of a series of numbers?",
+                    "hint": "This term is often calculated by adding numbers and dividing by their count.",
+                    "option1": "median",
+                    "option2": "mode",
+                    "option3": "majority",
+                    "option4": "mean",
+                    "solution": "4"
                 }
             ]
         },
@@ -65,19 +161,49 @@
             "description": "Dive into a world of fractions, angles, and grammatical structures. This quiz tests your ability to connect seemingly disparate concepts and arrive at logical conclusions.",
             "questions": [
                 {
-                    "text": "How do you express 3/4 as a decimal?"
+                    "text": "How do you express 3/4 as a decimal?",
+                    "hint": "Divide 3 by 4 to convert this fraction into its decimal form.",
+                    "option1": ".25",
+                    "option2": ".50",
+                    "option3": ".75",
+                    "option4": ".90",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                    "text": "What mathematical term is used to describe the average of a series of numbers?",
+                    "hint": "This term is often calculated by adding numbers and dividing by their count.",
+                    "option1": "median",
+                    "option2": "mode",
+                    "option3": "majority",
+                    "option4": "mean",
+                    "solution": "4"
                 }
             ]
         },
@@ -86,28 +212,76 @@
             "description": "A unique blend of grammatical precision and geometric understanding awaits! This quiz challenges you to decipher sentences and solve mathematical problems with equal skill.",
             "questions": [
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these sentences is written in the subjunctive?"
+                    "text": "Which of these sentences is written in the subjunctive?",
+                    "hint": "The subjunctive mood expresses wishes or hypothetical situations, often using \u2018were.\u2019",
+                    "option1": "I am not your man",
+                    "option2": "I wish I were your man",
+                    "option3": "Wherefore art your man?",
+                    "option4": "Your man is where?",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the square root of 81 squared?"
+                    "text": "What is the square root of 81 squared?",
+                    "hint": "First calculate 81 squared, then find the number that, when multiplied by itself, equals that result.",
+                    "option1": "9",
+                    "option2": "27",
+                    "option3": "81",
+                    "option4": "729",
+                    "solution": "3"
                 },
                 {
-                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                    "text": "What mathematical term is used to describe the average of a series of numbers?",
+                    "hint": "This term is often calculated by adding numbers and dividing by their count.",
+                    "option1": "median",
+                    "option2": "mode",
+                    "option3": "majority",
+                    "option4": "mean",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these sentences is written in the subjunctive?"
+                    "text": "Which of these sentences is written in the subjunctive?",
+                    "hint": "The subjunctive mood expresses wishes or hypothetical situations, often using \u2018were.\u2019",
+                    "option1": "I am not your man",
+                    "option2": "I wish I were your man",
+                    "option3": "Wherefore art your man?",
+                    "option4": "Your man is where?",
+                    "solution": "2"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "How do you express 3/4 as a decimal?"
+                    "text": "How do you express 3/4 as a decimal?",
+                    "hint": "Divide 3 by 4 to convert this fraction into its decimal form.",
+                    "option1": ".25",
+                    "option2": ".50",
+                    "option3": ".75",
+                    "option4": ".90",
+                    "solution": "3"
                 }
             ]
         },
@@ -116,19 +290,49 @@
             "description": "Unravel the mysteries of numbers and language with this challenging quiz. It requires a sharp mind and a knack for spotting patterns and making logical deductions.",
             "questions": [
                 {
-                    "text": "What is the square root of 81 squared?"
+                    "text": "What is the square root of 81 squared?",
+                    "hint": "First calculate 81 squared, then find the number that, when multiplied by itself, equals that result.",
+                    "option1": "9",
+                    "option2": "27",
+                    "option3": "81",
+                    "option4": "729",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these sentences is written in the subjunctive?"
+                    "text": "Which of these sentences is written in the subjunctive?",
+                    "hint": "The subjunctive mood expresses wishes or hypothetical situations, often using \u2018were.\u2019",
+                    "option1": "I am not your man",
+                    "option2": "I wish I were your man",
+                    "option3": "Wherefore art your man?",
+                    "option4": "Your man is where?",
+                    "solution": "2"
                 }
             ]
         },
@@ -137,28 +341,76 @@
             "description": "Test your overall logical reasoning skills with this comprehensive quiz. It covers a wide range of mathematical and grammatical concepts, demanding a broad understanding and a keen eye for detail.",
             "questions": [
                 {
-                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                    "text": "What mathematical term is used to describe the average of a series of numbers?",
+                    "hint": "This term is often calculated by adding numbers and dividing by their count.",
+                    "option1": "median",
+                    "option2": "mode",
+                    "option3": "majority",
+                    "option4": "mean",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the square root of 81 squared?"
+                    "text": "What is the square root of 81 squared?",
+                    "hint": "First calculate 81 squared, then find the number that, when multiplied by itself, equals that result.",
+                    "option1": "9",
+                    "option2": "27",
+                    "option3": "81",
+                    "option4": "729",
+                    "solution": "3"
                 },
                 {
-                    "text": "How do you express 3/4 as a decimal?"
+                    "text": "How do you express 3/4 as a decimal?",
+                    "hint": "Divide 3 by 4 to convert this fraction into its decimal form.",
+                    "option1": ".25",
+                    "option2": ".50",
+                    "option3": ".75",
+                    "option4": ".90",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of angle is formed where two perpendicular lines meet?"
+                    "text": "What kind of angle is formed where two perpendicular lines meet?",
+                    "hint": "This angle measures exactly 90 degrees.",
+                    "option1": "obtuse",
+                    "option2": "acute",
+                    "option3": "right",
+                    "option4": "invisible",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the card game blackjack, how much are a queen and a king worth-together?"
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these sentences is written in the subjunctive?"
+                    "text": "Which of these sentences is written in the subjunctive?",
+                    "hint": "The subjunctive mood expresses wishes or hypothetical situations, often using \u2018were.\u2019",
+                    "option1": "I am not your man",
+                    "option2": "I wish I were your man",
+                    "option3": "Wherefore art your man?",
+                    "option4": "Your man is where?",
+                    "solution": "2"
                 },
                 {
-                    "text": "What mathematical term is used to describe the average of a series of numbers?"
+                    "text": "What mathematical term is used to describe the average of a series of numbers?",
+                    "hint": "This term is often calculated by adding numbers and dividing by their count.",
+                    "option1": "median",
+                    "option2": "mode",
+                    "option3": "majority",
+                    "option4": "mean",
+                    "solution": "4"
                 }
             ]
         }

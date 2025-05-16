@@ -5,28 +5,76 @@
             "description": "Delve into a diverse range of religious traditions and historical figures with this eclectic quiz. From saints and scriptures to diseases and deities, test your knowledge of the world's beliefs. Can you decipher the echoes of faith?",
             "questions": [
                 {
-                    "text": "What disease is sometimes referred to as the 'royal disease'?"
+                    "text": "What disease is sometimes referred to as the 'royal disease'?",
+                    "hint": "This condition affected European royalty due to its genetic transmission.",
+                    "option1": "rickets",
+                    "option2": "measles",
+                    "option3": "hemophilia",
+                    "option4": "tuberculosis",
+                    "solution": "3"
                 },
                 {
-                    "text": "Who is the patron saint of animals?"
+                    "text": "Who is the patron saint of animals?",
+                    "hint": "This saint is celebrated for his love of nature and is often depicted with animals.",
+                    "option1": "St. Isidore of Seville",
+                    "option2": "St. Anthony of Padua",
+                    "option3": "St. Francis of Assisi",
+                    "option4": "St. Joan of Arc",
+                    "solution": "3"
                 },
                 {
-                    "text": "From whom does the Lutheran Church get its name?"
+                    "text": "From whom does the Lutheran Church get its name?",
+                    "hint": "This person was a key figure in the Protestant Reformation of the 16th century.",
+                    "option1": "Martin Luther King Jr",
+                    "option2": "Martin Luther",
+                    "option3": "Luther Vandross",
+                    "option4": "Lex Luthor",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the last book of the New Testament?"
+                    "text": "What is the last book of the New Testament?",
+                    "hint": "This book describes apocalyptic visions and the end of times.",
+                    "option1": "Revelation",
+                    "option2": "Judges",
+                    "option3": "Ruth",
+                    "option4": "John",
+                    "solution": "1"
                 },
                 {
-                    "text": "By what collective name do Christians refer to God the Father, God the Son and the Holy Ghost?"
+                    "text": "By what collective name do Christians refer to God the Father, God the Son and the Holy Ghost?",
+                    "hint": "This term reflects the three-in-one nature of the Christian Godhead.",
+                    "option1": "the Trio",
+                    "option2": "the Troika",
+                    "option3": "the Triumvirate",
+                    "option4": "the Trinity",
+                    "solution": "4"
                 },
                 {
-                    "text": "Girls of what religious community traditionally wear bonnets?"
+                    "text": "Girls of what religious community traditionally wear bonnets?",
+                    "hint": "This community is known for its plain dress and simple lifestyle in rural areas.",
+                    "option1": "Amish",
+                    "option2": "Sikh",
+                    "option3": "Roman Catholic",
+                    "option4": "Christian",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these is not a Hindu deity?"
+                    "text": "Which of these is not a Hindu deity?",
+                    "hint": "This is a language, not a god, unlike the others, which are part of the Hindu pantheon.",
+                    "option1": "Shiva",
+                    "option2": "Vishnu",
+                    "option3": "Sanskrit",
+                    "option4": "Brahma",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to the Bible, Moses and Aaron had a sister named what?"
+                    "text": "According to the Bible, Moses and Aaron had a sister named what?",
+                    "hint": "Her name is associated with a song of praise after crossing the Red Sea.",
+                    "option1": "Jochebed",
+                    "option2": "Ruth",
+                    "option3": "Leah",
+                    "option4": "Miriam",
+                    "solution": "4"
                 }
             ]
         },
@@ -35,28 +83,76 @@
             "description": "Explore the key texts, individuals, and historical events that have shaped major world religions. This quiz challenges your understanding of foundational beliefs and influential figures. How well do you know the stories behind the sacred?",
             "questions": [
                 {
-                    "text": "What is the last book of the New Testament?"
+                    "text": "What is the last book of the New Testament?",
+                    "hint": "This book describes apocalyptic visions and the end of times.",
+                    "option1": "Revelation",
+                    "option2": "Judges",
+                    "option3": "Ruth",
+                    "option4": "John",
+                    "solution": "1"
                 },
                 {
-                    "text": "What disease is sometimes referred to as the 'royal disease'?"
+                    "text": "What disease is sometimes referred to as the 'royal disease'?",
+                    "hint": "This condition affected European royalty due to its genetic transmission.",
+                    "option1": "rickets",
+                    "option2": "measles",
+                    "option3": "hemophilia",
+                    "option4": "tuberculosis",
+                    "solution": "3"
                 },
                 {
-                    "text": "Who is the patron saint of animals?"
+                    "text": "Who is the patron saint of animals?",
+                    "hint": "This saint is celebrated for his love of nature and is often depicted with animals.",
+                    "option1": "St. Isidore of Seville",
+                    "option2": "St. Anthony of Padua",
+                    "option3": "St. Francis of Assisi",
+                    "option4": "St. Joan of Arc",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these is not a Hindu deity?"
+                    "text": "Which of these is not a Hindu deity?",
+                    "hint": "This is a language, not a god, unlike the others, which are part of the Hindu pantheon.",
+                    "option1": "Shiva",
+                    "option2": "Vishnu",
+                    "option3": "Sanskrit",
+                    "option4": "Brahma",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to the Bible, Moses and Aaron had a sister named what?"
+                    "text": "According to the Bible, Moses and Aaron had a sister named what?",
+                    "hint": "Her name is associated with a song of praise after crossing the Red Sea.",
+                    "option1": "Jochebed",
+                    "option2": "Ruth",
+                    "option3": "Leah",
+                    "option4": "Miriam",
+                    "solution": "4"
                 },
                 {
-                    "text": "Girls of what religious community traditionally wear bonnets?"
+                    "text": "Girls of what religious community traditionally wear bonnets?",
+                    "hint": "This community is known for its plain dress and simple lifestyle in rural areas.",
+                    "option1": "Amish",
+                    "option2": "Sikh",
+                    "option3": "Roman Catholic",
+                    "option4": "Christian",
+                    "solution": "1"
                 },
                 {
-                    "text": "By what collective name do Christians refer to God the Father, God the Son and the Holy Ghost?"
+                    "text": "By what collective name do Christians refer to God the Father, God the Son and the Holy Ghost?",
+                    "hint": "This term reflects the three-in-one nature of the Christian Godhead.",
+                    "option1": "the Trio",
+                    "option2": "the Troika",
+                    "option3": "the Triumvirate",
+                    "option4": "the Trinity",
+                    "solution": "4"
                 },
                 {
-                    "text": "From whom does the Lutheran Church get its name?"
+                    "text": "From whom does the Lutheran Church get its name?",
+                    "hint": "This person was a key figure in the Protestant Reformation of the 16th century.",
+                    "option1": "Martin Luther King Jr",
+                    "option2": "Martin Luther",
+                    "option3": "Luther Vandross",
+                    "option4": "Lex Luthor",
+                    "solution": "2"
                 }
             ]
         },
@@ -65,13 +161,31 @@
             "description": "Journey through the narratives and figures of the Bible, testing your knowledge of key events and characters. This quiz focuses on the Old and New Testaments, exploring the stories that have shaped Western culture. Can you hear the whispers of the past?",
             "questions": [
                 {
-                    "text": "What disease is sometimes referred to as the 'royal disease'?"
+                    "text": "What disease is sometimes referred to as the 'royal disease'?",
+                    "hint": "This condition affected European royalty due to its genetic transmission.",
+                    "option1": "rickets",
+                    "option2": "measles",
+                    "option3": "hemophilia",
+                    "option4": "tuberculosis",
+                    "solution": "3"
                 },
                 {
-                    "text": "By what collective name do Christians refer to God the Father, God the Son and the Holy Ghost?"
+                    "text": "By what collective name do Christians refer to God the Father, God the Son and the Holy Ghost?",
+                    "hint": "This term reflects the three-in-one nature of the Christian Godhead.",
+                    "option1": "the Trio",
+                    "option2": "the Troika",
+                    "option3": "the Triumvirate",
+                    "option4": "the Trinity",
+                    "solution": "4"
                 },
                 {
-                    "text": "According to the Bible, Moses and Aaron had a sister named what?"
+                    "text": "According to the Bible, Moses and Aaron had a sister named what?",
+                    "hint": "Her name is associated with a song of praise after crossing the Red Sea.",
+                    "option1": "Jochebed",
+                    "option2": "Ruth",
+                    "option3": "Leah",
+                    "option4": "Miriam",
+                    "solution": "4"
                 }
             ]
         },
@@ -80,13 +194,31 @@
             "description": "Unravel the complexities of religious beliefs and practices with this quiz focused on deities, doctrines, and denominations. From Hindu gods to Lutheran theology, test your understanding of diverse faith systems. Do you know the difference?",
             "questions": [
                 {
-                    "text": "What is the last book of the New Testament?"
+                    "text": "What is the last book of the New Testament?",
+                    "hint": "This book describes apocalyptic visions and the end of times.",
+                    "option1": "Revelation",
+                    "option2": "Judges",
+                    "option3": "Ruth",
+                    "option4": "John",
+                    "solution": "1"
                 },
                 {
-                    "text": "From whom does the Lutheran Church get its name?"
+                    "text": "From whom does the Lutheran Church get its name?",
+                    "hint": "This person was a key figure in the Protestant Reformation of the 16th century.",
+                    "option1": "Martin Luther King Jr",
+                    "option2": "Martin Luther",
+                    "option3": "Luther Vandross",
+                    "option4": "Lex Luthor",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is not a Hindu deity?"
+                    "text": "Which of these is not a Hindu deity?",
+                    "hint": "This is a language, not a god, unlike the others, which are part of the Hindu pantheon.",
+                    "option1": "Shiva",
+                    "option2": "Vishnu",
+                    "option3": "Sanskrit",
+                    "option4": "Brahma",
+                    "solution": "3"
                 }
             ]
         },
@@ -95,13 +227,31 @@
             "description": "Explore the rich tapestry of religious traditions and symbolic representations from around the world. This quiz delves into the customs, rituals, and iconography that define various faiths. Can you decipher the meaning behind the symbols?",
             "questions": [
                 {
-                    "text": "Who is the patron saint of animals?"
+                    "text": "Who is the patron saint of animals?",
+                    "hint": "This saint is celebrated for his love of nature and is often depicted with animals.",
+                    "option1": "St. Isidore of Seville",
+                    "option2": "St. Anthony of Padua",
+                    "option3": "St. Francis of Assisi",
+                    "option4": "St. Joan of Arc",
+                    "solution": "3"
                 },
                 {
-                    "text": "Girls of what religious community traditionally wear bonnets?"
+                    "text": "Girls of what religious community traditionally wear bonnets?",
+                    "hint": "This community is known for its plain dress and simple lifestyle in rural areas.",
+                    "option1": "Amish",
+                    "option2": "Sikh",
+                    "option3": "Roman Catholic",
+                    "option4": "Christian",
+                    "solution": "1"
                 },
                 {
-                    "text": "What disease is sometimes referred to as the 'royal disease'?"
+                    "text": "What disease is sometimes referred to as the 'royal disease'?",
+                    "hint": "This condition affected European royalty due to its genetic transmission.",
+                    "option1": "rickets",
+                    "option2": "measles",
+                    "option3": "hemophilia",
+                    "option4": "tuberculosis",
+                    "solution": "3"
                 }
             ]
         },
@@ -110,13 +260,31 @@
             "description": "Discover the personal connections and familial roots within religious history. This quiz explores the stories of individuals and communities shaped by faith, examining the traditions passed down through generations. What are the ties that bind?",
             "questions": [
                 {
-                    "text": "According to the Bible, Moses and Aaron had a sister named what?"
+                    "text": "According to the Bible, Moses and Aaron had a sister named what?",
+                    "hint": "Her name is associated with a song of praise after crossing the Red Sea.",
+                    "option1": "Jochebed",
+                    "option2": "Ruth",
+                    "option3": "Leah",
+                    "option4": "Miriam",
+                    "solution": "4"
                 },
                 {
-                    "text": "From whom does the Lutheran Church get its name?"
+                    "text": "From whom does the Lutheran Church get its name?",
+                    "hint": "This person was a key figure in the Protestant Reformation of the 16th century.",
+                    "option1": "Martin Luther King Jr",
+                    "option2": "Martin Luther",
+                    "option3": "Luther Vandross",
+                    "option4": "Lex Luthor",
+                    "solution": "2"
                 },
                 {
-                    "text": "Girls of what religious community traditionally wear bonnets?"
+                    "text": "Girls of what religious community traditionally wear bonnets?",
+                    "hint": "This community is known for its plain dress and simple lifestyle in rural areas.",
+                    "option1": "Amish",
+                    "option2": "Sikh",
+                    "option3": "Roman Catholic",
+                    "option4": "Christian",
+                    "solution": "1"
                 }
             ]
         }

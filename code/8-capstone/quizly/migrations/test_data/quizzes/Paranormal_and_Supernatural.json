@@ -5,13 +5,31 @@
             "description": "Delve into the realm of Greek and Roman mythology with this quiz! Test your knowledge of legendary figures, sacred places, and ancient folklore. Can you decipher the whispers of the gods?",
             "questions": [
                 {
-                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                    "text": "What is the name of the mountain where the mythological Greek gods live?",
+                    "hint": "This mountain is the highest in Greece and home to Zeus and other deities.",
+                    "option1": "Jupiter",
+                    "option2": "Olympus",
+                    "option3": "Vesuvius",
+                    "option4": "Valhalla",
+                    "solution": "2"
                 },
                 {
-                    "text": "Who is the mythological Roman goddess of flowers?"
+                    "text": "Who is the mythological Roman goddess of flowers?",
+                    "hint": "Her name is linked to the word \u2018floral\u2019 and springtime blooms.",
+                    "option1": "Diana",
+                    "option2": "Echo",
+                    "option3": "Flora",
+                    "option4": "Niobe",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?",
+                    "hint": "This creature is a small, hopping mammal often found in North American tall tales.",
+                    "option1": "chicken",
+                    "option2": "rabbit",
+                    "option3": "moose",
+                    "option4": "snake",
+                    "solution": "2"
                 }
             ]
         },
@@ -20,28 +38,76 @@
             "description": "Unravel the complex family trees and potent curses of Greek mythology. From Zeus's origins to the power of the 'evil eye,' this quiz explores the darker side of the divine.",
             "questions": [
                 {
-                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                    "text": "According to Greek mythology, who was Apollo's twin sister?",
+                    "hint": "She is a goddess associated with the moon and hunting.",
+                    "option1": "Aphrodite",
+                    "option2": "Artemis",
+                    "option3": "Venus",
+                    "option4": "Athena",
+                    "solution": "2"
                 },
                 {
-                    "text": "Who was the mother of the Greek god Zeus?"
+                    "text": "Who was the mother of the Greek god Zeus?",
+                    "hint": "This Titaness hid Zeus from his father, Cronus, to save him.",
+                    "option1": "Gaia",
+                    "option2": "Phoebe",
+                    "option3": "Rhea",
+                    "option4": "Hera",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 },
                 {
-                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                    "text": "In Greek mythology, what is the name of Zeus' father?",
+                    "hint": "This Titan was known for swallowing his children to prevent their rebellion.",
+                    "option1": "Apollo",
+                    "option2": "Cronus",
+                    "option3": "Prometheus",
+                    "option4": "Hercules",
+                    "solution": "2"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 },
                 {
-                    "text": "Who was the mother of the Greek god Zeus?"
+                    "text": "Who was the mother of the Greek god Zeus?",
+                    "hint": "This Titaness hid Zeus from his father, Cronus, to save him.",
+                    "option1": "Gaia",
+                    "option2": "Phoebe",
+                    "option3": "Rhea",
+                    "option4": "Hera",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                    "text": "What is the name of the mountain where the mythological Greek gods live?",
+                    "hint": "This mountain is the highest in Greece and home to Zeus and other deities.",
+                    "option1": "Jupiter",
+                    "option2": "Olympus",
+                    "option3": "Vesuvius",
+                    "option4": "Valhalla",
+                    "solution": "2"
                 }
             ]
         },
@@ -50,19 +116,49 @@
             "description": "Venture into the world of folklore and cryptozoology! This quiz explores legendary creatures from around the globe, testing your knowledge of mythical beasts and unexplained phenomena.",
             "questions": [
                 {
-                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?",
+                    "hint": "This creature is a small, hopping mammal often found in North American tall tales.",
+                    "option1": "chicken",
+                    "option2": "rabbit",
+                    "option3": "moose",
+                    "option4": "snake",
+                    "solution": "2"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 },
                 {
-                    "text": "Who is the mythological Roman goddess of flowers?"
+                    "text": "Who is the mythological Roman goddess of flowers?",
+                    "hint": "Her name is linked to the word \u2018floral\u2019 and springtime blooms.",
+                    "option1": "Diana",
+                    "option2": "Echo",
+                    "option3": "Flora",
+                    "option4": "Niobe",
+                    "solution": "3"
                 },
                 {
-                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                    "text": "In Greek mythology, what is the name of Zeus' father?",
+                    "hint": "This Titan was known for swallowing his children to prevent their rebellion.",
+                    "option1": "Apollo",
+                    "option2": "Cronus",
+                    "option3": "Prometheus",
+                    "option4": "Hercules",
+                    "solution": "2"
                 },
                 {
-                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                    "text": "According to Greek mythology, who was Apollo's twin sister?",
+                    "hint": "She is a goddess associated with the moon and hunting.",
+                    "option1": "Aphrodite",
+                    "option2": "Artemis",
+                    "option3": "Venus",
+                    "option4": "Athena",
+                    "solution": "2"
                 }
             ]
         },
@@ -71,13 +167,31 @@
             "description": "A blend of divine power and earthly legends! This quiz combines knowledge of Greek mythology with the lore of cryptids, challenging you to connect the realms of gods and monsters.",
             "questions": [
                 {
-                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                    "text": "What is the name of the mountain where the mythological Greek gods live?",
+                    "hint": "This mountain is the highest in Greece and home to Zeus and other deities.",
+                    "option1": "Jupiter",
+                    "option2": "Olympus",
+                    "option3": "Vesuvius",
+                    "option4": "Valhalla",
+                    "solution": "2"
                 },
                 {
-                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?",
+                    "hint": "This creature is a small, hopping mammal often found in North American tall tales.",
+                    "option1": "chicken",
+                    "option2": "rabbit",
+                    "option3": "moose",
+                    "option4": "snake",
+                    "solution": "2"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 }
             ]
         },
@@ -86,28 +200,76 @@
             "description": "Explore the lineage and power of the Greek gods! This quiz delves into the family dynamics, curses, and legendary tales that shape the mythology of Mount Olympus.",
             "questions": [
                 {
-                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                    "text": "According to Greek mythology, who was Apollo's twin sister?",
+                    "hint": "She is a goddess associated with the moon and hunting.",
+                    "option1": "Aphrodite",
+                    "option2": "Artemis",
+                    "option3": "Venus",
+                    "option4": "Athena",
+                    "solution": "2"
                 },
                 {
-                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                    "text": "In Greek mythology, what is the name of Zeus' father?",
+                    "hint": "This Titan was known for swallowing his children to prevent their rebellion.",
+                    "option1": "Apollo",
+                    "option2": "Cronus",
+                    "option3": "Prometheus",
+                    "option4": "Hercules",
+                    "solution": "2"
                 },
                 {
-                    "text": "Who was the mother of the Greek god Zeus?"
+                    "text": "Who was the mother of the Greek god Zeus?",
+                    "hint": "This Titaness hid Zeus from his father, Cronus, to save him.",
+                    "option1": "Gaia",
+                    "option2": "Phoebe",
+                    "option3": "Rhea",
+                    "option4": "Hera",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 },
                 {
-                    "text": "Who is the mythological Roman goddess of flowers?"
+                    "text": "Who is the mythological Roman goddess of flowers?",
+                    "hint": "Her name is linked to the word \u2018floral\u2019 and springtime blooms.",
+                    "option1": "Diana",
+                    "option2": "Echo",
+                    "option3": "Flora",
+                    "option4": "Niobe",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?"
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?",
+                    "hint": "This creature is a small, hopping mammal often found in North American tall tales.",
+                    "option1": "chicken",
+                    "option2": "rabbit",
+                    "option3": "moose",
+                    "option4": "snake",
+                    "solution": "2"
                 },
                 {
-                    "text": "Who was the mother of the Greek god Zeus?"
+                    "text": "Who was the mother of the Greek god Zeus?",
+                    "hint": "This Titaness hid Zeus from his father, Cronus, to save him.",
+                    "option1": "Gaia",
+                    "option2": "Phoebe",
+                    "option3": "Rhea",
+                    "option4": "Hera",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to Greek mythology, who was Apollo's twin sister?"
+                    "text": "According to Greek mythology, who was Apollo's twin sister?",
+                    "hint": "She is a goddess associated with the moon and hunting.",
+                    "option1": "Aphrodite",
+                    "option2": "Artemis",
+                    "option3": "Venus",
+                    "option4": "Athena",
+                    "solution": "2"
                 }
             ]
         },
@@ -116,28 +278,76 @@
             "description": "Test your knowledge of ancient curses and the blessings of the gods! This quiz explores the power of fate, the consequences of defying the divine, and the legends that shape our understanding of the supernatural.",
             "questions": [
                 {
-                    "text": "Who is the mythological Roman goddess of flowers?"
+                    "text": "Who is the mythological Roman goddess of flowers?",
+                    "hint": "Her name is linked to the word \u2018floral\u2019 and springtime blooms.",
+                    "option1": "Diana",
+                    "option2": "Echo",
+                    "option3": "Flora",
+                    "option4": "Niobe",
+                    "solution": "3"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the name of the mountain where the mythological Greek gods live?"
+                    "text": "What is the name of the mountain where the mythological Greek gods live?",
+                    "hint": "This mountain is the highest in Greece and home to Zeus and other deities.",
+                    "option1": "Jupiter",
+                    "option2": "Olympus",
+                    "option3": "Vesuvius",
+                    "option4": "Valhalla",
+                    "solution": "2"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 },
                 {
-                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                    "text": "In Greek mythology, what is the name of Zeus' father?",
+                    "hint": "This Titan was known for swallowing his children to prevent their rebellion.",
+                    "option1": "Apollo",
+                    "option2": "Cronus",
+                    "option3": "Prometheus",
+                    "option4": "Hercules",
+                    "solution": "2"
                 },
                 {
-                    "text": "Who is the mythological Roman goddess of flowers?"
+                    "text": "Who is the mythological Roman goddess of flowers?",
+                    "hint": "Her name is linked to the word \u2018floral\u2019 and springtime blooms.",
+                    "option1": "Diana",
+                    "option2": "Echo",
+                    "option3": "Flora",
+                    "option4": "Niobe",
+                    "solution": "3"
                 },
                 {
-                    "text": "In Greek mythology, what is the name of Zeus' father?"
+                    "text": "In Greek mythology, what is the name of Zeus' father?",
+                    "hint": "This Titan was known for swallowing his children to prevent their rebellion.",
+                    "option1": "Apollo",
+                    "option2": "Cronus",
+                    "option3": "Prometheus",
+                    "option4": "Hercules",
+                    "solution": "2"
                 },
                 {
-                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?"
+                    "text": "According to legend, if you give someone the 'evil eye' what are you doing?",
+                    "hint": "This action is believed to bring misfortune or harm through a malevolent glance.",
+                    "option1": "cursing them",
+                    "option2": "blessing a child",
+                    "option3": "counting money",
+                    "option4": "passing time",
+                    "solution": "1"
                 }
             ]
         }

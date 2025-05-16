@@ -5,28 +5,76 @@
             "description": "Test your knowledge of American sports and their connection to the Olympic Games. This quiz covers a range of popular games and iconic moments in American sporting history. From baseball to tennis, see how well you know the fundamentals!",
             "questions": [
                 {
-                    "text": "What sporting event is held annually on Memorial Day weekend?"
+                    "text": "What sporting event is held annually on Memorial Day weekend?",
+                    "hint": "This auto race is one of the oldest and most prestigious in the U.S.",
+                    "option1": "Iditarod",
+                    "option2": "Kentucky Derby",
+                    "option3": "Indianapolis 500",
+                    "option4": "Super Bowl",
+                    "solution": "3"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 },
                 {
-                    "text": "In baseball, how many balls make a walk?"
+                    "text": "In baseball, how many balls make a walk?",
+                    "hint": "This number of pitches outside the strike zone grants the batter a free base.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 },
                 {
-                    "text": "In bowling, how many pins must you knock down to get a strike?"
+                    "text": "In bowling, how many pins must you knock down to get a strike?",
+                    "hint": "A strike requires clearing the entire set of pins in one roll.",
+                    "option1": "zero",
+                    "option2": "8",
+                    "option3": "10",
+                    "option4": "12",
+                    "solution": "3"
                 },
                 {
-                    "text": "In American football, how many points is a touchdown worth?"
+                    "text": "In American football, how many points is a touchdown worth?",
+                    "hint": "This is the primary scoring play, worth more than a field goal but less than with an extra point.",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "six",
+                    "option4": "seven",
+                    "solution": "3"
                 },
                 {
-                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?"
+                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?",
+                    "hint": "This former male champion was challenged by King in a 1973 publicity stunt.",
+                    "option1": "Jimmy Connors",
+                    "option2": "Pete Sampras",
+                    "option3": "John McEnroe",
+                    "option4": "Bobby Riggs",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what sport do athletes compete for the Walker Cup?"
+                    "text": "In what sport do athletes compete for the Walker Cup?",
+                    "hint": "This sport involves international amateur competition on manicured courses.",
+                    "option1": "cricket",
+                    "option2": "tennis",
+                    "option3": "squash",
+                    "option4": "golf",
+                    "solution": "4"
                 }
             ]
         },
@@ -35,13 +83,31 @@
             "description": "Dive into the history of American men's ice hockey and test your knowledge of Olympic triumphs and memorable moments. This quiz focuses on the United States' journey to Olympic gold and the challenges faced along the way.",
             "questions": [
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 },
                 {
-                    "text": "In bowling, how many pins must you knock down to get a strike?"
+                    "text": "In bowling, how many pins must you knock down to get a strike?",
+                    "hint": "A strike requires clearing the entire set of pins in one roll.",
+                    "option1": "zero",
+                    "option2": "8",
+                    "option3": "10",
+                    "option4": "12",
+                    "solution": "3"
                 }
             ]
         },
@@ -50,28 +116,76 @@
             "description": "From touchdowns to home runs, this quiz explores a wide range of American sports and their place in the Olympic Games. Sharpen your knowledge of rules, history, and iconic figures in this comprehensive challenge.",
             "questions": [
                 {
-                    "text": "In American football, how many points is a touchdown worth?"
+                    "text": "In American football, how many points is a touchdown worth?",
+                    "hint": "This is the primary scoring play, worth more than a field goal but less than with an extra point.",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "six",
+                    "option4": "seven",
+                    "solution": "3"
                 },
                 {
-                    "text": "What sporting event is held annually on Memorial Day weekend?"
+                    "text": "What sporting event is held annually on Memorial Day weekend?",
+                    "hint": "This auto race is one of the oldest and most prestigious in the U.S.",
+                    "option1": "Iditarod",
+                    "option2": "Kentucky Derby",
+                    "option3": "Indianapolis 500",
+                    "option4": "Super Bowl",
+                    "solution": "3"
                 },
                 {
-                    "text": "In what sport do athletes compete for the Walker Cup?"
+                    "text": "In what sport do athletes compete for the Walker Cup?",
+                    "hint": "This sport involves international amateur competition on manicured courses.",
+                    "option1": "cricket",
+                    "option2": "tennis",
+                    "option3": "squash",
+                    "option4": "golf",
+                    "solution": "4"
                 },
                 {
-                    "text": "In baseball, how many balls make a walk?"
+                    "text": "In baseball, how many balls make a walk?",
+                    "hint": "This number of pitches outside the strike zone grants the batter a free base.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "4"
                 },
                 {
-                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?"
+                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?",
+                    "hint": "This former male champion was challenged by King in a 1973 publicity stunt.",
+                    "option1": "Jimmy Connors",
+                    "option2": "Pete Sampras",
+                    "option3": "John McEnroe",
+                    "option4": "Bobby Riggs",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 },
                 {
-                    "text": "In baseball, how many balls make a walk?"
+                    "text": "In baseball, how many balls make a walk?",
+                    "hint": "This number of pitches outside the strike zone grants the batter a free base.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "4"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 }
             ]
         },
@@ -80,13 +194,31 @@
             "description": "Explore the world of tennis and American sporting traditions with this engaging quiz. From the legendary 'Battle of the Sexes' to the annual Memorial Day weekend celebrations, test your knowledge of these iconic moments.",
             "questions": [
                 {
-                    "text": "What sporting event is held annually on Memorial Day weekend?"
+                    "text": "What sporting event is held annually on Memorial Day weekend?",
+                    "hint": "This auto race is one of the oldest and most prestigious in the U.S.",
+                    "option1": "Iditarod",
+                    "option2": "Kentucky Derby",
+                    "option3": "Indianapolis 500",
+                    "option4": "Super Bowl",
+                    "solution": "3"
                 },
                 {
-                    "text": "In bowling, how many pins must you knock down to get a strike?"
+                    "text": "In bowling, how many pins must you knock down to get a strike?",
+                    "hint": "A strike requires clearing the entire set of pins in one roll.",
+                    "option1": "zero",
+                    "option2": "8",
+                    "option3": "10",
+                    "option4": "12",
+                    "solution": "3"
                 },
                 {
-                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?"
+                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?",
+                    "hint": "This former male champion was challenged by King in a 1973 publicity stunt.",
+                    "option1": "Jimmy Connors",
+                    "option2": "Pete Sampras",
+                    "option3": "John McEnroe",
+                    "option4": "Bobby Riggs",
+                    "solution": "4"
                 }
             ]
         },
@@ -95,13 +227,31 @@
             "description": "Test your knowledge of golf and American football with this challenging quiz. From the prestigious Walker Cup to the excitement of touchdowns and field goals, see how well you know these beloved sports.",
             "questions": [
                 {
-                    "text": "In what sport do athletes compete for the Walker Cup?"
+                    "text": "In what sport do athletes compete for the Walker Cup?",
+                    "hint": "This sport involves international amateur competition on manicured courses.",
+                    "option1": "cricket",
+                    "option2": "tennis",
+                    "option3": "squash",
+                    "option4": "golf",
+                    "solution": "4"
                 },
                 {
-                    "text": "In American football, how many points is a touchdown worth?"
+                    "text": "In American football, how many points is a touchdown worth?",
+                    "hint": "This is the primary scoring play, worth more than a field goal but less than with an extra point.",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "six",
+                    "option4": "seven",
+                    "solution": "3"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 }
             ]
         },
@@ -110,19 +260,49 @@
             "description": "Celebrate the legacy of Billie Jean King and explore the broader landscape of American sports with this comprehensive quiz. From her historic 'Battle of the Sexes' match to the traditions of Memorial Day weekend, test your knowledge of these iconic moments.",
             "questions": [
                 {
-                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?"
+                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?",
+                    "hint": "This former male champion was challenged by King in a 1973 publicity stunt.",
+                    "option1": "Jimmy Connors",
+                    "option2": "Pete Sampras",
+                    "option3": "John McEnroe",
+                    "option4": "Bobby Riggs",
+                    "solution": "4"
                 },
                 {
-                    "text": "What sporting event is held annually on Memorial Day weekend?"
+                    "text": "What sporting event is held annually on Memorial Day weekend?",
+                    "hint": "This auto race is one of the oldest and most prestigious in the U.S.",
+                    "option1": "Iditarod",
+                    "option2": "Kentucky Derby",
+                    "option3": "Indianapolis 500",
+                    "option4": "Super Bowl",
+                    "solution": "3"
                 },
                 {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
+                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?",
+                    "hint": "This victory, known as the 'Miracle on Ice,' occurred during the Cold War.",
+                    "option1": "1976",
+                    "option2": "1980",
+                    "option3": "1984",
+                    "option4": "1988",
+                    "solution": "2"
                 },
                 {
-                    "text": "In baseball, how many balls make a walk?"
+                    "text": "In baseball, how many balls make a walk?",
+                    "hint": "This number of pitches outside the strike zone grants the batter a free base.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "4"
                 },
                 {
-                    "text": "In American football, how many points is a touchdown worth?"
+                    "text": "In American football, how many points is a touchdown worth?",
+                    "hint": "This is the primary scoring play, worth more than a field goal but less than with an extra point.",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "six",
+                    "option4": "seven",
+                    "solution": "3"
                 }
             ]
         }

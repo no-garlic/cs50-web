@@ -5,13 +5,31 @@
             "description": "Test your knowledge of prehistoric creatures, from venomous snakes to soaring birds. This quiz explores the diversity of life that once thrived on Earth. Discover fascinating facts about these ancient animals and their unique adaptations.",
             "questions": [
                 {
-                    "text": "Which of these snakes is poisonous?"
+                    "text": "Which of these snakes is poisonous?",
+                    "hint": "This snake\u2019s name suggests a metallic hue and is a venomous pit viper.",
+                    "option1": "anaconda",
+                    "option2": "boa constrictor",
+                    "option3": "copperhead",
+                    "option4": "python",
+                    "solution": "3"
                 },
                 {
-                    "text": "What kind of animal is a peregrine?"
+                    "text": "What kind of animal is a peregrine?",
+                    "hint": "This creature is known for its incredible speed, especially when diving.",
+                    "option1": "moose",
+                    "option2": "cat",
+                    "option3": "bird",
+                    "option4": "fish",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these animals lays eggs?"
+                    "text": "Which of these animals lays eggs?",
+                    "hint": "This animal is an amphibian, unlike the others, which are mammals.",
+                    "option1": "cow",
+                    "option2": "gerbil",
+                    "option3": "frog",
+                    "option4": "elephant",
+                    "solution": "3"
                 }
             ]
         },
@@ -20,28 +38,76 @@
             "description": "Delve into the world of colossal creatures that once roamed the planet. This quiz focuses on the largest animals ever to live, from the blue whale to prehistoric behemoths. Prepare to be amazed by the sheer scale of these incredible beings.",
             "questions": [
                 {
-                    "text": "Which of these Australian birds is most closely related to the ostrich?"
+                    "text": "Which of these Australian birds is most closely related to the ostrich?",
+                    "hint": "This flightless bird is a large, native Australian species.",
+                    "option1": "puffin",
+                    "option2": "kookaburra",
+                    "option3": "cockatoo",
+                    "option4": "emu",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the largest animal ever to live on Earth?"
+                    "text": "What is the largest animal ever to live on Earth?",
+                    "hint": "This marine creature dwarfs even the largest dinosaurs.",
+                    "option1": "blue whale",
+                    "option2": "giant squid",
+                    "option3": "woolly mammoth",
+                    "option4": "Tyrannosaurus",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the largest animal ever to live on Earth?"
+                    "text": "What is the largest animal ever to live on Earth?",
+                    "hint": "This marine creature dwarfs even the largest dinosaurs.",
+                    "option1": "blue whale",
+                    "option2": "giant squid",
+                    "option3": "woolly mammoth",
+                    "option4": "Tyrannosaurus",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is another name for the camelopard?"
+                    "text": "What is another name for the camelopard?",
+                    "hint": "This animal\u2019s long neck and spots make it unmistakable in the savanna.",
+                    "option1": "circus",
+                    "option2": "giraffe",
+                    "option3": "cantaloupe",
+                    "option4": "oasis",
+                    "solution": "2"
                 },
                 {
-                    "text": "Elephant tusks are made of what material?"
+                    "text": "Elephant tusks are made of what material?",
+                    "hint": "This material is also used in piano keys and is valued for its durability.",
+                    "option1": "coral",
+                    "option2": "ivory",
+                    "option3": "bone",
+                    "option4": "calcium",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these animals lays eggs?"
+                    "text": "Which of these animals lays eggs?",
+                    "hint": "This animal is an amphibian, unlike the others, which are mammals.",
+                    "option1": "cow",
+                    "option2": "gerbil",
+                    "option3": "frog",
+                    "option4": "elephant",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these Australian birds is most closely related to the ostrich?"
+                    "text": "Which of these Australian birds is most closely related to the ostrich?",
+                    "hint": "This flightless bird is a large, native Australian species.",
+                    "option1": "puffin",
+                    "option2": "kookaburra",
+                    "option3": "cockatoo",
+                    "option4": "emu",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the largest animal ever to live on Earth?"
+                    "text": "What is the largest animal ever to live on Earth?",
+                    "hint": "This marine creature dwarfs even the largest dinosaurs.",
+                    "option1": "blue whale",
+                    "option2": "giant squid",
+                    "option3": "woolly mammoth",
+                    "option4": "Tyrannosaurus",
+                    "solution": "1"
                 }
             ]
         },
@@ -50,19 +116,49 @@
             "description": "Explore the lives of aerial predators and magnificent mammals from the prehistoric world. This quiz examines the adaptations and characteristics of creatures like peregrine falcons and elephants. Uncover the secrets of their survival and dominance.",
             "questions": [
                 {
-                    "text": "What kind of animal is a peregrine?"
+                    "text": "What kind of animal is a peregrine?",
+                    "hint": "This creature is known for its incredible speed, especially when diving.",
+                    "option1": "moose",
+                    "option2": "cat",
+                    "option3": "bird",
+                    "option4": "fish",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these snakes is poisonous?"
+                    "text": "Which of these snakes is poisonous?",
+                    "hint": "This snake\u2019s name suggests a metallic hue and is a venomous pit viper.",
+                    "option1": "anaconda",
+                    "option2": "boa constrictor",
+                    "option3": "copperhead",
+                    "option4": "python",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is another name for the camelopard?"
+                    "text": "What is another name for the camelopard?",
+                    "hint": "This animal\u2019s long neck and spots make it unmistakable in the savanna.",
+                    "option1": "circus",
+                    "option2": "giraffe",
+                    "option3": "cantaloupe",
+                    "option4": "oasis",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the largest animal ever to live on Earth?"
+                    "text": "What is the largest animal ever to live on Earth?",
+                    "hint": "This marine creature dwarfs even the largest dinosaurs.",
+                    "option1": "blue whale",
+                    "option2": "giant squid",
+                    "option3": "woolly mammoth",
+                    "option4": "Tyrannosaurus",
+                    "solution": "1"
                 },
                 {
-                    "text": "Elephant tusks are made of what material?"
+                    "text": "Elephant tusks are made of what material?",
+                    "hint": "This material is also used in piano keys and is valued for its durability.",
+                    "option1": "coral",
+                    "option2": "ivory",
+                    "option3": "bone",
+                    "option4": "calcium",
+                    "solution": "2"
                 }
             ]
         },
@@ -71,19 +167,49 @@
             "description": "Discover the incredible diversity of prehistoric life, from the largest animals that ever lived to the creatures that reproduced through eggs. This quiz tests your knowledge of both aquatic and terrestrial giants. Prepare to be amazed by the scale and variety of life from the distant past.",
             "questions": [
                 {
-                    "text": "Which of these Australian birds is most closely related to the ostrich?"
+                    "text": "Which of these Australian birds is most closely related to the ostrich?",
+                    "hint": "This flightless bird is a large, native Australian species.",
+                    "option1": "puffin",
+                    "option2": "kookaburra",
+                    "option3": "cockatoo",
+                    "option4": "emu",
+                    "solution": "4"
                 },
                 {
-                    "text": "Elephant tusks are made of what material?"
+                    "text": "Elephant tusks are made of what material?",
+                    "hint": "This material is also used in piano keys and is valued for its durability.",
+                    "option1": "coral",
+                    "option2": "ivory",
+                    "option3": "bone",
+                    "option4": "calcium",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the largest animal ever to live on Earth?"
+                    "text": "What is the largest animal ever to live on Earth?",
+                    "hint": "This marine creature dwarfs even the largest dinosaurs.",
+                    "option1": "blue whale",
+                    "option2": "giant squid",
+                    "option3": "woolly mammoth",
+                    "option4": "Tyrannosaurus",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these animals lays eggs?"
+                    "text": "Which of these animals lays eggs?",
+                    "hint": "This animal is an amphibian, unlike the others, which are mammals.",
+                    "option1": "cow",
+                    "option2": "gerbil",
+                    "option3": "frog",
+                    "option4": "elephant",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the largest animal ever to live on Earth?"
+                    "text": "What is the largest animal ever to live on Earth?",
+                    "hint": "This marine creature dwarfs even the largest dinosaurs.",
+                    "option1": "blue whale",
+                    "option2": "giant squid",
+                    "option3": "woolly mammoth",
+                    "option4": "Tyrannosaurus",
+                    "solution": "1"
                 }
             ]
         },
@@ -92,28 +218,76 @@
             "description": "Unravel the mysteries of the camelopard and other fascinating creatures from the prehistoric era. This quiz explores a range of topics, from aerial predators to the largest animals ever to exist. Test your knowledge of these incredible beings and their place in Earth's history.",
             "questions": [
                 {
-                    "text": "What is another name for the camelopard?"
+                    "text": "What is another name for the camelopard?",
+                    "hint": "This animal\u2019s long neck and spots make it unmistakable in the savanna.",
+                    "option1": "circus",
+                    "option2": "giraffe",
+                    "option3": "cantaloupe",
+                    "option4": "oasis",
+                    "solution": "2"
                 },
                 {
-                    "text": "What kind of animal is a peregrine?"
+                    "text": "What kind of animal is a peregrine?",
+                    "hint": "This creature is known for its incredible speed, especially when diving.",
+                    "option1": "moose",
+                    "option2": "cat",
+                    "option3": "bird",
+                    "option4": "fish",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these snakes is poisonous?"
+                    "text": "Which of these snakes is poisonous?",
+                    "hint": "This snake\u2019s name suggests a metallic hue and is a venomous pit viper.",
+                    "option1": "anaconda",
+                    "option2": "boa constrictor",
+                    "option3": "copperhead",
+                    "option4": "python",
+                    "solution": "3"
                 },
                 {
-                    "text": "Elephant tusks are made of what material?"
+                    "text": "Elephant tusks are made of what material?",
+                    "hint": "This material is also used in piano keys and is valued for its durability.",
+                    "option1": "coral",
+                    "option2": "ivory",
+                    "option3": "bone",
+                    "option4": "calcium",
+                    "solution": "2"
                 },
                 {
-                    "text": "What kind of animal is a peregrine?"
+                    "text": "What kind of animal is a peregrine?",
+                    "hint": "This creature is known for its incredible speed, especially when diving.",
+                    "option1": "moose",
+                    "option2": "cat",
+                    "option3": "bird",
+                    "option4": "fish",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these animals lays eggs?"
+                    "text": "Which of these animals lays eggs?",
+                    "hint": "This animal is an amphibian, unlike the others, which are mammals.",
+                    "option1": "cow",
+                    "option2": "gerbil",
+                    "option3": "frog",
+                    "option4": "elephant",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the largest animal ever to live on Earth?"
+                    "text": "What is the largest animal ever to live on Earth?",
+                    "hint": "This marine creature dwarfs even the largest dinosaurs.",
+                    "option1": "blue whale",
+                    "option2": "giant squid",
+                    "option3": "woolly mammoth",
+                    "option4": "Tyrannosaurus",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the largest animal ever to live on Earth?"
+                    "text": "What is the largest animal ever to live on Earth?",
+                    "hint": "This marine creature dwarfs even the largest dinosaurs.",
+                    "option1": "blue whale",
+                    "option2": "giant squid",
+                    "option3": "woolly mammoth",
+                    "option4": "Tyrannosaurus",
+                    "solution": "1"
                 }
             ]
         },
@@ -122,13 +296,31 @@
             "description": "Test your knowledge of ancient reptiles and birds. This quiz focuses on the fascinating adaptations of venomous snakes and soaring birds, exploring their roles in prehistoric ecosystems. Discover the secrets of their survival and dominance.",
             "questions": [
                 {
-                    "text": "Which of these snakes is poisonous?"
+                    "text": "Which of these snakes is poisonous?",
+                    "hint": "This snake\u2019s name suggests a metallic hue and is a venomous pit viper.",
+                    "option1": "anaconda",
+                    "option2": "boa constrictor",
+                    "option3": "copperhead",
+                    "option4": "python",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these Australian birds is most closely related to the ostrich?"
+                    "text": "Which of these Australian birds is most closely related to the ostrich?",
+                    "hint": "This flightless bird is a large, native Australian species.",
+                    "option1": "puffin",
+                    "option2": "kookaburra",
+                    "option3": "cockatoo",
+                    "option4": "emu",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is another name for the camelopard?"
+                    "text": "What is another name for the camelopard?",
+                    "hint": "This animal\u2019s long neck and spots make it unmistakable in the savanna.",
+                    "option1": "circus",
+                    "option2": "giraffe",
+                    "option3": "cantaloupe",
+                    "option4": "oasis",
+                    "solution": "2"
                 }
             ]
         }

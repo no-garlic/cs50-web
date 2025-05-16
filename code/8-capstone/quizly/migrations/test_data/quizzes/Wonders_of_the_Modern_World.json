@@ -5,28 +5,76 @@
             "description": "Test your knowledge of iconic American landmarks, inventions, and corporate trademarks. From flags to computers, this quiz explores the symbols and creations that define modern America.",
             "questions": [
                 {
-                    "text": "How many stars are on the American flag?"
+                    "text": "How many stars are on the American flag?",
+                    "hint": "The number of stars corresponds to the number of states in the U.S.",
+                    "option1": "13",
+                    "option2": "48",
+                    "option3": "50",
+                    "option4": "51",
+                    "solution": "3"
                 },
                 {
-                    "text": "Where is the Louvre museum?"
+                    "text": "Where is the Louvre museum?",
+                    "hint": "This museum is in a European capital along the Seine River.",
+                    "option1": "Paris",
+                    "option2": "Lyon",
+                    "option3": "Geneva",
+                    "option4": "Vichy",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 },
                 {
-                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?"
+                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?",
+                    "hint": "This architectural masterpiece is in a state known for its steel industry.",
+                    "option1": "Connecticut",
+                    "option2": "Pennsylvania",
+                    "option3": "Illinois",
+                    "option4": "New York",
+                    "solution": "2"
                 },
                 {
-                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                    "text": "What was the original name of the Apple Macintosh XL computer?",
+                    "hint": "This name was a nod to Steve Jobs\u2019 daughter, used for an earlier Apple model.",
+                    "option1": "Lisa 2",
+                    "option2": "Mac Daddy",
+                    "option3": "Granny Smith",
+                    "option4": "Orange XL",
+                    "solution": "1"
                 },
                 {
-                    "text": "How many spikes are on the Statue of Liberty's crown?"
+                    "text": "How many spikes are on the Statue of Liberty's crown?",
+                    "hint": "The number of spikes symbolizes the seven continents or seas.",
+                    "option1": "five",
+                    "option2": "seven",
+                    "option3": "nine",
+                    "option4": "thirteen",
+                    "solution": "2"
                 },
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 }
             ]
         },
@@ -35,19 +83,49 @@
             "description": "Delve into the world's most recognizable landmarks and architectural marvels. This quiz challenges your understanding of global icons and their fascinating histories.",
             "questions": [
                 {
-                    "text": "How many spikes are on the Statue of Liberty's crown?"
+                    "text": "How many spikes are on the Statue of Liberty's crown?",
+                    "hint": "The number of spikes symbolizes the seven continents or seas.",
+                    "option1": "five",
+                    "option2": "seven",
+                    "option3": "nine",
+                    "option4": "thirteen",
+                    "solution": "2"
                 },
                 {
-                    "text": "How many stars are on the American flag?"
+                    "text": "How many stars are on the American flag?",
+                    "hint": "The number of stars corresponds to the number of states in the U.S.",
+                    "option1": "13",
+                    "option2": "48",
+                    "option3": "50",
+                    "option4": "51",
+                    "solution": "3"
                 },
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 },
                 {
-                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                    "text": "What was the original name of the Apple Macintosh XL computer?",
+                    "hint": "This name was a nod to Steve Jobs\u2019 daughter, used for an earlier Apple model.",
+                    "option1": "Lisa 2",
+                    "option2": "Mac Daddy",
+                    "option3": "Granny Smith",
+                    "option4": "Orange XL",
+                    "solution": "1"
                 },
                 {
-                    "text": "Where is the Louvre museum?"
+                    "text": "Where is the Louvre museum?",
+                    "hint": "This museum is in a European capital along the Seine River.",
+                    "option1": "Paris",
+                    "option2": "Lyon",
+                    "option3": "Geneva",
+                    "option4": "Vichy",
+                    "solution": "1"
                 }
             ]
         },
@@ -56,28 +134,76 @@
             "description": "Explore the branding and innovations behind some of the world's most successful companies. From iconic sodas to revolutionary computers, this quiz tests your knowledge of corporate history and trademarks.",
             "questions": [
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 },
                 {
-                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?"
+                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?",
+                    "hint": "This architectural masterpiece is in a state known for its steel industry.",
+                    "option1": "Connecticut",
+                    "option2": "Pennsylvania",
+                    "option3": "Illinois",
+                    "option4": "New York",
+                    "solution": "2"
                 },
                 {
-                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                    "text": "What was the original name of the Apple Macintosh XL computer?",
+                    "hint": "This name was a nod to Steve Jobs\u2019 daughter, used for an earlier Apple model.",
+                    "option1": "Lisa 2",
+                    "option2": "Mac Daddy",
+                    "option3": "Granny Smith",
+                    "option4": "Orange XL",
+                    "solution": "1"
                 },
                 {
-                    "text": "How many spikes are on the Statue of Liberty's crown?"
+                    "text": "How many spikes are on the Statue of Liberty's crown?",
+                    "hint": "The number of spikes symbolizes the seven continents or seas.",
+                    "option1": "five",
+                    "option2": "seven",
+                    "option3": "nine",
+                    "option4": "thirteen",
+                    "solution": "2"
                 },
                 {
-                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?"
+                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?",
+                    "hint": "This architectural masterpiece is in a state known for its steel industry.",
+                    "option1": "Connecticut",
+                    "option2": "Pennsylvania",
+                    "option3": "Illinois",
+                    "option4": "New York",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 },
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 }
             ]
         },
@@ -86,13 +212,31 @@
             "description": "Discover the stories behind national symbols and the foundations of modern institutions. This quiz explores flags, museums, and corporate origins.",
             "questions": [
                 {
-                    "text": "How many stars are on the American flag?"
+                    "text": "How many stars are on the American flag?",
+                    "hint": "The number of stars corresponds to the number of states in the U.S.",
+                    "option1": "13",
+                    "option2": "48",
+                    "option3": "50",
+                    "option4": "51",
+                    "solution": "3"
                 },
                 {
-                    "text": "Where is the Louvre museum?"
+                    "text": "Where is the Louvre museum?",
+                    "hint": "This museum is in a European capital along the Seine River.",
+                    "option1": "Paris",
+                    "option2": "Lyon",
+                    "option3": "Geneva",
+                    "option4": "Vichy",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 }
             ]
         },
@@ -101,28 +245,76 @@
             "description": "Journey across the globe to uncover the secrets of world-renowned landmarks and technological advancements. This quiz tests your knowledge of architecture, computing, and cultural heritage.",
             "questions": [
                 {
-                    "text": "Where is the Louvre museum?"
+                    "text": "Where is the Louvre museum?",
+                    "hint": "This museum is in a European capital along the Seine River.",
+                    "option1": "Paris",
+                    "option2": "Lyon",
+                    "option3": "Geneva",
+                    "option4": "Vichy",
+                    "solution": "1"
                 },
                 {
-                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                    "text": "What was the original name of the Apple Macintosh XL computer?",
+                    "hint": "This name was a nod to Steve Jobs\u2019 daughter, used for an earlier Apple model.",
+                    "option1": "Lisa 2",
+                    "option2": "Mac Daddy",
+                    "option3": "Granny Smith",
+                    "option4": "Orange XL",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 },
                 {
-                    "text": "How many stars are on the American flag?"
+                    "text": "How many stars are on the American flag?",
+                    "hint": "The number of stars corresponds to the number of states in the U.S.",
+                    "option1": "13",
+                    "option2": "48",
+                    "option3": "50",
+                    "option4": "51",
+                    "solution": "3"
                 },
                 {
-                    "text": "How many spikes are on the Statue of Liberty's crown?"
+                    "text": "How many spikes are on the Statue of Liberty's crown?",
+                    "hint": "The number of spikes symbolizes the seven continents or seas.",
+                    "option1": "five",
+                    "option2": "seven",
+                    "option3": "nine",
+                    "option4": "thirteen",
+                    "solution": "2"
                 },
                 {
-                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?"
+                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?",
+                    "hint": "This architectural masterpiece is in a state known for its steel industry.",
+                    "option1": "Connecticut",
+                    "option2": "Pennsylvania",
+                    "option3": "Illinois",
+                    "option4": "New York",
+                    "solution": "2"
                 },
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 }
             ]
         },
@@ -131,19 +323,49 @@
             "description": "Explore the intersection of technological innovation and architectural design. This quiz tests your knowledge of computing history and iconic buildings.",
             "questions": [
                 {
-                    "text": "What was the original name of the Apple Macintosh XL computer?"
+                    "text": "What was the original name of the Apple Macintosh XL computer?",
+                    "hint": "This name was a nod to Steve Jobs\u2019 daughter, used for an earlier Apple model.",
+                    "option1": "Lisa 2",
+                    "option2": "Mac Daddy",
+                    "option3": "Granny Smith",
+                    "option4": "Orange XL",
+                    "solution": "1"
                 },
                 {
-                    "text": "How many stars are on the American flag?"
+                    "text": "How many stars are on the American flag?",
+                    "hint": "The number of stars corresponds to the number of states in the U.S.",
+                    "option1": "13",
+                    "option2": "48",
+                    "option3": "50",
+                    "option4": "51",
+                    "solution": "3"
                 },
                 {
-                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?"
+                    "text": "Where is the Frank Lloyd Wright-designed house known as Falling Water?",
+                    "hint": "This architectural masterpiece is in a state known for its steel industry.",
+                    "option1": "Connecticut",
+                    "option2": "Pennsylvania",
+                    "option3": "Illinois",
+                    "option4": "New York",
+                    "solution": "2"
                 },
                 {
-                    "text": "How many spikes are on the Statue of Liberty's crown?"
+                    "text": "How many spikes are on the Statue of Liberty's crown?",
+                    "hint": "The number of spikes symbolizes the seven continents or seas.",
+                    "option1": "five",
+                    "option2": "seven",
+                    "option3": "nine",
+                    "option4": "thirteen",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
+                    "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?",
+                    "hint": "The name suggests a large, satisfying drink for convenience store customers.",
+                    "option1": "Big Slurp",
+                    "option2": "Big Gulp",
+                    "option3": "Big Drink",
+                    "option4": "Big Sip",
+                    "solution": "2"
                 }
             ]
         }

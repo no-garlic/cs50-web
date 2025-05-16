@@ -5,28 +5,76 @@
             "description": "Delve into the fascinating world of groundbreaking inventions and pivotal discoveries. This quiz explores the origins of technologies and explorations that shaped our world, from early sound recordings to daring expeditions.",
             "questions": [
                 {
-                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
+                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?",
+                    "hint": "This rhyme features a girl and her pet, often sung to a simple melody.",
+                    "option1": "'Humpty Dumpty'",
+                    "option2": "'Mary Had a Little Lamb'",
+                    "option3": "'Jack Be Nimble'",
+                    "option4": "'Home, Sweet Home'",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
+                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?",
+                    "hint": "This law is the first of Newton\u2019s three laws of motion.",
+                    "option1": "Law of Inertia",
+                    "option2": "Law of Thermodynamics",
+                    "option3": "Law of Relativity",
+                    "option4": "Law of Gravitation",
+                    "solution": "1"
                 },
                 {
-                    "text": "What was the name of the first nuclear-powered submarine?"
+                    "text": "What was the name of the first nuclear-powered submarine?",
+                    "hint": "This submarine shares its name with a fictional vessel from a Jules Verne novel.",
+                    "option1": "Nautilus",
+                    "option2": "Neptune",
+                    "option3": "Nordenfelt III",
+                    "option4": "Nicholas",
+                    "solution": "1"
                 },
                 {
-                    "text": "What was the name of the first ship to sail around the world?"
+                    "text": "What was the name of the first ship to sail around the world?",
+                    "hint": "This ship was part of Ferdinand Magellan\u2019s expedition, named after a Spanish queen.",
+                    "option1": "Triton",
+                    "option2": "Victoria",
+                    "option3": "Magellan",
+                    "option4": "Elizabeth II",
+                    "solution": "2"
                 },
                 {
-                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
+                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?",
+                    "hint": "This icy destination is one of the Earth's geographic extremes.",
+                    "option1": "Mount Everest",
+                    "option2": "Bermuda Triangle",
+                    "option3": "Atlantis",
+                    "option4": "North Pole",
+                    "solution": "4"
                 },
                 {
-                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                    "text": "Ada Lovelace is credited with being the first person to have made what?",
+                    "hint": "Her work with Charles Babbage involved early concepts of computing.",
+                    "option1": "a computer program",
+                    "option2": "a souffle",
+                    "option3": "a brassiere",
+                    "option4": "a mystery novel",
+                    "solution": "1"
                 },
                 {
-                    "text": "The first commercial radio station was located in what city?"
+                    "text": "The first commercial radio station was located in what city?",
+                    "hint": "This city is in Pennsylvania, known for its steel industry and rivers.",
+                    "option1": "Chicago",
+                    "option2": "Austin",
+                    "option3": "Pittsburgh",
+                    "option4": "Cleveland",
+                    "solution": "3"
                 },
                 {
-                    "text": "Modern computer microchips are primarily composed of what element?"
+                    "text": "Modern computer microchips are primarily composed of what element?",
+                    "hint": "This element is abundant in sand and central to the semiconductor industry.",
+                    "option1": "Sodium",
+                    "option2": "Silicon",
+                    "option3": "Aluminum",
+                    "option4": "Silver",
+                    "solution": "2"
                 }
             ]
         },
@@ -35,19 +83,49 @@
             "description": "Test your knowledge of the brilliant minds and revolutionary moments that propelled human progress. This quiz covers a range of inventions and discoveries, highlighting the individuals who dared to innovate.",
             "questions": [
                 {
-                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                    "text": "Ada Lovelace is credited with being the first person to have made what?",
+                    "hint": "Her work with Charles Babbage involved early concepts of computing.",
+                    "option1": "a computer program",
+                    "option2": "a souffle",
+                    "option3": "a brassiere",
+                    "option4": "a mystery novel",
+                    "solution": "1"
                 },
                 {
-                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
+                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?",
+                    "hint": "This rhyme features a girl and her pet, often sung to a simple melody.",
+                    "option1": "'Humpty Dumpty'",
+                    "option2": "'Mary Had a Little Lamb'",
+                    "option3": "'Jack Be Nimble'",
+                    "option4": "'Home, Sweet Home'",
+                    "solution": "2"
                 },
                 {
-                    "text": "The first commercial radio station was located in what city?"
+                    "text": "The first commercial radio station was located in what city?",
+                    "hint": "This city is in Pennsylvania, known for its steel industry and rivers.",
+                    "option1": "Chicago",
+                    "option2": "Austin",
+                    "option3": "Pittsburgh",
+                    "option4": "Cleveland",
+                    "solution": "3"
                 },
                 {
-                    "text": "Modern computer microchips are primarily composed of what element?"
+                    "text": "Modern computer microchips are primarily composed of what element?",
+                    "hint": "This element is abundant in sand and central to the semiconductor industry.",
+                    "option1": "Sodium",
+                    "option2": "Silicon",
+                    "option3": "Aluminum",
+                    "option4": "Silver",
+                    "solution": "2"
                 },
                 {
-                    "text": "What was the name of the first ship to sail around the world?"
+                    "text": "What was the name of the first ship to sail around the world?",
+                    "hint": "This ship was part of Ferdinand Magellan\u2019s expedition, named after a Spanish queen.",
+                    "option1": "Triton",
+                    "option2": "Victoria",
+                    "option3": "Magellan",
+                    "option4": "Elizabeth II",
+                    "solution": "2"
                 }
             ]
         },
@@ -56,19 +134,49 @@
             "description": "Explore the fundamental principles and groundbreaking discoveries that underpin our understanding of the world. This quiz focuses on scientific laws, technological advancements, and the individuals who shaped them.",
             "questions": [
                 {
-                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
+                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?",
+                    "hint": "This law is the first of Newton\u2019s three laws of motion.",
+                    "option1": "Law of Inertia",
+                    "option2": "Law of Thermodynamics",
+                    "option3": "Law of Relativity",
+                    "option4": "Law of Gravitation",
+                    "solution": "1"
                 },
                 {
-                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
+                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?",
+                    "hint": "This icy destination is one of the Earth's geographic extremes.",
+                    "option1": "Mount Everest",
+                    "option2": "Bermuda Triangle",
+                    "option3": "Atlantis",
+                    "option4": "North Pole",
+                    "solution": "4"
                 },
                 {
-                    "text": "What was the name of the first nuclear-powered submarine?"
+                    "text": "What was the name of the first nuclear-powered submarine?",
+                    "hint": "This submarine shares its name with a fictional vessel from a Jules Verne novel.",
+                    "option1": "Nautilus",
+                    "option2": "Neptune",
+                    "option3": "Nordenfelt III",
+                    "option4": "Nicholas",
+                    "solution": "1"
                 },
                 {
-                    "text": "What was the name of the first ship to sail around the world?"
+                    "text": "What was the name of the first ship to sail around the world?",
+                    "hint": "This ship was part of Ferdinand Magellan\u2019s expedition, named after a Spanish queen.",
+                    "option1": "Triton",
+                    "option2": "Victoria",
+                    "option3": "Magellan",
+                    "option4": "Elizabeth II",
+                    "solution": "2"
                 },
                 {
-                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                    "text": "Ada Lovelace is credited with being the first person to have made what?",
+                    "hint": "Her work with Charles Babbage involved early concepts of computing.",
+                    "option1": "a computer program",
+                    "option2": "a souffle",
+                    "option3": "a brassiere",
+                    "option4": "a mystery novel",
+                    "solution": "1"
                 }
             ]
         },
@@ -77,28 +185,76 @@
             "description": "From the smallest microchip to the first recorded sound, this quiz examines the diverse landscape of inventions and discoveries. Challenge yourself with questions spanning technology, exploration, and scientific breakthroughs.",
             "questions": [
                 {
-                    "text": "Modern computer microchips are primarily composed of what element?"
+                    "text": "Modern computer microchips are primarily composed of what element?",
+                    "hint": "This element is abundant in sand and central to the semiconductor industry.",
+                    "option1": "Sodium",
+                    "option2": "Silicon",
+                    "option3": "Aluminum",
+                    "option4": "Silver",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
+                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?",
+                    "hint": "This law is the first of Newton\u2019s three laws of motion.",
+                    "option1": "Law of Inertia",
+                    "option2": "Law of Thermodynamics",
+                    "option3": "Law of Relativity",
+                    "option4": "Law of Gravitation",
+                    "solution": "1"
                 },
                 {
-                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
+                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?",
+                    "hint": "This icy destination is one of the Earth's geographic extremes.",
+                    "option1": "Mount Everest",
+                    "option2": "Bermuda Triangle",
+                    "option3": "Atlantis",
+                    "option4": "North Pole",
+                    "solution": "4"
                 },
                 {
-                    "text": "What was the name of the first nuclear-powered submarine?"
+                    "text": "What was the name of the first nuclear-powered submarine?",
+                    "hint": "This submarine shares its name with a fictional vessel from a Jules Verne novel.",
+                    "option1": "Nautilus",
+                    "option2": "Neptune",
+                    "option3": "Nordenfelt III",
+                    "option4": "Nicholas",
+                    "solution": "1"
                 },
                 {
-                    "text": "The first commercial radio station was located in what city?"
+                    "text": "The first commercial radio station was located in what city?",
+                    "hint": "This city is in Pennsylvania, known for its steel industry and rivers.",
+                    "option1": "Chicago",
+                    "option2": "Austin",
+                    "option3": "Pittsburgh",
+                    "option4": "Cleveland",
+                    "solution": "3"
                 },
                 {
-                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
+                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?",
+                    "hint": "This rhyme features a girl and her pet, often sung to a simple melody.",
+                    "option1": "'Humpty Dumpty'",
+                    "option2": "'Mary Had a Little Lamb'",
+                    "option3": "'Jack Be Nimble'",
+                    "option4": "'Home, Sweet Home'",
+                    "solution": "2"
                 },
                 {
-                    "text": "What was the name of the first ship to sail around the world?"
+                    "text": "What was the name of the first ship to sail around the world?",
+                    "hint": "This ship was part of Ferdinand Magellan\u2019s expedition, named after a Spanish queen.",
+                    "option1": "Triton",
+                    "option2": "Victoria",
+                    "option3": "Magellan",
+                    "option4": "Elizabeth II",
+                    "solution": "2"
                 },
                 {
-                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
+                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?",
+                    "hint": "This rhyme features a girl and her pet, often sung to a simple melody.",
+                    "option1": "'Humpty Dumpty'",
+                    "option2": "'Mary Had a Little Lamb'",
+                    "option3": "'Jack Be Nimble'",
+                    "option4": "'Home, Sweet Home'",
+                    "solution": "2"
                 }
             ]
         },
@@ -107,19 +263,49 @@
             "description": "Discover the origins of modern computing and the pioneering figures who laid the groundwork for the digital revolution. This quiz explores the early days of programming and the inventions that transformed our world.",
             "questions": [
                 {
-                    "text": "Ada Lovelace is credited with being the first person to have made what?"
+                    "text": "Ada Lovelace is credited with being the first person to have made what?",
+                    "hint": "Her work with Charles Babbage involved early concepts of computing.",
+                    "option1": "a computer program",
+                    "option2": "a souffle",
+                    "option3": "a brassiere",
+                    "option4": "a mystery novel",
+                    "solution": "1"
                 },
                 {
-                    "text": "Modern computer microchips are primarily composed of what element?"
+                    "text": "Modern computer microchips are primarily composed of what element?",
+                    "hint": "This element is abundant in sand and central to the semiconductor industry.",
+                    "option1": "Sodium",
+                    "option2": "Silicon",
+                    "option3": "Aluminum",
+                    "option4": "Silver",
+                    "solution": "2"
                 },
                 {
-                    "text": "The first commercial radio station was located in what city?"
+                    "text": "The first commercial radio station was located in what city?",
+                    "hint": "This city is in Pennsylvania, known for its steel industry and rivers.",
+                    "option1": "Chicago",
+                    "option2": "Austin",
+                    "option3": "Pittsburgh",
+                    "option4": "Cleveland",
+                    "solution": "3"
                 },
                 {
-                    "text": "What was the name of the first nuclear-powered submarine?"
+                    "text": "What was the name of the first nuclear-powered submarine?",
+                    "hint": "This submarine shares its name with a fictional vessel from a Jules Verne novel.",
+                    "option1": "Nautilus",
+                    "option2": "Neptune",
+                    "option3": "Nordenfelt III",
+                    "option4": "Nicholas",
+                    "solution": "1"
                 },
                 {
-                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?"
+                    "text": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?",
+                    "hint": "This icy destination is one of the Earth's geographic extremes.",
+                    "option1": "Mount Everest",
+                    "option2": "Bermuda Triangle",
+                    "option3": "Atlantis",
+                    "option4": "North Pole",
+                    "solution": "4"
                 }
             ]
         },
@@ -128,13 +314,31 @@
             "description": "Delve into the fundamental principles of physics and the inventions that brought those principles to life. This quiz explores the laws of motion, the composition of matter, and the individuals who shaped our understanding of the universe.",
             "questions": [
                 {
-                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?"
+                    "text": "What is the name of the Newtonian law that states 'An object in Motion tends to stay in motion'?",
+                    "hint": "This law is the first of Newton\u2019s three laws of motion.",
+                    "option1": "Law of Inertia",
+                    "option2": "Law of Thermodynamics",
+                    "option3": "Law of Relativity",
+                    "option4": "Law of Gravitation",
+                    "solution": "1"
                 },
                 {
-                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?"
+                    "text": "The first sound recording to be made and reproduced was a recitation of what nursery rhyme?",
+                    "hint": "This rhyme features a girl and her pet, often sung to a simple melody.",
+                    "option1": "'Humpty Dumpty'",
+                    "option2": "'Mary Had a Little Lamb'",
+                    "option3": "'Jack Be Nimble'",
+                    "option4": "'Home, Sweet Home'",
+                    "solution": "2"
                 },
                 {
-                    "text": "Modern computer microchips are primarily composed of what element?"
+                    "text": "Modern computer microchips are primarily composed of what element?",
+                    "hint": "This element is abundant in sand and central to the semiconductor industry.",
+                    "option1": "Sodium",
+                    "option2": "Silicon",
+                    "option3": "Aluminum",
+                    "option4": "Silver",
+                    "solution": "2"
                 }
             ]
         }

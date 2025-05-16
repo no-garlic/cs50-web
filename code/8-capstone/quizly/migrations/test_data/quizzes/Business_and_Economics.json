@@ -5,28 +5,76 @@
             "description": "Delve into the core concepts of economics and business with this quiz. From historical figures to modern corporations, test your knowledge of the forces that shape our world.",
             "questions": [
                 {
-                    "text": "What is the proletariat?"
+                    "text": "What is the proletariat?",
+                    "hint": "This term, used in Marxist theory, refers to those who earn wages through labor.",
+                    "option1": "the homeless",
+                    "option2": "the royalty",
+                    "option3": "the upper class",
+                    "option4": "the working class",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these is a commonly-known investment account?"
+                    "text": "Which of these is a commonly-known investment account?",
+                    "hint": "This account\u2019s initials stand for \u2018Individual Retirement Account.\u2019",
+                    "option1": "CNN",
+                    "option2": "EMC",
+                    "option3": "IRA",
+                    "option4": "IRS",
+                    "solution": "3"
                 },
                 {
-                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                    "text": "By what nickname is the Federal National Mortgage Association known?",
+                    "hint": "This nickname is derived from a female first name, reflecting the organization's acronym.",
+                    "option1": "Morty",
+                    "option2": "FEMA",
+                    "option3": "Freddie Mac",
+                    "option4": "Fannie Mae",
+                    "solution": "4"
                 },
                 {
-                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?",
+                    "hint": "The company started as an online bookstore before expanding to everything.",
+                    "option1": "books",
+                    "option2": "compact discs",
+                    "option3": "cars",
+                    "option4": "clothes",
+                    "solution": "1"
                 },
                 {
-                    "text": "If a business files under Chapter 11 what is it doing?"
+                    "text": "If a business files under Chapter 11 what is it doing?",
+                    "hint": "This legal action allows a company to reorganize while managing debts.",
+                    "option1": "declaring bankruptcy",
+                    "option2": "selling stock",
+                    "option3": "buying a smaller company",
+                    "option4": "suing the government",
+                    "solution": "1"
                 },
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is a government agency established to protect investors?"
+                    "text": "Which of these is a government agency established to protect investors?",
+                    "hint": "This agency\u2019s initials stand for \u2018Securities and Exchange Commission.\u2019",
+                    "option1": "AAA",
+                    "option2": "NBA",
+                    "option3": "SEC",
+                    "option4": "MADD",
+                    "solution": "3"
                 },
                 {
-                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?",
+                    "hint": "This company is a household name for products like Tide and Pampers.",
+                    "option1": "Simon & Schuster",
+                    "option2": "Procter & Gamble",
+                    "option3": "Johnson & Johnson",
+                    "option4": "Smith & Wesson",
+                    "solution": "2"
                 }
             ]
         },
@@ -35,19 +83,49 @@
             "description": "Test your knowledge of business and finance with a touch of fictional flair. This quiz combines real-world concepts with references to iconic stories and characters.",
             "questions": [
                 {
-                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?",
+                    "hint": "This fictional paper is based in the city of Metropolis.",
+                    "option1": "The Bugle",
+                    "option2": "The Daily Planet",
+                    "option3": "The Metropolis Tribune",
+                    "option4": "The New York Times",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these companies is not an online stock brokerage?"
+                    "text": "Which of these companies is not an online stock brokerage?",
+                    "hint": "This company\u2019s name suggests digital media, not financial trading.",
+                    "option1": "E*Trade",
+                    "option2": "EDigital",
+                    "option3": "Datek Online",
+                    "option4": "DLJ Direct",
+                    "solution": "2"
                 },
                 {
-                    "text": "Who is considered the owner of a 'publicly held' company?"
+                    "text": "Who is considered the owner of a 'publicly held' company?",
+                    "hint": "These individuals own shares of the company, giving them partial ownership.",
+                    "option1": "the CEO",
+                    "option2": "the stockholders",
+                    "option3": "the president",
+                    "option4": "the government",
+                    "solution": "2"
                 },
                 {
-                    "text": "John D. Rockefeller made his fortune in what industry?"
+                    "text": "John D. Rockefeller made his fortune in what industry?",
+                    "hint": "His wealth came from a resource critical to the Industrial Revolution\u2019s energy needs.",
+                    "option1": "automobile",
+                    "option2": "oil",
+                    "option3": "steel",
+                    "option4": "railroad",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the proletariat?"
+                    "text": "What is the proletariat?",
+                    "hint": "This term, used in Marxist theory, refers to those who earn wages through labor.",
+                    "option1": "the homeless",
+                    "option2": "the royalty",
+                    "option3": "the upper class",
+                    "option4": "the working class",
+                    "solution": "4"
                 }
             ]
         },
@@ -56,28 +134,76 @@
             "description": "Challenge your understanding of the financial world with this quiz. From stock markets to corporate structures, see how well you know the language of money.",
             "questions": [
                 {
-                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?",
+                    "hint": "This fictional paper is based in the city of Metropolis.",
+                    "option1": "The Bugle",
+                    "option2": "The Daily Planet",
+                    "option3": "The Metropolis Tribune",
+                    "option4": "The New York Times",
+                    "solution": "2"
                 },
                 {
-                    "text": "Who is considered the owner of a 'publicly held' company?"
+                    "text": "Who is considered the owner of a 'publicly held' company?",
+                    "hint": "These individuals own shares of the company, giving them partial ownership.",
+                    "option1": "the CEO",
+                    "option2": "the stockholders",
+                    "option3": "the president",
+                    "option4": "the government",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these companies is not an online stock brokerage?"
+                    "text": "Which of these companies is not an online stock brokerage?",
+                    "hint": "This company\u2019s name suggests digital media, not financial trading.",
+                    "option1": "E*Trade",
+                    "option2": "EDigital",
+                    "option3": "Datek Online",
+                    "option4": "DLJ Direct",
+                    "solution": "2"
                 },
                 {
-                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?",
+                    "hint": "The company started as an online bookstore before expanding to everything.",
+                    "option1": "books",
+                    "option2": "compact discs",
+                    "option3": "cars",
+                    "option4": "clothes",
+                    "solution": "1"
                 },
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is a commonly-known investment account?"
+                    "text": "Which of these is a commonly-known investment account?",
+                    "hint": "This account\u2019s initials stand for \u2018Individual Retirement Account.\u2019",
+                    "option1": "CNN",
+                    "option2": "EMC",
+                    "option3": "IRA",
+                    "option4": "IRS",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these is a government agency established to protect investors?"
+                    "text": "Which of these is a government agency established to protect investors?",
+                    "hint": "This agency\u2019s initials stand for \u2018Securities and Exchange Commission.\u2019",
+                    "option1": "AAA",
+                    "option2": "NBA",
+                    "option3": "SEC",
+                    "option4": "MADD",
+                    "solution": "3"
                 },
                 {
-                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?",
+                    "hint": "This company is a household name for products like Tide and Pampers.",
+                    "option1": "Simon & Schuster",
+                    "option2": "Procter & Gamble",
+                    "option3": "Johnson & Johnson",
+                    "option4": "Smith & Wesson",
+                    "solution": "2"
                 }
             ]
         },
@@ -86,28 +212,76 @@
             "description": "Explore the lives and legacies of the individuals who shaped the modern business landscape. This quiz tests your knowledge of the entrepreneurs, innovators, and financiers who built empires.",
             "questions": [
                 {
-                    "text": "John D. Rockefeller made his fortune in what industry?"
+                    "text": "John D. Rockefeller made his fortune in what industry?",
+                    "hint": "His wealth came from a resource critical to the Industrial Revolution\u2019s energy needs.",
+                    "option1": "automobile",
+                    "option2": "oil",
+                    "option3": "steel",
+                    "option4": "railroad",
+                    "solution": "2"
                 },
                 {
-                    "text": "If a business files under Chapter 11 what is it doing?"
+                    "text": "If a business files under Chapter 11 what is it doing?",
+                    "hint": "This legal action allows a company to reorganize while managing debts.",
+                    "option1": "declaring bankruptcy",
+                    "option2": "selling stock",
+                    "option3": "buying a smaller company",
+                    "option4": "suing the government",
+                    "solution": "1"
                 },
                 {
-                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                    "text": "By what nickname is the Federal National Mortgage Association known?",
+                    "hint": "This nickname is derived from a female first name, reflecting the organization's acronym.",
+                    "option1": "Morty",
+                    "option2": "FEMA",
+                    "option3": "Freddie Mac",
+                    "option4": "Fannie Mae",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these companies is not an online stock brokerage?"
+                    "text": "Which of these companies is not an online stock brokerage?",
+                    "hint": "This company\u2019s name suggests digital media, not financial trading.",
+                    "option1": "E*Trade",
+                    "option2": "EDigital",
+                    "option3": "Datek Online",
+                    "option4": "DLJ Direct",
+                    "solution": "2"
                 },
                 {
-                    "text": "John D. Rockefeller made his fortune in what industry?"
+                    "text": "John D. Rockefeller made his fortune in what industry?",
+                    "hint": "His wealth came from a resource critical to the Industrial Revolution\u2019s energy needs.",
+                    "option1": "automobile",
+                    "option2": "oil",
+                    "option3": "steel",
+                    "option4": "railroad",
+                    "solution": "2"
                 },
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 },
                 {
-                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?",
+                    "hint": "This company is a household name for products like Tide and Pampers.",
+                    "option1": "Simon & Schuster",
+                    "option2": "Procter & Gamble",
+                    "option3": "Johnson & Johnson",
+                    "option4": "Smith & Wesson",
+                    "solution": "2"
                 },
                 {
-                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?",
+                    "hint": "The company started as an online bookstore before expanding to everything.",
+                    "option1": "books",
+                    "option2": "compact discs",
+                    "option3": "cars",
+                    "option4": "clothes",
+                    "solution": "1"
                 }
             ]
         },
@@ -116,19 +290,49 @@
             "description": "Sharpen your financial acumen with this quiz focused on investment strategies and market dynamics. From risk assessment to portfolio management, test your knowledge of the world of finance.",
             "questions": [
                 {
-                    "text": "Which of these is a government agency established to protect investors?"
+                    "text": "Which of these is a government agency established to protect investors?",
+                    "hint": "This agency\u2019s initials stand for \u2018Securities and Exchange Commission.\u2019",
+                    "option1": "AAA",
+                    "option2": "NBA",
+                    "option3": "SEC",
+                    "option4": "MADD",
+                    "solution": "3"
                 },
                 {
-                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                    "text": "By what nickname is the Federal National Mortgage Association known?",
+                    "hint": "This nickname is derived from a female first name, reflecting the organization's acronym.",
+                    "option1": "Morty",
+                    "option2": "FEMA",
+                    "option3": "Freddie Mac",
+                    "option4": "Fannie Mae",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the proletariat?"
+                    "text": "What is the proletariat?",
+                    "hint": "This term, used in Marxist theory, refers to those who earn wages through labor.",
+                    "option1": "the homeless",
+                    "option2": "the royalty",
+                    "option3": "the upper class",
+                    "option4": "the working class",
+                    "solution": "4"
                 },
                 {
-                    "text": "If a business files under Chapter 11 what is it doing?"
+                    "text": "If a business files under Chapter 11 what is it doing?",
+                    "hint": "This legal action allows a company to reorganize while managing debts.",
+                    "option1": "declaring bankruptcy",
+                    "option2": "selling stock",
+                    "option3": "buying a smaller company",
+                    "option4": "suing the government",
+                    "solution": "1"
                 },
                 {
-                    "text": "Who is considered the owner of a 'publicly held' company?"
+                    "text": "Who is considered the owner of a 'publicly held' company?",
+                    "hint": "These individuals own shares of the company, giving them partial ownership.",
+                    "option1": "the CEO",
+                    "option2": "the stockholders",
+                    "option3": "the president",
+                    "option4": "the government",
+                    "solution": "2"
                 }
             ]
         },
@@ -137,13 +341,31 @@
             "description": "Dive into the world of online trading and investment platforms. This quiz will test your knowledge of the tools and strategies used by modern investors.",
             "questions": [
                 {
-                    "text": "Which of these is a commonly-known investment account?"
+                    "text": "Which of these is a commonly-known investment account?",
+                    "hint": "This account\u2019s initials stand for \u2018Individual Retirement Account.\u2019",
+                    "option1": "CNN",
+                    "option2": "EMC",
+                    "option3": "IRA",
+                    "option4": "IRS",
+                    "solution": "3"
                 },
                 {
-                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?",
+                    "hint": "This fictional paper is based in the city of Metropolis.",
+                    "option1": "The Bugle",
+                    "option2": "The Daily Planet",
+                    "option3": "The Metropolis Tribune",
+                    "option4": "The New York Times",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is a government agency established to protect investors?"
+                    "text": "Which of these is a government agency established to protect investors?",
+                    "hint": "This agency\u2019s initials stand for \u2018Securities and Exchange Commission.\u2019",
+                    "option1": "AAA",
+                    "option2": "NBA",
+                    "option3": "SEC",
+                    "option4": "MADD",
+                    "solution": "3"
                 }
             ]
         },
@@ -152,28 +374,76 @@
             "description": "Explore the cutting edge of the financial world with this quiz. From fintech startups to blockchain technology, test your knowledge of the innovations shaping the future of money.",
             "questions": [
                 {
-                    "text": "Which of these is a commonly-known investment account?"
+                    "text": "Which of these is a commonly-known investment account?",
+                    "hint": "This account\u2019s initials stand for \u2018Individual Retirement Account.\u2019",
+                    "option1": "CNN",
+                    "option2": "EMC",
+                    "option3": "IRA",
+                    "option4": "IRS",
+                    "solution": "3"
                 },
                 {
-                    "text": "Who is considered the owner of a 'publicly held' company?"
+                    "text": "Who is considered the owner of a 'publicly held' company?",
+                    "hint": "These individuals own shares of the company, giving them partial ownership.",
+                    "option1": "the CEO",
+                    "option2": "the stockholders",
+                    "option3": "the president",
+                    "option4": "the government",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these companies is not an online stock brokerage?"
+                    "text": "Which of these companies is not an online stock brokerage?",
+                    "hint": "This company\u2019s name suggests digital media, not financial trading.",
+                    "option1": "E*Trade",
+                    "option2": "EDigital",
+                    "option3": "Datek Online",
+                    "option4": "DLJ Direct",
+                    "solution": "2"
                 },
                 {
-                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?",
+                    "hint": "The company started as an online bookstore before expanding to everything.",
+                    "option1": "books",
+                    "option2": "compact discs",
+                    "option3": "cars",
+                    "option4": "clothes",
+                    "solution": "1"
                 },
                 {
-                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?",
+                    "hint": "This company is a household name for products like Tide and Pampers.",
+                    "option1": "Simon & Schuster",
+                    "option2": "Procter & Gamble",
+                    "option3": "Johnson & Johnson",
+                    "option4": "Smith & Wesson",
+                    "solution": "2"
                 },
                 {
-                    "text": "If a business files under Chapter 11 what is it doing?"
+                    "text": "If a business files under Chapter 11 what is it doing?",
+                    "hint": "This legal action allows a company to reorganize while managing debts.",
+                    "option1": "declaring bankruptcy",
+                    "option2": "selling stock",
+                    "option3": "buying a smaller company",
+                    "option4": "suing the government",
+                    "solution": "1"
                 },
                 {
-                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                    "text": "By what nickname is the Federal National Mortgage Association known?",
+                    "hint": "This nickname is derived from a female first name, reflecting the organization's acronym.",
+                    "option1": "Morty",
+                    "option2": "FEMA",
+                    "option3": "Freddie Mac",
+                    "option4": "Fannie Mae",
+                    "solution": "4"
                 },
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 }
             ]
         },
@@ -182,28 +452,76 @@
             "description": "Uncover the stories behind the most influential companies and entrepreneurs in history. This quiz will test your knowledge of the people and events that have shaped the business world.",
             "questions": [
                 {
-                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?",
+                    "hint": "This fictional paper is based in the city of Metropolis.",
+                    "option1": "The Bugle",
+                    "option2": "The Daily Planet",
+                    "option3": "The Metropolis Tribune",
+                    "option4": "The New York Times",
+                    "solution": "2"
                 },
                 {
-                    "text": "John D. Rockefeller made his fortune in what industry?"
+                    "text": "John D. Rockefeller made his fortune in what industry?",
+                    "hint": "His wealth came from a resource critical to the Industrial Revolution\u2019s energy needs.",
+                    "option1": "automobile",
+                    "option2": "oil",
+                    "option3": "steel",
+                    "option4": "railroad",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the proletariat?"
+                    "text": "What is the proletariat?",
+                    "hint": "This term, used in Marxist theory, refers to those who earn wages through labor.",
+                    "option1": "the homeless",
+                    "option2": "the royalty",
+                    "option3": "the upper class",
+                    "option4": "the working class",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the proletariat?"
+                    "text": "What is the proletariat?",
+                    "hint": "This term, used in Marxist theory, refers to those who earn wages through labor.",
+                    "option1": "the homeless",
+                    "option2": "the royalty",
+                    "option3": "the upper class",
+                    "option4": "the working class",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these companies is not an online stock brokerage?"
+                    "text": "Which of these companies is not an online stock brokerage?",
+                    "hint": "This company\u2019s name suggests digital media, not financial trading.",
+                    "option1": "E*Trade",
+                    "option2": "EDigital",
+                    "option3": "Datek Online",
+                    "option4": "DLJ Direct",
+                    "solution": "2"
                 },
                 {
-                    "text": "When it first appeared on the Internet, amazon.com sold only what?"
+                    "text": "When it first appeared on the Internet, amazon.com sold only what?",
+                    "hint": "The company started as an online bookstore before expanding to everything.",
+                    "option1": "books",
+                    "option2": "compact discs",
+                    "option3": "cars",
+                    "option4": "clothes",
+                    "solution": "1"
                 },
                 {
-                    "text": "What corporation was founded by a candlemaker and a soapmaker?"
+                    "text": "What corporation was founded by a candlemaker and a soapmaker?",
+                    "hint": "This company is a household name for products like Tide and Pampers.",
+                    "option1": "Simon & Schuster",
+                    "option2": "Procter & Gamble",
+                    "option3": "Johnson & Johnson",
+                    "option4": "Smith & Wesson",
+                    "solution": "2"
                 },
                 {
-                    "text": "By what nickname is the Federal National Mortgage Association known?"
+                    "text": "By what nickname is the Federal National Mortgage Association known?",
+                    "hint": "This nickname is derived from a female first name, reflecting the organization's acronym.",
+                    "option1": "Morty",
+                    "option2": "FEMA",
+                    "option3": "Freddie Mac",
+                    "option4": "Fannie Mae",
+                    "solution": "4"
                 }
             ]
         },
@@ -212,28 +530,76 @@
             "description": "Test your knowledge of the inner workings of major corporations and the strategies they use to succeed. From marketing to management, see how well you understand the business world.",
             "questions": [
                 {
-                    "text": "What internet company goes by the acronym AOL?"
+                    "text": "What internet company goes by the acronym AOL?",
+                    "hint": "This company was a pioneer in dial-up internet services in the 1990s.",
+                    "option1": "America Over Lines",
+                    "option2": "America Online",
+                    "option3": "Americans On Links",
+                    "option4": "Americans On LOR",
+                    "solution": "2"
                 },
                 {
-                    "text": "What newspaper do Lois Lane and Clark Kent work for?"
+                    "text": "What newspaper do Lois Lane and Clark Kent work for?",
+                    "hint": "This fictional paper is based in the city of Metropolis.",
+                    "option1": "The Bugle",
+                    "option2": "The Daily Planet",
+                    "option3": "The Metropolis Tribune",
+                    "option4": "The New York Times",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is a government agency established to protect investors?"
+                    "text": "Which of these is a government agency established to protect investors?",
+                    "hint": "This agency\u2019s initials stand for \u2018Securities and Exchange Commission.\u2019",
+                    "option1": "AAA",
+                    "option2": "NBA",
+                    "option3": "SEC",
+                    "option4": "MADD",
+                    "solution": "3"
                 },
                 {
-                    "text": "If a business files under Chapter 11 what is it doing?"
+                    "text": "If a business files under Chapter 11 what is it doing?",
+                    "hint": "This legal action allows a company to reorganize while managing debts.",
+                    "option1": "declaring bankruptcy",
+                    "option2": "selling stock",
+                    "option3": "buying a smaller company",
+                    "option4": "suing the government",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these is a commonly-known investment account?"
+                    "text": "Which of these is a commonly-known investment account?",
+                    "hint": "This account\u2019s initials stand for \u2018Individual Retirement Account.\u2019",
+                    "option1": "CNN",
+                    "option2": "EMC",
+                    "option3": "IRA",
+                    "option4": "IRS",
+                    "solution": "3"
                 },
                 {
-                    "text": "Who is considered the owner of a 'publicly held' company?"
+                    "text": "Who is considered the owner of a 'publicly held' company?",
+                    "hint": "These individuals own shares of the company, giving them partial ownership.",
+                    "option1": "the CEO",
+                    "option2": "the stockholders",
+                    "option3": "the president",
+                    "option4": "the government",
+                    "solution": "2"
                 },
                 {
-                    "text": "John D. Rockefeller made his fortune in what industry?"
+                    "text": "John D. Rockefeller made his fortune in what industry?",
+                    "hint": "His wealth came from a resource critical to the Industrial Revolution\u2019s energy needs.",
+                    "option1": "automobile",
+                    "option2": "oil",
+                    "option3": "steel",
+                    "option4": "railroad",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is a government agency established to protect investors?"
+                    "text": "Which of these is a government agency established to protect investors?",
+                    "hint": "This agency\u2019s initials stand for \u2018Securities and Exchange Commission.\u2019",
+                    "option1": "AAA",
+                    "option2": "NBA",
+                    "option3": "SEC",
+                    "option4": "MADD",
+                    "solution": "3"
                 }
             ]
         }

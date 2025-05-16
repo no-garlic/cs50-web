@@ -5,13 +5,31 @@
             "description": "Test your knowledge of herbs, spices, and kosher dietary laws! This quiz explores the nuances of flavor and tradition in the culinary world.",
             "questions": [
                 {
-                    "text": "Which of these is not a spice?"
+                    "text": "Which of these is not a spice?",
+                    "hint": "This is a vegetable, often used in salads, not a seasoning.",
+                    "option1": "dill",
+                    "option2": "aniseed",
+                    "option3": "cucumber",
+                    "option4": "cayenne",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these foods is not traditionally considered kosher?"
+                    "text": "Which of these foods is not traditionally considered kosher?",
+                    "hint": "This food is forbidden in Jewish dietary laws due to its lack of fins and scales.",
+                    "option1": "citrus fruits",
+                    "option2": "barley",
+                    "option3": "chicken",
+                    "option4": "shellfish",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these is not a type of chili pepper?"
+                    "text": "Which of these is not a type of chili pepper?",
+                    "hint": "This name is a city, not a pepper variety, unlike the others.",
+                    "option1": "habanero",
+                    "option2": "cheyenne",
+                    "option3": "jalapeno",
+                    "option4": "guajillo",
+                    "solution": "2"
                 }
             ]
         },
@@ -20,28 +38,76 @@
             "description": "From citrus hybrids to international delicacies, this quiz takes you on a flavorful journey around the globe.  Are you a true connoisseur of diverse cuisines?",
             "questions": [
                 {
-                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
+                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?",
+                    "hint": "The name is a blend of the two parent fruits, starting with 'tang.'",
+                    "option1": "graperine",
+                    "option2": "tangefruit",
+                    "option3": "tangelo",
+                    "option4": "kumquat",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these is not an ingredient in Yorkshire pudding?"
+                    "text": "Which of these is not an ingredient in Yorkshire pudding?",
+                    "hint": "This sweet ingredient is not used in the savory, batter-based dish.",
+                    "option1": "eggs",
+                    "option2": "milk",
+                    "option3": "chocolate",
+                    "option4": "meat drippings",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these foods is poisonous to dogs?"
+                    "text": "Which of these foods is poisonous to dogs?",
+                    "hint": "This sweet treat contains theobromine, which is toxic to canines.",
+                    "option1": "peanut butter",
+                    "option2": "bananas",
+                    "option3": "chocolate",
+                    "option4": "olives",
+                    "solution": "3"
                 },
                 {
-                    "text": "In what restaurant can you order a Grand Slam breakfast?"
+                    "text": "In what restaurant can you order a Grand Slam breakfast?",
+                    "hint": "This chain is known for its 24-hour diners and breakfast specials.",
+                    "option1": "Denny's",
+                    "option2": "McDonald's",
+                    "option3": "Burger King",
+                    "option4": "Hardee's",
+                    "solution": "1"
                 },
                 {
-                    "text": "In America, what is the main ingredient in pepperoni?"
+                    "text": "In America, what is the main ingredient in pepperoni?",
+                    "hint": "This ingredient is a protein source, typically a blend of two types of animal products.",
+                    "option1": "fish",
+                    "option2": "pepper",
+                    "option3": "wheat",
+                    "option4": "meat",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these is not a traditional Greek dish?"
+                    "text": "Which of these is not a traditional Greek dish?",
+                    "hint": "This dish is Japanese, not part of Greek cuisine.",
+                    "option1": "sukiyaki",
+                    "option2": "souvlaki",
+                    "option3": "moussaka",
+                    "option4": "finikia",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the principal ingredient in traditional cole slaw?"
+                    "text": "What is the principal ingredient in traditional cole slaw?",
+                    "hint": "This vegetable is shredded to give coleslaw its crunchy texture.",
+                    "option1": "lettuce",
+                    "option2": "spinach ",
+                    "option3": "cabbage",
+                    "option4": "chicory",
+                    "solution": "3"
                 },
                 {
-                    "text": "Cheese is a necessary ingredient in which of these dishes?"
+                    "text": "Cheese is a necessary ingredient in which of these dishes?",
+                    "hint": "This dish is an Italian-inspired meal often served with tomato sauce.",
+                    "option1": "sushi",
+                    "option2": "french fries",
+                    "option3": "veal parmigiano",
+                    "option4": "chicken pot pie",
+                    "solution": "3"
                 }
             ]
         },
@@ -50,13 +116,31 @@
             "description": "From flatbreads to breakfast cereals, this quiz dives into the world of baked goods and unique food preparations.  Can you identify these culinary creations?",
             "questions": [
                 {
-                    "text": "A pita is a type of what?"
+                    "text": "A pita is a type of what?",
+                    "hint": "It's a staple in Middle Eastern cuisine, often used to scoop up dips like hummus.",
+                    "option1": "fresh fruit",
+                    "option2": "flat bread",
+                    "option3": "French tart",
+                    "option4": "friend bean dip",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of the following breakfast cereals is shaped like the letter O?"
+                    "text": "Which of the following breakfast cereals is shaped like the letter O?",
+                    "hint": "This cereal\u2019s name suggests cheerfulness and a round shape.",
+                    "option1": "Life Corn",
+                    "option2": "Chex",
+                    "option3": "Cheerios",
+                    "option4": "Raisin Bran",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these dishes is made from pig intestines?"
+                    "text": "Which of these dishes is made from pig intestines?",
+                    "hint": "This Southern U.S. dish is often fried and served as soul food.",
+                    "option1": "haggis",
+                    "option2": "chitlins",
+                    "option3": "grits",
+                    "option4": "chop suey",
+                    "solution": "2"
                 }
             ]
         },
@@ -65,13 +149,31 @@
             "description": "Sausage-wrapped pancakes? Opium-laced poppy seeds? This quiz explores the quirky and surprising side of breakfast traditions worldwide.",
             "questions": [
                 {
-                    "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?"
+                    "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?",
+                    "hint": "The name evokes a cozy image of small animals tucked into something soft.",
+                    "option1": "ducks in a pond",
+                    "option2": "pigs in a blanket",
+                    "option3": "cows in a pasture",
+                    "option4": "dogs in the oven",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these foods could contain small amounts of naturally occurring opium?"
+                    "text": "Which of these foods could contain small amounts of naturally occurring opium?",
+                    "hint": "This food comes from a seed associated with a flower linked to opiates.",
+                    "option1": "chocolate truffles",
+                    "option2": "poppy seed bagels",
+                    "option3": "carbonated soda",
+                    "option4": "sesame chicken",
+                    "solution": "2"
                 },
                 {
-                    "text": "What tea is known for its distinctive bergamot flavor?"
+                    "text": "What tea is known for its distinctive bergamot flavor?",
+                    "hint": "This tea is named after a British nobleman and often served with milk.",
+                    "option1": "Earl Grey",
+                    "option2": "Darjeeling",
+                    "option3": "English Breakfast",
+                    "option4": "Prince of Wales",
+                    "solution": "1"
                 }
             ]
         },
@@ -80,28 +182,76 @@
             "description": "From candies to legumes, this quiz explores the diverse ingredients and flavors that make up our favorite foods.  Do you know your cacao from your cat food?",
             "questions": [
                 {
-                    "text": "Which of the following candies is traditionally fruit flavored?"
+                    "text": "Which of the following candies is traditionally fruit flavored?",
+                    "hint": "This candy\u2019s name implies a rainbow of flavors in small, colorful pieces.",
+                    "option1": "M&M's",
+                    "option2": "Skittles",
+                    "option3": "Reese's Pieces",
+                    "option4": "Junior Mints",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these are not legumes?"
+                    "text": "Which of these are not legumes?",
+                    "hint": "This vegetable is a root, unlike the others, which are pod-bearing plants.",
+                    "option1": "beans",
+                    "option2": "peas",
+                    "option3": "radishes",
+                    "option4": "peanuts",
+                    "solution": "3"
                 },
                 {
-                    "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?"
+                    "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?",
+                    "hint": "This topping is often melted or browned, adding a rich flavor to casseroles.",
+                    "option1": "cheese",
+                    "option2": "fruit",
+                    "option3": "gravy",
+                    "option4": "whipped cream",
+                    "solution": "1"
                 },
                 {
-                    "text": "The term 'chili con carne' refers to chili with what?"
+                    "text": "The term 'chili con carne' refers to chili with what?",
+                    "hint": "The Spanish word 'carne' translates to a key ingredient in this dish.",
+                    "option1": "beans ",
+                    "option2": "meat",
+                    "option3": "cheese",
+                    "option4": "chili peppers",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these foods could you catch at sea?"
+                    "text": "Which of these foods could you catch at sea?",
+                    "hint": "This food is a shellfish, often harvested from ocean waters.",
+                    "option1": "shallot",
+                    "option2": "stollen",
+                    "option3": "scallop",
+                    "option4": "scone",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these is made from cacao seeds?"
+                    "text": "Which of these is made from cacao seeds?",
+                    "hint": "This sweet treat is derived from a tropical bean, processed into a beloved dessert.",
+                    "option1": "marzipan",
+                    "option2": "soy sauce",
+                    "option3": "chocolate",
+                    "option4": "anchovies",
+                    "solution": "3"
                 },
                 {
-                    "text": "If you ask for 'gai' at a Thai restaurant, what will you get?"
+                    "text": "If you ask for 'gai' at a Thai restaurant, what will you get?",
+                    "hint": "In Thai, 'gai' refers to a common poultry item on the menu.",
+                    "option1": "shrimp",
+                    "option2": "chicken",
+                    "option3": "beef",
+                    "option4": "pork",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is not found in a Snickers candy bar?"
+                    "text": "Which of these is not found in a Snickers candy bar?",
+                    "hint": "Snickers uses peanuts, not this other type of nut.",
+                    "option1": "almonds",
+                    "option2": "chocolate",
+                    "option3": "nougat",
+                    "option4": "caramel",
+                    "solution": "1"
                 }
             ]
         },
@@ -110,19 +260,40 @@
             "description": "From bangers and mash to 'Where's the beef?', this quiz explores iconic British dishes and advertising slogans.  Are you ready to tackle this culinary challenge?",
             "questions": [
                 {
-                    "text": "The British dish 'bangers and mash' is made up of sausage and what?"
+                    "text": "The British dish 'bangers and mash' is made up of sausage and what?",
+                    "hint": "The second component is a starchy side dish, often served with gravy.",
+                    "option1": "eggs",
+                    "option2": "bacon",
+                    "option3": "liver",
+                    "option4": "potatoes",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which fast food chain used the advertising slogan, 'Where's the beef'?"
+                    "text": "What term is used to describe a group of fish?",
+                    "hint": "This term also applies to a place of learning, reflecting their coordinated movement.",
+                    "option1": "knot",
+                    "option2": "drape",
+                    "option3": "school",
+                    "option4": "gaggle",
+                    "solution": "3"
                 },
                 {
-                    "text": "What term is used to describe a group of fish?"
+                    "text": "A knish is traditionally stuffed with what filling?",
+                    "hint": "This filling is a starchy staple often associated with Eastern European cuisine.",
+                    "option1": "potato",
+                    "option2": "creamed corn",
+                    "option3": "lemon custard",
+                    "option4": "raspberry jelly",
+                    "solution": "1"
                 },
                 {
-                    "text": "A knish is traditionally stuffed with what filling?"
-                },
-                {
-                    "text": "What is an alternate name for the food dish 'Beijing duck'?"
+                    "text": "What is an alternate name for the food dish 'Beijing duck'?",
+                    "hint": "The older name reflects the former English spelling of the Chinese capital.",
+                    "option1": "Shanghai duck",
+                    "option2": "Peking duck",
+                    "option3": "Hong Kong duck",
+                    "option4": "Brooklyn duck",
+                    "solution": "2"
                 }
             ]
         },
@@ -131,28 +302,76 @@
             "description": "From Pink Ladies to cat food endorsements, this quiz delves into the unexpected corners of the culinary world.  Prepare for some surprising facts!",
             "questions": [
                 {
-                    "text": "What liqueur is used to make a Pink Lady cocktail pink?"
+                    "text": "What liqueur is used to make a Pink Lady cocktail pink?",
+                    "hint": "This sweet, red syrup is often used in cocktails for color and flavor.",
+                    "option1": "grenadine",
+                    "option2": "schnapps",
+                    "option3": "triple sec",
+                    "option4": "pernod",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the most popular month for weddings in America?"
+                    "text": "What is the most popular month for weddings in America?",
+                    "hint": "This summer month is favored for its warm weather and vacation season.",
+                    "option1": "January",
+                    "option2": "May",
+                    "option3": "August",
+                    "option4": "November",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these is a member of the cucumber family?"
+                    "text": "Which of these is a member of the cucumber family?",
+                    "hint": "This fruit is large, juicy, and often associated with summer picnics.",
+                    "option1": "green pepper",
+                    "option2": "watermelon",
+                    "option3": "potato",
+                    "option4": "green bean",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?"
+                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?",
+                    "hint": "The brand\u2019s name is a playful reference to feline vocalization.",
+                    "option1": "Fancy Feast",
+                    "option2": "Cat Chow",
+                    "option3": "Meow Mix",
+                    "option4": "9-Lives",
+                    "solution": "3"
                 },
                 {
-                    "text": "What type of meat is on a traditional Reuben sandwich?"
+                    "text": "What type of meat is on a traditional Reuben sandwich?",
+                    "hint": "This meat is cured and often paired with Swiss cheese and sauerkraut.",
+                    "option1": "turkey",
+                    "option2": "bologna",
+                    "option3": "corned beef",
+                    "option4": "pepperoni",
+                    "solution": "3"
                 },
                 {
-                    "text": "What tea is known for its distinctive bergamot flavor?"
+                    "text": "What tea is known for its distinctive bergamot flavor?",
+                    "hint": "This tea is named after a British nobleman and often served with milk.",
+                    "option1": "Earl Grey",
+                    "option2": "Darjeeling",
+                    "option3": "English Breakfast",
+                    "option4": "Prince of Wales",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these are not legumes?"
+                    "text": "Which of these are not legumes?",
+                    "hint": "This vegetable is a root, unlike the others, which are pod-bearing plants.",
+                    "option1": "beans",
+                    "option2": "peas",
+                    "option3": "radishes",
+                    "option4": "peanuts",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these foods is poisonous to dogs?"
+                    "text": "Which of these foods is poisonous to dogs?",
+                    "hint": "This sweet treat contains theobromine, which is toxic to canines.",
+                    "option1": "peanut butter",
+                    "option2": "bananas",
+                    "option3": "chocolate",
+                    "option4": "olives",
+                    "solution": "3"
                 }
             ]
         },
@@ -161,13 +380,31 @@
             "description": "From breakfast staples to alternative names for classic dishes, this quiz tests your knowledge of food terminology and preparation methods.",
             "questions": [
                 {
-                    "text": "Which of the following breakfast cereals is shaped like the letter O?"
+                    "text": "Which of the following breakfast cereals is shaped like the letter O?",
+                    "hint": "This cereal\u2019s name suggests cheerfulness and a round shape.",
+                    "option1": "Life Corn",
+                    "option2": "Chex",
+                    "option3": "Cheerios",
+                    "option4": "Raisin Bran",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is an alternate name for the food dish 'Beijing duck'?"
+                    "text": "What is an alternate name for the food dish 'Beijing duck'?",
+                    "hint": "The older name reflects the former English spelling of the Chinese capital.",
+                    "option1": "Shanghai duck",
+                    "option2": "Peking duck",
+                    "option3": "Hong Kong duck",
+                    "option4": "Brooklyn duck",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is not found in a Snickers candy bar?"
+                    "text": "Which of these is not found in a Snickers candy bar?",
+                    "hint": "Snickers uses peanuts, not this other type of nut.",
+                    "option1": "almonds",
+                    "option2": "chocolate",
+                    "option3": "nougat",
+                    "option4": "caramel",
+                    "solution": "1"
                 }
             ]
         },
@@ -176,25 +413,67 @@
             "description": "A deep dive into British cuisine and cooking techniques, this quiz will challenge your knowledge of classic dishes and culinary terminology.",
             "questions": [
                 {
-                    "text": "The British dish 'bangers and mash' is made up of sausage and what?"
+                    "text": "The British dish 'bangers and mash' is made up of sausage and what?",
+                    "hint": "The second component is a starchy side dish, often served with gravy.",
+                    "option1": "eggs",
+                    "option2": "bacon",
+                    "option3": "liver",
+                    "option4": "potatoes",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these dishes is made from pig intestines?"
+                    "text": "Which of these dishes is made from pig intestines?",
+                    "hint": "This Southern U.S. dish is often fried and served as soul food.",
+                    "option1": "haggis",
+                    "option2": "chitlins",
+                    "option3": "grits",
+                    "option4": "chop suey",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is not an ingredient in Yorkshire pudding?"
+                    "text": "Which of these is not an ingredient in Yorkshire pudding?",
+                    "hint": "This sweet ingredient is not used in the savory, batter-based dish.",
+                    "option1": "eggs",
+                    "option2": "milk",
+                    "option3": "chocolate",
+                    "option4": "meat drippings",
+                    "solution": "3"
                 },
                 {
-                    "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?"
+                    "text": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?",
+                    "hint": "This topping is often melted or browned, adding a rich flavor to casseroles.",
+                    "option1": "cheese",
+                    "option2": "fruit",
+                    "option3": "gravy",
+                    "option4": "whipped cream",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the principal ingredient in traditional cole slaw?"
+                    "text": "What is the principal ingredient in traditional cole slaw?",
+                    "hint": "This vegetable is shredded to give coleslaw its crunchy texture.",
+                    "option1": "lettuce",
+                    "option2": "spinach ",
+                    "option3": "cabbage",
+                    "option4": "chicory",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of the following candies is traditionally fruit flavored?"
+                    "text": "Which of the following candies is traditionally fruit flavored?",
+                    "hint": "This candy\u2019s name implies a rainbow of flavors in small, colorful pieces.",
+                    "option1": "M&M's",
+                    "option2": "Skittles",
+                    "option3": "Reese's Pieces",
+                    "option4": "Junior Mints",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is not a traditional Greek dish?"
+                    "text": "Which of these is not a traditional Greek dish?",
+                    "hint": "This dish is Japanese, not part of Greek cuisine.",
+                    "option1": "sukiyaki",
+                    "option2": "souvlaki",
+                    "option3": "moussaka",
+                    "option4": "finikia",
+                    "solution": "1"
                 }
             ]
         },
@@ -203,19 +482,49 @@
             "description": "A whirlwind tour of flavors and ingredients, this quiz will test your knowledge of spices, chilis, and citrus fruits.",
             "questions": [
                 {
-                    "text": "Which of these is not a type of chili pepper?"
+                    "text": "Which of these is not a type of chili pepper?",
+                    "hint": "This name is a city, not a pepper variety, unlike the others.",
+                    "option1": "habanero",
+                    "option2": "cheyenne",
+                    "option3": "jalapeno",
+                    "option4": "guajillo",
+                    "solution": "2"
                 },
                 {
-                    "text": "The term 'chili con carne' refers to chili with what?"
+                    "text": "The term 'chili con carne' refers to chili with what?",
+                    "hint": "The Spanish word 'carne' translates to a key ingredient in this dish.",
+                    "option1": "beans ",
+                    "option2": "meat",
+                    "option3": "cheese",
+                    "option4": "chili peppers",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
+                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?",
+                    "hint": "The name is a blend of the two parent fruits, starting with 'tang.'",
+                    "option1": "graperine",
+                    "option2": "tangefruit",
+                    "option3": "tangelo",
+                    "option4": "kumquat",
+                    "solution": "3"
                 },
                 {
-                    "text": "What type of meat is on a traditional Reuben sandwich?"
+                    "text": "What type of meat is on a traditional Reuben sandwich?",
+                    "hint": "This meat is cured and often paired with Swiss cheese and sauerkraut.",
+                    "option1": "turkey",
+                    "option2": "bologna",
+                    "option3": "corned beef",
+                    "option4": "pepperoni",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?"
+                    "text": "Which brand of cat food claims it's so tasty that 'cats ask for it by name'?",
+                    "hint": "The brand\u2019s name is a playful reference to feline vocalization.",
+                    "option1": "Fancy Feast",
+                    "option2": "Cat Chow",
+                    "option3": "Meow Mix",
+                    "option4": "9-Lives",
+                    "solution": "3"
                 }
             ]
         },
@@ -224,19 +533,40 @@
             "description": "A comprehensive test of your culinary knowledge, this quiz combines questions from all previous rounds.  Are you the ultimate food expert?",
             "questions": [
                 {
-                    "text": "Which of these is not a type of chili pepper?"
+                    "text": "Which of these is not a type of chili pepper?",
+                    "hint": "This name is a city, not a pepper variety, unlike the others.",
+                    "option1": "habanero",
+                    "option2": "cheyenne",
+                    "option3": "jalapeno",
+                    "option4": "guajillo",
+                    "solution": "2"
                 },
                 {
-                    "text": "The term 'chili con carne' refers to chili with what?"
+                    "text": "The term 'chili con carne' refers to chili with what?",
+                    "hint": "The Spanish word 'carne' translates to a key ingredient in this dish.",
+                    "option1": "beans ",
+                    "option2": "meat",
+                    "option3": "cheese",
+                    "option4": "chili peppers",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?"
+                    "text": "What is the name of the fruit that is half tangerine and half grapefruit?",
+                    "hint": "The name is a blend of the two parent fruits, starting with 'tang.'",
+                    "option1": "graperine",
+                    "option2": "tangefruit",
+                    "option3": "tangelo",
+                    "option4": "kumquat",
+                    "solution": "3"
                 },
                 {
-                    "text": "What type of meat is on a traditional Reuben sandwich?"
-                },
-                {
-                    "text": "Which brand of cat food claims its so tasty that 'cats ask for it by name'?"
+                    "text": "What type of meat is on a traditional Reuben sandwich?",
+                    "hint": "This meat is cured and often paired with Swiss cheese and sauerkraut.",
+                    "option1": "turkey",
+                    "option2": "bologna",
+                    "option3": "corned beef",
+                    "option4": "pepperoni",
+                    "solution": "3"
                 }
             ]
         }

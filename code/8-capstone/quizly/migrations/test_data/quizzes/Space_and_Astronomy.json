@@ -5,13 +5,31 @@
             "description": "Test your knowledge of NASA's missions and celestial bodies! This quiz focuses on specific events and objects in our solar system, from asteroid orbits to stellar names.",
             "questions": [
                 {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?",
+                    "hint": "The asteroid\u2019s name is fitting for a Valentine\u2019s Day mission, tied to love.",
+                    "option1": "Eros",
+                    "option2": "Cupid",
+                    "option3": "Aphrodite",
+                    "option4": "Venus",
+                    "solution": "1"
                 },
                 {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?",
+                    "hint": "The asteroid\u2019s name is fitting for a Valentine\u2019s Day mission, tied to love.",
+                    "option1": "Eros",
+                    "option2": "Cupid",
+                    "option3": "Aphrodite",
+                    "option4": "Venus",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?"
+                    "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?",
+                    "hint": "The name reflects a part of the giant\u2019s body in Arabic astronomy.",
+                    "option1": "blossom on a shield",
+                    "option2": "eye of the archer",
+                    "option3": "the lion's mane",
+                    "option4": "armpit of the giant",
+                    "solution": "4"
                 }
             ]
         },
@@ -20,13 +38,31 @@
             "description": "Delve into the mysteries of Saturn and its moons! This quiz explores the forces at play in our solar system and the fascinating details of the ringed planet's satellites.",
             "questions": [
                 {
-                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?",
+                    "hint": "This force is related to the outward pull felt on spinning objects.",
+                    "option1": "centrifugal",
+                    "option2": "vehicular",
+                    "option3": "gravitational",
+                    "option4": "torsal",
+                    "solution": "1"
                 },
                 {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                    "text": "Phoebe, Dione and Helene are moons of what planet?",
+                    "hint": "This planet is famous for its extensive ring system.",
+                    "option1": "Jupiter",
+                    "option2": "Saturn",
+                    "option3": "Neptune",
+                    "option4": "Pluto",
+                    "solution": "2"
                 },
                 {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                    "text": "Phoebe, Dione and Helene are moons of what planet?",
+                    "hint": "This planet is famous for its extensive ring system.",
+                    "option1": "Jupiter",
+                    "option2": "Saturn",
+                    "option3": "Neptune",
+                    "option4": "Pluto",
+                    "solution": "2"
                 }
             ]
         },
@@ -35,28 +71,76 @@
             "description": "From the speed of light to the birthplace of a jazz legend, this quiz blends astronomy with unexpected trivia. Prepare for a whirlwind tour of the universe and beyond!",
             "questions": [
                 {
-                    "text": "Where did jazz great Sun Ra claim he was born?"
+                    "text": "Where did jazz great Sun Ra claim he was born?",
+                    "hint": "His claimed birthplace is a planet, reflecting his cosmic musical persona.",
+                    "option1": "Atlantis",
+                    "option2": "Mount Olympus",
+                    "option3": "Saturn",
+                    "option4": "in a saxophone",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the approximate speed of light?"
+                    "text": "What is the approximate speed of light?",
+                    "hint": "This speed is incredibly fast, measured in miles per second, not hour.",
+                    "option1": "165 miles per hour",
+                    "option2": "122,000 miles per hour",
+                    "option3": "186,000 miles per second",
+                    "option4": "293,000 miles per second",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?"
+                    "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?",
+                    "hint": "The name reflects a part of the giant\u2019s body in Arabic astronomy.",
+                    "option1": "blossom on a shield",
+                    "option2": "eye of the archer",
+                    "option3": "the lion's mane",
+                    "option4": "armpit of the giant",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the approximate speed of light?"
+                    "text": "What is the approximate speed of light?",
+                    "hint": "This speed is incredibly fast, measured in miles per second, not hour.",
+                    "option1": "165 miles per hour",
+                    "option2": "122,000 miles per hour",
+                    "option3": "186,000 miles per second",
+                    "option4": "293,000 miles per second",
+                    "solution": "3"
                 },
                 {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                    "text": "Phoebe, Dione and Helene are moons of what planet?",
+                    "hint": "This planet is famous for its extensive ring system.",
+                    "option1": "Jupiter",
+                    "option2": "Saturn",
+                    "option3": "Neptune",
+                    "option4": "Pluto",
+                    "solution": "2"
                 },
                 {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                    "text": "Phoebe, Dione and Helene are moons of what planet?",
+                    "hint": "This planet is famous for its extensive ring system.",
+                    "option1": "Jupiter",
+                    "option2": "Saturn",
+                    "option3": "Neptune",
+                    "option4": "Pluto",
+                    "solution": "2"
                 },
                 {
-                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?",
+                    "hint": "This force is related to the outward pull felt on spinning objects.",
+                    "option1": "centrifugal",
+                    "option2": "vehicular",
+                    "option3": "gravitational",
+                    "option4": "torsal",
+                    "solution": "1"
                 },
                 {
-                    "text": "Where did jazz great Sun Ra claim he was born?"
+                    "text": "Where did jazz great Sun Ra claim he was born?",
+                    "hint": "His claimed birthplace is a planet, reflecting his cosmic musical persona.",
+                    "option1": "Atlantis",
+                    "option2": "Mount Olympus",
+                    "option3": "Saturn",
+                    "option4": "in a saxophone",
+                    "solution": "3"
                 }
             ]
         },
@@ -65,13 +149,31 @@
             "description": "Focusing on a pivotal moment in space exploration, this quiz tests your knowledge of the NEAR mission and its groundbreaking orbit around an asteroid.",
             "questions": [
                 {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?",
+                    "hint": "The asteroid\u2019s name is fitting for a Valentine\u2019s Day mission, tied to love.",
+                    "option1": "Eros",
+                    "option2": "Cupid",
+                    "option3": "Aphrodite",
+                    "option4": "Venus",
+                    "solution": "1"
                 },
                 {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?",
+                    "hint": "The asteroid\u2019s name is fitting for a Valentine\u2019s Day mission, tied to love.",
+                    "option1": "Eros",
+                    "option2": "Cupid",
+                    "option3": "Aphrodite",
+                    "option4": "Venus",
+                    "solution": "1"
                 },
                 {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?",
+                    "hint": "The asteroid\u2019s name is fitting for a Valentine\u2019s Day mission, tied to love.",
+                    "option1": "Eros",
+                    "option2": "Cupid",
+                    "option3": "Aphrodite",
+                    "option4": "Venus",
+                    "solution": "1"
                 }
             ]
         },
@@ -80,19 +182,49 @@
             "description": "This quiz combines fundamental concepts of physics with the wonders of our solar system. Test your understanding of light's speed and the moons that orbit distant planets.",
             "questions": [
                 {
-                    "text": "What is the approximate speed of light?"
+                    "text": "What is the approximate speed of light?",
+                    "hint": "This speed is incredibly fast, measured in miles per second, not hour.",
+                    "option1": "165 miles per hour",
+                    "option2": "122,000 miles per hour",
+                    "option3": "186,000 miles per second",
+                    "option4": "293,000 miles per second",
+                    "solution": "3"
                 },
                 {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                    "text": "Phoebe, Dione and Helene are moons of what planet?",
+                    "hint": "This planet is famous for its extensive ring system.",
+                    "option1": "Jupiter",
+                    "option2": "Saturn",
+                    "option3": "Neptune",
+                    "option4": "Pluto",
+                    "solution": "2"
                 },
                 {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?",
+                    "hint": "The asteroid\u2019s name is fitting for a Valentine\u2019s Day mission, tied to love.",
+                    "option1": "Eros",
+                    "option2": "Cupid",
+                    "option3": "Aphrodite",
+                    "option4": "Venus",
+                    "solution": "1"
                 },
                 {
-                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?",
+                    "hint": "This force is related to the outward pull felt on spinning objects.",
+                    "option1": "centrifugal",
+                    "option2": "vehicular",
+                    "option3": "gravitational",
+                    "option4": "torsal",
+                    "solution": "1"
                 },
                 {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                    "text": "Phoebe, Dione and Helene are moons of what planet?",
+                    "hint": "This planet is famous for its extensive ring system.",
+                    "option1": "Jupiter",
+                    "option2": "Saturn",
+                    "option3": "Neptune",
+                    "option4": "Pluto",
+                    "solution": "2"
                 }
             ]
         },
@@ -101,28 +233,76 @@
             "description": "Explore the origins of stellar names and the physical forces that shape our universe. This quiz blends astronomical knowledge with a touch of unexpected trivia.",
             "questions": [
                 {
-                    "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?"
+                    "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?",
+                    "hint": "The name reflects a part of the giant\u2019s body in Arabic astronomy.",
+                    "option1": "blossom on a shield",
+                    "option2": "eye of the archer",
+                    "option3": "the lion's mane",
+                    "option4": "armpit of the giant",
+                    "solution": "4"
                 },
                 {
-                    "text": "Where did jazz great Sun Ra claim he was born?"
+                    "text": "Where did jazz great Sun Ra claim he was born?",
+                    "hint": "His claimed birthplace is a planet, reflecting his cosmic musical persona.",
+                    "option1": "Atlantis",
+                    "option2": "Mount Olympus",
+                    "option3": "Saturn",
+                    "option4": "in a saxophone",
+                    "solution": "3"
                 },
                 {
-                    "text": "Where did jazz great Sun Ra claim he was born?"
+                    "text": "Where did jazz great Sun Ra claim he was born?",
+                    "hint": "His claimed birthplace is a planet, reflecting his cosmic musical persona.",
+                    "option1": "Atlantis",
+                    "option2": "Mount Olympus",
+                    "option3": "Saturn",
+                    "option4": "in a saxophone",
+                    "solution": "3"
                 },
                 {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?",
+                    "hint": "The asteroid\u2019s name is fitting for a Valentine\u2019s Day mission, tied to love.",
+                    "option1": "Eros",
+                    "option2": "Cupid",
+                    "option3": "Aphrodite",
+                    "option4": "Venus",
+                    "solution": "1"
                 },
                 {
-                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
+                    "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?",
+                    "hint": "The asteroid\u2019s name is fitting for a Valentine\u2019s Day mission, tied to love.",
+                    "option1": "Eros",
+                    "option2": "Cupid",
+                    "option3": "Aphrodite",
+                    "option4": "Venus",
+                    "solution": "1"
                 },
                 {
-                    "text": "Phoebe, Dione and Helene are moons of what planet?"
+                    "text": "Phoebe, Dione and Helene are moons of what planet?",
+                    "hint": "This planet is famous for its extensive ring system.",
+                    "option1": "Jupiter",
+                    "option2": "Saturn",
+                    "option3": "Neptune",
+                    "option4": "Pluto",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?"
+                    "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?",
+                    "hint": "The name reflects a part of the giant\u2019s body in Arabic astronomy.",
+                    "option1": "blossom on a shield",
+                    "option2": "eye of the archer",
+                    "option3": "the lion's mane",
+                    "option4": "armpit of the giant",
+                    "solution": "4"
                 },
                 {
-                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+                    "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?",
+                    "hint": "This force is related to the outward pull felt on spinning objects.",
+                    "option1": "centrifugal",
+                    "option2": "vehicular",
+                    "option3": "gravitational",
+                    "option4": "torsal",
+                    "solution": "1"
                 }
             ]
         }

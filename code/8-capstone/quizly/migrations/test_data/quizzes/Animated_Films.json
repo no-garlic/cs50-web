@@ -5,28 +5,76 @@
             "description": "Test your knowledge of classic cartoons and beloved characters! This quiz covers a wide range of animated icons, from comic strips to iconic films. See if you can navigate the world of animation!",
             "questions": [
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?",
+                    "hint": "This baby\u2019s name is a playful reference to a vegetable Popeye loves.",
+                    "option1": "Pun'kin",
+                    "option2": "Lamikins",
+                    "option3": "Suga'baby",
+                    "option4": "Swee'pea",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
                 },
                 {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
                 },
                 {
-                    "text": "What color is cartoon character Marge Simpson's hair?"
+                    "text": "What color is cartoon character Marge Simpson's hair?",
+                    "hint": "Her tall, beehive hairstyle is a distinctive shade in 'The Simpsons.'",
+                    "option1": "yellow",
+                    "option2": "purple",
+                    "option3": "blue",
+                    "option4": "brown",
+                    "solution": "3"
                 },
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?",
+                    "hint": "This character is often depicted with a small musical instrument, inspired by Beethoven.",
+                    "option1": "Dancing",
+                    "option2": "playing football",
+                    "option3": "playing the piano",
+                    "option4": "Flying an imaginary plane",
+                    "solution": "3"
                 }
             ]
         },
@@ -35,28 +83,76 @@
             "description": "Dive into the world of 'Peanuts' and beyond! This quiz explores the characters and stories that have charmed audiences for generations. From Schroeder's piano to Aladdin's magic carpet, how much do you know?",
             "questions": [
                 {
-                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?",
+                    "hint": "This character is often depicted with a small musical instrument, inspired by Beethoven.",
+                    "option1": "Dancing",
+                    "option2": "playing football",
+                    "option3": "playing the piano",
+                    "option4": "Flying an imaginary plane",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "What color is cartoon character Marge Simpson's hair?"
+                    "text": "What color is cartoon character Marge Simpson's hair?",
+                    "hint": "Her tall, beehive hairstyle is a distinctive shade in 'The Simpsons.'",
+                    "option1": "yellow",
+                    "option2": "purple",
+                    "option3": "blue",
+                    "option4": "brown",
+                    "solution": "3"
                 },
                 {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?",
+                    "hint": "This baby\u2019s name is a playful reference to a vegetable Popeye loves.",
+                    "option1": "Pun'kin",
+                    "option2": "Lamikins",
+                    "option3": "Suga'baby",
+                    "option4": "Swee'pea",
+                    "solution": "4"
                 },
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
                 }
             ]
         },
@@ -65,19 +161,49 @@
             "description": "A whirlwind tour of animated history! This quiz covers a variety of characters and moments from beloved cartoons and films. Are you an animation aficionado or a casual viewer?",
             "questions": [
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?",
+                    "hint": "This baby\u2019s name is a playful reference to a vegetable Popeye loves.",
+                    "option1": "Pun'kin",
+                    "option2": "Lamikins",
+                    "option3": "Suga'baby",
+                    "option4": "Swee'pea",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?",
+                    "hint": "This character is often depicted with a small musical instrument, inspired by Beethoven.",
+                    "option1": "Dancing",
+                    "option2": "playing football",
+                    "option3": "playing the piano",
+                    "option4": "Flying an imaginary plane",
+                    "solution": "3"
                 },
                 {
-                    "text": "What color is cartoon character Marge Simpson's hair?"
+                    "text": "What color is cartoon character Marge Simpson's hair?",
+                    "hint": "Her tall, beehive hairstyle is a distinctive shade in 'The Simpsons.'",
+                    "option1": "yellow",
+                    "option2": "purple",
+                    "option3": "blue",
+                    "option4": "brown",
+                    "solution": "3"
                 }
             ]
         },
@@ -86,13 +212,31 @@
             "description": "Embark on a journey through animated adventures! This quiz focuses on characters and stories that involve time travel, clever gadgets, and unforgettable moments. Can you ace this animated expedition?",
             "questions": [
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
                 }
             ]
         },
@@ -101,19 +245,49 @@
             "description": "Test your knowledge of Springfield and beyond! This quiz dives into the world of 'The Simpsons' and other iconic animated characters. From Marge's hair to Aladdin's magic carpet, how well do you know these animated legends?",
             "questions": [
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
                 },
                 {
-                    "text": "What color is cartoon character Marge Simpson's hair?"
+                    "text": "What color is cartoon character Marge Simpson's hair?",
+                    "hint": "Her tall, beehive hairstyle is a distinctive shade in 'The Simpsons.'",
+                    "option1": "yellow",
+                    "option2": "purple",
+                    "option3": "blue",
+                    "option4": "brown",
+                    "solution": "3"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 },
                 {
-                    "text": "What fictional character claims to be 'smarter than the average bear'?"
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
                 }
             ]
         },
@@ -122,28 +296,76 @@
             "description": "Spin your muscles and test your knowledge of classic cartoons! This quiz focuses on iconic characters and moments from beloved animated series. From Popeye's spinach to Schroeder's piano, how much do you know?",
             "questions": [
                 {
-                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?",
+                    "hint": "This baby\u2019s name is a playful reference to a vegetable Popeye loves.",
+                    "option1": "Pun'kin",
+                    "option2": "Lamikins",
+                    "option3": "Suga'baby",
+                    "option4": "Swee'pea",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?",
+                    "hint": "This character is often depicted with a small musical instrument, inspired by Beethoven.",
+                    "option1": "Dancing",
+                    "option2": "playing football",
+                    "option3": "playing the piano",
+                    "option4": "Flying an imaginary plane",
+                    "solution": "3"
                 },
                 {
-                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
                 },
                 {
-                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
+                    "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?",
+                    "hint": "This character is often depicted with a small musical instrument, inspired by Beethoven.",
+                    "option1": "Dancing",
+                    "option2": "playing football",
+                    "option3": "playing the piano",
+                    "option4": "Flying an imaginary plane",
+                    "solution": "3"
                 },
                 {
-                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
                 },
                 {
-                    "text": "What color is cartoon character Marge Simpson's hair?"
+                    "text": "What color is cartoon character Marge Simpson's hair?",
+                    "hint": "Her tall, beehive hairstyle is a distinctive shade in 'The Simpsons.'",
+                    "option1": "yellow",
+                    "option2": "purple",
+                    "option3": "blue",
+                    "option4": "brown",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"
+                    "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?",
+                    "hint": "This baby\u2019s name is a playful reference to a vegetable Popeye loves.",
+                    "option1": "Pun'kin",
+                    "option2": "Lamikins",
+                    "option3": "Suga'baby",
+                    "option4": "Swee'pea",
+                    "solution": "4"
                 },
                 {
-                    "text": "What animated character has a crush on the Little Red Haired Girl?"
+                    "text": "What animated character has a crush on the Little Red Haired Girl?",
+                    "hint": "This character is a lovable loser from the 'Peanuts' comic strip.",
+                    "option1": "Richie Rich",
+                    "option2": "Charlie Brown",
+                    "option3": "Bugs Bunny",
+                    "option4": "Jonny Quest",
+                    "solution": "2"
                 }
             ]
         }

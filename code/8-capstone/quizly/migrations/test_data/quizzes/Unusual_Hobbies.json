@@ -5,28 +5,58 @@
             "description": "Delve into the world of fine art and traditional crafts with this quiz. From calligraphy to tapestry, test your knowledge of unique artistic pursuits and uncover the secrets of the artisan's atelier.",
             "questions": [
                 {
-                    "text": "A triptych is a work of art that is painted on how many panels?"
+                    "text": "A triptych is a work of art that is painted on how many panels?",
+                    "hint": "The name of this art form derives from a Greek word meaning 'threefold.'",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "five",
+                    "option4": "eight",
+                    "solution": "2"
                 },
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?",
+                    "hint": "This type of artwork is often seen in editorial cartoons, highlighting distinctive features for humor.",
+                    "option1": "landscape",
+                    "option2": "caricature",
+                    "option3": "still life",
+                    "option4": "Impressionism",
+                    "solution": "2"
                 },
                 {
-                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                    "text": "To create a tapestry, one must traditionally engage in what activity?",
+                    "hint": "This craft involves interlacing threads to create intricate designs or images.",
+                    "option1": "weaving",
+                    "option2": "sculpting",
+                    "option3": "baking",
+                    "option4": "singing",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these requires the use of at least two needles?"
+                    "text": "Which of these painting tools has bristles on it?",
+                    "hint": "This tool is used to apply paint directly to a canvas.",
+                    "option1": "easel",
+                    "option2": "knife",
+                    "option3": "brush",
+                    "option4": "palette",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these painting tools has bristles on it?"
+                    "text": "What is the art of elegant handwriting called?",
+                    "hint": "This skill is often used in formal invitations or artistic lettering.",
+                    "option1": "calligraphy",
+                    "option2": "engraving",
+                    "option3": "decoupage",
+                    "option4": "lithography",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the art of elegant handwriting called?"
-                },
-                {
-                    "text": "Which of these requires the use of at least two needles?"
-                },
-                {
-                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?",
+                    "hint": "This term is often associated with decorative wooden floors or furniture.",
+                    "option1": "marquetry",
+                    "option2": "parquetry",
+                    "option3": "harquetry",
+                    "option4": "sharquetry",
+                    "solution": "2"
                 }
             ]
         },
@@ -35,28 +65,58 @@
             "description": "Explore the fascinating history and techniques behind unusual artistic hobbies. This quiz will challenge your understanding of traditional crafts and the dedication required to master them.",
             "questions": [
                 {
-                    "text": "Which of these requires the use of at least two needles?"
+                    "text": "What is the art of elegant handwriting called?",
+                    "hint": "This skill is often used in formal invitations or artistic lettering.",
+                    "option1": "calligraphy",
+                    "option2": "engraving",
+                    "option3": "decoupage",
+                    "option4": "lithography",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the art of elegant handwriting called?"
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?",
+                    "hint": "This term is often associated with decorative wooden floors or furniture.",
+                    "option1": "marquetry",
+                    "option2": "parquetry",
+                    "option3": "harquetry",
+                    "option4": "sharquetry",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                    "text": "To create a tapestry, one must traditionally engage in what activity?",
+                    "hint": "This craft involves interlacing threads to create intricate designs or images.",
+                    "option1": "weaving",
+                    "option2": "sculpting",
+                    "option3": "baking",
+                    "option4": "singing",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these requires the use of at least two needles?"
+                    "text": "Which of these painting tools has bristles on it?",
+                    "hint": "This tool is used to apply paint directly to a canvas.",
+                    "option1": "easel",
+                    "option2": "knife",
+                    "option3": "brush",
+                    "option4": "palette",
+                    "solution": "3"
                 },
                 {
-                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?",
+                    "hint": "This type of artwork is often seen in editorial cartoons, highlighting distinctive features for humor.",
+                    "option1": "landscape",
+                    "option2": "caricature",
+                    "option3": "still life",
+                    "option4": "Impressionism",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these painting tools has bristles on it?"
-                },
-                {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
-                },
-                {
-                    "text": "A triptych is a work of art that is painted on how many panels?"
+                    "text": "A triptych is a work of art that is painted on how many panels?",
+                    "hint": "The name of this art form derives from a Greek word meaning 'threefold.'",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "five",
+                    "option4": "eight",
+                    "solution": "2"
                 }
             ]
         },
@@ -65,13 +125,22 @@
             "description": "Focusing on the details of artistic creation, this quiz tests your knowledge of specific techniques and materials used in unusual hobbies. Discover the artistry behind intricate inlays and unique artistic expressions.",
             "questions": [
                 {
-                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?",
+                    "hint": "This term is often associated with decorative wooden floors or furniture.",
+                    "option1": "marquetry",
+                    "option2": "parquetry",
+                    "option3": "harquetry",
+                    "option4": "sharquetry",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these painting tools has bristles on it?"
-                },
-                {
-                    "text": "Which of these requires the use of at least two needles?"
+                    "text": "Which of these painting tools has bristles on it?",
+                    "hint": "This tool is used to apply paint directly to a canvas.",
+                    "option1": "easel",
+                    "option2": "knife",
+                    "option3": "brush",
+                    "option4": "palette",
+                    "solution": "3"
                 }
             ]
         },
@@ -80,13 +149,22 @@
             "description": "This quiz explores the intersection of portraiture and the art of writing. Test your knowledge of artistic styles and the elegant craft of calligraphy.",
             "questions": [
                 {
-                    "text": "A triptych is a work of art that is painted on how many panels?"
+                    "text": "A triptych is a work of art that is painted on how many panels?",
+                    "hint": "The name of this art form derives from a Greek word meaning 'threefold.'",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "five",
+                    "option4": "eight",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the art of elegant handwriting called?"
-                },
-                {
-                    "text": "A portrait that comically exaggerates a persons physical traits is called a what?"
+                    "text": "What is the art of elegant handwriting called?",
+                    "hint": "This skill is often used in formal invitations or artistic lettering.",
+                    "option1": "calligraphy",
+                    "option2": "engraving",
+                    "option3": "decoupage",
+                    "option4": "lithography",
+                    "solution": "1"
                 }
             ]
         },
@@ -95,13 +173,22 @@
             "description": "Dive into the world of textile arts and discover the traditions behind tapestry making. This quiz will challenge your understanding of weaving techniques and the artistry of creating intricate designs.",
             "questions": [
                 {
-                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                    "text": "To create a tapestry, one must traditionally engage in what activity?",
+                    "hint": "This craft involves interlacing threads to create intricate designs or images.",
+                    "option1": "weaving",
+                    "option2": "sculpting",
+                    "option3": "baking",
+                    "option4": "singing",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these requires the use of at least two needles?"
-                },
-                {
-                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?",
+                    "hint": "This term is often associated with decorative wooden floors or furniture.",
+                    "option1": "marquetry",
+                    "option2": "parquetry",
+                    "option3": "harquetry",
+                    "option4": "sharquetry",
+                    "solution": "2"
                 }
             ]
         },
@@ -110,19 +197,22 @@
             "description": "This quiz combines knowledge of painting and carving techniques, exploring the diverse range of skills required for unusual artistic hobbies. From brushstrokes to intricate carvings, test your understanding of the artisan's craft.",
             "questions": [
                 {
-                    "text": "A portrait that comically exaggerates a persons physical traits is called a what?"
+                    "text": "Which of these painting tools has bristles on it?",
+                    "hint": "This tool is used to apply paint directly to a canvas.",
+                    "option1": "easel",
+                    "option2": "knife",
+                    "option3": "brush",
+                    "option4": "palette",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these painting tools has bristles on it?"
-                },
-                {
-                    "text": "Which of these requires the use of at least two needles?"
-                },
-                {
-                    "text": "Which of these requires the use of at least two needles?"
-                },
-                {
-                    "text": "A triptych is a work of art that is painted on how many panels?"
+                    "text": "A triptych is a work of art that is painted on how many panels?",
+                    "hint": "The name of this art form derives from a Greek word meaning 'threefold.'",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "five",
+                    "option4": "eight",
+                    "solution": "2"
                 }
             ]
         }

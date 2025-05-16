@@ -5,28 +5,67 @@
             "description": "Test your knowledge of essential art techniques and terminology. This quiz explores everything from mixing colors to understanding different art forms, perfect for budding artists and art enthusiasts alike.",
             "questions": [
                 {
-                    "text": "What is the name for the thin board used to mix colors while painting?"
+                    "text": "What is the name for the thin board used to mix colors while painting?",
+                    "hint": "This tool shares its name with an artist\u2019s range of colors.",
+                    "option1": "pestle",
+                    "option2": "easel",
+                    "option3": "shoe",
+                    "option4": "palette",
+                    "solution": "4"
                 },
                 {
-                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                    "text": "To create a tapestry, one must traditionally engage in what activity?",
+                    "hint": "This craft involves interlacing threads to create intricate designs or images.",
+                    "option1": "weaving",
+                    "option2": "sculpting",
+                    "option3": "baking",
+                    "option4": "singing",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?",
+                    "hint": "This term is often associated with decorative wooden floors or furniture.",
+                    "option1": "marquetry",
+                    "option2": "parquetry",
+                    "option3": "harquetry",
+                    "option4": "sharquetry",
+                    "solution": "2"
                 },
                 {
-                    "text": "Which of these places is known for art auctions?"
+                    "text": "Which of these places is known for art auctions?",
+                    "hint": "This name is synonymous with high-end art and collectible sales.",
+                    "option1": "Shelby's",
+                    "option2": "Nickleby's",
+                    "option3": "Gatsby's",
+                    "option4": "Sotheby's",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the Frank Lloyd Wright-designed house known as Falling Water?"
+                    "text": "A triptych is a work of art that is painted on how many panels?",
+                    "hint": "The name of this art form derives from a Greek word meaning 'threefold.'",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "five",
+                    "option4": "eight",
+                    "solution": "2"
                 },
                 {
-                    "text": "A triptych is a work of art that is painted on how many panels?"
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?",
+                    "hint": "This type of artwork is often seen in editorial cartoons, highlighting distinctive features for humor.",
+                    "option1": "landscape",
+                    "option2": "caricature",
+                    "option3": "still life",
+                    "option4": "Impressionism",
+                    "solution": "2"
                 },
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
-                },
-                {
-                    "text": "What is the art of elegant handwriting called?"
+                    "text": "What is the art of elegant handwriting called?",
+                    "hint": "This skill is often used in formal invitations or artistic lettering.",
+                    "option1": "calligraphy",
+                    "option2": "engraving",
+                    "option3": "decoupage",
+                    "option4": "lithography",
+                    "solution": "1"
                 }
             ]
         },
@@ -35,13 +74,31 @@
             "description": "Dive into the world of painting tools and techniques. This quiz focuses on the instruments and processes used to create stunning works of art, from the humble brush to complex panel arrangements.",
             "questions": [
                 {
-                    "text": "Which of these painting tools has bristles on it?"
+                    "text": "Which of these painting tools has bristles on it?",
+                    "hint": "This tool is used to apply paint directly to a canvas.",
+                    "option1": "easel",
+                    "option2": "knife",
+                    "option3": "brush",
+                    "option4": "palette",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these painting tools has bristles on it?"
+                    "text": "Which of these painting tools has bristles on it?",
+                    "hint": "This tool is used to apply paint directly to a canvas.",
+                    "option1": "easel",
+                    "option2": "knife",
+                    "option3": "brush",
+                    "option4": "palette",
+                    "solution": "3"
                 },
                 {
-                    "text": "A triptych is a work of art that is painted on how many panels?"
+                    "text": "A triptych is a work of art that is painted on how many panels?",
+                    "hint": "The name of this art form derives from a Greek word meaning 'threefold.'",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "five",
+                    "option4": "eight",
+                    "solution": "2"
                 }
             ]
         },
@@ -50,28 +107,67 @@
             "description": "Explore the intersection of artistic styles, historical significance, and iconic locations. This quiz challenges your understanding of art history and the places that have shaped it.",
             "questions": [
                 {
-                    "text": "Which of these places is known for art auctions?"
+                    "text": "Which of these places is known for art auctions?",
+                    "hint": "This name is synonymous with high-end art and collectible sales.",
+                    "option1": "Shelby's",
+                    "option2": "Nickleby's",
+                    "option3": "Gatsby's",
+                    "option4": "Sotheby's",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the name for the thin board used to mix colors while painting?"
+                    "text": "What is the name for the thin board used to mix colors while painting?",
+                    "hint": "This tool shares its name with an artist\u2019s range of colors.",
+                    "option1": "pestle",
+                    "option2": "easel",
+                    "option3": "shoe",
+                    "option4": "palette",
+                    "solution": "4"
                 },
                 {
-                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                    "text": "To create a tapestry, one must traditionally engage in what activity?",
+                    "hint": "This craft involves interlacing threads to create intricate designs or images.",
+                    "option1": "weaving",
+                    "option2": "sculpting",
+                    "option3": "baking",
+                    "option4": "singing",
+                    "solution": "1"
                 },
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?",
+                    "hint": "This type of artwork is often seen in editorial cartoons, highlighting distinctive features for humor.",
+                    "option1": "landscape",
+                    "option2": "caricature",
+                    "option3": "still life",
+                    "option4": "Impressionism",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the art of elegant handwriting called?"
+                    "text": "What is the art of elegant handwriting called?",
+                    "hint": "This skill is often used in formal invitations or artistic lettering.",
+                    "option1": "calligraphy",
+                    "option2": "engraving",
+                    "option3": "decoupage",
+                    "option4": "lithography",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?",
+                    "hint": "This term is often associated with decorative wooden floors or furniture.",
+                    "option1": "marquetry",
+                    "option2": "parquetry",
+                    "option3": "harquetry",
+                    "option4": "sharquetry",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the Frank Lloyd Wright-designed house known as Falling Water?"
-                },
-                {
-                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?",
+                    "hint": "This term is often associated with decorative wooden floors or furniture.",
+                    "option1": "marquetry",
+                    "option2": "parquetry",
+                    "option3": "harquetry",
+                    "option4": "sharquetry",
+                    "solution": "2"
                 }
             ]
         },
@@ -80,13 +176,22 @@
             "description": "Test your knowledge of architectural design and artistic composition. This quiz focuses on the structure and arrangement of artworks, from triptychs to iconic houses.",
             "questions": [
                 {
-                    "text": "A triptych is a work of art that is painted on how many panels?"
+                    "text": "A triptych is a work of art that is painted on how many panels?",
+                    "hint": "The name of this art form derives from a Greek word meaning 'threefold.'",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "five",
+                    "option4": "eight",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the Frank Lloyd Wright-designed house known as Falling Water?"
-                },
-                {
-                    "text": "Which of these places is known for art auctions?"
+                    "text": "Which of these places is known for art auctions?",
+                    "hint": "This name is synonymous with high-end art and collectible sales.",
+                    "option1": "Shelby's",
+                    "option2": "Nickleby's",
+                    "option3": "Gatsby's",
+                    "option4": "Sotheby's",
+                    "solution": "4"
                 }
             ]
         },
@@ -95,28 +200,67 @@
             "description": "Delve into the nuances of portraiture and the beauty of written art. This quiz explores the techniques behind capturing a likeness and the elegance of calligraphy.",
             "questions": [
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?",
+                    "hint": "This type of artwork is often seen in editorial cartoons, highlighting distinctive features for humor.",
+                    "option1": "landscape",
+                    "option2": "caricature",
+                    "option3": "still life",
+                    "option4": "Impressionism",
+                    "solution": "2"
                 },
                 {
-                    "text": "To create a tapestry, one must traditionally engage in what activity?"
+                    "text": "To create a tapestry, one must traditionally engage in what activity?",
+                    "hint": "This craft involves interlacing threads to create intricate designs or images.",
+                    "option1": "weaving",
+                    "option2": "sculpting",
+                    "option3": "baking",
+                    "option4": "singing",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the name for the thin board used to mix colors while painting?"
+                    "text": "What is the name for the thin board used to mix colors while painting?",
+                    "hint": "This tool shares its name with an artist\u2019s range of colors.",
+                    "option1": "pestle",
+                    "option2": "easel",
+                    "option3": "shoe",
+                    "option4": "palette",
+                    "solution": "4"
                 },
                 {
-                    "text": "Which of these painting tools has bristles on it?"
+                    "text": "Which of these painting tools has bristles on it?",
+                    "hint": "This tool is used to apply paint directly to a canvas.",
+                    "option1": "easel",
+                    "option2": "knife",
+                    "option3": "brush",
+                    "option4": "palette",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the art of elegant handwriting called?"
+                    "text": "What is the art of elegant handwriting called?",
+                    "hint": "This skill is often used in formal invitations or artistic lettering.",
+                    "option1": "calligraphy",
+                    "option2": "engraving",
+                    "option3": "decoupage",
+                    "option4": "lithography",
+                    "solution": "1"
                 },
                 {
-                    "text": "Which of these places is known for art auctions?"
+                    "text": "Which of these places is known for art auctions?",
+                    "hint": "This name is synonymous with high-end art and collectible sales.",
+                    "option1": "Shelby's",
+                    "option2": "Nickleby's",
+                    "option3": "Gatsby's",
+                    "option4": "Sotheby's",
+                    "solution": "4"
                 },
                 {
-                    "text": "A triptych is a work of art that is painted on how many panels?"
-                },
-                {
-                    "text": "A portrait that comically exaggerates a persons physical traits is called a what?"
+                    "text": "A triptych is a work of art that is painted on how many panels?",
+                    "hint": "The name of this art form derives from a Greek word meaning 'threefold.'",
+                    "option1": "two",
+                    "option2": "three",
+                    "option3": "five",
+                    "option4": "eight",
+                    "solution": "2"
                 }
             ]
         },
@@ -125,13 +269,22 @@
             "description": "Explore the intersection of woodworking artistry and architectural design. This quiz focuses on the creation of intricate wood inlays and the iconic Fallingwater house.",
             "questions": [
                 {
-                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
+                    "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?",
+                    "hint": "This term is often associated with decorative wooden floors or furniture.",
+                    "option1": "marquetry",
+                    "option2": "parquetry",
+                    "option3": "harquetry",
+                    "option4": "sharquetry",
+                    "solution": "2"
                 },
                 {
-                    "text": "To create a tapestry, one must traditionally engage in what activity?"
-                },
-                {
-                    "text": "What is the Frank Lloyd Wright-designed house known as Falling Water?"
+                    "text": "To create a tapestry, one must traditionally engage in what activity?",
+                    "hint": "This craft involves interlacing threads to create intricate designs or images.",
+                    "option1": "weaving",
+                    "option2": "sculpting",
+                    "option3": "baking",
+                    "option4": "singing",
+                    "solution": "1"
                 }
             ]
         }

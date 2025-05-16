@@ -5,28 +5,76 @@
             "description": "Delve into the fascinating world of the human body! This quiz tests your knowledge of teeth, medical procedures, and common diseases. Are you ready to explore the inner workings of the human form?",
             "questions": [
                 {
-                    "text": "Excluding wisdom teeth, how many adult teeth do humans have?"
+                    "text": "Excluding wisdom teeth, how many adult teeth do humans have?",
+                    "hint": "Consider the number of teeth in a typical adult smile, minus the third molars.",
+                    "option1": "28",
+                    "option2": "32",
+                    "option3": "35",
+                    "option4": "40",
+                    "solution": "1"
                 },
                 {
-                    "text": "The process of drilling holes in the skull is called what?"
+                    "text": "The process of drilling holes in the skull is called what?",
+                    "hint": "This ancient medical procedure was used to treat head injuries or release spirits.",
+                    "option1": "bifurcation",
+                    "option2": "trepanation",
+                    "option3": "aeronomy",
+                    "option4": "skullduggery",
+                    "solution": "2"
                 },
                 {
-                    "text": "What disease is characterized by a body's inability to properly metabolize glucose?"
+                    "text": "What disease is characterized by a body's inability to properly metabolize glucose?",
+                    "hint": "This condition often requires monitoring blood sugar levels.",
+                    "option1": "Influenza",
+                    "option2": "Septicemia",
+                    "option3": "Diabetes",
+                    "option4": "Arthritis",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these foods is poisonous to dogs?"
+                    "text": "Which of these foods is poisonous to dogs?",
+                    "hint": "This sweet treat contains theobromine, which is toxic to canines.",
+                    "option1": "peanut butter",
+                    "option2": "bananas",
+                    "option3": "chocolate",
+                    "option4": "olives",
+                    "solution": "3"
                 },
                 {
-                    "text": "What condition is caused by malfunctioning sebaceous glands?"
+                    "text": "What condition is caused by malfunctioning sebaceous glands?",
+                    "hint": "This common skin issue often affects teenagers and involves clogged pores.",
+                    "option1": "bad breath",
+                    "option2": "shingles",
+                    "option3": "acne",
+                    "option4": "carpal tunnel syndrome",
+                    "solution": "3"
                 },
                 {
-                    "text": "In an adult human, how long is the large intestine?"
+                    "text": "In an adult human, how long is the large intestine?",
+                    "hint": "This organ is shorter than the small intestine but still spans several feet.",
+                    "option1": "one foot",
+                    "option2": "five feet",
+                    "option3": "twelve feet",
+                    "option4": "twenty feet",
+                    "solution": "2"
                 },
                 {
-                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?"
+                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?",
+                    "hint": "This condition makes faraway objects blurry, often corrected with glasses or contacts.",
+                    "option1": "farsighted",
+                    "option2": "nearsighted",
+                    "option3": "hindsighted",
+                    "option4": "hypermetropic",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the more common name for the disease 'pertussis'?"
+                    "text": "What is the more common name for the disease 'pertussis'?",
+                    "hint": "This illness is known for a distinctive, persistent cough in children.",
+                    "option1": "whooping cough",
+                    "option2": "tennis elbow",
+                    "option3": "black lung",
+                    "option4": "German measles",
+                    "solution": "1"
                 }
             ]
         },
@@ -35,13 +83,31 @@
             "description": "Test your understanding of pH levels, food safety, and skeletal structure. This quiz will challenge your knowledge of the chemical and physical aspects of the human body and the world around us.",
             "questions": [
                 {
-                    "text": "What does a pH level measure?"
+                    "text": "What does a pH level measure?",
+                    "hint": "This property determines whether a substance is acidic or basic.",
+                    "option1": "acidity",
+                    "option2": "density",
+                    "option3": "wavelength",
+                    "option4": "humidity",
+                    "solution": "1"
                 },
                 {
-                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?"
+                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?",
+                    "hint": "This food is a common source of bacterial contamination if undercooked.",
+                    "option1": "carrots",
+                    "option2": "chicken",
+                    "option3": "tofu",
+                    "option4": "rice",
+                    "solution": "2"
                 },
                 {
-                    "text": "How many ribs are there in the human body?"
+                    "text": "How many ribs are there in the human body?",
+                    "hint": "Humans have pairs of ribs, typically 12 on each side of the chest.",
+                    "option1": "18",
+                    "option2": "24",
+                    "option3": "30",
+                    "option4": "42",
+                    "solution": "2"
                 }
             ]
         },
@@ -50,28 +116,76 @@
             "description": "From bone density to eye health, this quiz explores vital components of the human body. Discover the roles of calcium, the process of disease identification, and the intricacies of the eye.",
             "questions": [
                 {
-                    "text": "The majority of calcium in the human body is found where?"
+                    "text": "The majority of calcium in the human body is found where?",
+                    "hint": "This part of the body provides structural support and stores minerals.",
+                    "option1": "hair",
+                    "option2": "blood",
+                    "option3": "bones",
+                    "option4": "digestive tract",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the medical term for a doctor's identification of a disease?"
+                    "text": "What is the medical term for a doctor's identification of a disease?",
+                    "hint": "This term is used when a doctor determines the cause of a patient\u2019s symptoms.",
+                    "option1": "Hypnosis",
+                    "option2": "Prognosis",
+                    "option3": "Trichinosis",
+                    "option4": "Diagnosis",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is your hallux?"
+                    "text": "What is your hallux?",
+                    "hint": "This body part is the largest of its kind on your foot.",
+                    "option1": "earlobe",
+                    "option2": "tongue",
+                    "option3": "eyelid",
+                    "option4": "big toe",
+                    "solution": "4"
                 },
                 {
-                    "text": "What does an animal produce when it lactates?"
+                    "text": "What does an animal produce when it lactates?",
+                    "hint": "This substance is a primary food source for mammalian young.",
+                    "option1": "sweat",
+                    "option2": "wool",
+                    "option3": "milk",
+                    "option4": "methane",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the colored part of the eye called?"
+                    "text": "What is the colored part of the eye called?",
+                    "hint": "This part of the eye determines its visible color, like blue or brown.",
+                    "option1": "iris",
+                    "option2": "pupil",
+                    "option3": "retina",
+                    "option4": "cochlea",
+                    "solution": "1"
                 },
                 {
-                    "text": "If someone has cataracts, what part of their body might need an operation?"
+                    "text": "If someone has cataracts, what part of their body might need an operation?",
+                    "hint": "Cataracts affect vision, clouding a specific part of the visual system.",
+                    "option1": "ear",
+                    "option2": "hand",
+                    "option3": "eye",
+                    "option4": "knee",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is varicella?"
+                    "text": "What is varicella?",
+                    "hint": "This childhood illness causes itchy spots and is preventable by vaccine.",
+                    "option1": "a fancy pasta",
+                    "option2": "a type of opera",
+                    "option3": "the chicken pox virus",
+                    "option4": "ancient Roman poetry",
+                    "solution": "3"
                 },
                 {
-                    "text": "What disease does a carcinogen cause?"
+                    "text": "What disease does a carcinogen cause?",
+                    "hint": "This disease involves uncontrolled cell growth and can affect various organs.",
+                    "option1": "cancer",
+                    "option2": "influenza",
+                    "option3": "emphysema",
+                    "option4": "heart disease",
+                    "solution": "1"
                 }
             ]
         },
@@ -80,19 +194,49 @@
             "description": "A quirky mix of health trivia and astrological fun! This quiz combines medical knowledge with a touch of Halloween spirit. Can you handle the spooky science?",
             "questions": [
                 {
-                    "text": "What is your astrological sign if you were born on Halloween?"
+                    "text": "What is your astrological sign if you were born on Halloween?",
+                    "hint": "Halloween falls in late October, near the cusp of two zodiac signs.",
+                    "option1": "Scorpio",
+                    "option2": "Capricorn",
+                    "option3": "Libra",
+                    "option4": "Cancer",
+                    "solution": "1"
                 },
                 {
-                    "text": "What part of the human body does a gastroenterologist examine?"
+                    "text": "What part of the human body does a gastroenterologist examine?",
+                    "hint": "This specialist focuses on the digestive system, particularly one key organ.",
+                    "option1": "brain",
+                    "option2": "skeleton",
+                    "option3": "stomach",
+                    "option4": "nose",
+                    "solution": "3"
                 },
                 {
-                    "text": "Which of these foods is poisonous to dogs?"
+                    "text": "Which of these foods is poisonous to dogs?",
+                    "hint": "This sweet treat contains theobromine, which is toxic to canines.",
+                    "option1": "peanut butter",
+                    "option2": "bananas",
+                    "option3": "chocolate",
+                    "option4": "olives",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the medical term for a doctor's identification of a disease?"
+                    "text": "What is the medical term for a doctor's identification of a disease?",
+                    "hint": "This term is used when a doctor determines the cause of a patient\u2019s symptoms.",
+                    "option1": "Hypnosis",
+                    "option2": "Prognosis",
+                    "option3": "Trichinosis",
+                    "option4": "Diagnosis",
+                    "solution": "4"
                 },
                 {
-                    "text": "What is the more common name for the disease 'pertussis'?"
+                    "text": "What is the more common name for the disease 'pertussis'?",
+                    "hint": "This illness is known for a distinctive, persistent cough in children.",
+                    "option1": "whooping cough",
+                    "option2": "tennis elbow",
+                    "option3": "black lung",
+                    "option4": "German measles",
+                    "solution": "1"
                 }
             ]
         },
@@ -101,28 +245,76 @@
             "description": "Uncover the mysteries of skin health and bone anatomy! This quiz explores conditions like sebaceous gland dysfunction, the intricacies of the foot, and the basics of human teeth. Are you ready to put your knowledge to the test?",
             "questions": [
                 {
-                    "text": "What condition is caused by malfunctioning sebaceous glands?"
+                    "text": "What condition is caused by malfunctioning sebaceous glands?",
+                    "hint": "This common skin issue often affects teenagers and involves clogged pores.",
+                    "option1": "bad breath",
+                    "option2": "shingles",
+                    "option3": "acne",
+                    "option4": "carpal tunnel syndrome",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is your hallux?"
+                    "text": "What is your hallux?",
+                    "hint": "This body part is the largest of its kind on your foot.",
+                    "option1": "earlobe",
+                    "option2": "tongue",
+                    "option3": "eyelid",
+                    "option4": "big toe",
+                    "solution": "4"
                 },
                 {
-                    "text": "Excluding wisdom teeth, how many adult teeth do humans have?"
+                    "text": "Excluding wisdom teeth, how many adult teeth do humans have?",
+                    "hint": "Consider the number of teeth in a typical adult smile, minus the third molars.",
+                    "option1": "28",
+                    "option2": "32",
+                    "option3": "35",
+                    "option4": "40",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is your astrological sign if you were born on Halloween?"
+                    "text": "What is your astrological sign if you were born on Halloween?",
+                    "hint": "Halloween falls in late October, near the cusp of two zodiac signs.",
+                    "option1": "Scorpio",
+                    "option2": "Capricorn",
+                    "option3": "Libra",
+                    "option4": "Cancer",
+                    "solution": "1"
                 },
                 {
-                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?"
+                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?",
+                    "hint": "This condition makes faraway objects blurry, often corrected with glasses or contacts.",
+                    "option1": "farsighted",
+                    "option2": "nearsighted",
+                    "option3": "hindsighted",
+                    "option4": "hypermetropic",
+                    "solution": "2"
                 },
                 {
-                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?"
+                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?",
+                    "hint": "This food is a common source of bacterial contamination if undercooked.",
+                    "option1": "carrots",
+                    "option2": "chicken",
+                    "option3": "tofu",
+                    "option4": "rice",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is varicella?"
+                    "text": "What is varicella?",
+                    "hint": "This childhood illness causes itchy spots and is preventable by vaccine.",
+                    "option1": "a fancy pasta",
+                    "option2": "a type of opera",
+                    "option3": "the chicken pox virus",
+                    "option4": "ancient Roman poetry",
+                    "solution": "3"
                 },
                 {
-                    "text": "What part of the human body does a gastroenterologist examine?"
+                    "text": "What part of the human body does a gastroenterologist examine?",
+                    "hint": "This specialist focuses on the digestive system, particularly one key organ.",
+                    "option1": "brain",
+                    "option2": "skeleton",
+                    "option3": "stomach",
+                    "option4": "nose",
+                    "solution": "3"
                 }
             ]
         },
@@ -131,19 +323,40 @@
             "description": "A blend of dietary dangers and disease identification! This quiz tests your knowledge of food safety, astrological signs, and common illnesses. Can you navigate the challenges?",
             "questions": [
                 {
-                    "text": "Which of these foods is poisonous to dogs?"
+                    "text": "Which of these foods is poisonous to dogs?",
+                    "hint": "This sweet treat contains theobromine, which is toxic to canines.",
+                    "option1": "peanut butter",
+                    "option2": "bananas",
+                    "option3": "chocolate",
+                    "option4": "olives",
+                    "solution": "3"
                 },
                 {
-                    "text": "What disease is characterized by a bodys inability to properly metabolize glucose?"
+                    "text": "If someone has cataracts, what part of their body might need an operation?",
+                    "hint": "Cataracts affect vision, clouding a specific part of the visual system.",
+                    "option1": "ear",
+                    "option2": "hand",
+                    "option3": "eye",
+                    "option4": "knee",
+                    "solution": "3"
                 },
                 {
-                    "text": "If someone has cataracts, what part of their body might need an operation?"
+                    "text": "The process of drilling holes in the skull is called what?",
+                    "hint": "This ancient medical procedure was used to treat head injuries or release spirits.",
+                    "option1": "bifurcation",
+                    "option2": "trepanation",
+                    "option3": "aeronomy",
+                    "option4": "skullduggery",
+                    "solution": "2"
                 },
                 {
-                    "text": "The process of drilling holes in the skull is called what?"
-                },
-                {
-                    "text": "What does a pH level measure?"
+                    "text": "What does a pH level measure?",
+                    "hint": "This property determines whether a substance is acidic or basic.",
+                    "option1": "acidity",
+                    "option2": "density",
+                    "option3": "wavelength",
+                    "option4": "humidity",
+                    "solution": "1"
                 }
             ]
         },
@@ -152,28 +365,67 @@
             "description": "Explore the wonders of animal biology and human anatomy! This quiz delves into lactation, limb structure, and the intricacies of the eye. Are you ready to test your knowledge?",
             "questions": [
                 {
-                    "text": "What does an animal produce when it lactates?"
+                    "text": "What does an animal produce when it lactates?",
+                    "hint": "This substance is a primary food source for mammalian young.",
+                    "option1": "sweat",
+                    "option2": "wool",
+                    "option3": "milk",
+                    "option4": "methane",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is the more common name for the disease 'pertussis'?"
+                    "text": "What is the more common name for the disease 'pertussis'?",
+                    "hint": "This illness is known for a distinctive, persistent cough in children.",
+                    "option1": "whooping cough",
+                    "option2": "tennis elbow",
+                    "option3": "black lung",
+                    "option4": "German measles",
+                    "solution": "1"
                 },
                 {
-                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?"
+                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?",
+                    "hint": "This food is a common source of bacterial contamination if undercooked.",
+                    "option1": "carrots",
+                    "option2": "chicken",
+                    "option3": "tofu",
+                    "option4": "rice",
+                    "solution": "2"
                 },
                 {
-                    "text": "What part of the human body does a gastroenterologist examine?"
+                    "text": "What part of the human body does a gastroenterologist examine?",
+                    "hint": "This specialist focuses on the digestive system, particularly one key organ.",
+                    "option1": "brain",
+                    "option2": "skeleton",
+                    "option3": "stomach",
+                    "option4": "nose",
+                    "solution": "3"
                 },
                 {
-                    "text": "What condition is caused by malfunctioning sebaceous glands?"
+                    "text": "What condition is caused by malfunctioning sebaceous glands?",
+                    "hint": "This common skin issue often affects teenagers and involves clogged pores.",
+                    "option1": "bad breath",
+                    "option2": "shingles",
+                    "option3": "acne",
+                    "option4": "carpal tunnel syndrome",
+                    "solution": "3"
                 },
                 {
-                    "text": "How many ribs are there in the human body?"
+                    "text": "How many ribs are there in the human body?",
+                    "hint": "Humans have pairs of ribs, typically 12 on each side of the chest.",
+                    "option1": "18",
+                    "option2": "24",
+                    "option3": "30",
+                    "option4": "42",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the medical term for a doctors identification of a disease?"
-                },
-                {
-                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?"
+                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?",
+                    "hint": "This condition makes faraway objects blurry, often corrected with glasses or contacts.",
+                    "option1": "farsighted",
+                    "option2": "nearsighted",
+                    "option3": "hindsighted",
+                    "option4": "hypermetropic",
+                    "solution": "2"
                 }
             ]
         },
@@ -182,13 +434,31 @@
             "description": "A quick dive into viral infections and essential body functions! This quiz tests your knowledge of varicella, limb structure, and the location of calcium in the body. Are you ready for the challenge?",
             "questions": [
                 {
-                    "text": "What is varicella?"
+                    "text": "What is varicella?",
+                    "hint": "This childhood illness causes itchy spots and is preventable by vaccine.",
+                    "option1": "a fancy pasta",
+                    "option2": "a type of opera",
+                    "option3": "the chicken pox virus",
+                    "option4": "ancient Roman poetry",
+                    "solution": "3"
                 },
                 {
-                    "text": "What is your hallux?"
+                    "text": "What is your hallux?",
+                    "hint": "This body part is the largest of its kind on your foot.",
+                    "option1": "earlobe",
+                    "option2": "tongue",
+                    "option3": "eyelid",
+                    "option4": "big toe",
+                    "solution": "4"
                 },
                 {
-                    "text": "The majority of calcium in the human body is found where?"
+                    "text": "The majority of calcium in the human body is found where?",
+                    "hint": "This part of the body provides structural support and stores minerals.",
+                    "option1": "hair",
+                    "option2": "blood",
+                    "option3": "bones",
+                    "option4": "digestive tract",
+                    "solution": "3"
                 }
             ]
         },
@@ -197,28 +467,76 @@
             "description": "A blend of digestive health and disease identification! This quiz tests your knowledge of intestinal function, viral infections, and the location of calcium in the body. Are you ready for the challenge?",
             "questions": [
                 {
-                    "text": "In an adult human, how long is the large intestine?"
+                    "text": "In an adult human, how long is the large intestine?",
+                    "hint": "This organ is shorter than the small intestine but still spans several feet.",
+                    "option1": "one foot",
+                    "option2": "five feet",
+                    "option3": "twelve feet",
+                    "option4": "twenty feet",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is the colored part of the eye called?"
+                    "text": "What is the colored part of the eye called?",
+                    "hint": "This part of the eye determines its visible color, like blue or brown.",
+                    "option1": "iris",
+                    "option2": "pupil",
+                    "option3": "retina",
+                    "option4": "cochlea",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is your astrological sign if you were born on Halloween?"
+                    "text": "What is your astrological sign if you were born on Halloween?",
+                    "hint": "Halloween falls in late October, near the cusp of two zodiac signs.",
+                    "option1": "Scorpio",
+                    "option2": "Capricorn",
+                    "option3": "Libra",
+                    "option4": "Cancer",
+                    "solution": "1"
                 },
                 {
-                    "text": "What disease does a carcinogen cause?"
+                    "text": "What disease does a carcinogen cause?",
+                    "hint": "This disease involves uncontrolled cell growth and can affect various organs.",
+                    "option1": "cancer",
+                    "option2": "influenza",
+                    "option3": "emphysema",
+                    "option4": "heart disease",
+                    "solution": "1"
                 },
                 {
-                    "text": "What is the more common name for the disease 'pertussis'?"
+                    "text": "What is the more common name for the disease 'pertussis'?",
+                    "hint": "This illness is known for a distinctive, persistent cough in children.",
+                    "option1": "whooping cough",
+                    "option2": "tennis elbow",
+                    "option3": "black lung",
+                    "option4": "German measles",
+                    "solution": "1"
                 },
                 {
-                    "text": "What disease does a carcinogen cause?"
+                    "text": "What disease does a carcinogen cause?",
+                    "hint": "This disease involves uncontrolled cell growth and can affect various organs.",
+                    "option1": "cancer",
+                    "option2": "influenza",
+                    "option3": "emphysema",
+                    "option4": "heart disease",
+                    "solution": "1"
                 },
                 {
-                    "text": "The majority of calcium in the human body is found where?"
+                    "text": "The majority of calcium in the human body is found where?",
+                    "hint": "This part of the body provides structural support and stores minerals.",
+                    "option1": "hair",
+                    "option2": "blood",
+                    "option3": "bones",
+                    "option4": "digestive tract",
+                    "solution": "3"
                 },
                 {
-                    "text": "What condition is caused by malfunctioning sebaceous glands?"
+                    "text": "What condition is caused by malfunctioning sebaceous glands?",
+                    "hint": "This common skin issue often affects teenagers and involves clogged pores.",
+                    "option1": "bad breath",
+                    "option2": "shingles",
+                    "option3": "acne",
+                    "option4": "carpal tunnel syndrome",
+                    "solution": "3"
                 }
             ]
         },
@@ -227,19 +545,49 @@
             "description": "A quick dive into eye health and essential body functions! This quiz tests your knowledge of vision, limb structure, and the location of calcium in the body. Are you ready for the challenge?",
             "questions": [
                 {
-                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?"
+                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?",
+                    "hint": "This condition makes faraway objects blurry, often corrected with glasses or contacts.",
+                    "option1": "farsighted",
+                    "option2": "nearsighted",
+                    "option3": "hindsighted",
+                    "option4": "hypermetropic",
+                    "solution": "2"
                 },
                 {
-                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?"
+                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?",
+                    "hint": "This food is a common source of bacterial contamination if undercooked.",
+                    "option1": "carrots",
+                    "option2": "chicken",
+                    "option3": "tofu",
+                    "option4": "rice",
+                    "solution": "2"
                 },
                 {
-                    "text": "What is varicella?"
+                    "text": "What is varicella?",
+                    "hint": "This childhood illness causes itchy spots and is preventable by vaccine.",
+                    "option1": "a fancy pasta",
+                    "option2": "a type of opera",
+                    "option3": "the chicken pox virus",
+                    "option4": "ancient Roman poetry",
+                    "solution": "3"
                 },
                 {
-                    "text": "Excluding wisdom teeth, how many adult teeth do humans have?"
+                    "text": "Excluding wisdom teeth, how many adult teeth do humans have?",
+                    "hint": "Consider the number of teeth in a typical adult smile, minus the third molars.",
+                    "option1": "28",
+                    "option2": "32",
+                    "option3": "35",
+                    "option4": "40",
+                    "solution": "1"
                 },
                 {
-                    "text": "What part of the human body does a gastroenterologist examine?"
+                    "text": "What part of the human body does a gastroenterologist examine?",
+                    "hint": "This specialist focuses on the digestive system, particularly one key organ.",
+                    "option1": "brain",
+                    "option2": "skeleton",
+                    "option3": "stomach",
+                    "option4": "nose",
+                    "solution": "3"
                 }
             ]
         }
