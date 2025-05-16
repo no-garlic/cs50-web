@@ -23,7 +23,7 @@ def add_data(apps, schema_editor):
     
     # Get the folder that contains the quiz JSON files
     current_folder = Path(__file__).parent
-    json_folder = current_folder / 'source_data' / 'quizzes'
+    json_folder = current_folder / 'test_data' / 'quizzes'
 
     # Loop through all JSON files in the folder, each file holds quizzes for 
     # a category.

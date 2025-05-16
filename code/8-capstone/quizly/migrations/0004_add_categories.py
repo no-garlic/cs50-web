@@ -12,7 +12,7 @@ def add_data(apps, schema_editor):
     
     # Get the folder that contains the category JSON file
     current_folder = Path(__file__).parent
-    json_file_path = current_folder / 'source_data' / 'categories.json'
+    json_file_path = current_folder / 'test_data' / 'categories.json'
     
     # Load the JSON file
     with open(json_file_path, 'r') as file:
