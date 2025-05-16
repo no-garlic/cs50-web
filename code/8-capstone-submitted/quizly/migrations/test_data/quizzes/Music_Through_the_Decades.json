@@ -1,0 +1,427 @@
+{
+    "Music Through the Decades": [
+        {
+            "name": "ABBA to Strauss: European Melodies",
+            "description": "Journey through the sounds of Europe, from the pop sensation ABBA to the waltzes of the Strauss family. This quiz explores iconic composers and bands that shaped the continent's musical landscape.",
+            "questions": [
+                {
+                    "text": "The disco band ABBA comes from what country?",
+                    "hint": "This country is known for its cold winters and a strong pop music tradition.",
+                    "option1": "Norway",
+                    "option2": "Sweden",
+                    "option3": "Switzerland",
+                    "option4": "The Netherlands",
+                    "solution": "2"
+                },
+                {
+                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?",
+                    "hint": "This musician is famous for his mastery of a traditional Andean instrument.",
+                    "option1": "Zamfir",
+                    "option2": "Yanni",
+                    "option3": "Vangelis",
+                    "option4": "Kenny G",
+                    "solution": "1"
+                },
+                {
+                    "text": "The Strauss family of composers popularized what dance?",
+                    "hint": "This elegant dance is often performed in 3/4 time at grand balls.",
+                    "option1": "waltz",
+                    "option2": "tango",
+                    "option3": "fox-trot",
+                    "option4": "square dance",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Beethoven's Legacy & Beyond",
+            "description": "Delve into the classical era and beyond, exploring the works of Beethoven and other influential composers. This quiz tests your knowledge of opera, musical forms, and the evolution of classical music.",
+            "questions": [
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?",
+                    "hint": "Common time is often represented by a 4/4 time signature.",
+                    "option1": "one",
+                    "option2": "four",
+                    "option3": "five",
+                    "option4": "ten",
+                    "solution": "2"
+                },
+                {
+                    "text": "What was the title of Beethoven's only completed opera?",
+                    "hint": "This opera\u2019s name reflects its theme of loyalty and liberation.",
+                    "option1": "'Faust'",
+                    "option2": "'The Silence'",
+                    "option3": "'Immortal Beloved'",
+                    "option4": "'Fidelio'",
+                    "solution": "4"
+                },
+                {
+                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?",
+                    "hint": "This singer\u2019s raw, soulful voice defined the psychedelic rock era.",
+                    "option1": "Grace Slick",
+                    "option2": "Janis Joplin",
+                    "option3": "Mama Cass",
+                    "option4": "Karen Carpenter",
+                    "solution": "2"
+                },
+                {
+                    "text": "What city did the Beatles originally call home?",
+                    "hint": "This English port city is famous for its music scene in the 1960s.",
+                    "option1": "London",
+                    "option2": "Leeds",
+                    "option3": "Liverpool",
+                    "option4": "Manchester",
+                    "solution": "3"
+                },
+                {
+                    "text": "In 1926, the Harlem Globetrotters basketball team was formed in what city?",
+                    "hint": "This city is a major hub in the Midwest, known for its cultural contributions.",
+                    "option1": "Boston",
+                    "option2": "Philadelphia",
+                    "option3": "Chicago",
+                    "option4": "New York City",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?",
+                    "hint": "This song\u2019s title is a playful string of syllables, reflecting the band\u2019s quirky style.",
+                    "option1": "'Radio Ga-Ga'",
+                    "option2": "'Ob-la-di, Ob-la-da'",
+                    "option3": "'De Do Do Do, De Da Da Da'",
+                    "option4": "'In-a-Gadda-Da-Vida'",
+                    "solution": "3"
+                },
+                {
+                    "text": "Who wrote musicals with Oscar Hammerstein II?",
+                    "hint": "This composer created iconic shows like \u2018The Sound of Music\u2019 with Hammerstein.",
+                    "option1": "Richard Rodgers",
+                    "option2": "Rogers Hornsby",
+                    "option3": "Gilbert O' Sullivan",
+                    "option4": "George Rogers Clark",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Wonder Years: Duets & Icons",
+            "description": "From soulful duets to legendary figures, this quiz celebrates the iconic collaborations and artists that defined an era. Test your knowledge of music from the 70s, 80s, and beyond.",
+            "questions": [
+                {
+                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?",
+                    "hint": "This Beatle was known for his prolific solo career and social activism.",
+                    "option1": "Paul McCartney",
+                    "option2": "John Lennon",
+                    "option3": "George Harrison",
+                    "option4": "Ringo Starr",
+                    "solution": "1"
+                },
+                {
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?",
+                    "hint": "This Canadian singer-songwriter adapted a French song for Sinatra.",
+                    "option1": "Frank Sinatra",
+                    "option2": "Kris Kristofferson",
+                    "option3": "Carole King",
+                    "option4": "Paul Anka",
+                    "solution": "4"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?",
+                    "hint": "This composer, known for his deafness, wrote this famous piano piece.",
+                    "option1": "Mozart",
+                    "option2": "Handel",
+                    "option3": "Bach",
+                    "option4": "Beethoven",
+                    "solution": "4"
+                },
+                {
+                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?",
+                    "hint": "This singer is known for her protest songs and activism in the 1960s.",
+                    "option1": "Bob Dylan",
+                    "option2": "Woody Guthrie",
+                    "option3": "Joan Baez",
+                    "option4": "Peter Yarrow",
+                    "solution": "3"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                },
+                {
+                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?",
+                    "hint": "This Beatle was known for his prolific solo career and social activism.",
+                    "option1": "Paul McCartney",
+                    "option2": "John Lennon",
+                    "option3": "George Harrison",
+                    "option4": "Ringo Starr",
+                    "solution": "1"
+                },
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?",
+                    "hint": "Common time is often represented by a 4/4 time signature.",
+                    "option1": "one",
+                    "option2": "four",
+                    "option3": "five",
+                    "option4": "ten",
+                    "solution": "2"
+                },
+                {
+                    "text": "Who sang lead vocals for the band Big Brother and the Holding Company?",
+                    "hint": "This singer\u2019s raw, soulful voice defined the psychedelic rock era.",
+                    "option1": "Grace Slick",
+                    "option2": "Janis Joplin",
+                    "option3": "Mama Cass",
+                    "option4": "Karen Carpenter",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Guitar Gods & New Age Sounds",
+            "description": "Explore the world of rock guitar legends and the ethereal sounds of New Age music. This quiz tests your knowledge of iconic guitarists and the artists who pioneered a genre of calming, atmospheric music.",
+            "questions": [
+                {
+                    "text": "What New Age musician released a 1998 album titled 'King of the Pan Flute'?",
+                    "hint": "This musician is famous for his mastery of a traditional Andean instrument.",
+                    "option1": "Zamfir",
+                    "option2": "Yanni",
+                    "option3": "Vangelis",
+                    "option4": "Kenny G",
+                    "solution": "1"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Folksingers & Beatlemania",
+            "description": "From protest anthems to the British Invasion, this quiz explores the voices and movements that shaped a generation. Test your knowledge of folk music icons and the phenomenon that was the Beatles.",
+            "questions": [
+                {
+                    "text": "What famous folksinger founded the Institute for the Study of Non-Violence in 1965?",
+                    "hint": "This singer is known for her protest songs and activism in the 1960s.",
+                    "option1": "Bob Dylan",
+                    "option2": "Woody Guthrie",
+                    "option3": "Joan Baez",
+                    "option4": "Peter Yarrow",
+                    "solution": "3"
+                },
+                {
+                    "text": "What city did the Beatles originally call home?",
+                    "hint": "This English port city is famous for its music scene in the 1960s.",
+                    "option1": "London",
+                    "option2": "Leeds",
+                    "option3": "Liverpool",
+                    "option4": "Manchester",
+                    "solution": "3"
+                },
+                {
+                    "text": "The Strauss family of composers popularized what dance?",
+                    "hint": "This elegant dance is often performed in 3/4 time at grand balls.",
+                    "option1": "waltz",
+                    "option2": "tango",
+                    "option3": "fox-trot",
+                    "option4": "square dance",
+                    "solution": "1"
+                },
+                {
+                    "text": "Who wrote musicals with Oscar Hammerstein II?",
+                    "hint": "This composer created iconic shows like \u2018The Sound of Music\u2019 with Hammerstein.",
+                    "option1": "Richard Rodgers",
+                    "option2": "Rogers Hornsby",
+                    "option3": "Gilbert O' Sullivan",
+                    "option4": "George Rogers Clark",
+                    "solution": "1"
+                },
+                {
+                    "text": "What was the title of Beethoven's only completed opera?",
+                    "hint": "This opera\u2019s name reflects its theme of loyalty and liberation.",
+                    "option1": "'Faust'",
+                    "option2": "'The Silence'",
+                    "option3": "'Immortal Beloved'",
+                    "option4": "'Fidelio'",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Sinatra's Style & Lunar Serenades",
+            "description": "Step into the world of Frank Sinatra and the romantic melodies of the 'Moonlight Sonata.' This quiz explores the artistry of a timeless crooner and the beauty of classical composition.",
+            "questions": [
+                {
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?",
+                    "hint": "This Canadian singer-songwriter adapted a French song for Sinatra.",
+                    "option1": "Frank Sinatra",
+                    "option2": "Kris Kristofferson",
+                    "option3": "Carole King",
+                    "option4": "Paul Anka",
+                    "solution": "4"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?",
+                    "hint": "This composer, known for his deafness, wrote this famous piano piece.",
+                    "option1": "Mozart",
+                    "option2": "Handel",
+                    "option3": "Bach",
+                    "option4": "Beethoven",
+                    "solution": "4"
+                },
+                {
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?",
+                    "hint": "This Canadian singer-songwriter adapted a French song for Sinatra.",
+                    "option1": "Frank Sinatra",
+                    "option2": "Kris Kristofferson",
+                    "option3": "Carole King",
+                    "option4": "Paul Anka",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Beatles' Birthplace & Musical Time",
+            "description": "Discover the origins of a musical revolution and the fundamentals of musical notation. This quiz explores the city that launched the Beatles and the building blocks of musical structure.",
+            "questions": [
+                {
+                    "text": "What city did the Beatles originally call home?",
+                    "hint": "This English port city is famous for its music scene in the 1960s.",
+                    "option1": "London",
+                    "option2": "Leeds",
+                    "option3": "Liverpool",
+                    "option4": "Manchester",
+                    "solution": "3"
+                },
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?",
+                    "hint": "Common time is often represented by a 4/4 time signature.",
+                    "option1": "one",
+                    "option2": "four",
+                    "option3": "five",
+                    "option4": "ten",
+                    "solution": "2"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?",
+                    "hint": "This composer, known for his deafness, wrote this famous piano piece.",
+                    "option1": "Mozart",
+                    "option2": "Handel",
+                    "option3": "Bach",
+                    "option4": "Beethoven",
+                    "solution": "4"
+                },
+                {
+                    "text": "What was the title of Beethoven's only completed opera?",
+                    "hint": "This opera\u2019s name reflects its theme of loyalty and liberation.",
+                    "option1": "'Faust'",
+                    "option2": "'The Silence'",
+                    "option3": "'Immortal Beloved'",
+                    "option4": "'Fidelio'",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Police Rhythms & ABBA's Pop",
+            "description": "From the infectious rhythms of The Police to the global phenomenon of ABBA, this quiz explores the diverse sounds of popular music. Test your knowledge of iconic bands and their chart-topping hits.",
+            "questions": [
+                {
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?",
+                    "hint": "This song\u2019s title is a playful string of syllables, reflecting the band\u2019s quirky style.",
+                    "option1": "'Radio Ga-Ga'",
+                    "option2": "'Ob-la-di, Ob-la-da'",
+                    "option3": "'De Do Do Do, De Da Da Da'",
+                    "option4": "'In-a-Gadda-Da-Vida'",
+                    "solution": "3"
+                },
+                {
+                    "text": "The disco band ABBA comes from what country?",
+                    "hint": "This country is known for its cold winters and a strong pop music tradition.",
+                    "option1": "Norway",
+                    "option2": "Sweden",
+                    "option3": "Switzerland",
+                    "option4": "The Netherlands",
+                    "solution": "2"
+                },
+                {
+                    "text": "Who wrote musicals with Oscar Hammerstein II?",
+                    "hint": "This composer created iconic shows like \u2018The Sound of Music\u2019 with Hammerstein.",
+                    "option1": "Richard Rodgers",
+                    "option2": "Rogers Hornsby",
+                    "option3": "Gilbert O' Sullivan",
+                    "option4": "George Rogers Clark",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Sinatra's Legacy & Lunar Echoes",
+            "description": "Delve into the enduring legacy of Frank Sinatra and the timeless beauty of the 'Moonlight Sonata.' This quiz explores the artistry of a legendary crooner and the elegance of classical composition.",
+            "questions": [
+                {
+                    "text": "Who wrote the lyrics of the Frank Sinatra anthem 'My Way'?",
+                    "hint": "This Canadian singer-songwriter adapted a French song for Sinatra.",
+                    "option1": "Frank Sinatra",
+                    "option2": "Kris Kristofferson",
+                    "option3": "Carole King",
+                    "option4": "Paul Anka",
+                    "solution": "4"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?",
+                    "hint": "This composer, known for his deafness, wrote this famous piano piece.",
+                    "option1": "Mozart",
+                    "option2": "Handel",
+                    "option3": "Bach",
+                    "option4": "Beethoven",
+                    "solution": "4"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these songs was a Top 10 hit for the rock band The Police?",
+                    "hint": "This song\u2019s title is a playful string of syllables, reflecting the band\u2019s quirky style.",
+                    "option1": "'Radio Ga-Ga'",
+                    "option2": "'Ob-la-di, Ob-la-da'",
+                    "option3": "'De Do Do Do, De Da Da Da'",
+                    "option4": "'In-a-Gadda-Da-Vida'",
+                    "solution": "3"
+                },
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?",
+                    "hint": "Common time is often represented by a 4/4 time signature.",
+                    "option1": "one",
+                    "option2": "four",
+                    "option3": "five",
+                    "option4": "ten",
+                    "solution": "2"
+                },
+                {
+                    "text": "Stevie Wonder and Michael Jackson have both recorded duets with which former Beatle?",
+                    "hint": "This Beatle was known for his prolific solo career and social activism.",
+                    "option1": "Paul McCartney",
+                    "option2": "John Lennon",
+                    "option3": "George Harrison",
+                    "option4": "Ringo Starr",
+                    "solution": "1"
+                }
+            ]
+        }
+    ]
+}

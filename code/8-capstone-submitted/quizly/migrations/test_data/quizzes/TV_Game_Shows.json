@@ -1,0 +1,310 @@
+{
+    "TV Game Shows": [
+        {
+            "name": "Board Game Blitz",
+            "description": "Test your knowledge of classic board games and beyond! This quiz covers everything from Monopoly to Mario, challenging your understanding of rules, tokens, and gameplay.",
+            "questions": [
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?",
+                    "hint": "This token reflects wealth, fitting the game\u2019s financial theme.",
+                    "option1": "piggybank",
+                    "option2": "sack of money",
+                    "option3": "globe",
+                    "option4": "telephone",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Card Shark Challenge",
+            "description": "Think you're a card game expert? This quiz dives into blackjack, bluffing, and more! See if you can ace these questions and prove your card-playing prowess.",
+            "questions": [
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these toys answers questions?",
+                    "hint": "This toy is a black sphere that provides cryptic responses when shaken.",
+                    "option1": "Magic 8 Ball",
+                    "option2": "Barbie",
+                    "option3": "Frisbee",
+                    "option4": "Slinky",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Toy Box Trivia",
+            "description": "From classic board games to interactive toys, this quiz explores the world of games and playthings.  Can you identify the answers and prove your knowledge of these beloved items?",
+            "questions": [
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these toys answers questions?",
+                    "hint": "This toy is a black sphere that provides cryptic responses when shaken.",
+                    "option1": "Magic 8 Ball",
+                    "option2": "Barbie",
+                    "option3": "Frisbee",
+                    "option4": "Slinky",
+                    "solution": "1"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?",
+                    "hint": "This token reflects wealth, fitting the game\u2019s financial theme.",
+                    "option1": "piggybank",
+                    "option2": "sack of money",
+                    "option3": "globe",
+                    "option4": "telephone",
+                    "solution": "2"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Blackjack & Bluff",
+            "description": "A quickfire round of card game challenges! This quiz focuses on blackjack strategy and the art of bluffing. Are you ready to test your skills?",
+            "questions": [
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Interactive Playtime",
+            "description": "Dive into the world of toys and games! This quiz explores a variety of playthings, from answering toys to classic board games.  See how much you know about the fun and games!",
+            "questions": [
+                {
+                    "text": "Which of these toys answers questions?",
+                    "hint": "This toy is a black sphere that provides cryptic responses when shaken.",
+                    "option1": "Magic 8 Ball",
+                    "option2": "Barbie",
+                    "option3": "Frisbee",
+                    "option4": "Slinky",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Game Master's Gauntlet",
+            "description": "The ultimate test of game knowledge! This quiz covers a wide range of games, from cards to boards to interactive toys.  Prepare for a challenging and rewarding experience!",
+            "questions": [
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?",
+                    "hint": "This token reflects wealth, fitting the game\u2019s financial theme.",
+                    "option1": "piggybank",
+                    "option2": "sack of money",
+                    "option3": "globe",
+                    "option4": "telephone",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these toys answers questions?",
+                    "hint": "This toy is a black sphere that provides cryptic responses when shaken.",
+                    "option1": "Magic 8 Ball",
+                    "option2": "Barbie",
+                    "option3": "Frisbee",
+                    "option4": "Slinky",
+                    "solution": "1"
+                },
+                {
+                    "text": "In the card game blackjack, how much are a queen and a king worth-together?",
+                    "hint": "In blackjack, face cards have a specific point value, and you need to sum them.",
+                    "option1": "11",
+                    "option2": "15",
+                    "option3": "20",
+                    "option4": "21",
+                    "solution": "3"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                }
+            ]
+        }
+    ]
+}

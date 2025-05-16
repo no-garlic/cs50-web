@@ -1,0 +1,391 @@
+{
+    "Historical Conflicts & Wars": [
+        {
+            "name": "Echoes of Valor: A Historical Conflict Quiz",
+            "description": "Test your knowledge of pivotal moments and figures in history's most significant conflicts. From Joan of Arc to the Line of Death, this quiz explores a range of wars and their impact.",
+            "questions": [
+                {
+                    "text": "In what war did Joan of Arc fight?",
+                    "hint": "This conflict lasted over a century, involving England and France.",
+                    "option1": "Hundred Years' War",
+                    "option2": "Franco-Prussian War",
+                    "option3": "French Revolution",
+                    "option4": "French and Indian War",
+                    "solution": "1"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?",
+                    "hint": "This conflict involved a famous battle at Fort McHenry in Baltimore.",
+                    "option1": "American Revolution",
+                    "option2": "War of 1812",
+                    "option3": "Civil War",
+                    "option4": "World War I",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which one of these World War II leaders was not at the Yalta Conference?",
+                    "hint": "This Italian dictator was not a key Allied or Soviet leader at the 1945 meeting.",
+                    "option1": "Stalin",
+                    "option2": "Mussolini",
+                    "option3": "Churchill",
+                    "option4": "Roosevelt",
+                    "solution": "2"
+                },
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?",
+                    "hint": "This battle took place after the signing of a peace treaty, in early 1815.",
+                    "option1": "American Revolution",
+                    "option2": "Civil War",
+                    "option3": "Mexican War",
+                    "option4": "War of 1812",
+                    "solution": "4"
+                },
+                {
+                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?",
+                    "hint": "This body of water is part of the Mediterranean, near Libya's coast.",
+                    "option1": "Gulf of Sidra",
+                    "option2": "Gulf of Oman",
+                    "option3": "Red Sea",
+                    "option4": "Persian Gulf",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?",
+                    "hint": "This country remained neutral under a dictator during the war.",
+                    "option1": "Germany",
+                    "option2": "Italy",
+                    "option3": "Spain",
+                    "option4": "Japan",
+                    "solution": "3"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?",
+                    "hint": "This leader\u2019s name is associated with a rebellion that shook the antebellum South.",
+                    "option1": "John Brown",
+                    "option2": "Dred Scott",
+                    "option3": "Nat Turner",
+                    "option4": "Harriet Tubman",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which one of these world leaders was assassinated?",
+                    "hint": "This Indian prime minister was killed by her bodyguards in 1984.",
+                    "option1": "Indira Gandhi",
+                    "option2": "Ferdinand Marcos",
+                    "option3": "Golda Meir",
+                    "option4": "Neville Chamberlain",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "New Orleans & Yalta: A Conflict Crossroads",
+            "description": "This quiz focuses on key battles, political summits, and figures that shaped the course of history. Explore the complexities of warfare and diplomacy through a series of challenging questions.",
+            "questions": [
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?",
+                    "hint": "This battle took place after the signing of a peace treaty, in early 1815.",
+                    "option1": "American Revolution",
+                    "option2": "Civil War",
+                    "option3": "Mexican War",
+                    "option4": "War of 1812",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which one of these World War II leaders was not at the Yalta Conference?",
+                    "hint": "This Italian dictator was not a key Allied or Soviet leader at the 1945 meeting.",
+                    "option1": "Stalin",
+                    "option2": "Mussolini",
+                    "option3": "Churchill",
+                    "option4": "Roosevelt",
+                    "solution": "2"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?",
+                    "hint": "This leader\u2019s name is associated with a rebellion that shook the antebellum South.",
+                    "option1": "John Brown",
+                    "option2": "Dred Scott",
+                    "option3": "Nat Turner",
+                    "option4": "Harriet Tubman",
+                    "solution": "3"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?",
+                    "hint": "This conflict involved a famous battle at Fort McHenry in Baltimore.",
+                    "option1": "American Revolution",
+                    "option2": "War of 1812",
+                    "option3": "Civil War",
+                    "option4": "World War I",
+                    "solution": "2"
+                },
+                {
+                    "text": "In what war did Joan of Arc fight?",
+                    "hint": "This conflict lasted over a century, involving England and France.",
+                    "option1": "Hundred Years' War",
+                    "option2": "Franco-Prussian War",
+                    "option3": "French Revolution",
+                    "option4": "French and Indian War",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Lines of Fire: Conflicts & Confrontations",
+            "description": "Delve into the world of international tensions and armed conflicts with this quiz. From the 'Line of Death' to the Axis powers, test your understanding of pivotal moments in history.",
+            "questions": [
+                {
+                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?",
+                    "hint": "This body of water is part of the Mediterranean, near Libya's coast.",
+                    "option1": "Gulf of Sidra",
+                    "option2": "Gulf of Oman",
+                    "option3": "Red Sea",
+                    "option4": "Persian Gulf",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which one of these world leaders was assassinated?",
+                    "hint": "This Indian prime minister was killed by her bodyguards in 1984.",
+                    "option1": "Indira Gandhi",
+                    "option2": "Ferdinand Marcos",
+                    "option3": "Golda Meir",
+                    "option4": "Neville Chamberlain",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?",
+                    "hint": "This country remained neutral under a dictator during the war.",
+                    "option1": "Germany",
+                    "option2": "Italy",
+                    "option3": "Spain",
+                    "option4": "Japan",
+                    "solution": "3"
+                },
+                {
+                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?",
+                    "hint": "This body of water is part of the Mediterranean, near Libya's coast.",
+                    "option1": "Gulf of Sidra",
+                    "option2": "Gulf of Oman",
+                    "option3": "Red Sea",
+                    "option4": "Persian Gulf",
+                    "solution": "1"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?",
+                    "hint": "This conflict involved a famous battle at Fort McHenry in Baltimore.",
+                    "option1": "American Revolution",
+                    "option2": "War of 1812",
+                    "option3": "Civil War",
+                    "option4": "World War I",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "The Crucible of War: A Historical Challenge",
+            "description": "This quiz examines the defining moments and key players in some of history's most significant conflicts. From the Battle of New Orleans to the Yalta Conference, prepare to test your knowledge.",
+            "questions": [
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?",
+                    "hint": "This battle took place after the signing of a peace treaty, in early 1815.",
+                    "option1": "American Revolution",
+                    "option2": "Civil War",
+                    "option3": "Mexican War",
+                    "option4": "War of 1812",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which one of these World War II leaders was not at the Yalta Conference?",
+                    "hint": "This Italian dictator was not a key Allied or Soviet leader at the 1945 meeting.",
+                    "option1": "Stalin",
+                    "option2": "Mussolini",
+                    "option3": "Churchill",
+                    "option4": "Roosevelt",
+                    "solution": "2"
+                },
+                {
+                    "text": "In what war did Joan of Arc fight?",
+                    "hint": "This conflict lasted over a century, involving England and France.",
+                    "option1": "Hundred Years' War",
+                    "option2": "Franco-Prussian War",
+                    "option3": "French Revolution",
+                    "option4": "French and Indian War",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which one of these world leaders was assassinated?",
+                    "hint": "This Indian prime minister was killed by her bodyguards in 1984.",
+                    "option1": "Indira Gandhi",
+                    "option2": "Ferdinand Marcos",
+                    "option3": "Golda Meir",
+                    "option4": "Neville Chamberlain",
+                    "solution": "1"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?",
+                    "hint": "This leader\u2019s name is associated with a rebellion that shook the antebellum South.",
+                    "option1": "John Brown",
+                    "option2": "Dred Scott",
+                    "option3": "Nat Turner",
+                    "option4": "Harriet Tubman",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Axis & Allies: A World War II Focus",
+            "description": "This quiz zeroes in on the major players and defining moments of World War II. Test your knowledge of the Axis powers, key leaders, and pivotal battles that shaped the conflict.",
+            "questions": [
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?",
+                    "hint": "This country remained neutral under a dictator during the war.",
+                    "option1": "Germany",
+                    "option2": "Italy",
+                    "option3": "Spain",
+                    "option4": "Japan",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?",
+                    "hint": "This country remained neutral under a dictator during the war.",
+                    "option1": "Germany",
+                    "option2": "Italy",
+                    "option3": "Spain",
+                    "option4": "Japan",
+                    "solution": "3"
+                },
+                {
+                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?",
+                    "hint": "This body of water is part of the Mediterranean, near Libya's coast.",
+                    "option1": "Gulf of Sidra",
+                    "option2": "Gulf of Oman",
+                    "option3": "Red Sea",
+                    "option4": "Persian Gulf",
+                    "solution": "1"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?",
+                    "hint": "This conflict involved a famous battle at Fort McHenry in Baltimore.",
+                    "option1": "American Revolution",
+                    "option2": "War of 1812",
+                    "option3": "Civil War",
+                    "option4": "World War I",
+                    "solution": "2"
+                },
+                {
+                    "text": "In what war did Joan of Arc fight?",
+                    "hint": "This conflict lasted over a century, involving England and France.",
+                    "option1": "Hundred Years' War",
+                    "option2": "Franco-Prussian War",
+                    "option3": "French Revolution",
+                    "option4": "French and Indian War",
+                    "solution": "1"
+                },
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?",
+                    "hint": "This battle took place after the signing of a peace treaty, in early 1815.",
+                    "option1": "American Revolution",
+                    "option2": "Civil War",
+                    "option3": "Mexican War",
+                    "option4": "War of 1812",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which one of these World War II leaders was not at the Yalta Conference?",
+                    "hint": "This Italian dictator was not a key Allied or Soviet leader at the 1945 meeting.",
+                    "option1": "Stalin",
+                    "option2": "Mussolini",
+                    "option3": "Churchill",
+                    "option4": "Roosevelt",
+                    "solution": "2"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?",
+                    "hint": "This leader\u2019s name is associated with a rebellion that shook the antebellum South.",
+                    "option1": "John Brown",
+                    "option2": "Dred Scott",
+                    "option3": "Nat Turner",
+                    "option4": "Harriet Tubman",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Leaders & Legacies: A Conflict Timeline",
+            "description": "Explore the lives and actions of influential figures who shaped the course of history's conflicts. From assassinations to alliances, this quiz examines the lasting impact of war and diplomacy.",
+            "questions": [
+                {
+                    "text": "Which one of these world leaders was assassinated?",
+                    "hint": "This Indian prime minister was killed by her bodyguards in 1984.",
+                    "option1": "Indira Gandhi",
+                    "option2": "Ferdinand Marcos",
+                    "option3": "Golda Meir",
+                    "option4": "Neville Chamberlain",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these countries was not a member of the Axis nations during World War II?",
+                    "hint": "This country remained neutral under a dictator during the war.",
+                    "option1": "Germany",
+                    "option2": "Italy",
+                    "option3": "Spain",
+                    "option4": "Japan",
+                    "solution": "3"
+                },
+                {
+                    "text": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?",
+                    "hint": "This conflict involved a famous battle at Fort McHenry in Baltimore.",
+                    "option1": "American Revolution",
+                    "option2": "War of 1812",
+                    "option3": "Civil War",
+                    "option4": "World War I",
+                    "solution": "2"
+                },
+                {
+                    "text": "During which war did US troops fight the Battle of New Orleans?",
+                    "hint": "This battle took place after the signing of a peace treaty, in early 1815.",
+                    "option1": "American Revolution",
+                    "option2": "Civil War",
+                    "option3": "Mexican War",
+                    "option4": "War of 1812",
+                    "solution": "4"
+                },
+                {
+                    "text": "Who led the 1831 slave insurrection in Southampton, Virginia?",
+                    "hint": "This leader\u2019s name is associated with a rebellion that shook the antebellum South.",
+                    "option1": "John Brown",
+                    "option2": "Dred Scott",
+                    "option3": "Nat Turner",
+                    "option4": "Harriet Tubman",
+                    "solution": "3"
+                },
+                {
+                    "text": "In what war did Joan of Arc fight?",
+                    "hint": "This conflict lasted over a century, involving England and France.",
+                    "option1": "Hundred Years' War",
+                    "option2": "Franco-Prussian War",
+                    "option3": "French Revolution",
+                    "option4": "French and Indian War",
+                    "solution": "1"
+                },
+                {
+                    "text": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?",
+                    "hint": "This body of water is part of the Mediterranean, near Libya's coast.",
+                    "option1": "Gulf of Sidra",
+                    "option2": "Gulf of Oman",
+                    "option3": "Red Sea",
+                    "option4": "Persian Gulf",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which one of these world leaders was assassinated?",
+                    "hint": "This Indian prime minister was killed by her bodyguards in 1984.",
+                    "option1": "Indira Gandhi",
+                    "option2": "Ferdinand Marcos",
+                    "option3": "Golda Meir",
+                    "option4": "Neville Chamberlain",
+                    "solution": "1"
+                }
+            ]
+        }
+    ]
+}

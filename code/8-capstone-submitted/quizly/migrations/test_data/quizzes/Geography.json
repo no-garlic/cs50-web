@@ -1,0 +1,502 @@
+{
+    "Geography": [
+        {
+            "name": "Silk Road Secrets",
+            "description": "Journey through history and geography as you uncover the mysteries of ancient trade routes. This quiz explores the lands and cultures connected by the Silk Road, testing your knowledge of historical locations and cultural landmarks.",
+            "questions": [
+                {
+                    "text": "What part of the world was once known as Cathay?",
+                    "hint": "This region was historically visited by explorers like Marco Polo.",
+                    "option1": "China",
+                    "option2": "India",
+                    "option3": "Iran",
+                    "option4": "Indonesia",
+                    "solution": "1"
+                },
+                {
+                    "text": "People are supposed to drive on the left-hand side of the road in which country?",
+                    "hint": "This country is an island nation with a history of unique traffic rules.",
+                    "option1": "France",
+                    "option2": "Italy",
+                    "option3": "England",
+                    "option4": "Germany",
+                    "solution": "3"
+                },
+                {
+                    "text": "Where is the Louvre museum?",
+                    "hint": "This museum is in a European capital along the Seine River.",
+                    "option1": "Paris",
+                    "option2": "Lyon",
+                    "option3": "Geneva",
+                    "option4": "Vichy",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Global Trivia Challenge",
+            "description": "Test your knowledge of countries, cultures, and landmarks from around the globe. This quiz covers a wide range of geographical facts, from continents to capitals, and everything in between.",
+            "questions": [
+                {
+                    "text": "Which of these countries is not in Europe?",
+                    "hint": "This country is in the Middle East, unlike the others, which are European.",
+                    "option1": "Italy",
+                    "option2": "Spain",
+                    "option3": "Greece",
+                    "option4": "Israel",
+                    "solution": "4"
+                },
+                {
+                    "text": "According to legend, in what country are you most likely to meet a leprechaun?",
+                    "hint": "This country is famous for its green landscapes and Celtic folklore.",
+                    "option1": "Ireland",
+                    "option2": "Poland",
+                    "option3": "Greenland",
+                    "option4": "Scotland",
+                    "solution": "1"
+                },
+                {
+                    "text": "In what U.S. city can you find the Basketball Hall of Fame?",
+                    "hint": "This city in Massachusetts is where basketball was invented.",
+                    "option1": "Canton, Ohio",
+                    "option2": "Cooperstown, New York",
+                    "option3": "Springfield, Massachusetts",
+                    "option4": "Lawrence, Kansas",
+                    "solution": "3"
+                },
+                {
+                    "text": "What is the capital of New Zealand?",
+                    "hint": "This city is located on the North Island and known for its windy weather.",
+                    "option1": "Sydney",
+                    "option2": "Wellington",
+                    "option3": "Auckland",
+                    "option4": "Melbourne",
+                    "solution": "2"
+                },
+                {
+                    "text": "What city's airport uses the code ORD?",
+                    "hint": "This major U.S. city\u2019s airport code is derived from its former name, Orchard Field.",
+                    "option1": "Chicago",
+                    "option2": "Orlando",
+                    "option3": "New York City",
+                    "option4": "Portland",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Land of the Rising Sun",
+            "description": "Explore the unique geography and culture of Japan. This quiz delves into the islands, cities, and traditions that define this fascinating nation.",
+            "questions": [
+                {
+                    "text": "In what country did Pokemon originate?",
+                    "hint": "This Asian nation is known for its influential pop culture, including anime and video games.",
+                    "option1": "France",
+                    "option2": "Hungary",
+                    "option3": "Japan",
+                    "option4": "Canada",
+                    "solution": "3"
+                },
+                {
+                    "text": "Into what body of water does the Rhone River flow?",
+                    "hint": "This body of water borders southern France and is known for its warm climate.",
+                    "option1": "Atlantic Ocean",
+                    "option2": "Caspian Sea",
+                    "option3": "North Sea",
+                    "option4": "Mediterranean Sea",
+                    "solution": "4"
+                },
+                {
+                    "text": "In what city would you find people studying art and design at the Fashion Institute of Technology?",
+                    "hint": "This city is a global fashion capital, home to many design schools.",
+                    "option1": "Paris",
+                    "option2": "New York",
+                    "option3": "Los Angeles",
+                    "option4": "Melbourne",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "American Landmarks & Lore",
+            "description": "Discover the iconic places and cultural touchstones of the United States. This quiz explores everything from chocolate squares to Girl Scout troops, testing your knowledge of American geography and history.",
+            "questions": [
+                {
+                    "text": "Where is Ghirardelli Square located?",
+                    "hint": "This square is in a California city famous for its chocolate and cable cars.",
+                    "option1": "Milan",
+                    "option2": "Rome",
+                    "option3": "Washington DC",
+                    "option4": "San Francisco",
+                    "solution": "4"
+                },
+                {
+                    "text": "As of 1999, which state has the most Girl Scouts?",
+                    "hint": "This state has the largest population in the U.S., likely contributing to higher membership.",
+                    "option1": "California",
+                    "option2": "Illinois",
+                    "option3": "New York",
+                    "option4": "Pennsylvania",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these countries does not participate in NAFTA?",
+                    "hint": "NAFTA includes North American countries, but this one is in Central America.",
+                    "option1": "United States",
+                    "option2": "Canada",
+                    "option3": "Mexico",
+                    "option4": "Guatemala",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which of these rivers flows through France?",
+                    "hint": "This river runs through Paris, famous for its romantic bridges.",
+                    "option1": "Volga",
+                    "option2": "Seine",
+                    "option3": "Mekong",
+                    "option4": "Allegheny",
+                    "solution": "2"
+                },
+                {
+                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?",
+                    "hint": "This city is a major hub in the Midwest, known for its cold winters.",
+                    "option1": "Dallas",
+                    "option2": "Chicago",
+                    "option3": "New York",
+                    "option4": "Minneapolis",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Global Oddities & Facts",
+            "description": "Uncover some of the world's most unusual and intriguing geographical facts. From police nicknames to oil spills, this quiz explores the unexpected corners of our planet.",
+            "questions": [
+                {
+                    "text": "In what country are police officers referred to as 'bobbies'?",
+                    "hint": "The term comes from a historical figure who founded the modern police force in this country.",
+                    "option1": "Israel",
+                    "option2": "Greece",
+                    "option3": "England",
+                    "option4": "France",
+                    "solution": "3"
+                },
+                {
+                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?",
+                    "hint": "The name was inspired by a major river in the region.",
+                    "option1": "Zaire",
+                    "option2": "Angola",
+                    "option3": "Rhodesia",
+                    "option4": "Belgian Congo",
+                    "solution": "1"
+                },
+                {
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?",
+                    "hint": "This Alaskan location is named after a British royal and known for its pristine waters.",
+                    "option1": "Monterey Bay",
+                    "option2": "Prince William Sound",
+                    "option3": "Cape Cod",
+                    "option4": "Gulf of Mexico",
+                    "solution": "2"
+                },
+                {
+                    "text": "What city is known as 'the rubber capital of the world'?",
+                    "hint": "This Ohio city was home to major tire companies like Goodyear and Firestone.",
+                    "option1": "Omaha, Nebraska",
+                    "option2": "Rockford, Illinois",
+                    "option3": "Grand Rapids, Michigan",
+                    "option4": "Akron, Ohio",
+                    "solution": "4"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?",
+                    "hint": "This continent is home to diverse wildlife, including the Bengal tiger.",
+                    "option1": "Africa",
+                    "option2": "Asia",
+                    "option3": "Europe",
+                    "option4": "South America",
+                    "solution": "2"
+                },
+                {
+                    "text": "What is the largest city in Pennsylvania?",
+                    "hint": "This city is known for its historical significance and the Liberty Bell.",
+                    "option1": "Philadelphia",
+                    "option2": "Stewartsville",
+                    "option3": "Harrisburg",
+                    "option4": "Pittsburgh",
+                    "solution": "1"
+                },
+                {
+                    "text": "In what state is the 1999 movie 'Magnolia' set?",
+                    "hint": "This state is home to Hollywood, where much of the film industry is based.",
+                    "option1": "California",
+                    "option2": "South Carolina",
+                    "option3": "Georgia",
+                    "option4": "Texas",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is the capital of North Dakota?",
+                    "hint": "This city is named after a famous German chancellor.",
+                    "option1": "Bismarck",
+                    "option2": "Fargo",
+                    "option3": "Sioux Falls",
+                    "option4": "Pierre",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Celtic Crossroads",
+            "description": "Test your knowledge of Ireland and its rich cultural heritage. This quiz explores the landscapes, legends, and landmarks that define this enchanting island nation.",
+            "questions": [
+                {
+                    "text": "According to legend, in what country are you most likely to meet a leprechaun?",
+                    "hint": "This country is famous for its green landscapes and Celtic folklore.",
+                    "option1": "Ireland",
+                    "option2": "Poland",
+                    "option3": "Greenland",
+                    "option4": "Scotland",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these countries is not in Europe?",
+                    "hint": "This country is in the Middle East, unlike the others, which are European.",
+                    "option1": "Italy",
+                    "option2": "Spain",
+                    "option3": "Greece",
+                    "option4": "Israel",
+                    "solution": "4"
+                },
+                {
+                    "text": "In what city would you find people studying art and design at the Fashion Institute of Technology?",
+                    "hint": "This city is a global fashion capital, home to many design schools.",
+                    "option1": "Paris",
+                    "option2": "New York",
+                    "option3": "Los Angeles",
+                    "option4": "Melbourne",
+                    "solution": "2"
+                },
+                {
+                    "text": "Where is the Louvre museum?",
+                    "hint": "This museum is in a European capital along the Seine River.",
+                    "option1": "Paris",
+                    "option2": "Lyon",
+                    "option3": "Geneva",
+                    "option4": "Vichy",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is the capital of North Dakota?",
+                    "hint": "This city is named after a famous German chancellor.",
+                    "option1": "Bismarck",
+                    "option2": "Fargo",
+                    "option3": "Sioux Falls",
+                    "option4": "Pierre",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Asian Wildlife Wonders",
+            "description": "Journey through the diverse landscapes of Asia and discover the incredible wildlife that calls this continent home. This quiz explores the habitats and creatures that make Asia a truly unique place.",
+            "questions": [
+                {
+                    "text": "On what continent can you find tigers in the wild?",
+                    "hint": "This continent is home to diverse wildlife, including the Bengal tiger.",
+                    "option1": "Africa",
+                    "option2": "Asia",
+                    "option3": "Europe",
+                    "option4": "South America",
+                    "solution": "2"
+                },
+                {
+                    "text": "Where is Ghirardelli Square located?",
+                    "hint": "This square is in a California city famous for its chocolate and cable cars.",
+                    "option1": "Milan",
+                    "option2": "Rome",
+                    "option3": "Washington DC",
+                    "option4": "San Francisco",
+                    "solution": "4"
+                },
+                {
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?",
+                    "hint": "This Alaskan location is named after a British royal and known for its pristine waters.",
+                    "option1": "Monterey Bay",
+                    "option2": "Prince William Sound",
+                    "option3": "Cape Cod",
+                    "option4": "Gulf of Mexico",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "North American States",
+            "description": "Explore the geography and culture of North America. This quiz covers a wide range of facts, from Girl Scout troops to movie locations, testing your knowledge of the region.",
+            "questions": [
+                {
+                    "text": "Which of these countries does not participate in NAFTA?",
+                    "hint": "NAFTA includes North American countries, but this one is in Central America.",
+                    "option1": "United States",
+                    "option2": "Canada",
+                    "option3": "Mexico",
+                    "option4": "Guatemala",
+                    "solution": "4"
+                },
+                {
+                    "text": "In what state is the 1999 movie 'Magnolia' set?",
+                    "hint": "This state is home to Hollywood, where much of the film industry is based.",
+                    "option1": "California",
+                    "option2": "South Carolina",
+                    "option3": "Georgia",
+                    "option4": "Texas",
+                    "solution": "1"
+                },
+                {
+                    "text": "According to legend, in what country are you most likely to meet a leprechaun?",
+                    "hint": "This country is famous for its green landscapes and Celtic folklore.",
+                    "option1": "Ireland",
+                    "option2": "Poland",
+                    "option3": "Greenland",
+                    "option4": "Scotland",
+                    "solution": "1"
+                },
+                {
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?",
+                    "hint": "This Alaskan location is named after a British royal and known for its pristine waters.",
+                    "option1": "Monterey Bay",
+                    "option2": "Prince William Sound",
+                    "option3": "Cape Cod",
+                    "option4": "Gulf of Mexico",
+                    "solution": "2"
+                },
+                {
+                    "text": "On what continent can you find tigers in the wild?",
+                    "hint": "This continent is home to diverse wildlife, including the Bengal tiger.",
+                    "option1": "Africa",
+                    "option2": "Asia",
+                    "option3": "Europe",
+                    "option4": "South America",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Northern Territories",
+            "description": "Test your knowledge of New Zealand and North Dakota. This quiz explores the landscapes, legends, and landmarks that define these unique places.",
+            "questions": [
+                {
+                    "text": "What is the capital of New Zealand?",
+                    "hint": "This city is located on the North Island and known for its windy weather.",
+                    "option1": "Sydney",
+                    "option2": "Wellington",
+                    "option3": "Auckland",
+                    "option4": "Melbourne",
+                    "solution": "2"
+                },
+                {
+                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?",
+                    "hint": "The name was inspired by a major river in the region.",
+                    "option1": "Zaire",
+                    "option2": "Angola",
+                    "option3": "Rhodesia",
+                    "option4": "Belgian Congo",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is the capital of North Dakota?",
+                    "hint": "This city is named after a famous German chancellor.",
+                    "option1": "Bismarck",
+                    "option2": "Fargo",
+                    "option3": "Sioux Falls",
+                    "option4": "Pierre",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "British Isles & Beyond",
+            "description": "Explore the geography and culture of the British Isles and beyond. This quiz covers a wide range of facts, from police nicknames to Pokemon origins, testing your knowledge of the region.",
+            "questions": [
+                {
+                    "text": "In what country are police officers referred to as 'bobbies'?",
+                    "hint": "The term comes from a historical figure who founded the modern police force in this country.",
+                    "option1": "Israel",
+                    "option2": "Greece",
+                    "option3": "England",
+                    "option4": "France",
+                    "solution": "3"
+                },
+                {
+                    "text": "Where is Ghirardelli Square located?",
+                    "hint": "This square is in a California city famous for its chocolate and cable cars.",
+                    "option1": "Milan",
+                    "option2": "Rome",
+                    "option3": "Washington DC",
+                    "option4": "San Francisco",
+                    "solution": "4"
+                },
+                {
+                    "text": "In what country did Pokemon originate?",
+                    "hint": "This Asian nation is known for its influential pop culture, including anime and video games.",
+                    "option1": "France",
+                    "option2": "Hungary",
+                    "option3": "Japan",
+                    "option4": "Canada",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "European Art & Architecture",
+            "description": "Discover the iconic landmarks and artistic treasures of Europe. This quiz explores the history and culture behind some of the continent's most famous places.",
+            "questions": [
+                {
+                    "text": "Where is the Louvre museum?",
+                    "hint": "This museum is in a European capital along the Seine River.",
+                    "option1": "Paris",
+                    "option2": "Lyon",
+                    "option3": "Geneva",
+                    "option4": "Vichy",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these countries is not in Europe?",
+                    "hint": "This country is in the Middle East, unlike the others, which are European.",
+                    "option1": "Italy",
+                    "option2": "Spain",
+                    "option3": "Greece",
+                    "option4": "Israel",
+                    "solution": "4"
+                },
+                {
+                    "text": "What part of the world was once known as Cathay?",
+                    "hint": "This region was historically visited by explorers like Marco Polo.",
+                    "option1": "China",
+                    "option2": "India",
+                    "option3": "Iran",
+                    "option4": "Indonesia",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these rivers flows through France?",
+                    "hint": "This river runs through Paris, famous for its romantic bridges.",
+                    "option1": "Volga",
+                    "option2": "Seine",
+                    "option3": "Mekong",
+                    "option4": "Allegheny",
+                    "solution": "2"
+                },
+                {
+                    "text": "What city is known as 'the rubber capital of the world'?",
+                    "hint": "This Ohio city was home to major tire companies like Goodyear and Firestone.",
+                    "option1": "Omaha, Nebraska",
+                    "option2": "Rockford, Illinois",
+                    "option3": "Grand Rapids, Michigan",
+                    "option4": "Akron, Ohio",
+                    "solution": "4"
+                }
+            ]
+        }
+    ]
+}

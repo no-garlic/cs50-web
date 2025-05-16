@@ -1,0 +1,505 @@
+{
+    "Wildlife & Nature": [
+        {
+            "name": "Ivory & Antlers: A Safari of Facts",
+            "description": "Test your knowledge of animal anatomy and unusual facts! This quiz explores everything from elephant tusks to the camelopard, challenging your understanding of the animal kingdom.",
+            "questions": [
+                {
+                    "text": "Elephant tusks are made of what material?",
+                    "hint": "This material is also used in piano keys and is valued for its durability.",
+                    "option1": "coral",
+                    "option2": "ivory",
+                    "option3": "bone",
+                    "option4": "calcium",
+                    "solution": "2"
+                },
+                {
+                    "text": "What is another name for the camelopard?",
+                    "hint": "This animal\u2019s long neck and spots make it unmistakable in the savanna.",
+                    "option1": "circus",
+                    "option2": "giraffe",
+                    "option3": "cantaloupe",
+                    "option4": "oasis",
+                    "solution": "2"
+                },
+                {
+                    "text": "What animal is used to make lard?",
+                    "hint": "This animal\u2019s fat is rendered to produce a cooking fat used in baking.",
+                    "option1": "pig",
+                    "option2": "cow",
+                    "option3": "snake",
+                    "option4": "chicken",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these animals lays eggs?",
+                    "hint": "This animal is an amphibian, unlike the others, which are mammals.",
+                    "option1": "cow",
+                    "option2": "gerbil",
+                    "option3": "frog",
+                    "option4": "elephant",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Fin-tastic Fauna: Aquatic & Avian Adventures",
+            "description": "Dive into the world of fish and birds with this challenging quiz! From ichthyologists to Australian avians, prepare to explore the diverse ecosystems of our planet.",
+            "questions": [
+                {
+                    "text": "What is the technical term for someone who studies fish?",
+                    "hint": "The root of this word comes from the Greek for fish, \u2018ichthys.\u2019",
+                    "option1": "entomologist",
+                    "option2": "ichthyologist",
+                    "option3": "marinologist",
+                    "option4": "herpetologist",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these household pets should be vaccinated for parvovirus?",
+                    "hint": "This pet is a common canine companion, susceptible to this viral disease.",
+                    "option1": "hamster",
+                    "option2": "cat",
+                    "option3": "dog",
+                    "option4": "bird",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these Australian birds is most closely related to the ostrich?",
+                    "hint": "This flightless bird is a large, native Australian species.",
+                    "option1": "puffin",
+                    "option2": "kookaburra",
+                    "option3": "cockatoo",
+                    "option4": "emu",
+                    "solution": "4"
+                },
+                {
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?",
+                    "hint": "This creature is a small, hopping mammal often found in North American tall tales.",
+                    "option1": "chicken",
+                    "option2": "rabbit",
+                    "option3": "moose",
+                    "option4": "snake",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these snakes is poisonous?",
+                    "hint": "This snake\u2019s name suggests a metallic hue and is a venomous pit viper.",
+                    "option1": "anaconda",
+                    "option2": "boa constrictor",
+                    "option3": "copperhead",
+                    "option4": "python",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?",
+                    "hint": "This prickly plant is a symbol of resilience in Scottish culture.",
+                    "option1": "ivy",
+                    "option2": "thistle",
+                    "option3": "rose",
+                    "option4": "linden",
+                    "solution": "2"
+                },
+                {
+                    "text": "What animal represents the year 2000 on the Chinese calendar?",
+                    "hint": "This mythical creature is a powerful symbol of strength and good fortune.",
+                    "option1": "dragon",
+                    "option2": "rabbit",
+                    "option3": "tiger",
+                    "option4": "monkey",
+                    "solution": "1"
+                },
+                {
+                    "text": "What kind of animal is a peregrine?",
+                    "hint": "This creature is known for its incredible speed, especially when diving.",
+                    "option1": "moose",
+                    "option2": "cat",
+                    "option3": "bird",
+                    "option4": "fish",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Cartoon Critters & Curious Customs",
+            "description": "From Tennessee Tuxedo to sacred Indian animals, this quiz explores the intersection of pop culture and wildlife.  Test your knowledge of animal representations and cultural significance.",
+            "questions": [
+                {
+                    "text": "What kind of animal is cartoon character Tennessee Tuxedo?",
+                    "hint": "This character wears a bow tie and lives in a cold environment.",
+                    "option1": "cat",
+                    "option2": "skunk",
+                    "option3": "walrus",
+                    "option4": "penguin",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which of these sounds is commonly associated with owls?",
+                    "hint": "This sound is a distinctive nighttime call, often heard in forests.",
+                    "option1": "chirp",
+                    "option2": "bark",
+                    "option3": "growl",
+                    "option4": "hoot",
+                    "solution": "4"
+                },
+                {
+                    "text": "How many eyes does a Giraffe have?",
+                    "hint": "Like most mammals, this animal has the standard number of eyes for binocular vision.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "2"
+                },
+                {
+                    "text": "What animal is considered sacred in India?",
+                    "hint": "This animal is revered in Hinduism and often roams freely in villages.",
+                    "option1": "sheep",
+                    "option2": "cow",
+                    "option3": "chicken",
+                    "option4": "dog",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these animals shares its name with a luxury car?",
+                    "hint": "This animal\u2019s name is synonymous with a sleek, British car brand.",
+                    "option1": "yak",
+                    "option2": "gazelle",
+                    "option3": "sloth",
+                    "option4": "jaguar",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Fleece, Foals & Fantastic Habitats",
+            "description": "Explore the world of animal products, hybrid offspring, and preferred habitats! This quiz covers everything from mohair to jackalopes, challenging your understanding of animal biology and folklore.",
+            "questions": [
+                {
+                    "text": "Mohair is made from the fleece of what animal?",
+                    "hint": "This animal is known for its soft, lustrous wool, often used in luxury fabrics.",
+                    "option1": "camel",
+                    "option2": "llama",
+                    "option3": "goat",
+                    "option4": "mole",
+                    "solution": "3"
+                },
+                {
+                    "text": "What is the technical term for the offspring of a female donkey and a male horse?",
+                    "hint": "This hybrid\u2019s name is less common than its reverse, a mule.",
+                    "option1": "burro",
+                    "option2": "dorse",
+                    "option3": "hinny",
+                    "option4": "honker",
+                    "solution": "3"
+                },
+                {
+                    "text": "What animal is used to make lard?",
+                    "hint": "This animal\u2019s fat is rendered to produce a cooking fat used in baking.",
+                    "option1": "pig",
+                    "option2": "cow",
+                    "option3": "snake",
+                    "option4": "chicken",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these household pets should be vaccinated for parvovirus?",
+                    "hint": "This pet is a common canine companion, susceptible to this viral disease.",
+                    "option1": "hamster",
+                    "option2": "cat",
+                    "option3": "dog",
+                    "option4": "bird",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these animals shares its name with a luxury car?",
+                    "hint": "This animal\u2019s name is synonymous with a sleek, British car brand.",
+                    "option1": "yak",
+                    "option2": "gazelle",
+                    "option3": "sloth",
+                    "option4": "jaguar",
+                    "solution": "4"
+                },
+                {
+                    "text": "According to folklore, the 'jackalope' is an antlered version of what animal?",
+                    "hint": "This creature is a small, hopping mammal often found in North American tall tales.",
+                    "option1": "chicken",
+                    "option2": "rabbit",
+                    "option3": "moose",
+                    "option4": "snake",
+                    "solution": "2"
+                },
+                {
+                    "text": "What animal represents the year 2000 on the Chinese calendar?",
+                    "hint": "This mythical creature is a powerful symbol of strength and good fortune.",
+                    "option1": "dragon",
+                    "option2": "rabbit",
+                    "option3": "tiger",
+                    "option4": "monkey",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Nocturnal Notes & Scottish Symbols",
+            "description": "Test your knowledge of animal sounds and national emblems! This quiz explores the world of owls and Scottish flora, challenging your understanding of animal behavior and cultural significance.",
+            "questions": [
+                {
+                    "text": "How many eyes does a Giraffe have?",
+                    "hint": "Like most mammals, this animal has the standard number of eyes for binocular vision.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these sounds is commonly associated with owls?",
+                    "hint": "This sound is a distinctive nighttime call, often heard in forests.",
+                    "option1": "chirp",
+                    "option2": "bark",
+                    "option3": "growl",
+                    "option4": "hoot",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?",
+                    "hint": "This prickly plant is a symbol of resilience in Scottish culture.",
+                    "option1": "ivy",
+                    "option2": "thistle",
+                    "option3": "rose",
+                    "option4": "linden",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Mohair, Ivory & Egg-cellent Facts",
+            "description": "A mix of animal products, anatomy, and reproduction! This quiz covers a wide range of topics, from the fleece of a mohair goat to the egg-laying habits of certain animals.",
+            "questions": [
+                {
+                    "text": "Mohair is made from the fleece of what animal?",
+                    "hint": "This animal is known for its soft, lustrous wool, often used in luxury fabrics.",
+                    "option1": "camel",
+                    "option2": "llama",
+                    "option3": "goat",
+                    "option4": "mole",
+                    "solution": "3"
+                },
+                {
+                    "text": "Elephant tusks are made of what material?",
+                    "hint": "This material is also used in piano keys and is valued for its durability.",
+                    "option1": "coral",
+                    "option2": "ivory",
+                    "option3": "bone",
+                    "option4": "calcium",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these animals lays eggs?",
+                    "hint": "This animal is an amphibian, unlike the others, which are mammals.",
+                    "option1": "cow",
+                    "option2": "gerbil",
+                    "option3": "frog",
+                    "option4": "elephant",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Sacred Beasts & Camelopard Curiosities",
+            "description": "Explore the cultural significance of animals and the fascinating world of the camelopard! This quiz delves into the reverence shown to certain animals and the unique characteristics of this intriguing creature.",
+            "questions": [
+                {
+                    "text": "What animal is considered sacred in India?",
+                    "hint": "This animal is revered in Hinduism and often roams freely in villages.",
+                    "option1": "sheep",
+                    "option2": "cow",
+                    "option3": "chicken",
+                    "option4": "dog",
+                    "solution": "2"
+                },
+                {
+                    "text": "What is another name for the camelopard?",
+                    "hint": "This animal\u2019s long neck and spots make it unmistakable in the savanna.",
+                    "option1": "circus",
+                    "option2": "giraffe",
+                    "option3": "cantaloupe",
+                    "option4": "oasis",
+                    "solution": "2"
+                },
+                {
+                    "text": "What kind of animal is a peregrine?",
+                    "hint": "This creature is known for its incredible speed, especially when diving.",
+                    "option1": "moose",
+                    "option2": "cat",
+                    "option3": "bird",
+                    "option4": "fish",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Animated Animals & Aquatic Experts",
+            "description": "From cartoon characters to ichthyologists, this quiz explores the intersection of pop culture and wildlife science. Test your knowledge of animal representations and the experts who study them.",
+            "questions": [
+                {
+                    "text": "What kind of animal is cartoon character Tennessee Tuxedo?",
+                    "hint": "This character wears a bow tie and lives in a cold environment.",
+                    "option1": "cat",
+                    "option2": "skunk",
+                    "option3": "walrus",
+                    "option4": "penguin",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which of these snakes is poisonous?",
+                    "hint": "This snake\u2019s name suggests a metallic hue and is a venomous pit viper.",
+                    "option1": "anaconda",
+                    "option2": "boa constrictor",
+                    "option3": "copperhead",
+                    "option4": "python",
+                    "solution": "3"
+                },
+                {
+                    "text": "What is the technical term for someone who studies fish?",
+                    "hint": "The root of this word comes from the Greek for fish, \u2018ichthys.\u2019",
+                    "option1": "entomologist",
+                    "option2": "ichthyologist",
+                    "option3": "marinologist",
+                    "option4": "herpetologist",
+                    "solution": "2"
+                },
+                {
+                    "text": "What is the technical term for the offspring of a female donkey and a male horse?",
+                    "hint": "This hybrid\u2019s name is less common than its reverse, a mule.",
+                    "option1": "burro",
+                    "option2": "dorse",
+                    "option3": "hinny",
+                    "option4": "honker",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these Australian birds is most closely related to the ostrich?",
+                    "hint": "This flightless bird is a large, native Australian species.",
+                    "option1": "puffin",
+                    "option2": "kookaburra",
+                    "option3": "cockatoo",
+                    "option4": "emu",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Hooting Habits & Highland Heritage",
+            "description": "Delve into the world of nocturnal creatures and Scottish symbols! This quiz explores the sounds of owls and the national emblem of Scotland, challenging your understanding of animal behavior and cultural significance.",
+            "questions": [
+                {
+                    "text": "Which of these sounds is commonly associated with owls?",
+                    "hint": "This sound is a distinctive nighttime call, often heard in forests.",
+                    "option1": "chirp",
+                    "option2": "bark",
+                    "option3": "growl",
+                    "option4": "hoot",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which of these animals lays eggs?",
+                    "hint": "This animal is an amphibian, unlike the others, which are mammals.",
+                    "option1": "cow",
+                    "option2": "gerbil",
+                    "option3": "frog",
+                    "option4": "elephant",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these Australian birds is most closely related to the ostrich?",
+                    "hint": "This flightless bird is a large, native Australian species.",
+                    "option1": "puffin",
+                    "option2": "kookaburra",
+                    "option3": "cockatoo",
+                    "option4": "emu",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Hybrid Offspring & Luxurious Linens",
+            "description": "Explore the world of animal hybrids and the luxurious products they provide! This quiz covers everything from mules to mohair, challenging your understanding of animal biology and textile production.",
+            "questions": [
+                {
+                    "text": "Which of these household pets should be vaccinated for parvovirus?",
+                    "hint": "This pet is a common canine companion, susceptible to this viral disease.",
+                    "option1": "hamster",
+                    "option2": "cat",
+                    "option3": "dog",
+                    "option4": "bird",
+                    "solution": "3"
+                },
+                {
+                    "text": "How many eyes does a Giraffe have?",
+                    "hint": "Like most mammals, this animal has the standard number of eyes for binocular vision.",
+                    "option1": "one",
+                    "option2": "two",
+                    "option3": "three",
+                    "option4": "four",
+                    "solution": "2"
+                },
+                {
+                    "text": "What kind of animal is a peregrine?",
+                    "hint": "This creature is known for its incredible speed, especially when diving.",
+                    "option1": "moose",
+                    "option2": "cat",
+                    "option3": "bird",
+                    "option4": "fish",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these plants is the national emblem of Scotland?",
+                    "hint": "This prickly plant is a symbol of resilience in Scottish culture.",
+                    "option1": "ivy",
+                    "option2": "thistle",
+                    "option3": "rose",
+                    "option4": "linden",
+                    "solution": "2"
+                },
+                {
+                    "text": "Elephant tusks are made of what material?",
+                    "hint": "This material is also used in piano keys and is valued for its durability.",
+                    "option1": "coral",
+                    "option2": "ivory",
+                    "option3": "bone",
+                    "option4": "calcium",
+                    "solution": "2"
+                },
+                {
+                    "text": "What animal represents the year 2000 on the Chinese calendar?",
+                    "hint": "This mythical creature is a powerful symbol of strength and good fortune.",
+                    "option1": "dragon",
+                    "option2": "rabbit",
+                    "option3": "tiger",
+                    "option4": "monkey",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is the technical term for someone who studies fish?",
+                    "hint": "The root of this word comes from the Greek for fish, \u2018ichthys.\u2019",
+                    "option1": "entomologist",
+                    "option2": "ichthyologist",
+                    "option3": "marinologist",
+                    "option4": "herpetologist",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these snakes is poisonous?",
+                    "hint": "This snake\u2019s name suggests a metallic hue and is a venomous pit viper.",
+                    "option1": "anaconda",
+                    "option2": "boa constrictor",
+                    "option3": "copperhead",
+                    "option4": "python",
+                    "solution": "3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,283 @@
+{
+    "Ocean Life": [
+        {
+            "name": "Fin-tastic Fish Facts",
+            "description": "Dive into the world of ichthyology with this quiz! Test your knowledge of fish, tides, and the ocean's bounty. From identifying different species to understanding marine terminology, this quiz will challenge your understanding of the underwater realm.",
+            "questions": [
+                {
+                    "text": "What is the technical term for someone who studies fish?",
+                    "hint": "The root of this word comes from the Greek for fish, \u2018ichthys.\u2019",
+                    "option1": "entomologist",
+                    "option2": "ichthyologist",
+                    "option3": "marinologist",
+                    "option4": "herpetologist",
+                    "solution": "2"
+                },
+                {
+                    "text": "What term is used to describe a group of fish?",
+                    "hint": "This term also applies to a place of learning, reflecting their coordinated movement.",
+                    "option1": "knot",
+                    "option2": "drape",
+                    "option3": "school",
+                    "option4": "gaggle",
+                    "solution": "3"
+                },
+                {
+                    "text": "On average, what length of time passes between high tides?",
+                    "hint": "This interval is influenced by the lunar cycle, occurring roughly twice a day.",
+                    "option1": "3 hours, 25 minutes",
+                    "option2": "6 hours, 25 minutes",
+                    "option3": "12 hours, 25 minutes",
+                    "option4": "24 hours, 25 minutes",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these foods could you catch at sea?",
+                    "hint": "This food is a shellfish, often harvested from ocean waters.",
+                    "option1": "shallot",
+                    "option2": "stollen",
+                    "option3": "scallop",
+                    "option4": "scone",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these is a fish?",
+                    "hint": "This creature, despite its name, is a true fish with a unique, horse-like appearance.",
+                    "option1": "sea horse",
+                    "option2": "sea cow",
+                    "option3": "sea snake",
+                    "option4": "sea lion",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Ocean's Edge: A Marine Mishap",
+            "description": "Explore the impact of environmental disasters and test your knowledge of marine life. This quiz combines questions about fish identification with a look at a significant ecological event. Can you navigate the waters of knowledge?",
+            "questions": [
+                {
+                    "text": "Which of these is a fish?",
+                    "hint": "This creature, despite its name, is a true fish with a unique, horse-like appearance.",
+                    "option1": "sea horse",
+                    "option2": "sea cow",
+                    "option3": "sea snake",
+                    "option4": "sea lion",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these foods could you catch at sea?",
+                    "hint": "This food is a shellfish, often harvested from ocean waters.",
+                    "option1": "shallot",
+                    "option2": "stollen",
+                    "option3": "scallop",
+                    "option4": "scone",
+                    "solution": "3"
+                },
+                {
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?",
+                    "hint": "This Alaskan location is named after a British royal and known for its pristine waters.",
+                    "option1": "Monterey Bay",
+                    "option2": "Prince William Sound",
+                    "option3": "Cape Cod",
+                    "option4": "Gulf of Mexico",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "School's Out: Fishy Fundamentals",
+            "description": "This quiz focuses on the basics of marine life, particularly fish. From understanding terminology to identifying edible species, it's a great starting point for anyone interested in the ocean's inhabitants.",
+            "questions": [
+                {
+                    "text": "What term is used to describe a group of fish?",
+                    "hint": "This term also applies to a place of learning, reflecting their coordinated movement.",
+                    "option1": "knot",
+                    "option2": "drape",
+                    "option3": "school",
+                    "option4": "gaggle",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these foods could you catch at sea?",
+                    "hint": "This food is a shellfish, often harvested from ocean waters.",
+                    "option1": "shallot",
+                    "option2": "stollen",
+                    "option3": "scallop",
+                    "option4": "scone",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these foods could you catch at sea?",
+                    "hint": "This food is a shellfish, often harvested from ocean waters.",
+                    "option1": "shallot",
+                    "option2": "stollen",
+                    "option3": "scallop",
+                    "option4": "scone",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Deep Dive: Marine Mysteries",
+            "description": "Uncover the secrets of the ocean with this challenging quiz! It combines questions about fish identification, marine science, and a look at a significant environmental event. Are you ready to explore the depths?",
+            "questions": [
+                {
+                    "text": "Which of these is a fish?",
+                    "hint": "This creature, despite its name, is a true fish with a unique, horse-like appearance.",
+                    "option1": "sea horse",
+                    "option2": "sea cow",
+                    "option3": "sea snake",
+                    "option4": "sea lion",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is the technical term for someone who studies fish?",
+                    "hint": "The root of this word comes from the Greek for fish, \u2018ichthys.\u2019",
+                    "option1": "entomologist",
+                    "option2": "ichthyologist",
+                    "option3": "marinologist",
+                    "option4": "herpetologist",
+                    "solution": "2"
+                },
+                {
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?",
+                    "hint": "This Alaskan location is named after a British royal and known for its pristine waters.",
+                    "option1": "Monterey Bay",
+                    "option2": "Prince William Sound",
+                    "option3": "Cape Cod",
+                    "option4": "Gulf of Mexico",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Tidal Waves of Knowledge",
+            "description": "Test your comprehensive understanding of ocean life with this extensive quiz! Covering a wide range of topics, from fish identification to tidal patterns, it's a true deep dive into the marine world. Prepare to be challenged!",
+            "questions": [
+                {
+                    "text": "On average, what length of time passes between high tides?",
+                    "hint": "This interval is influenced by the lunar cycle, occurring roughly twice a day.",
+                    "option1": "3 hours, 25 minutes",
+                    "option2": "6 hours, 25 minutes",
+                    "option3": "12 hours, 25 minutes",
+                    "option4": "24 hours, 25 minutes",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these is a fish?",
+                    "hint": "This creature, despite its name, is a true fish with a unique, horse-like appearance.",
+                    "option1": "sea horse",
+                    "option2": "sea cow",
+                    "option3": "sea snake",
+                    "option4": "sea lion",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these foods could you catch at sea?",
+                    "hint": "This food is a shellfish, often harvested from ocean waters.",
+                    "option1": "shallot",
+                    "option2": "stollen",
+                    "option3": "scallop",
+                    "option4": "scone",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these foods could you catch at sea?",
+                    "hint": "This food is a shellfish, often harvested from ocean waters.",
+                    "option1": "shallot",
+                    "option2": "stollen",
+                    "option3": "scallop",
+                    "option4": "scone",
+                    "solution": "3"
+                },
+                {
+                    "text": "What term is used to describe a group of fish?",
+                    "hint": "This term also applies to a place of learning, reflecting their coordinated movement.",
+                    "option1": "knot",
+                    "option2": "drape",
+                    "option3": "school",
+                    "option4": "gaggle",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these is a fish?",
+                    "hint": "This creature, despite its name, is a true fish with a unique, horse-like appearance.",
+                    "option1": "sea horse",
+                    "option2": "sea cow",
+                    "option3": "sea snake",
+                    "option4": "sea lion",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these is a fish?",
+                    "hint": "This creature, despite its name, is a true fish with a unique, horse-like appearance.",
+                    "option1": "sea horse",
+                    "option2": "sea cow",
+                    "option3": "sea snake",
+                    "option4": "sea lion",
+                    "solution": "1"
+                },
+                {
+                    "text": "On average, what length of time passes between high tides?",
+                    "hint": "This interval is influenced by the lunar cycle, occurring roughly twice a day.",
+                    "option1": "3 hours, 25 minutes",
+                    "option2": "6 hours, 25 minutes",
+                    "option3": "12 hours, 25 minutes",
+                    "option4": "24 hours, 25 minutes",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Marine Biologist 101",
+            "description": "Embark on a journey to understand the science behind ocean life! This quiz explores the technical aspects of marine biology, covering fish identification, terminology, and a look at a significant environmental event. Are you ready to become a marine expert?",
+            "questions": [
+                {
+                    "text": "What is the technical term for someone who studies fish?",
+                    "hint": "The root of this word comes from the Greek for fish, \u2018ichthys.\u2019",
+                    "option1": "entomologist",
+                    "option2": "ichthyologist",
+                    "option3": "marinologist",
+                    "option4": "herpetologist",
+                    "solution": "2"
+                },
+                {
+                    "text": "Where did the Exxon Valdez run aground in March of 1989?",
+                    "hint": "This Alaskan location is named after a British royal and known for its pristine waters.",
+                    "option1": "Monterey Bay",
+                    "option2": "Prince William Sound",
+                    "option3": "Cape Cod",
+                    "option4": "Gulf of Mexico",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these is a fish?",
+                    "hint": "This creature, despite its name, is a true fish with a unique, horse-like appearance.",
+                    "option1": "sea horse",
+                    "option2": "sea cow",
+                    "option3": "sea snake",
+                    "option4": "sea lion",
+                    "solution": "1"
+                },
+                {
+                    "text": "What term is used to describe a group of fish?",
+                    "hint": "This term also applies to a place of learning, reflecting their coordinated movement.",
+                    "option1": "knot",
+                    "option2": "drape",
+                    "option3": "school",
+                    "option4": "gaggle",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these is a fish?",
+                    "hint": "This creature, despite its name, is a true fish with a unique, horse-like appearance.",
+                    "option1": "sea horse",
+                    "option2": "sea cow",
+                    "option3": "sea snake",
+                    "option4": "sea lion",
+                    "solution": "1"
+                }
+            ]
+        }
+    ]
+}

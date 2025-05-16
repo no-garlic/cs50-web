@@ -1,0 +1,11 @@
+# Python 3.12.9 preferred
+
+# Django dependencies
+Django==5.2.1
+python-dotenv==1.1.0
+
+# For semantic search
+faiss-cpu==1.11.0
+sentence-transformers==4.1.0
+numpy==2.2.5
+hf-xet==1.1.1
