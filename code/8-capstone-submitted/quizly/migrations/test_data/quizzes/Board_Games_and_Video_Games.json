@@ -1,0 +1,400 @@
+{
+    "Board Games & Video Games": [
+        {
+            "name": "Pop Culture Pixel Pursuit",
+            "description": "Test your knowledge of gaming and movie trivia! This quiz dives into the quirky corners of board games and video games, blending iconic characters with classic gameplay.",
+            "questions": [
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?",
+                    "hint": "This token reflects wealth, fitting the game\u2019s financial theme.",
+                    "option1": "piggybank",
+                    "option2": "sack of money",
+                    "option3": "globe",
+                    "option4": "telephone",
+                    "solution": "2"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "The Bluff & Board Brain Bender",
+            "description": "From card games to classic board games, this quiz challenges your understanding of strategy and pop culture references. Can you outsmart the competition and claim victory?",
+            "questions": [
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Nostalgic Game Galaxy",
+            "description": "Journey through a universe of beloved characters and iconic games! This quiz combines movie trivia with board game knowledge, testing your memory of pop culture moments.",
+            "questions": [
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?",
+                    "hint": "This token reflects wealth, fitting the game\u2019s financial theme.",
+                    "option1": "piggybank",
+                    "option2": "sack of money",
+                    "option3": "globe",
+                    "option4": "telephone",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Card & Board Game Challenge",
+            "description": "Put your gaming knowledge to the test! This quiz covers a wide range of board games and card games, blending strategy and pop culture references.",
+            "questions": [
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?",
+                    "hint": "This token reflects wealth, fitting the game\u2019s financial theme.",
+                    "option1": "piggybank",
+                    "option2": "sack of money",
+                    "option3": "globe",
+                    "option4": "telephone",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Bearly Believable Board Bonanza",
+            "description": "From classic board games to beloved cartoon characters, this quiz is a wild ride through the world of gaming and pop culture. Are you ready to prove your knowledge?",
+            "questions": [
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
+                },
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?",
+                    "hint": "This token reflects wealth, fitting the game\u2019s financial theme.",
+                    "option1": "piggybank",
+                    "option2": "sack of money",
+                    "option3": "globe",
+                    "option4": "telephone",
+                    "solution": "2"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Gaming & Pop Culture Mashup",
+            "description": "Test your knowledge of both board games and pop culture! This quiz combines trivia from classic games with references to beloved characters and movies.",
+            "questions": [
+                {
+                    "text": "Which of these games is not played with cards?",
+                    "hint": "This game uses dice and is typically found in casinos.",
+                    "option1": "baccarat",
+                    "option2": "rummy",
+                    "option3": "craps",
+                    "option4": "solitaire",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these popular games relies on bluffing?",
+                    "hint": "This game involves creating fake definitions to fool opponents.",
+                    "option1": "Outburst",
+                    "option2": "Balderdash",
+                    "option3": "Pictionary",
+                    "option4": "Scattergories",
+                    "solution": "2"
+                },
+                {
+                    "text": "What fictional character claims to be 'smarter than the average bear'?",
+                    "hint": "This character is a picnic basket-stealing bear from Jellystone Park.",
+                    "option1": "Paddington Bear",
+                    "option2": "Fozzie Bear",
+                    "option3": "Smokey Bear",
+                    "option4": "Yogi Bear",
+                    "solution": "4"
+                },
+                {
+                    "text": "What cartoon character traveled in a time machine with Mr. Peabody?",
+                    "hint": "This character is a young boy who learns history through time-travel adventures.",
+                    "option1": "Rocky",
+                    "option2": "Jonny Quest",
+                    "option3": "Underdog",
+                    "option4": "Sherman",
+                    "solution": "4"
+                },
+                {
+                    "text": "Backgammon is a how many player game?",
+                    "hint": "This ancient board game is a strategic duel between two opponents.",
+                    "option1": "Two",
+                    "option2": "Three",
+                    "option3": "Four",
+                    "option4": "Six",
+                    "solution": "1"
+                },
+                {
+                    "text": "What new token was recently added to the Monopoly board game?",
+                    "hint": "This token reflects wealth, fitting the game\u2019s financial theme.",
+                    "option1": "piggybank",
+                    "option2": "sack of money",
+                    "option3": "globe",
+                    "option4": "telephone",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
+                },
+                {
+                    "text": "What is the name of Mario's brother in the 'Super Mario' video games?",
+                    "hint": "His name is similar to Mario\u2019s but starts with an 'L' and wears green.",
+                    "option1": "Louis",
+                    "option2": "Luigi",
+                    "option3": "Luciano",
+                    "option4": "Zelda",
+                    "solution": "2"
+                }
+            ]
+        }
+    ]
+}

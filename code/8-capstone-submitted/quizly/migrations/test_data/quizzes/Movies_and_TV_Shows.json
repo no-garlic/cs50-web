@@ -1,0 +1,436 @@
+{
+    "Movies & TV Shows": [
+        {
+            "name": "Retro Rewind: Classic TV & Film",
+            "description": "Test your knowledge of iconic television shows and beloved films from decades past. From classic sitcoms to blockbuster movies, this quiz will challenge your memory of entertainment history. Can you recall the details of these memorable moments?",
+            "questions": [
+                {
+                    "text": "What actress starred on 'Charlie's Angels' for the show's entire run?",
+                    "hint": "She played Kelly Garrett, a key detective throughout all five seasons.",
+                    "option1": "Cheryl Ladd",
+                    "option2": "Farrah Fawcett",
+                    "option3": "Jaclyn Smith",
+                    "option4": "Kate Jackson",
+                    "solution": "3"
+                },
+                {
+                    "text": "In the 1976 remake of the classic film 'King Kong' what New York landmark does the giant ape climb?",
+                    "hint": "This was a modern skyscraper in New York at the time, unlike the original film's setting.",
+                    "option1": "Statue of Liberty",
+                    "option2": "Empire State Building",
+                    "option3": "World Trade Center",
+                    "option4": "Chrysler Building",
+                    "solution": "3"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?",
+                    "hint": "This sport involves rolling a ball to knock down pins in a lane.",
+                    "option1": "wrestling",
+                    "option2": "golf",
+                    "option3": "chess",
+                    "option4": "bowling",
+                    "solution": "4"
+                },
+                {
+                    "text": "In Mister Rogers' theme song, what does he ask you to be?",
+                    "hint": "This term reflects the friendly, community-focused theme of the show.",
+                    "option1": "his cook",
+                    "option2": "his student",
+                    "option3": "his neighbor",
+                    "option4": "all you can be",
+                    "solution": "3"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these movies does not star Jim Carrey?",
+                    "hint": "This film features a different comedic actor as a compassionate doctor.",
+                    "option1": "'Patch Adams'",
+                    "option2": "'The Truman Show'",
+                    "option3": "'Dumb and Dumber'",
+                    "option4": "'The Mask'",
+                    "solution": "1"
+                },
+                {
+                    "text": "In the original 'Get Smart' TV series, what is agent Maxwell Smart's code name?",
+                    "hint": "His code name is a two-digit number, reflecting his bumbling yet effective spy persona.",
+                    "option1": "Agent 86",
+                    "option2": "Agent 99",
+                    "option3": "Larrabee",
+                    "option4": "The Chief",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Pop Culture Parody: A Comedy Quiz",
+            "description": "Dive into the world of comedic movies and TV shows with this lighthearted quiz. From spoofs to satire, test your knowledge of the funniest moments in entertainment. Get ready to laugh your way to the top!",
+            "questions": [
+                {
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?",
+                    "hint": "This show about cousins in Chicago has no connection to the \u2018Happy Days\u2019 universe.",
+                    "option1": "'Mork & Mindy'",
+                    "option2": "'Perfect Strangers'",
+                    "option3": "'Joanie Loves Chachi'",
+                    "option4": "'Laverne & Shirley'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the sci-fi movie 'Fantastic Voyage' where do the voyagers travel?",
+                    "hint": "The journey takes place in a microscopic world inside a living organism.",
+                    "option1": "through outer space",
+                    "option2": "through a human body",
+                    "option3": "to the ocean floor",
+                    "option4": "to the center of the earth",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Dark Screen Secrets: Horror & Thriller Trivia",
+            "description": "Step into the shadows and test your knowledge of the most chilling movies and TV shows. From psychological thrillers to supernatural horrors, this quiz will challenge your understanding of the genre's darkest corners. Are you brave enough to face the fright?",
+            "questions": [
+                {
+                    "text": "What substance was used for blood in the famous shower scene from the movie 'Psycho'?",
+                    "hint": "This sweet, thick liquid was chosen for its dark appearance in black-and-white film.",
+                    "option1": "tomato juice",
+                    "option2": "red wine",
+                    "option3": "chocolate syrup",
+                    "option4": "ketchup",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these actors did one-handed push-ups on stage at the 1992 Academy Awards?",
+                    "hint": "This actor was an older, tough-guy star who won for \u2018City Slickers.\u2019",
+                    "option1": "Sylvester Stallone",
+                    "option2": "Jack Nicholson",
+                    "option3": "Jack Palance",
+                    "option4": "Marisa Tomei",
+                    "solution": "3"
+                },
+                {
+                    "text": "On the TV show 'Hill Street Blues' what is Joyce Davenport's nickname for Captain Frank Furillo?",
+                    "hint": "The nickname reflects his Italian heritage and a casual, affectionate term.",
+                    "option1": "Furry Monster",
+                    "option2": "Pizza Man",
+                    "option3": "Snookums",
+                    "option4": "Baby Cakes",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these horror films spawned the most sequels?",
+                    "hint": "This film\u2019s killer, Jason Voorhees, became a horror icon with numerous follow-ups.",
+                    "option1": "'Scream'",
+                    "option2": "'Jaws'",
+                    "option3": "'Halloween'",
+                    "option4": "'Friday the 13th'",
+                    "solution": "4"
+                },
+                {
+                    "text": "In the film 'Easy Rider' what emblem is on the back of Peter Fonda's leather jacket?",
+                    "hint": "The emblem reflects the film's themes of freedom and American identity.",
+                    "option1": "peace symbol",
+                    "option2": "American flag",
+                    "option3": "two white doves",
+                    "option4": "Harley-Davidson logo",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these television series was not set in the United States?",
+                    "hint": "This show is set during the Korean War, primarily in a military hospital.",
+                    "option1": "'Picket Fences'",
+                    "option2": "'M*A*S*H'",
+                    "option3": "'Northern Exposure'",
+                    "option4": "'The Paper Chase'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the 1976 remake of the classic film 'King Kong' what New York landmark does the giant ape climb?",
+                    "hint": "This was a modern skyscraper in New York at the time, unlike the original film's setting.",
+                    "option1": "Statue of Liberty",
+                    "option2": "Empire State Building",
+                    "option3": "World Trade Center",
+                    "option4": "Chrysler Building",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Star Power: Acting Legends & Iconic Roles",
+            "description": "Celebrate the brilliance of acting legends and the unforgettable roles they've brought to life. From dramatic performances to comedic triumphs, this quiz will test your knowledge of the stars who have shaped entertainment history. Do you know your Hepburns from your Brando?",
+            "questions": [
+                {
+                    "text": "What actress starred on 'Charlie's Angels' for the show's entire run?",
+                    "hint": "She played Kelly Garrett, a key detective throughout all five seasons.",
+                    "option1": "Cheryl Ladd",
+                    "option2": "Farrah Fawcett",
+                    "option3": "Jaclyn Smith",
+                    "option4": "Kate Jackson",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these actors did one-handed push-ups on stage at the 1992 Academy Awards?",
+                    "hint": "This actor was an older, tough-guy star who won for \u2018City Slickers.\u2019",
+                    "option1": "Sylvester Stallone",
+                    "option2": "Jack Nicholson",
+                    "option3": "Jack Palance",
+                    "option4": "Marisa Tomei",
+                    "solution": "3"
+                },
+                {
+                    "text": "In the film 'Easy Rider' what emblem is on the back of Peter Fonda's leather jacket?",
+                    "hint": "The emblem reflects the film's themes of freedom and American identity.",
+                    "option1": "peace symbol",
+                    "option2": "American flag",
+                    "option3": "two white doves",
+                    "option4": "Harley-Davidson logo",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these television series was not set in the United States?",
+                    "hint": "This show is set during the Korean War, primarily in a military hospital.",
+                    "option1": "'Picket Fences'",
+                    "option2": "'M*A*S*H'",
+                    "option3": "'Northern Exposure'",
+                    "option4": "'The Paper Chase'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the original 'Get Smart' TV series, what is agent Maxwell Smart's code name?",
+                    "hint": "His code name is a two-digit number, reflecting his bumbling yet effective spy persona.",
+                    "option1": "Agent 86",
+                    "option2": "Agent 99",
+                    "option3": "Larrabee",
+                    "option4": "The Chief",
+                    "solution": "1"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?",
+                    "hint": "This sport involves rolling a ball to knock down pins in a lane.",
+                    "option1": "wrestling",
+                    "option2": "golf",
+                    "option3": "chess",
+                    "option4": "bowling",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Animated Adventures: Cartoon Trivia Challenge",
+            "description": "Relive the magic of classic cartoons and animated films with this fun-filled quiz. From beloved characters to memorable storylines, test your knowledge of the world of animation. Get ready to unleash your inner child!",
+            "questions": [
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
+                },
+                {
+                    "text": "Which of these movies does not star Jim Carrey?",
+                    "hint": "This film features a different comedic actor as a compassionate doctor.",
+                    "option1": "'Patch Adams'",
+                    "option2": "'The Truman Show'",
+                    "option3": "'Dumb and Dumber'",
+                    "option4": "'The Mask'",
+                    "solution": "1"
+                },
+                {
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?",
+                    "hint": "This show about cousins in Chicago has no connection to the \u2018Happy Days\u2019 universe.",
+                    "option1": "'Mork & Mindy'",
+                    "option2": "'Perfect Strangers'",
+                    "option3": "'Joanie Loves Chachi'",
+                    "option4": "'Laverne & Shirley'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?",
+                    "hint": "The name is a playful reference to his small size and resemblance to Dr. Evil.",
+                    "option1": "Little Buddy",
+                    "option2": "Mini-Me",
+                    "option3": "Small Fry",
+                    "option4": "Dr. Evil Jr",
+                    "solution": "2"
+                },
+                {
+                    "text": "What substance was used for blood in the famous shower scene from the movie 'Psycho'?",
+                    "hint": "This sweet, thick liquid was chosen for its dark appearance in black-and-white film.",
+                    "option1": "tomato juice",
+                    "option2": "red wine",
+                    "option3": "chocolate syrup",
+                    "option4": "ketchup",
+                    "solution": "3"
+                },
+                {
+                    "text": "On the TV show 'Hill Street Blues' what is Joyce Davenport's nickname for Captain Frank Furillo?",
+                    "hint": "The nickname reflects his Italian heritage and a casual, affectionate term.",
+                    "option1": "Furry Monster",
+                    "option2": "Pizza Man",
+                    "option3": "Snookums",
+                    "option4": "Baby Cakes",
+                    "solution": "2"
+                },
+                {
+                    "text": "Which of these horror films spawned the most sequels?",
+                    "hint": "This film\u2019s killer, Jason Voorhees, became a horror icon with numerous follow-ups.",
+                    "option1": "'Scream'",
+                    "option2": "'Jaws'",
+                    "option3": "'Halloween'",
+                    "option4": "'Friday the 13th'",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Global Cinema: International Film & TV",
+            "description": "Expand your horizons and test your knowledge of films and television shows from around the world. From classic masterpieces to contemporary hits, this quiz will challenge your understanding of international entertainment. Are you a true cinephile?",
+            "questions": [
+                {
+                    "text": "Which of these television series was not set in the United States?",
+                    "hint": "This show is set during the Korean War, primarily in a military hospital.",
+                    "option1": "'Picket Fences'",
+                    "option2": "'M*A*S*H'",
+                    "option3": "'Northern Exposure'",
+                    "option4": "'The Paper Chase'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?",
+                    "hint": "This sport involves rolling a ball to knock down pins in a lane.",
+                    "option1": "wrestling",
+                    "option2": "golf",
+                    "option3": "chess",
+                    "option4": "bowling",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Soundtrack Stars: Movie & TV Music Trivia",
+            "description": "Dive into the world of iconic movie and television soundtracks with this musical quiz. From memorable themes to unforgettable songs, test your knowledge of the music that has shaped entertainment history. Can you name that tune?",
+            "questions": [
+                {
+                    "text": "Which of these television series was not set in the United States?",
+                    "hint": "This show is set during the Korean War, primarily in a military hospital.",
+                    "option1": "'Picket Fences'",
+                    "option2": "'M*A*S*H'",
+                    "option3": "'Northern Exposure'",
+                    "option4": "'The Paper Chase'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?",
+                    "hint": "This sport involves rolling a ball to knock down pins in a lane.",
+                    "option1": "wrestling",
+                    "option2": "golf",
+                    "option3": "chess",
+                    "option4": "bowling",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Behind the Scenes: Movie & TV Production",
+            "description": "Go behind the camera and test your knowledge of the people and processes that bring movies and television shows to life. From directors to editors, this quiz will challenge your understanding of the art of filmmaking. Do you know your dolly zoom from your Steadicam?",
+            "questions": [
+                {
+                    "text": "Which of these television series was not set in the United States?",
+                    "hint": "This show is set during the Korean War, primarily in a military hospital.",
+                    "option1": "'Picket Fences'",
+                    "option2": "'M*A*S*H'",
+                    "option3": "'Northern Exposure'",
+                    "option4": "'The Paper Chase'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?",
+                    "hint": "This sport involves rolling a ball to knock down pins in a lane.",
+                    "option1": "wrestling",
+                    "option2": "golf",
+                    "option3": "chess",
+                    "option4": "bowling",
+                    "solution": "4"
+                }
+            ]
+        },
+        {
+            "name": "Future Visions: Sci-Fi & Fantasy Trivia",
+            "description": "Explore the realms of science fiction and fantasy with this imaginative quiz. From futuristic worlds to magical creatures, test your knowledge of the stories that have captivated audiences for generations. Are you ready to journey beyond reality?",
+            "questions": [
+                {
+                    "text": "Which of these television series was not set in the United States?",
+                    "hint": "This show is set during the Korean War, primarily in a military hospital.",
+                    "option1": "'Picket Fences'",
+                    "option2": "'M*A*S*H'",
+                    "option3": "'Northern Exposure'",
+                    "option4": "'The Paper Chase'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?",
+                    "hint": "This item is a fantastical mode of transport, often associated with Middle Eastern tales.",
+                    "option1": "talking car",
+                    "option2": "winged horse",
+                    "option3": "magic carpet",
+                    "option4": "hot air balloon",
+                    "solution": "3"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?",
+                    "hint": "This sport involves rolling a ball to knock down pins in a lane.",
+                    "option1": "wrestling",
+                    "option2": "golf",
+                    "option3": "chess",
+                    "option4": "bowling",
+                    "solution": "4"
+                }
+            ]
+        }
+    ]
+}

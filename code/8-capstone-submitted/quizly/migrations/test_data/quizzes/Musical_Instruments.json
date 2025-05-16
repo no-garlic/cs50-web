@@ -1,0 +1,283 @@
+{
+    "Musical Instruments": [
+        {
+            "name": "Timeless Tunes & Instruments",
+            "description": "Delve into the world of classical music and iconic instruments with this quiz. Test your knowledge of composers, instruments, and musical history. From Tiny Tim to Beethoven, prepare to be challenged!",
+            "questions": [
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?",
+                    "hint": "This composer, known for his deafness, wrote this famous piano piece.",
+                    "option1": "Mozart",
+                    "option2": "Handel",
+                    "option3": "Bach",
+                    "option4": "Beethoven",
+                    "solution": "4"
+                },
+                {
+                    "text": "How many keys are on a standard piano?",
+                    "hint": "This number corresponds to the full range of musical notes across several octaves.",
+                    "option1": "20",
+                    "option2": "54",
+                    "option3": "88",
+                    "option4": "100",
+                    "solution": "3"
+                },
+                {
+                    "text": "What is a balalaika?",
+                    "hint": "This stringed instrument is iconic in Russian folk music.",
+                    "option1": "musical instrument",
+                    "option2": "Russian peasant",
+                    "option3": "type of hat",
+                    "option4": "breed of shark",
+                    "solution": "1"
+                },
+                {
+                    "text": "The Strauss family of composers popularized what dance?",
+                    "hint": "This elegant dance is often performed in 3/4 time at grand balls.",
+                    "option1": "waltz",
+                    "option2": "tango",
+                    "option3": "fox-trot",
+                    "option4": "square dance",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Groove & Gear: A Modern Instrument Quiz",
+            "description": "Explore the sounds of modern music and the instruments that create them. This quiz focuses on effects pedals, time signatures, and the unique sounds of contemporary music. Get ready to rock!",
+            "questions": [
+                {
+                    "text": "With what would you use a wah-wah pedal?",
+                    "hint": "This device alters the sound of a stringed instrument, popular in rock and funk.",
+                    "option1": "bicycle",
+                    "option2": "stock car",
+                    "option3": "electric guitar",
+                    "option4": "baby",
+                    "solution": "3"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                },
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?",
+                    "hint": "Common time is often represented by a 4/4 time signature.",
+                    "option1": "one",
+                    "option2": "four",
+                    "option3": "five",
+                    "option4": "ten",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Timeless Tunes & Instruments",
+            "description": "Delve into the world of classical music and iconic instruments with this quiz. Test your knowledge of composers, instruments, and musical history. From Tiny Tim to Beethoven, prepare to be challenged!",
+            "questions": [
+                {
+                    "text": "What is a balalaika?",
+                    "hint": "This stringed instrument is iconic in Russian folk music.",
+                    "option1": "musical instrument",
+                    "option2": "Russian peasant",
+                    "option3": "type of hat",
+                    "option4": "breed of shark",
+                    "solution": "1"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                },
+                {
+                    "text": "How many keys are on a standard piano?",
+                    "hint": "This number corresponds to the full range of musical notes across several octaves.",
+                    "option1": "20",
+                    "option2": "54",
+                    "option3": "88",
+                    "option4": "100",
+                    "solution": "3"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?",
+                    "hint": "This composer, known for his deafness, wrote this famous piano piece.",
+                    "option1": "Mozart",
+                    "option2": "Handel",
+                    "option3": "Bach",
+                    "option4": "Beethoven",
+                    "solution": "4"
+                },
+                {
+                    "text": "The Strauss family of composers popularized what dance?",
+                    "hint": "This elegant dance is often performed in 3/4 time at grand balls.",
+                    "option1": "waltz",
+                    "option2": "tango",
+                    "option3": "fox-trot",
+                    "option4": "square dance",
+                    "solution": "1"
+                }
+            ]
+        },
+        {
+            "name": "Groove & Gear: A Modern Instrument Quiz",
+            "description": "Explore the sounds of modern music and the instruments that create them. This quiz focuses on effects pedals, time signatures, and the unique sounds of contemporary music. Get ready to rock!",
+            "questions": [
+                {
+                    "text": "With what would you use a wah-wah pedal?",
+                    "hint": "This device alters the sound of a stringed instrument, popular in rock and funk.",
+                    "option1": "bicycle",
+                    "option2": "stock car",
+                    "option3": "electric guitar",
+                    "option4": "baby",
+                    "solution": "3"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                },
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?",
+                    "hint": "Common time is often represented by a 4/4 time signature.",
+                    "option1": "one",
+                    "option2": "four",
+                    "option3": "five",
+                    "option4": "ten",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Orchestral Odyssey: A Comprehensive Instrument Challenge",
+            "description": "This quiz is a deep dive into the world of musical instruments, covering everything from classical composers to modern effects. Test your knowledge of dance styles, time signatures, and the sounds that shape music history. Are you a true music aficionado?",
+            "questions": [
+                {
+                    "text": "The Strauss family of composers popularized what dance?",
+                    "hint": "This elegant dance is often performed in 3/4 time at grand balls.",
+                    "option1": "waltz",
+                    "option2": "tango",
+                    "option3": "fox-trot",
+                    "option4": "square dance",
+                    "solution": "1"
+                },
+                {
+                    "text": "What is a balalaika?",
+                    "hint": "This stringed instrument is iconic in Russian folk music.",
+                    "option1": "musical instrument",
+                    "option2": "Russian peasant",
+                    "option3": "type of hat",
+                    "option4": "breed of shark",
+                    "solution": "1"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                },
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?",
+                    "hint": "This composer, known for his deafness, wrote this famous piano piece.",
+                    "option1": "Mozart",
+                    "option2": "Handel",
+                    "option3": "Bach",
+                    "option4": "Beethoven",
+                    "solution": "4"
+                },
+                {
+                    "text": "If a piece of music is in 'common time' how many quarter notes are there per measure?",
+                    "hint": "Common time is often represented by a 4/4 time signature.",
+                    "option1": "one",
+                    "option2": "four",
+                    "option3": "five",
+                    "option4": "ten",
+                    "solution": "2"
+                },
+                {
+                    "text": "Pop icon Tiny Tim was famous for playing what musical instrument?",
+                    "hint": "This small stringed instrument is often associated with Hawaiian music.",
+                    "option1": "ukulele",
+                    "option2": "kazoo",
+                    "option3": "accordion",
+                    "option4": "fiddle",
+                    "solution": "1"
+                },
+                {
+                    "text": "With what would you use a wah-wah pedal?",
+                    "hint": "This device alters the sound of a stringed instrument, popular in rock and funk.",
+                    "option1": "bicycle",
+                    "option2": "stock car",
+                    "option3": "electric guitar",
+                    "option4": "baby",
+                    "solution": "3"
+                },
+                {
+                    "text": "How many keys are on a standard piano?",
+                    "hint": "This number corresponds to the full range of musical notes across several octaves.",
+                    "option1": "20",
+                    "option2": "54",
+                    "option3": "88",
+                    "option4": "100",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Romantic Rhythms & Reverberations",
+            "description": "Journey through the romantic era of music with this quiz, focusing on iconic composers and the instruments that brought their visions to life. Explore the beauty of the 'Moonlight Sonata' and the power of musical expression. Prepare to be swept away by the melodies!",
+            "questions": [
+                {
+                    "text": "Who composed the 'Moonlight Sonata'?",
+                    "hint": "This composer, known for his deafness, wrote this famous piano piece.",
+                    "option1": "Mozart",
+                    "option2": "Handel",
+                    "option3": "Bach",
+                    "option4": "Beethoven",
+                    "solution": "4"
+                },
+                {
+                    "text": "The Strauss family of composers popularized what dance?",
+                    "hint": "This elegant dance is often performed in 3/4 time at grand balls.",
+                    "option1": "waltz",
+                    "option2": "tango",
+                    "option3": "fox-trot",
+                    "option4": "square dance",
+                    "solution": "1"
+                },
+                {
+                    "text": "With what would you use a wah-wah pedal?",
+                    "hint": "This device alters the sound of a stringed instrument, popular in rock and funk.",
+                    "option1": "bicycle",
+                    "option2": "stock car",
+                    "option3": "electric guitar",
+                    "option4": "baby",
+                    "solution": "3"
+                }
+            ]
+        }
+    ]
+}

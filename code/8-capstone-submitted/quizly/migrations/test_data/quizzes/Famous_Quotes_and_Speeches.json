@@ -1,0 +1,274 @@
+{
+    "Famous Quotes & Speeches": [
+        {
+            "name": "Echoes of the Silver Screen",
+            "description": "Delve into the memorable lines and iconic moments from film history. This quiz tests your knowledge of quotes from classic and contemporary movies, challenging you to identify the source and significance of these cinematic gems.",
+            "questions": [
+                {
+                    "text": "In Mister Rogers' theme song, what does he ask you to be?",
+                    "hint": "This term reflects the friendly, community-focused theme of the show.",
+                    "option1": "his cook",
+                    "option2": "his student",
+                    "option3": "his neighbor",
+                    "option4": "all you can be",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Literary Landmarks",
+            "description": "Journey through the world of literature with this quiz, exploring famous quotes and lines from classic works. From cautionary inscriptions to baseball ballads, test your knowledge of literary origins and meanings.",
+            "questions": [
+                {
+                    "text": "According to a famous line from the existentialist play 'No Exit' what is hell?",
+                    "hint": "The play suggests that hell is created by the interactions and judgments of those around us.",
+                    "option1": "oneself",
+                    "option2": "other people",
+                    "option3": "little made large",
+                    "option4": "hued in green and blue",
+                    "solution": "2"
+                },
+                {
+                    "text": "What literary work is the source of the quote 'Abandon every hope, all you who enter here'?",
+                    "hint": "This quote appears at the gates of Hell in a medieval Italian epic.",
+                    "option1": "'Paradise Lost'",
+                    "option2": "'The Divine Comedy'",
+                    "option3": "'Beowulf'",
+                    "option4": "'Twilight'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?",
+                    "hint": "The town's name suggests a less-than-glamorous, gritty setting for the game.",
+                    "option1": "Stormfield",
+                    "option2": "Fog City",
+                    "option3": "Mudville",
+                    "option4": "Waterlog",
+                    "solution": "3"
+                },
+                {
+                    "text": "In the classic song 'Take Me Out to the Ballgame' for whom do we 'root root root'?",
+                    "hint": "The song is sung from the perspective of fans cheering for their local team.",
+                    "option1": "the umpire",
+                    "option2": "the home team",
+                    "option3": "the bat boy",
+                    "option4": "Mighty Casey",
+                    "solution": "2"
+                },
+                {
+                    "text": "What does the Latin phrase 'e pluribus unum' mean?",
+                    "hint": "This motto on U.S. currency reflects the unity of the states.",
+                    "option1": "What a crazy life.",
+                    "option2": "In God we trust.",
+                    "option3": "from many, one",
+                    "option4": "for the greater good",
+                    "solution": "3"
+                },
+                {
+                    "text": "In Mister Rogers' theme song, what does he ask you to be?",
+                    "hint": "This term reflects the friendly, community-focused theme of the show.",
+                    "option1": "his cook",
+                    "option2": "his student",
+                    "option3": "his neighbor",
+                    "option4": "all you can be",
+                    "solution": "3"
+                },
+                {
+                    "text": "What does the Latin phrase 'e pluribus unum' mean?",
+                    "hint": "This motto on U.S. currency reflects the unity of the states.",
+                    "option1": "What a crazy life.",
+                    "option2": "In God we trust.",
+                    "option3": "from many, one",
+                    "option4": "for the greater good",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Silver Screen & Literary Echoes",
+            "description": "A blend of film and literature, this quiz challenges you to recognize quotes from both the world of cinema and the pages of classic books. Can you distinguish between a line from a movie and a passage from a novel?",
+            "questions": [
+                {
+                    "text": "What literary work is the source of the quote 'Abandon every hope, all you who enter here'?",
+                    "hint": "This quote appears at the gates of Hell in a medieval Italian epic.",
+                    "option1": "'Paradise Lost'",
+                    "option2": "'The Divine Comedy'",
+                    "option3": "'Beowulf'",
+                    "option4": "'Twilight'",
+                    "solution": "2"
+                },
+                {
+                    "text": "According to a famous line from the existentialist play 'No Exit' what is hell?",
+                    "hint": "The play suggests that hell is created by the interactions and judgments of those around us.",
+                    "option1": "oneself",
+                    "option2": "other people",
+                    "option3": "little made large",
+                    "option4": "hued in green and blue",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "Diamond Dust & Literary Gems",
+            "description": "Step up to the plate with this quiz, combining the thrill of baseball with the elegance of literature. Test your knowledge of famous baseball quotes and literary passages, proving you're a true wordsmith and sports enthusiast.",
+            "questions": [
+                {
+                    "text": "In the classic song 'Take Me Out to the Ballgame' for whom do we 'root root root'?",
+                    "hint": "The song is sung from the perspective of fans cheering for their local team.",
+                    "option1": "the umpire",
+                    "option2": "the home team",
+                    "option3": "the bat boy",
+                    "option4": "Mighty Casey",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?",
+                    "hint": "The town's name suggests a less-than-glamorous, gritty setting for the game.",
+                    "option1": "Stormfield",
+                    "option2": "Fog City",
+                    "option3": "Mudville",
+                    "option4": "Waterlog",
+                    "solution": "3"
+                },
+                {
+                    "text": "In Mister Rogers' theme song, what does he ask you to be?",
+                    "hint": "This term reflects the friendly, community-focused theme of the show.",
+                    "option1": "his cook",
+                    "option2": "his student",
+                    "option3": "his neighbor",
+                    "option4": "all you can be",
+                    "solution": "3"
+                },
+                {
+                    "text": "What does the Latin phrase 'e pluribus unum' mean?",
+                    "hint": "This motto on U.S. currency reflects the unity of the states.",
+                    "option1": "What a crazy life.",
+                    "option2": "In God we trust.",
+                    "option3": "from many, one",
+                    "option4": "for the greater good",
+                    "solution": "3"
+                },
+                {
+                    "text": "According to a famous line from the existentialist play 'No Exit' what is hell?",
+                    "hint": "The play suggests that hell is created by the interactions and judgments of those around us.",
+                    "option1": "oneself",
+                    "option2": "other people",
+                    "option3": "little made large",
+                    "option4": "hued in green and blue",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the classic song 'Take Me Out to the Ballgame' for whom do we 'root root root'?",
+                    "hint": "The song is sung from the perspective of fans cheering for their local team.",
+                    "option1": "the umpire",
+                    "option2": "the home team",
+                    "option3": "the bat boy",
+                    "option4": "Mighty Casey",
+                    "solution": "2"
+                }
+            ]
+        },
+        {
+            "name": "The Poet's Corner",
+            "description": "Delve into the world of poetry and prose with this quiz, exploring famous quotes and lines from classic works. From cautionary inscriptions to baseball ballads, test your knowledge of literary origins and meanings.",
+            "questions": [
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?",
+                    "hint": "The town's name suggests a less-than-glamorous, gritty setting for the game.",
+                    "option1": "Stormfield",
+                    "option2": "Fog City",
+                    "option3": "Mudville",
+                    "option4": "Waterlog",
+                    "solution": "3"
+                },
+                {
+                    "text": "What literary work is the source of the quote 'Abandon every hope, all you who enter here'?",
+                    "hint": "This quote appears at the gates of Hell in a medieval Italian epic.",
+                    "option1": "'Paradise Lost'",
+                    "option2": "'The Divine Comedy'",
+                    "option3": "'Beowulf'",
+                    "option4": "'Twilight'",
+                    "solution": "2"
+                },
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?",
+                    "hint": "The town's name suggests a less-than-glamorous, gritty setting for the game.",
+                    "option1": "Stormfield",
+                    "option2": "Fog City",
+                    "option3": "Mudville",
+                    "option4": "Waterlog",
+                    "solution": "3"
+                },
+                {
+                    "text": "In the classic song 'Take Me Out to the Ballgame' for whom do we 'root root root'?",
+                    "hint": "The song is sung from the perspective of fans cheering for their local team.",
+                    "option1": "the umpire",
+                    "option2": "the home team",
+                    "option3": "the bat boy",
+                    "option4": "Mighty Casey",
+                    "solution": "2"
+                },
+                {
+                    "text": "What does the Latin phrase 'e pluribus unum' mean?",
+                    "hint": "This motto on U.S. currency reflects the unity of the states.",
+                    "option1": "What a crazy life.",
+                    "option2": "In God we trust.",
+                    "option3": "from many, one",
+                    "option4": "for the greater good",
+                    "solution": "3"
+                }
+            ]
+        },
+        {
+            "name": "Words of Wisdom & Wonder",
+            "description": "A comprehensive journey through iconic quotes and speeches, this quiz tests your knowledge of literature, film, and beyond. From existential dread to childhood wonder, prepare to be challenged by the power of words.",
+            "questions": [
+                {
+                    "text": "What literary work is the source of the quote 'Abandon every hope, all you who enter here'?",
+                    "hint": "This quote appears at the gates of Hell in a medieval Italian epic.",
+                    "option1": "'Paradise Lost'",
+                    "option2": "'The Divine Comedy'",
+                    "option3": "'Beowulf'",
+                    "option4": "'Twilight'",
+                    "solution": "2"
+                },
+                {
+                    "text": "According to a famous line from the existentialist play 'No Exit' what is hell?",
+                    "hint": "The play suggests that hell is created by the interactions and judgments of those around us.",
+                    "option1": "oneself",
+                    "option2": "other people",
+                    "option3": "little made large",
+                    "option4": "hued in green and blue",
+                    "solution": "2"
+                },
+                {
+                    "text": "In Mister Rogers' theme song, what does he ask you to be?",
+                    "hint": "This term reflects the friendly, community-focused theme of the show.",
+                    "option1": "his cook",
+                    "option2": "his student",
+                    "option3": "his neighbor",
+                    "option4": "all you can be",
+                    "solution": "3"
+                },
+                {
+                    "text": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?",
+                    "hint": "The town's name suggests a less-than-glamorous, gritty setting for the game.",
+                    "option1": "Stormfield",
+                    "option2": "Fog City",
+                    "option3": "Mudville",
+                    "option4": "Waterlog",
+                    "solution": "3"
+                },
+                {
+                    "text": "In Mister Rogers' theme song, what does he ask you to be?",
+                    "hint": "This term reflects the friendly, community-focused theme of the show.",
+                    "option1": "his cook",
+                    "option2": "his student",
+                    "option3": "his neighbor",
+                    "option4": "all you can be",
+                    "solution": "3"
+                }
+            ]
+        }
+    ]
+}
