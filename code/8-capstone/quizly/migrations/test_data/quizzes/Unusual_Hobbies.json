@@ -1,8 +1,8 @@
 {
     "Unusual Hobbies": [
         {
-            "name": "",
-            "description": "",
+            "name": "The Artisan's Atelier",
+            "description": "Delve into the world of fine art and traditional crafts with this quiz. From calligraphy to tapestry, test your knowledge of unique artistic pursuits and uncover the secrets of the artisan's atelier.",
             "questions": [
                 {
                     "text": "A triptych is a work of art that is painted on how many panels?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Crafting Chronicles",
+            "description": "Explore the fascinating history and techniques behind unusual artistic hobbies. This quiz will challenge your understanding of traditional crafts and the dedication required to master them.",
             "questions": [
                 {
                     "text": "Which of these requires the use of at least two needles?"
@@ -61,8 +61,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Intricate Inlays",
+            "description": "Focusing on the details of artistic creation, this quiz tests your knowledge of specific techniques and materials used in unusual hobbies. Discover the artistry behind intricate inlays and unique artistic expressions.",
             "questions": [
                 {
                     "text": "Which of these is a type of artwork consisting of pieces of wood inlaid in geometric patterns?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Portrait & Prose",
+            "description": "This quiz explores the intersection of portraiture and the art of writing. Test your knowledge of artistic styles and the elegant craft of calligraphy.",
             "questions": [
                 {
                     "text": "A triptych is a work of art that is painted on how many panels?"
@@ -86,13 +86,13 @@
                     "text": "What is the art of elegant handwriting called?"
                 },
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                    "text": "A portrait that comically exaggerates a persons physical traits is called a what?"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Woven Wonders",
+            "description": "Dive into the world of textile arts and discover the traditions behind tapestry making. This quiz will challenge your understanding of weaving techniques and the artistry of creating intricate designs.",
             "questions": [
                 {
                     "text": "To create a tapestry, one must traditionally engage in what activity?"
@@ -106,11 +106,11 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Brushstrokes & Carvings",
+            "description": "This quiz combines knowledge of painting and carving techniques, exploring the diverse range of skills required for unusual artistic hobbies. From brushstrokes to intricate carvings, test your understanding of the artisan's craft.",
             "questions": [
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                    "text": "A portrait that comically exaggerates a persons physical traits is called a what?"
                 },
                 {
                     "text": "Which of these painting tools has bristles on it?"

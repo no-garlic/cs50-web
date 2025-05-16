@@ -1,8 +1,8 @@
 {
     "Animated Films": [
         {
-            "name": "",
-            "description": "",
+            "name": "Cartoon Crossroads",
+            "description": "Test your knowledge of classic cartoons and beloved characters! This quiz covers a wide range of animated icons, from comic strips to iconic films. See if you can navigate the world of animation!",
             "questions": [
                 {
                     "text": "What animated character has a crush on the Little Red Haired Girl?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Peanuts & Pop Culture",
+            "description": "Dive into the world of 'Peanuts' and beyond! This quiz explores the characters and stories that have charmed audiences for generations. From Schroeder's piano to Aladdin's magic carpet, how much do you know?",
             "questions": [
                 {
                     "text": "In the comic strip 'Peanuts' what is Schroeder known for doing?"
@@ -61,8 +61,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Animated Essentials",
+            "description": "A whirlwind tour of animated history! This quiz covers a variety of characters and moments from beloved cartoons and films. Are you an animation aficionado or a casual viewer?",
             "questions": [
                 {
                     "text": "What animated character has a crush on the Little Red Haired Girl?"
@@ -82,8 +82,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Time-Traveling Toons",
+            "description": "Embark on a journey through animated adventures! This quiz focuses on characters and stories that involve time travel, clever gadgets, and unforgettable moments. Can you ace this animated expedition?",
             "questions": [
                 {
                     "text": "What cartoon character traveled in a time machine with Mr. Peabody?"
@@ -97,8 +97,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Simpson's & Friends",
+            "description": "Test your knowledge of Springfield and beyond! This quiz dives into the world of 'The Simpsons' and other iconic animated characters. From Marge's hair to Aladdin's magic carpet, how well do you know these animated legends?",
             "questions": [
                 {
                     "text": "What animated character has a crush on the Little Red Haired Girl?"
@@ -118,8 +118,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Popeye's Playbook",
+            "description": "Spin your muscles and test your knowledge of classic cartoons! This quiz focuses on iconic characters and moments from beloved animated series. From Popeye's spinach to Schroeder's piano, how much do you know?",
             "questions": [
                 {
                     "text": "What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?"

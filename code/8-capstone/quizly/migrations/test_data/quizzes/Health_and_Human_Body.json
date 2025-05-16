@@ -1,8 +1,8 @@
 {
     "Health & Human Body": [
         {
-            "name": "",
-            "description": "",
+            "name": "Anatomy Explorers",
+            "description": "Delve into the fascinating world of the human body! This quiz tests your knowledge of teeth, medical procedures, and common diseases. Are you ready to explore the inner workings of the human form?",
             "questions": [
                 {
                     "text": "Excluding wisdom teeth, how many adult teeth do humans have?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Body Chemistry Challenge",
+            "description": "Test your understanding of pH levels, food safety, and skeletal structure. This quiz will challenge your knowledge of the chemical and physical aspects of the human body and the world around us.",
             "questions": [
                 {
                     "text": "What does a pH level measure?"
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Calcium & Cataracts",
+            "description": "From bone density to eye health, this quiz explores vital components of the human body. Discover the roles of calcium, the process of disease identification, and the intricacies of the eye.",
             "questions": [
                 {
                     "text": "The majority of calcium in the human body is found where?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Halloween Health & Hilarity",
+            "description": "A quirky mix of health trivia and astrological fun! This quiz combines medical knowledge with a touch of Halloween spirit. Can you handle the spooky science?",
             "questions": [
                 {
                     "text": "What is your astrological sign if you were born on Halloween?"
@@ -97,8 +97,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Sebaceous Secrets & Skeletal Structures",
+            "description": "Uncover the mysteries of skin health and bone anatomy! This quiz explores conditions like sebaceous gland dysfunction, the intricacies of the foot, and the basics of human teeth. Are you ready to put your knowledge to the test?",
             "questions": [
                 {
                     "text": "What condition is caused by malfunctioning sebaceous glands?"
@@ -116,145 +116,25 @@
                     "text": "The common term for someone who has difficulty seeing objects in the distance is what?"
                 },
                 {
-                    "text": "The process of drilling holes in the skull is called what?"
-                },
-                {
-                    "text": "How many ribs are there in the human body?"
-                },
-                {
-                    "text": "What disease is characterized by a body's inability to properly metabolize glucose?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "The majority of calcium in the human body is found where?"
-                },
-                {
-                    "text": "What part of the human body does a gastroenterologist examine?"
-                },
-                {
-                    "text": "What is the colored part of the eye called?"
-                },
-                {
-                    "text": "What does an animal produce when it lactates?"
-                },
-                {
-                    "text": "What disease does a carcinogen cause?"
-                },
-                {
-                    "text": "If someone has cataracts, what part of their body might need an operation?"
-                },
-                {
                     "text": "Someone would most likely contract salmonella poisoning from eating which of the following?"
                 },
                 {
                     "text": "What is varicella?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In an adult human, how long is the large intestine?"
                 },
-                {
-                    "text": "What does a pH level measure?"
-                },
-                {
-                    "text": "The majority of calcium in the human body is found where?"
-                },
-                {
-                    "text": "Excluding wisdom teeth, how many adult teeth do humans have?"
-                },
-                {
-                    "text": "The common term for someone who has difficulty seeing objects in the distance is what?"
-                },
-                {
-                    "text": "What does a pH level measure?"
-                },
-                {
-                    "text": "What condition is caused by malfunctioning sebaceous glands?"
-                },
-                {
-                    "text": "What is your hallux?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "The process of drilling holes in the skull is called what?"
-                },
-                {
-                    "text": "What does an animal produce when it lactates?"
-                },
-                {
-                    "text": "What disease does a carcinogen cause?"
-                },
-                {
-                    "text": "What is the more common name for the disease 'pertussis'?"
-                },
-                {
-                    "text": "What is varicella?"
-                },
-                {
-                    "text": "Which of these foods is poisonous to dogs?"
-                },
-                {
-                    "text": "What is your astrological sign if you were born on Halloween?"
-                },
-                {
-                    "text": "What disease is characterized by a body's inability to properly metabolize glucose?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
                 {
                     "text": "What part of the human body does a gastroenterologist examine?"
-                },
-                {
-                    "text": "How many ribs are there in the human body?"
-                },
-                {
-                    "text": "What is the colored part of the eye called?"
-                },
-                {
-                    "text": "What is the medical term for a doctor's identification of a disease?"
-                },
-                {
-                    "text": "Someone would most likely contract salmonella poisoning from eating which of the following?"
-                },
-                {
-                    "text": "In an adult human, how long is the large intestine?"
-                },
-                {
-                    "text": "If someone has cataracts, what part of their body might need an operation?"
-                },
-                {
-                    "text": "Excluding wisdom teeth, how many adult teeth do humans have?"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Poisonous Plates & Pertussis Puzzles",
+            "description": "A blend of dietary dangers and disease identification! This quiz tests your knowledge of food safety, astrological signs, and common illnesses. Can you navigate the challenges?",
             "questions": [
                 {
                     "text": "Which of these foods is poisonous to dogs?"
                 },
                 {
-                    "text": "What disease is characterized by a body's inability to properly metabolize glucose?"
+                    "text": "What disease is characterized by a bodys inability to properly metabolize glucose?"
                 },
                 {
                     "text": "If someone has cataracts, what part of their body might need an operation?"
@@ -268,8 +148,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Lactation & Limb Lore",
+            "description": "Explore the wonders of animal biology and human anatomy! This quiz delves into lactation, limb structure, and the intricacies of the eye. Are you ready to test your knowledge?",
             "questions": [
                 {
                     "text": "What does an animal produce when it lactates?"
@@ -290,7 +170,7 @@
                     "text": "How many ribs are there in the human body?"
                 },
                 {
-                    "text": "What is the medical term for a doctor's identification of a disease?"
+                    "text": "What is the medical term for a doctors identification of a disease?"
                 },
                 {
                     "text": "The common term for someone who has difficulty seeing objects in the distance is what?"
@@ -298,8 +178,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Varicella & Vitality",
+            "description": "A quick dive into viral infections and essential body functions! This quiz tests your knowledge of varicella, limb structure, and the location of calcium in the body. Are you ready for the challenge?",
             "questions": [
                 {
                     "text": "What is varicella?"
@@ -313,8 +193,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Intestinal Insights & Infection Investigation",
+            "description": "A blend of digestive health and disease identification! This quiz tests your knowledge of intestinal function, viral infections, and the location of calcium in the body. Are you ready for the challenge?",
             "questions": [
                 {
                     "text": "In an adult human, how long is the large intestine?"
@@ -343,8 +223,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Vision & Vitality",
+            "description": "A quick dive into eye health and essential body functions! This quiz tests your knowledge of vision, limb structure, and the location of calcium in the body. Are you ready for the challenge?",
             "questions": [
                 {
                     "text": "The common term for someone who has difficulty seeing objects in the distance is what?"
@@ -360,36 +240,6 @@
                 },
                 {
                     "text": "What part of the human body does a gastroenterologist examine?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What is the colored part of the eye called?"
-                },
-                {
-                    "text": "What is your astrological sign if you were born on Halloween?"
-                },
-                {
-                    "text": "What is your hallux?"
-                },
-                {
-                    "text": "If someone has cataracts, what part of their body might need an operation?"
-                },
-                {
-                    "text": "What is the medical term for a doctor's identification of a disease?"
-                },
-                {
-                    "text": "What does a pH level measure?"
-                },
-                {
-                    "text": "How many ribs are there in the human body?"
-                },
-                {
-                    "text": "Which of these foods is poisonous to dogs?"
                 }
             ]
         }

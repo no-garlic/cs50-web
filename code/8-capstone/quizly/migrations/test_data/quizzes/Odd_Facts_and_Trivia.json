@@ -1,8 +1,8 @@
 {
     "Odd Facts & Trivia": [
         {
-            "name": "",
-            "description": "",
+            "name": "Florida's Final Spark",
+            "description": "Delve into some quirky and surprising facts about the Sunshine State, from its infamous electric chair to the antics of Donald Duck. Prepare for a jolt of trivia!",
             "questions": [
                 {
                     "text": "What is the nickname of Florida's controversial death row electric chair?"
@@ -16,8 +16,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Brand Name Brain Teasers",
+            "description": "Test your knowledge of iconic brands and familiar faces. From credit card colors to talking toys, this quiz will challenge your pop culture recall.",
             "questions": [
                 {
                     "text": "What colors are the two circles in the MasterCard logo?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Landmark Lore",
+            "description": "Explore the fascinating details behind some of America's most recognizable landmarks and symbols. From record speeds to Uncle Sam's beard, get ready for a historical head-scratcher.",
             "questions": [
                 {
                     "text": "What is the normal playback speed of a 12\" long-playing record?"
@@ -52,8 +52,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Scent-sational Smells",
+            "description": "Discover surprising facts about the world around us, from the most recognizable smell to the cost of a little advice. This quiz is a true sensory experience!",
             "questions": [
                 {
                     "text": "According to a Yale University study, what smell is the most recognizable to American adults?"
@@ -67,8 +67,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Brand Name Brain Teasers",
+            "description": "Test your knowledge of iconic brands and familiar faces. From credit card colors to talking toys, this quiz will challenge your pop culture recall.",
             "questions": [
                 {
                     "text": "What colors are the two circles in the MasterCard logo?"
@@ -82,8 +82,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "American Icons & Oddities",
+            "description": "Uncover the hidden details and quirky facts behind some of America's most beloved symbols and everyday objects. From record speeds to the color of a black box, prepare for a whirlwind of trivia!",
             "questions": [
                 {
                     "text": "How many spikes are on the Statue of Liberty's crown?"
@@ -112,8 +112,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Digestive Details & Duck Tales",
+            "description": "From the color of a familiar remedy to the antics of a famous duck, this quiz is a mix of everyday knowledge and pop culture fun. Are you ready to digest some trivia?",
             "questions": [
                 {
                     "text": "What color is Pepto-Bismol liquid?"
@@ -133,8 +133,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Symbols & Sparkplugs",
+            "description": "Delve into the stories behind iconic symbols and surprising facts about everyday objects. From Florida's electric chair to the color of a black box, prepare for a jolt of trivia!",
             "questions": [
                 {
                     "text": "What is the nickname of Florida's controversial death row electric chair?"
@@ -163,8 +163,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Breakfast Bites & Statues",
+            "description": "From the deliciousness of a breakfast wrap to the grandeur of a national monument, this quiz is a delightful mix of everyday pleasures and iconic landmarks. Can you handle the flavor?",
             "questions": [
                 {
                     "text": "What's the popular name of the breakfast meal consisting of sausages wrapped in pancakes?"

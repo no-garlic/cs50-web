@@ -1,8 +1,8 @@
 {
     "Wonders of the Modern World": [
         {
-            "name": "",
-            "description": "",
+            "name": "American Icons & Innovations",
+            "description": "Test your knowledge of iconic American landmarks, inventions, and corporate trademarks. From flags to computers, this quiz explores the symbols and creations that define modern America.",
             "questions": [
                 {
                     "text": "How many stars are on the American flag?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Landmark Legends",
+            "description": "Delve into the world's most recognizable landmarks and architectural marvels. This quiz challenges your understanding of global icons and their fascinating histories.",
             "questions": [
                 {
                     "text": "How many spikes are on the Statue of Liberty's crown?"
@@ -52,8 +52,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Corporate Creations",
+            "description": "Explore the branding and innovations behind some of the world's most successful companies. From iconic sodas to revolutionary computers, this quiz tests your knowledge of corporate history and trademarks.",
             "questions": [
                 {
                     "text": "What is the 7-Eleven company's trademarked name for its super-large sodas?"
@@ -82,8 +82,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Flags & Foundations",
+            "description": "Discover the stories behind national symbols and the foundations of modern institutions. This quiz explores flags, museums, and corporate origins.",
             "questions": [
                 {
                     "text": "How many stars are on the American flag?"
@@ -97,8 +97,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Global Icons Unveiled",
+            "description": "Journey across the globe to uncover the secrets of world-renowned landmarks and technological advancements. This quiz tests your knowledge of architecture, computing, and cultural heritage.",
             "questions": [
                 {
                     "text": "Where is the Louvre museum?"
@@ -127,8 +127,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Tech & Architecture",
+            "description": "Explore the intersection of technological innovation and architectural design. This quiz tests your knowledge of computing history and iconic buildings.",
             "questions": [
                 {
                     "text": "What was the original name of the Apple Macintosh XL computer?"

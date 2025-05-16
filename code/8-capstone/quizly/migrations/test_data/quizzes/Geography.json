@@ -1,8 +1,8 @@
 {
     "Geography": [
         {
-            "name": "",
-            "description": "",
+            "name": "Silk Road Secrets",
+            "description": "Journey through history and geography as you uncover the mysteries of ancient trade routes. This quiz explores the lands and cultures connected by the Silk Road, testing your knowledge of historical locations and cultural landmarks.",
             "questions": [
                 {
                     "text": "What part of the world was once known as Cathay?"
@@ -16,8 +16,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Global Trivia Challenge",
+            "description": "Test your knowledge of countries, cultures, and landmarks from around the globe. This quiz covers a wide range of geographical facts, from continents to capitals, and everything in between.",
             "questions": [
                 {
                     "text": "Which of these countries is not in Europe?"
@@ -37,8 +37,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Land of the Rising Sun",
+            "description": "Explore the unique geography and culture of Japan. This quiz delves into the islands, cities, and traditions that define this fascinating nation.",
             "questions": [
                 {
                     "text": "In what country did Pokemon originate?"
@@ -52,8 +52,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "American Landmarks & Lore",
+            "description": "Discover the iconic places and cultural touchstones of the United States. This quiz explores everything from chocolate squares to Girl Scout troops, testing your knowledge of American geography and history.",
             "questions": [
                 {
                     "text": "Where is Ghirardelli Square located?"
@@ -73,8 +73,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Global Oddities & Facts",
+            "description": "Uncover some of the world's most unusual and intriguing geographical facts. From police nicknames to oil spills, this quiz explores the unexpected corners of our planet.",
             "questions": [
                 {
                     "text": "In what country are police officers referred to as 'bobbies'?"
@@ -103,8 +103,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Celtic Crossroads",
+            "description": "Test your knowledge of Ireland and its rich cultural heritage. This quiz explores the landscapes, legends, and landmarks that define this enchanting island nation.",
             "questions": [
                 {
                     "text": "According to legend, in what country are you most likely to meet a leprechaun?"
@@ -124,8 +124,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Asian Wildlife Wonders",
+            "description": "Journey through the diverse landscapes of Asia and discover the incredible wildlife that calls this continent home. This quiz explores the habitats and creatures that make Asia a truly unique place.",
             "questions": [
                 {
                     "text": "On what continent can you find tigers in the wild?"
@@ -139,98 +139,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these countries does not participate in NAFTA?"
-                },
-                {
-                    "text": "As of 1999, which state has the most Girl Scouts?"
-                },
-                {
-                    "text": "In what state is the 1999 movie 'Magnolia' set?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these rivers flows through France?"
-                },
-                {
-                    "text": "Into what body of water does the Rhone River flow?"
-                },
-                {
-                    "text": "People are supposed to drive on the left-hand side of the road in which country?"
-                },
-                {
-                    "text": "In what country are police officers referred to as 'bobbies'?"
-                },
-                {
-                    "text": "From 1971 to 1997, the Democratic Republic of Congo was known as what?"
-                },
-                {
-                    "text": "What is the largest city in Pennsylvania?"
-                },
-                {
-                    "text": "What city is known as 'the rubber capital of the world'?"
-                },
-                {
-                    "text": "What is the capital of New Zealand?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In what country did Pokemon originate?"
-                },
-                {
-                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
-                },
-                {
-                    "text": "In what U.S. city can you find the Basketball Hall of Fame?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What part of the world was once known as Cathay?"
-                },
-                {
-                    "text": "What city's airport uses the code ORD?"
-                },
-                {
-                    "text": "In what U.S. city can you find the Basketball Hall of Fame?"
-                },
-                {
-                    "text": "People are supposed to drive on the left-hand side of the road in which country?"
-                },
-                {
-                    "text": "Into what body of water does the Rhone River flow?"
-                },
-                {
-                    "text": "What is the largest city in Pennsylvania?"
-                },
-                {
-                    "text": "In what city is TV's 'The Mary Tyler Moore Show' set?"
-                },
-                {
-                    "text": "In what city would you find people studying art and design at the Fashion Institute of Technology?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
+            "name": "North American States",
+            "description": "Explore the geography and culture of North America. This quiz covers a wide range of facts, from Girl Scout troops to movie locations, testing your knowledge of the region.",
             "questions": [
                 {
                     "text": "Which of these countries does not participate in NAFTA?"
@@ -250,8 +160,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Northern Territories",
+            "description": "Test your knowledge of New Zealand and North Dakota. This quiz explores the landscapes, legends, and landmarks that define these unique places.",
             "questions": [
                 {
                     "text": "What is the capital of New Zealand?"
@@ -265,8 +175,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "British Isles & Beyond",
+            "description": "Explore the geography and culture of the British Isles and beyond. This quiz covers a wide range of facts, from police nicknames to Pokemon origins, testing your knowledge of the region.",
             "questions": [
                 {
                     "text": "In what country are police officers referred to as 'bobbies'?"
@@ -280,8 +190,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "European Art & Architecture",
+            "description": "Discover the iconic landmarks and artistic treasures of Europe. This quiz explores the history and culture behind some of the continent's most famous places.",
             "questions": [
                 {
                     "text": "Where is the Louvre museum?"

@@ -1,8 +1,8 @@
 {
     "Sports & Athletics": [
         {
-            "name": "",
-            "description": "",
+            "name": "Alamodome Aces & Ice Kings",
+            "description": "Test your knowledge of various sports, from the gridiron to the ice rink. This quiz covers a range of questions about professional teams, rules, and legendary moments in sports history. Are you a true sports aficionado?",
             "questions": [
                 {
                     "text": "In golf, what is one stroke over par called?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Strike Zone & Diamond Dreams",
+            "description": "From the lanes to the ballpark, this quiz dives into the world of bowling and baseball.  Challenge your understanding of rules, terminology, and iconic moments in these beloved American pastimes. Can you knock it out of the park?",
             "questions": [
                 {
                     "text": "What do you call three consecutive strikes in bowling?"
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Triple Crown & Pigskin Legends",
+            "description": "Delve into the history and lore of horse racing and American football. This quiz explores legendary figures, record-breaking moments, and the unique traditions that make these sports so captivating.  Do you have what it takes to be a champion?",
             "questions": [
                 {
                     "text": "In 1978, who became the youngest jockey ever to win horse racing's triple crown?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Global Game & Ice Arena",
+            "description": "Test your knowledge of international sports and the thrill of the ice rink. This quiz covers soccer, hockey, and Olympic moments, challenging your understanding of rules, strategies, and legendary athletes. Are you ready to score big?",
             "questions": [
                 {
                     "text": "Before he went into coaching, Phil Jackson played for which of the following NBA teams?"
@@ -91,8 +91,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Hoops & World Series",
+            "description": "From the hardwood to the diamond, this quiz explores the worlds of basketball and baseball.  Challenge your understanding of legendary players, championship moments, and the statistics that define greatness. Can you rise to the challenge?",
             "questions": [
                 {
                     "text": "Who is the shortest man to ever win an NBA slam dunk competition?"
@@ -121,140 +121,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What sport is known as 'The Sport of Kings'?"
-                },
-                {
-                    "text": "In bowling, how many pins must you knock down to get a strike?"
-                },
-                {
-                    "text": "How many periods are there in an ice hockey game?"
-                },
-                {
-                    "text": "Whom did Billie Jean King defeat in the famous 'Battle of the Sexes' tennis match?"
-                },
-                {
-                    "text": "In what sport do athletes compete for the Walker Cup?"
-                },
-                {
-                    "text": "What professional sports team plays its home games in the Alamodome?"
-                },
-                {
-                    "text": "Each year in pro baseball, the player voted as the best fielder at his position wins what?"
-                },
-                {
-                    "text": "In ice hockey, which of the following is not a penalty?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In golf, what is one stroke over par called?"
-                },
-                {
-                    "text": "How many innings are there in a regular Major League Baseball game?"
-                },
-                {
-                    "text": "In horse racing, what is the term for a wager on the 1st, 2nd and 3rd place finishers in a specific race?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In what year did the United States last win an Olympic gold medal in men's ice hockey?"
-                },
-                {
-                    "text": "In American football, how many points is a touchdown worth?"
-                },
-                {
-                    "text": "In baseball, how many balls make a walk?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "What football player was known as 'The Galloping Ghost'?"
-                },
-                {
-                    "text": "Who is the shortest man to ever win an NBA slam dunk competition?"
-                },
-                {
-                    "text": "What is the oldest continuously run sporting event in the United States?"
-                },
-                {
-                    "text": "Which of these college football programs has produced the most Heisman Trophy winners?"
-                },
-                {
-                    "text": "In 1978, who became the youngest jockey ever to win horse racing's triple crown?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "How long is the time on an NBA shot clock?"
-                },
-                {
-                    "text": "Which of these is referred to as a 'pigskin'?"
-                },
-                {
-                    "text": "Which of these candy bars was named for a baseball player?"
-                },
-                {
-                    "text": "What do you call three consecutive strikes in bowling?"
-                },
-                {
-                    "text": "In what sport do you find 'steel cage' matches?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Before he went into coaching, Phil Jackson played for which of the following NBA teams?"
-                },
-                {
-                    "text": "What sporting event is held annually on Memorial Day weekend?"
-                },
-                {
-                    "text": "Before he went into coaching, Phil Jackson played for which of the following NBA teams?"
-                },
-                {
-                    "text": "In ice hockey, which of the following is not a penalty?"
-                },
-                {
-                    "text": "In American football, how many points is a touchdown worth?"
-                },
-                {
-                    "text": "What professional sports team plays its home games in the Alamodome?"
-                },
-                {
-                    "text": "In what sport do athletes compete for the Walker Cup?"
-                },
-                {
-                    "text": "Each year in pro baseball, the player voted as the best fielder at his position wins what?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
+            "name": "Royal Sport & Frozen Fury",
+            "description": "A mix of classic sports knowledge, this quiz covers horse racing, bowling, hockey, and tennis.  Test your understanding of rules, terminology, and iconic moments in these beloved sports. Are you a true all-around sports enthusiast?",
             "questions": [
                 {
                     "text": "In soccer, which player is allowed to use his or her hands in the field of play?"
@@ -274,8 +142,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Heisman & Memorial Day",
+            "description": "A blend of college football and baseball trivia, this quiz tests your knowledge of legendary players, championship moments, and the traditions that make these sports so captivating.  Do you have what it takes to be a champion?",
             "questions": [
                 {
                     "text": "Which of these college football programs has produced the most Heisman Trophy winners?"
@@ -289,8 +157,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Wagering & Diamond Dust",
+            "description": "A mix of horse racing and baseball trivia, this quiz tests your understanding of rules, terminology, and iconic moments in these beloved sports. Are you a true all-around sports enthusiast?",
             "questions": [
                 {
                     "text": "In horse racing, what is the term for a wager on the 1st, 2nd and 3rd place finishers in a specific race?"
@@ -304,8 +172,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Pigskin & Frozen Moments",
+            "description": "A mix of football and hockey trivia, this quiz tests your understanding of rules, terminology, and iconic moments in these beloved sports. Are you a true all-around sports enthusiast?",
             "questions": [
                 {
                     "text": "Which of these is referred to as a 'pigskin'?"

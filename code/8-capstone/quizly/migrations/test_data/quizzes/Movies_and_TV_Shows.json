@@ -1,8 +1,8 @@
 {
     "Movies & TV Shows": [
         {
-            "name": "",
-            "description": "",
+            "name": "Retro Rewind: Classic TV & Film",
+            "description": "Test your knowledge of iconic television shows and beloved films from decades past. From classic sitcoms to blockbuster movies, this quiz will challenge your memory of entertainment history. Can you recall the details of these memorable moments?",
             "questions": [
                 {
                     "text": "What actress starred on 'Charlie's Angels' for the show's entire run?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Pop Culture Parody: A Comedy Quiz",
+            "description": "Dive into the world of comedic movies and TV shows with this lighthearted quiz. From spoofs to satire, test your knowledge of the funniest moments in entertainment. Get ready to laugh your way to the top!",
             "questions": [
                 {
                     "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Dark Screen Secrets: Horror & Thriller Trivia",
+            "description": "Step into the shadows and test your knowledge of the most chilling movies and TV shows. From psychological thrillers to supernatural horrors, this quiz will challenge your understanding of the genre's darkest corners. Are you brave enough to face the fright?",
             "questions": [
                 {
                     "text": "What substance was used for blood in the famous shower scene from the movie 'Psycho'?"
@@ -71,256 +71,13 @@
                     "text": "Which of these television series was not set in the United States?"
                 },
                 {
-                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In the film 'The Talented Mr. Ripley' who plays Mr. Ripley?"
-                },
-                {
-                    "text": "Which actress played a pointy-eared Vulcan in the movie 'Star Trek II: The Wrath of Khan'?"
-                },
-                {
-                    "text": "In the sci-fi movie 'Fantastic Voyage' where do the voyagers travel?"
-                },
-                {
-                    "text": "What actress starred on 'Charlie's Angels' for the show's entire run?"
-                },
-                {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
-                },
-                {
-                    "text": "What sport is featured in the 1996 movie 'Kingpin'?"
-                },
-                {
-                    "text": "Which of these actors did one-handed push-ups on stage at the 1992 Academy Awards?"
-                },
-                {
-                    "text": "In Mister Rogers' theme song, what does he ask you to be?"
-                },
-                {
                     "text": "In the 1976 remake of the classic film 'King Kong' what New York landmark does the giant ape climb?"
-                },
-                {
-                    "text": "In the original 'Get Smart' TV series, what is agent Maxwell Smart's code name?"
-                },
-                {
-                    "text": "On the TV show 'Hill Street Blues' what is Joyce Davenport's nickname for Captain Frank Furillo?"
-                },
-                {
-                    "text": "Which of these horror films spawned the most sequels?"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these movies does not star Jim Carrey?"
-                },
-                {
-                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
-                },
-                {
-                    "text": "What is the star of the TV show 'Everybody Loves Raymond'?"
-                },
-                {
-                    "text": "Which actress played a pointy-eared Vulcan in the movie 'Star Trek II: The Wrath of Khan'?"
-                },
-                {
-                    "text": "In the film 'The Talented Mr. Ripley' who plays Mr. Ripley?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
-                },
-                {
-                    "text": "Which of these television series was not set in the United States?"
-                },
-                {
-                    "text": "What is the star of the movie 'Casablanca'?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In the film 'Easy Rider' what emblem is on the back of Peter Fonda's leather jacket?"
-                },
-                {
-                    "text": "What substance was used for blood in the famous shower scene from the movie 'Psycho'?"
-                },
-                {
-                    "text": "In the film 'The Talented Mr. Ripley' who plays Mr. Ripley?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
-                },
-                {
-                    "text": "Which of these actors did one-handed push-ups on stage at the 1992 Academy Awards?"
-                },
-                {
-                    "text": "What actress starred on 'Charlie's Angels' for the show's entire run?"
-                },
-                {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                },
-                {
-                    "text": "In Mister Rogers' theme song, what does he ask you to be?"
-                },
-                {
-                    "text": "What is the star of the movie 'Casablanca'?"
-                },
-                {
-                    "text": "In the original 'Get Smart' TV series, what is agent Maxwell Smart's code name?"
-                },
-                {
-                    "text": "Which of these television series was not set in the United States?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "On the TV show 'Hill Street Blues' what is Joyce Davenport's nickname for Captain Frank Furillo?"
-                },
-                {
-                    "text": "Which of these movies does not star Jim Carrey?"
-                },
-                {
-                    "text": "What is the star of the TV show 'Everybody Loves Raymond'?"
-                },
-                {
-                    "text": "In the 1976 remake of the classic film 'King Kong' what New York landmark does the giant ape climb?"
-                },
-                {
-                    "text": "Which actress played a pointy-eared Vulcan in the movie 'Star Trek II: The Wrath of Khan'?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In the film 'Easy Rider' what emblem is on the back of Peter Fonda's leather jacket?"
-                },
-                {
-                    "text": "What sport is featured in the 1996 movie 'Kingpin'?"
-                },
-                {
-                    "text": "In the sci-fi movie 'Fantastic Voyage' where do the voyagers travel?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
-                },
-                {
-                    "text": "What substance was used for blood in the famous shower scene from the movie 'Psycho'?"
-                },
-                {
-                    "text": "Which of these horror films spawned the most sequels?"
-                },
-                {
-                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
-                },
-                {
-                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
-                },
-                {
-                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
-                },
-                {
-                    "text": "What is the star of the movie 'Casablanca'?"
-                },
-                {
-                    "text": "Which of these movies does not star Jim Carrey?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "Which of these horror films spawned the most sequels?"
-                },
-                {
-                    "text": "Which actress played a pointy-eared Vulcan in the movie 'Star Trek II: The Wrath of Khan'?"
-                },
-                {
-                    "text": "What sport is featured in the 1996 movie 'Kingpin'?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "questions": [
-                {
-                    "text": "In the 1960s 'Batman' TV series, who was not a guest villain?"
-                },
-                {
-                    "text": "In the sci-fi movie 'Fantastic Voyage' where do the voyagers travel?"
-                },
-                {
-                    "text": "What substance was used for blood in the famous shower scene from the movie 'Psycho'?"
-                },
-                {
-                    "text": "In the film 'The Talented Mr. Ripley' who plays Mr. Ripley?"
-                },
-                {
-                    "text": "In Mister Rogers' theme song, what does he ask you to be?"
-                },
-                {
-                    "text": "In the 1976 remake of the classic film 'King Kong' what New York landmark does the giant ape climb?"
-                },
-                {
-                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
-                },
-                {
-                    "text": "On the TV show 'Hill Street Blues' what is Joyce Davenport's nickname for Captain Frank Furillo?"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
+            "name": "Star Power: Acting Legends & Iconic Roles",
+            "description": "Celebrate the brilliance of acting legends and the unforgettable roles they've brought to life. From dramatic performances to comedic triumphs, this quiz will test your knowledge of the stars who have shaped entertainment history. Do you know your Hepburns from your Brando?",
             "questions": [
                 {
                     "text": "What actress starred on 'Charlie's Angels' for the show's entire run?"
@@ -341,7 +98,94 @@
                     "text": "In the original 'Get Smart' TV series, what is agent Maxwell Smart's code name?"
                 },
                 {
-                    "text": "In the original 'Get Smart' TV series, what is agent Maxwell Smart's code name?"
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?"
+                }
+            ]
+        },
+        {
+            "name": "Animated Adventures: Cartoon Trivia Challenge",
+            "description": "Relive the magic of classic cartoons and animated films with this fun-filled quiz. From beloved characters to memorable storylines, test your knowledge of the world of animation. Get ready to unleash your inner child!",
+            "questions": [
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "Which of these movies does not star Jim Carrey?"
+                },
+                {
+                    "text": "What is the star of the movie 'Casablanca'?"
+                },
+                {
+                    "text": "Which of these television programs did not feature characters introduced on 'Happy Days'?"
+                },
+                {
+                    "text": "In the movie 'Austin Powers: The Spy Who Shagged Me' what is the name of Dr. Evil's diminutive clone?"
+                },
+                {
+                    "text": "What substance was used for blood in the famous shower scene from the movie 'Psycho'?"
+                },
+                {
+                    "text": "On the TV show 'Hill Street Blues' what is Joyce Davenport's nickname for Captain Frank Furillo?"
+                },
+                {
+                    "text": "Which of these horror films spawned the most sequels?"
+                }
+            ]
+        },
+        {
+            "name": "Global Cinema: International Film & TV",
+            "description": "Expand your horizons and test your knowledge of films and television shows from around the world. From classic masterpieces to contemporary hits, this quiz will challenge your understanding of international entertainment. Are you a true cinephile?",
+            "questions": [
+                {
+                    "text": "Which of these television series was not set in the United States?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?"
+                }
+            ]
+        },
+        {
+            "name": "Soundtrack Stars: Movie & TV Music Trivia",
+            "description": "Dive into the world of iconic movie and television soundtracks with this musical quiz. From memorable themes to unforgettable songs, test your knowledge of the music that has shaped entertainment history. Can you name that tune?",
+            "questions": [
+                {
+                    "text": "Which of these television series was not set in the United States?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?"
+                }
+            ]
+        },
+        {
+            "name": "Behind the Scenes: Movie & TV Production",
+            "description": "Go behind the camera and test your knowledge of the people and processes that bring movies and television shows to life. From directors to editors, this quiz will challenge your understanding of the art of filmmaking. Do you know your dolly zoom from your Steadicam?",
+            "questions": [
+                {
+                    "text": "Which of these television series was not set in the United States?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
+                },
+                {
+                    "text": "What sport is featured in the 1996 movie 'Kingpin'?"
+                }
+            ]
+        },
+        {
+            "name": "Future Visions: Sci-Fi & Fantasy Trivia",
+            "description": "Explore the realms of science fiction and fantasy with this imaginative quiz. From futuristic worlds to magical creatures, test your knowledge of the stories that have captivated audiences for generations. Are you ready to journey beyond reality?",
+            "questions": [
+                {
+                    "text": "Which of these television series was not set in the United States?"
+                },
+                {
+                    "text": "In the 1992 animated film 'Aladdin' what device does the hero use to travel from place to place?"
                 },
                 {
                     "text": "What sport is featured in the 1996 movie 'Kingpin'?"

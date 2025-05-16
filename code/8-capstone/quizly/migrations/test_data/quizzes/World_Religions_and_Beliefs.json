@@ -1,8 +1,8 @@
 {
     "World Religions & Beliefs": [
         {
-            "name": "",
-            "description": "",
+            "name": "Echoes of Faith: A Religious Sampler",
+            "description": "Delve into a diverse range of religious traditions and historical figures with this eclectic quiz. From saints and scriptures to diseases and deities, test your knowledge of the world's beliefs. Can you decipher the echoes of faith?",
             "questions": [
                 {
                     "text": "What disease is sometimes referred to as the 'royal disease'?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Sacred Texts & Figures",
+            "description": "Explore the key texts, individuals, and historical events that have shaped major world religions. This quiz challenges your understanding of foundational beliefs and influential figures. How well do you know the stories behind the sacred?",
             "questions": [
                 {
                     "text": "What is the last book of the New Testament?"
@@ -61,8 +61,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Biblical Whispers",
+            "description": "Journey through the narratives and figures of the Bible, testing your knowledge of key events and characters. This quiz focuses on the Old and New Testaments, exploring the stories that have shaped Western culture. Can you hear the whispers of the past?",
             "questions": [
                 {
                     "text": "What disease is sometimes referred to as the 'royal disease'?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Deities & Doctrines",
+            "description": "Unravel the complexities of religious beliefs and practices with this quiz focused on deities, doctrines, and denominations. From Hindu gods to Lutheran theology, test your understanding of diverse faith systems. Do you know the difference?",
             "questions": [
                 {
                     "text": "What is the last book of the New Testament?"
@@ -91,8 +91,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Traditions & Symbols",
+            "description": "Explore the rich tapestry of religious traditions and symbolic representations from around the world. This quiz delves into the customs, rituals, and iconography that define various faiths. Can you decipher the meaning behind the symbols?",
             "questions": [
                 {
                     "text": "Who is the patron saint of animals?"
@@ -106,8 +106,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Family & Faith",
+            "description": "Discover the personal connections and familial roots within religious history. This quiz explores the stories of individuals and communities shaped by faith, examining the traditions passed down through generations. What are the ties that bind?",
             "questions": [
                 {
                     "text": "According to the Bible, Moses and Aaron had a sister named what?"
