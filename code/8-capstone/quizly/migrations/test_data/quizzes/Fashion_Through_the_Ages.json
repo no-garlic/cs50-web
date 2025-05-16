@@ -1,8 +1,8 @@
 {
     "Fashion Through the Ages": [
         {
-            "name": "",
-            "description": "",
+            "name": "Style Spectrum: A Fashion Timeline",
+            "description": "Journey through the ages of fashion with this quiz! Test your knowledge of designers, trends, and iconic styles from across history. From ancient empires to modern runways, how much do you really know?",
             "questions": [
                 {
                     "text": "Which of these fashion designers was born in the United States?"
@@ -22,8 +22,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Pashmina & Portraits: Fashion's Hidden Details",
+            "description": "Dive deeper into the nuances of fashion history! This quiz explores lesser-known details, from the origins of specific garments to the art of caricature in portraiture. Are you a true fashion aficionado?",
             "questions": [
                 {
                     "text": "Which of these fashion designers was born in the United States?"
@@ -52,8 +52,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Tie-Dye & Footwear: Unexpected Fashion",
+            "description": "Explore the surprising intersections of fashion and other creative fields! This quiz examines collaborations between designers and musicians, and challenges your knowledge of footwear styles. Prepare for some unexpected questions!",
             "questions": [
                 {
                     "text": "Which of these rock guitarists designed a colorful line of men's neckties?"
@@ -68,13 +68,13 @@
                     "text": "Which of these is not a style of shoe?"
                 },
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                    "text": "A portrait that comically exaggerates a persons physical traits is called a what?"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Berets & Hoods: Fashion's Global Influences",
+            "description": "Discover the diverse cultural roots of fashion! This quiz focuses on the origins of specific garments and accessories, highlighting the global influences that have shaped the styles we know and love. How well do you know your fashion geography?",
             "questions": [
                 {
                     "text": "Which of these rock guitarists designed a colorful line of men's neckties?"
@@ -103,14 +103,14 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Hoods & Caricatures: Fashion's Artistic Side",
+            "description": "Uncover the artistic connections within fashion history! This quiz explores the relationship between clothing and portraiture, and tests your knowledge of essential garment details. Are you ready to see fashion in a new light?",
             "questions": [
                 {
                     "text": "Which of the following articles of clothing has a hood?"
                 },
                 {
-                    "text": "A portrait that comically exaggerates a person's physical traits is called a what?"
+                    "text": "A portrait that comically exaggerates a persons physical traits is called a what?"
                 },
                 {
                     "text": "Which of these is not a style of shoe?"
@@ -118,8 +118,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Rock 'n' Berets: A Fashion Mashup",
+            "description": "Experience the unexpected blend of music and style! This quiz focuses on the intersection of rock culture and fashion trends, and challenges your knowledge of iconic accessories. Get ready for a vibrant and eclectic journey through fashion history.",
             "questions": [
                 {
                     "text": "Which of these rock guitarists designed a colorful line of men's neckties?"

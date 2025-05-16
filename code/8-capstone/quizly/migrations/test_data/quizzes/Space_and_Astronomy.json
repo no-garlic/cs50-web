@@ -1,8 +1,8 @@
 {
     "Space & Astronomy": [
         {
-            "name": "",
-            "description": "",
+            "name": "Asteroid Rendezvous",
+            "description": "Test your knowledge of NASA's missions and celestial bodies! This quiz focuses on specific events and objects in our solar system, from asteroid orbits to stellar names.",
             "questions": [
                 {
                     "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
@@ -16,8 +16,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Saturn's Secrets",
+            "description": "Delve into the mysteries of Saturn and its moons! This quiz explores the forces at play in our solar system and the fascinating details of the ringed planet's satellites.",
             "questions": [
                 {
                     "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
@@ -31,8 +31,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Cosmic Rhythms",
+            "description": "From the speed of light to the birthplace of a jazz legend, this quiz blends astronomy with unexpected trivia. Prepare for a whirlwind tour of the universe and beyond!",
             "questions": [
                 {
                     "text": "Where did jazz great Sun Ra claim he was born?"
@@ -61,8 +61,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "NEAR Encounter",
+            "description": "Focusing on a pivotal moment in space exploration, this quiz tests your knowledge of the NEAR mission and its groundbreaking orbit around an asteroid.",
             "questions": [
                 {
                     "text": "On Valentine's Day 2000, NASA's NEAR spacecraft began a yearlong orbit of what asteroid?"
@@ -76,8 +76,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Light Speed & Moons",
+            "description": "This quiz combines fundamental concepts of physics with the wonders of our solar system. Test your understanding of light's speed and the moons that orbit distant planets.",
             "questions": [
                 {
                     "text": "What is the approximate speed of light?"
@@ -97,8 +97,8 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Stellar Names & Forces",
+            "description": "Explore the origins of stellar names and the physical forces that shape our universe. This quiz blends astronomical knowledge with a touch of unexpected trivia.",
             "questions": [
                 {
                     "text": "What is the meaning of 'Betelgeuse', the name of the brightest star in the constellation Orion?"
